@@ -1,5 +1,5 @@
 <script lang="ts" context="module">
-	import geojson from '../../../../../../data/app-geojson.json';
+	import geojson from '../../../../../data/app-geojson.json';
 	import { map } from '$lib/store';
 	import { get } from 'svelte/store';
 	import { createPopup, type FeatureForPopup } from '$lib/components/Popup';

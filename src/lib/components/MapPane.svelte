@@ -2,7 +2,7 @@
 	import 'maplibre-gl/dist/maplibre-gl.css';
 	import { Map, NavigationControl, GeolocateControl, FullscreenControl } from 'maplibre-gl';
 	import layers from 'protomaps-themes-base';
-	import geojson from '../../../../data/app-geojson.json';
+	import geojson from '../../../data/app-geojson.json';
 	import iconURL from '../../asset/location.png';
 	import { map } from '$lib/store';
 
