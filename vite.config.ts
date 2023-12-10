@@ -1,7 +1,7 @@
 import { sveltekit } from '@sveltejs/kit/vite';
 import { defineConfig } from 'vitest/config';
 
-export default defineConfig(({ command, mode, isSsrBuild, isPreview }) => {
+export default defineConfig(({ command, mode }) => {
 	console.log('mode', mode);
 	return {
 		plugins: [sveltekit()],
