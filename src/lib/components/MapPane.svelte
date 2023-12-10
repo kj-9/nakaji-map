@@ -3,7 +3,7 @@
 	import { Map, NavigationControl, GeolocateControl, FullscreenControl } from 'maplibre-gl';
 	import layers from 'protomaps-themes-base';
 	import geojson from '../../../data/app-geojson.json';
-	import iconURL from '../../asset/location.png';
+	import iconURL from '../../asset/icons8-marker-64.png';
 	import { map } from '$lib/store';
 
 	import { createPopup, instanceOfFeatureForPopup } from './Popup';

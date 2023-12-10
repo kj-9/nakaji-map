@@ -1,4 +1,6 @@
 <script lang="ts">
+	import iconYouTubeURL from '../../asset/icons8-youtube-48.png';
+	import iconGoogleMapURL from '../../asset/icons8-googlemap-48.png';
 	export let name: string;
 	export let publishedAt: string;
 	export let title: string;
@@ -21,15 +23,18 @@
 		<span class="text-gray-500">{date}</span>
 	</div>
 	<p>{title}</p>
-	<ul class="text-xs">
-		<li><a href={videoURL} target="_blank">Watch on YouTube</a></li>
-		<li><a href={gmapURL} target="_blank">Open in Google Maps</a></li>
-		<li>
-			<a
-				href="https://www.flaticon.com/free-icons/pin"
-				class="text-gray-300 text-xs"
-				title="pin icons">Pin icons created by Freepik - Flaticon</a
-			>
-		</li>
-	</ul>
+
+	<div class="mt-2 inline-flex items-center">
+		Watch on:
+		<a href={videoURL} target="_blank"
+			><img class="h-8" src={iconYouTubeURL} alt="Watch on YouTube" /></a
+		>
+		<a href={gmapURL} target="_blank"
+			><img class="h-8" src={iconGoogleMapURL} alt="Open in Google Maps" /></a
+		>
+	</div>
+
+	<div class="mt-2">
+		<a class="text-gray-300 text-xs" target="_blank" href="https://icons8.com">icon by Icons8</a>
+	</div>
 </div>
