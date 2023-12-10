@@ -13,6 +13,7 @@
 		month: '2-digit',
 		day: '2-digit'
 	});
+
 </script>
 
 <div class="rounded-lg text-sm">
@@ -32,4 +33,7 @@
 			>
 		</li>
 	</ul>
+	<form method="POST" action="/">
+		<button type="submit">submit</button>
+	  </form>
 </div>
