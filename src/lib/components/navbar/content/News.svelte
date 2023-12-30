@@ -36,7 +36,7 @@
 	}
 </script>
 
-<ul>
+<ul class="text-left">
 	{#each newFeatures as feature}
 		<li>
 			<button class="mt-1 text-xs sm:text-base" on:click={() => flyTo(feature)}>

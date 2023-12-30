@@ -1,4 +1,4 @@
-<ul>
+<ul class="text-left">
 	<li class="text-xs sm:text-base">
 		<div class="font-semibold">中島浩二チャンネルマップ</div>
 		<p class="mt-2 leading-relaxed text-gray-500">
