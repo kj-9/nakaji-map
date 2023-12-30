@@ -4,6 +4,146 @@
 		{
 			"type": "Feature",
 			"properties": {
+				"video_id": "3CNLX3RaIvs",
+				"name": "笑うだるま",
+				"version": "1.2",
+				"address": "笑うだるま 福岡市中央区大手門3丁目",
+				"open_location_code": "8Q5GH9RH+FJ",
+				"url": "https://www.geocoding.jp/?q=%E7%AC%91%E3%81%86%E3%81%A0%E3%82%8B%E3%81%BE%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E5%A4%A7%E6%89%8B%E9%96%803%E4%B8%81%E7%9B%AE",
+				"needs_to_verify": "yes",
+				"google_maps": "笑うだるま 大手門店",
+				"error": null,
+				"title": "エビ最強の店!!!感動のエビフライ!!!絶対ハズさない福岡飯店",
+				"publishedAt": "2023-12-29T10:00:05Z"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [130.37909, 33.59114]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"video_id": "KcCNPAn8q8E",
+				"name": "珈琲伊藤",
+				"version": "1.2",
+				"address": "珈琲伊藤 福岡市早良区西新5丁目",
+				"open_location_code": "8Q5GH9M4+5X",
+				"url": "https://www.geocoding.jp/?q=%E7%8F%88%E7%90%B2%E4%BC%8A%E8%97%A4%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E6%97%A9%E8%89%AF%E5%8C%BA%E8%A5%BF%E6%96%B05%E4%B8%81%E7%9B%AE",
+				"needs_to_verify": "yes",
+				"google_maps": "珈琲伊藤",
+				"error": null,
+				"title": "最高の喫茶店放浪記!!!",
+				"publishedAt": "2023-12-26T10:00:19Z"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [130.357385, 33.582901]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"video_id": "vUFRrD_nFLo",
+				"name": "中華とはきりや",
+				"version": "1.2",
+				"address": "中華とはきりや 福岡市西区姪の浜5丁目",
+				"open_location_code": "8Q5GH8PF+X6",
+				"url": "https://www.geocoding.jp/?q=%E4%B8%AD%E8%8F%AF%E3%81%A8%E3%81%AF%E3%81%8D%E3%82%8A%E3%82%84%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E8%A5%BF%E5%8C%BA%E5%A7%AA%E3%81%AE%E6%B5%9C5%E4%B8%81%E7%9B%AE",
+				"needs_to_verify": "yes",
+				"google_maps": "中華そば きりや",
+				"error": null,
+				"title": "激アツだけど超美味い!!!福岡で一番熱いと噂されるラーメンを攻める!!!",
+				"publishedAt": "2023-12-22T10:00:44Z"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [130.323088, 33.587403]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"video_id": "6uiu_mlHqOU",
+				"name": "とんかつにしなか",
+				"version": "1.2",
+				"address": "とんかつにしなか 福岡市博多区博多駅南4丁目",
+				"open_location_code": "8Q5GHCJH+68",
+				"url": "https://www.geocoding.jp/?q=%E3%81%A8%E3%82%93%E3%81%8B%E3%81%A4%E3%81%AB%E3%81%97%E3%81%AA%E3%81%8B%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E5%8D%9A%E5%A4%9A%E5%8C%BA%E5%8D%9A%E5%A4%9A%E9%A7%85%E5%8D%974%E4%B8%81%E7%9B%AE",
+				"needs_to_verify": "yes",
+				"google_maps": "とんかつ にしなか",
+				"error": null,
+				"title": "福岡最高峰と言っても過言ではない素晴らしいトンカツ屋!!!",
+				"publishedAt": "2023-12-19T10:00:04Z"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [130.428257, 33.580504]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"video_id": "Tq22YHY4cUw",
+				"name": "太平閣 西新プラリバ店",
+				"version": "1.2",
+				"address": "太平閣 西新プラリバ店 福岡市早良区西新4丁目",
+				"open_location_code": "8Q5GH9M6+93",
+				"url": "https://www.geocoding.jp/?q=%E5%A4%AA%E5%B9%B3%E9%96%A3%20%E8%A5%BF%E6%96%B0%E3%83%97%E3%83%A9%E3%83%AA%E3%83%90%E5%BA%97%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E6%97%A9%E8%89%AF%E5%8C%BA%E8%A5%BF%E6%96%B04%E4%B8%81%E7%9B%AE",
+				"needs_to_verify": "yes",
+				"google_maps": "太平閣の豚まん 西新プラリバ店",
+				"error": null,
+				"title": "日本一美味いかも!!!感動する豚まんを喰らう!!!絶対ハズさない福岡飯店",
+				"publishedAt": "2023-12-18T12:27:17Z"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [130.360153, 33.583476]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"video_id": "EDiXVyEFVAg",
+				"name": "留々",
+				"version": "1.2",
+				"address": "留々 福岡市中央区渡辺通3丁目",
+				"open_location_code": "8Q5GHCP3+CP",
+				"url": "https://www.geocoding.jp/?q=%E7%95%99%E3%80%85%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E6%B8%A1%E8%BE%BA%E9%80%9A3%E4%B8%81%E7%9B%AE",
+				"needs_to_verify": "yes",
+				"google_maps": "留々",
+				"error": null,
+				"title": "激狭い店放浪記!!!",
+				"publishedAt": "2023-12-12T10:00:08Z"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [130.40431, 33.586066]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"video_id": "lz90yNBcB7Y",
+				"name": "やぐら",
+				"version": "1.2",
+				"address": "やぐら 福岡市博多区博多駅前2丁目",
+				"open_location_code": "8Q5GHCR7+MQ",
+				"url": "https://www.geocoding.jp/?q=%E3%82%84%E3%81%90%E3%82%89%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E5%8D%9A%E5%A4%9A%E5%8C%BA%E5%8D%9A%E5%A4%9A%E9%A7%85%E5%89%8D2%E4%B8%81%E7%9B%AE",
+				"needs_to_verify": "yes",
+				"google_maps": "やぐら",
+				"error": null,
+				"title": "シンプルの極!!!行列ができるかつ丼に感動!!!絶対ハズさない福岡飯店",
+				"publishedAt": "2023-12-08T10:00:38Z"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [130.414426, 33.591686]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
 				"video_id": "bLSAVBQeJqo",
 				"name": "つけ麺鉄生",
 				"version": "1.2",
