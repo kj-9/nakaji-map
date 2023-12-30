@@ -24,11 +24,21 @@
 	// handle nav bar item click
 	// item is keys of NavBarItems
 	function handleNavItemClick(itemKey: keyof NavBarItems) {
+		// already selected
 		if (selectedNavItem == itemKey) {
 			selectedNavItem = null;
 			return;
 		}
+
+		// select new item
 		selectedNavItem = itemKey;
+		document.body.addEventListener('click', handleMenuClose);
+	}
+
+	function handleMenuClose() {
+		selectedNavItem = null;
+		console.log('close');
+		document.body.removeEventListener('click', handleMenuClose);
 	}
 </script>
 
@@ -39,7 +49,7 @@
 				{#each getItemsKeys() as itemKey}
 					<li class="{selectedNavItem == itemKey ? 'bg-gray-50' : ''}  rounded p-1">
 						<button
-							on:click={() => handleNavItemClick(itemKey)}
+							on:click|stopPropagation={() => handleNavItemClick(itemKey)}
 							id="mega-menu-full-dropdown-button"
 							data-collapse-toggle="mega-menu-full-dropdown"
 							class="flex items-center justify-between hover:text-blue-700"
@@ -64,12 +74,13 @@
 				{/each}
 			</ul>
 			{#if selectedNavItem}
-				<div
+				<button
 					id="mega-menu-full-dropdown"
 					class="mt-1 bg-gray-50 rounded max-w-xs sm:max-w-2xl px-4 py-5 text-gray-900"
+					on:click|stopPropagation={() => {}}
 				>
 					<svelte:component this={navBarItems[selectedNavItem]} />
-				</div>
+				</button>
 			{/if}
 		</div>
 	</div>
