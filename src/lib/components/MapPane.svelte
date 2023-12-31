@@ -15,6 +15,7 @@
 	function mapMount(node: HTMLElement) {
 		const _map = new Map({
 			container: node,
+			maxZoom: 15.9, // for current protomap api
 			style: {
 				version: 8,
 				glyphs: 'https://cdn.protomaps.com/fonts/pbf/{fontstack}/{range}.pbf',
@@ -44,7 +45,7 @@
 				positionOptions: {
 					enableHighAccuracy: false
 				},
-				fitBoundsOptions: { maxZoom: 6 },
+				fitBoundsOptions: { maxZoom: 16 },
 				trackUserLocation: true,
 				showUserLocation: true
 			})
