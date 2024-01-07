@@ -1,6 +1,6 @@
 {
-	"name": "maplibregljs-svelte-starter",
-	"version": "1.0.0",
+	"name": "nakaji-map",
+	"version": "0.1.0",
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build",
