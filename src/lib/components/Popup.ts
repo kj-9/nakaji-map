@@ -1,4 +1,4 @@
-import { Popup } from 'maplibre-gl';
+import { Popup } from '$lib/maplibreGL';
 import PopupContent from './PopupContent.svelte';
 import type { ComponentProps } from 'svelte';
 

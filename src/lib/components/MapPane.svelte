@@ -1,6 +1,6 @@
 <script lang="ts">
 	import 'maplibre-gl/dist/maplibre-gl.css';
-	import { Map, NavigationControl, GeolocateControl, FullscreenControl } from 'maplibre-gl';
+	import { Map, NavigationControl, GeolocateControl, FullscreenControl } from '$lib/maplibreGL';
 	import layers from 'protomaps-themes-base';
 	import geojson from '../../../data/app-geojson.json';
 	import iconURL from '../../asset/icons8-marker-64.png';
