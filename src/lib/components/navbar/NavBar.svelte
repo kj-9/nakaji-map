@@ -1,6 +1,7 @@
 <script lang="ts">
 	import About from '$lib/components/navbar/content/About.svelte';
 	import News from '$lib/components/navbar/content/News.svelte';
+	import { onMount } from 'svelte';
 
 	// type for NavBarItems
 	type NavBarItems = {
@@ -18,8 +19,7 @@
 		return Object.keys(navBarItems) as (keyof NavBarItems)[];
 	};
 	// Track the selected navigation item
-	// show 'about' from start
-	let selectedNavItem: keyof NavBarItems | null = 'About';
+	let selectedNavItem: keyof NavBarItems | null = null;
 
 	// handle nav bar item click
 	// item is keys of NavBarItems
@@ -40,6 +40,11 @@
 		console.log('close');
 		document.body.removeEventListener('click', handleMenuClose);
 	}
+
+	// show 'about' from start
+	onMount(() => {
+		handleNavItemClick('About');
+	});
 </script>
 
 <nav>
