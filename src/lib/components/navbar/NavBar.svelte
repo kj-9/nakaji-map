@@ -3,6 +3,8 @@
 	import News from '$lib/components/navbar/content/News.svelte';
 	import { onMount } from 'svelte';
 
+	let dialog: HTMLDialogElement;
+
 	// type for NavBarItems
 	type NavBarItems = {
 		About: typeof About;
@@ -26,26 +28,64 @@
 	function handleNavItemClick(itemKey: keyof NavBarItems) {
 		// already selected
 		if (selectedNavItem == itemKey) {
+			dialog.close();
 			selectedNavItem = null;
 			return;
 		}
 
 		// select new item
 		selectedNavItem = itemKey;
-		document.body.addEventListener('click', handleMenuClose);
+		dialog.showModal();
 	}
 
-	function handleMenuClose() {
+	function handleNavItemClose() {
 		selectedNavItem = null;
+		dialog.close();
 		console.log('close');
-		document.body.removeEventListener('click', handleMenuClose);
 	}
 
 	// show 'about' from start
 	onMount(() => {
+		// close dialog when click outside
+		dialog.addEventListener('click', (e) => {
+			if (e.target.id === dialog.id) {
+				handleNavItemClose();
+			}
+		});
 		handleNavItemClick('About');
 	});
 </script>
+
+<dialog bind:this={dialog} id="mega-menu-full-dropdown" class="rounded">
+	<div class="bg-gray-50 max-w-xs sm:max-w-2xl px-4 py-5 text-gray-900">
+		<form class="absolute top-0 right-0 mt-4 mr-4" method="dialog">
+			<button
+				type="submit"
+				on:click|stopPropagation={handleNavItemClose}
+				class="bg-white rounded-md inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+			>
+				<span class="sr-only">Close menu</span>
+				<!-- Heroicon name: outline/x -->
+				<svg
+					class="h-6 w-6"
+					xmlns="http://www.w3.org/2000/svg"
+					fill="none"
+					viewBox="0 0 24 24"
+					stroke="currentColor"
+					aria-hidden="true"
+				>
+					<path
+						stroke-linecap="round"
+						stroke-linejoin="round"
+						stroke-width="2"
+						d="M6 18L18 6M6 6l12 12"
+					/>
+				</svg>
+			</button>
+		</form>
+		<svelte:component this={navBarItems[selectedNavItem]} />
+	</div>
+</dialog>
 
 <nav>
 	<div class="flex flex-wrap justify-between items-center">
@@ -78,15 +118,6 @@
 					</li>
 				{/each}
 			</ul>
-			{#if selectedNavItem}
-				<button
-					id="mega-menu-full-dropdown"
-					class="mt-1 bg-gray-50 rounded max-w-xs sm:max-w-2xl px-4 py-5 text-gray-900"
-					on:click|stopPropagation={() => {}}
-				>
-					<svelte:component this={navBarItems[selectedNavItem]} />
-				</button>
-			{/if}
 		</div>
 	</div>
 </nav>
