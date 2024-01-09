@@ -55,7 +55,7 @@
 					<li class="{selectedNavItem == itemKey ? 'bg-gray-50' : ''}  rounded p-1">
 						<button
 							on:click|stopPropagation={() => handleNavItemClick(itemKey)}
-							id="mega-menu-full-dropdown-button"
+							id="mega-menu-{itemKey.toLowerCase()}-full-dropdown-button"
 							data-collapse-toggle="mega-menu-full-dropdown"
 							class="flex items-center justify-between hover:text-blue-700"
 							>{itemKey}
