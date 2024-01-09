@@ -20,7 +20,7 @@
 <div class="rounded-lg text-sm">
 	<div class="mb-2">
 		<h2 class="font-bold">{name}</h2>
-		<span class="text-gray-500">{date}</span>
+		<span class="text-gray-800">{date}</span>
 	</div>
 	<p>{title}</p>
 
