@@ -48,7 +48,8 @@
 	onMount(() => {
 		// close dialog when click outside
 		dialog.addEventListener('click', (e) => {
-			if (e.target.id === dialog.id) {
+			const element = e.target as HTMLElement;
+			if (element.id === dialog.id) {
 				handleNavItemClose();
 			}
 		});
@@ -83,7 +84,9 @@
 				</svg>
 			</button>
 		</form>
-		<svelte:component this={navBarItems[selectedNavItem]} />
+		{#if selectedNavItem != null}
+			<svelte:component this={navBarItems[selectedNavItem]} />
+		{/if}
 	</div>
 </dialog>
 
