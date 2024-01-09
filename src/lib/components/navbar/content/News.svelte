@@ -36,11 +36,11 @@
 	}
 </script>
 
-<ul class="text-left">
+<ul>
 	<div class="font-semibold">最近の更新</div>
 	{#each newFeatures as feature}
 		<li>
-			<button class="mt-1 text-xs sm:text-base" on:click={() => flyTo(feature)}>
+			<button class="mt-1 text-xs sm:text-base text-left" on:click={() => flyTo(feature)}>
 				{new Date(feature.properties.publishedAt).toLocaleDateString('ja-JP', {
 					year: 'numeric',
 					month: '2-digit',
