@@ -37,6 +37,7 @@
 </script>
 
 <ul class="text-left">
+	<div class="font-semibold">最近の更新</div>
 	{#each newFeatures as feature}
 		<li>
 			<button class="mt-1 text-xs sm:text-base" on:click={() => flyTo(feature)}>
