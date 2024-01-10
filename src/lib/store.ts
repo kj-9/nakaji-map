@@ -13,3 +13,8 @@ export const map: Writable<maplibregl.Map> = writable();
 export const geodata = readable(geojson) as Readable<
 	GeoJSON.FeatureCollection<GeoJSON.Point, ComponentProps<PopupContent>>
 >;
+
+// type def for our Properties which extends GeoJsonProperties.
+// which has extra props: { name: string; publishedAt: string; title: string; video_id: string; google_maps: string; }
+export interface FeatureForPopup
+	extends GeoJSON.Feature<GeoJSON.Point, ComponentProps<PopupContent>> {}

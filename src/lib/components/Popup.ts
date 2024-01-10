@@ -3,6 +3,7 @@ import PopupContent from './PopupContent.svelte';
 import type { ComponentProps } from 'svelte';
 import { get } from 'svelte/store';
 import { map } from '$lib/store';
+import type { FeatureForPopup } from '$lib/store';
 
 export const createPopup = (
 	coordinates: GeoJSON.Position,
@@ -44,11 +45,6 @@ export function flyTo(feature: FeatureForPopup) {
 		popup.addTo(_map);
 	}, 1000);
 }
-
-// type def for our Properties which extends GeoJsonProperties.
-// which has extra props: { name: string; publishedAt: string; title: string; video_id: string; google_maps: string; }
-export interface FeatureForPopup
-	extends GeoJSON.Feature<GeoJSON.Point, ComponentProps<PopupContent>> {}
 
 // todo: not perfect type gaurds
 export function instanceOfFeatureForPopup(obj: object): obj is FeatureForPopup {
