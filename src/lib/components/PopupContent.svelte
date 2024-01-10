@@ -6,8 +6,14 @@
 	export let title: string;
 	export let video_id: string;
 	export let google_maps: string;
+	export let address: string;
 
+	// if google_map is not set, use address as google_map
+	if (!google_maps) {
+		google_maps = address;
+	}
 	const gmapURL = encodeURI(`https://www.google.com/maps/search/${google_maps}`);
+
 	const videoURL = `https://www.youtube.com/watch?v=${video_id}`;
 
 	const date = new Date(publishedAt).toLocaleDateString('ja-JP', {
