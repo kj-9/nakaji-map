@@ -3,6 +3,7 @@
 	import { get } from 'svelte/store';
 	import { instanceOfFeatureForPopup } from '$lib/components/Popup';
 	import { flyTo } from '$lib/components/Popup';
+	import { formatDateStr } from '$lib/formatter';
 
 	// check if geodata.features is Feature[] using instanceOfFeatureForPopup
 	// note that geodata.features is array of feature, so we need to map over it
@@ -17,11 +18,7 @@
 	{#each newFeatures as feature}
 		<li>
 			<button class="mt-1 text-xs sm:text-base text-left" on:click={() => flyTo(feature)}>
-				{new Date(feature.properties.publishedAt).toLocaleDateString('ja-JP', {
-					year: 'numeric',
-					month: '2-digit',
-					day: '2-digit'
-				})}: {feature.properties.title}
+				{formatDateStr(feature.properties.publishedAt)}: {feature.properties.title}
 			</button>
 		</li>
 	{/each}
