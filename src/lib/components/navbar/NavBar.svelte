@@ -3,6 +3,9 @@
 	import News from '$lib/components/navbar/content/News.svelte';
 	import { onMount } from 'svelte';
 
+	// if true, show about page at start
+	export let showAbout: boolean;
+
 	let dialog: HTMLDialogElement;
 
 	// type for NavBarItems
@@ -53,7 +56,8 @@
 				handleNavItemClose();
 			}
 		});
-		handleNavItemClick('About');
+
+		if (showAbout) handleNavItemClick('About');
 	});
 </script>
 
