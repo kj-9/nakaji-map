@@ -7,7 +7,7 @@
 	import { map, geodata } from '$lib/store';
 	import type { FeatureForPopup } from '$lib/store';
 	import { Map, NavigationControl, GeolocateControl, FullscreenControl } from '$lib/maplibreGL';
-	import { createPopup, instanceOfFeatureForPopup, flyTo } from './Popup';
+	import { createPopupAndPushState, instanceOfFeatureForPopup, flyTo } from './Popup';
 
 	export let initialFlyFeature: FeatureForPopup;
 
@@ -112,7 +112,7 @@
 					coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
 				}
 
-				const popup = createPopup(coordinates, feature.properties);
+				const popup = createPopupAndPushState(coordinates, feature.properties);
 
 				popup.addTo(_map);
 			});
@@ -132,6 +132,7 @@
 			// fly to initial feature here
 			// onMount is too early, `map` store is not set yet
 			if (initialFlyFeature) {
+				// sleep 3sec
 				flyTo(initialFlyFeature);
 			}
 		});

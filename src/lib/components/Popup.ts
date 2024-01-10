@@ -6,7 +6,7 @@ import { get } from 'svelte/store';
 import { map } from '$lib/store';
 import type { FeatureForPopup } from '$lib/store';
 
-export const createPopup = (
+export const createPopupAndPushState = (
 	coordinates: GeoJSON.Position,
 	popupContentProps: ComponentProps<PopupContent>
 ) => {
@@ -18,10 +18,13 @@ export const createPopup = (
 
 	// type check coodinates is [number, number]
 	const [lng, lat] = coordinates;
+
+	pushState(`/?videoid=${popupContentProps.video_id}`, {});
+
 	return new Popup().setLngLat([lng, lat]).setDOMContent(container);
 };
 export function flyTo(feature: FeatureForPopup) {
-	const popup = createPopup(feature.geometry.coordinates, feature.properties);
+	const popup = createPopupAndPushState(feature.geometry.coordinates, feature.properties);
 
 	const [lng, lat] = feature.geometry.coordinates;
 
@@ -30,8 +33,6 @@ export function flyTo(feature: FeatureForPopup) {
 		console.error('map is not ready');
 		return;
 	}
-
-	pushState(`/?videoid=${feature.properties.video_id}`, {});
 
 	_map.flyTo({
 		speed: 1,
