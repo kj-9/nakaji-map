@@ -1,6 +1,8 @@
 <script lang="ts">
 	import iconYouTubeURL from '../../asset/icons8-youtube-48.png';
 	import iconGoogleMapURL from '../../asset/icons8-googlemap-48.png';
+	import { formatDateStr } from '$lib/formatter';
+
 	export let name: string;
 	export let publishedAt: string;
 	export let title: string;
@@ -16,11 +18,7 @@
 
 	const videoURL = `https://www.youtube.com/watch?v=${video_id}`;
 
-	const date = new Date(publishedAt).toLocaleDateString('ja-JP', {
-		year: 'numeric',
-		month: '2-digit',
-		day: '2-digit'
-	});
+	const date = formatDateStr(publishedAt);
 </script>
 
 <div class="rounded-lg text-sm">
