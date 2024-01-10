@@ -1,18 +1,21 @@
 <script lang="ts">
 	import 'maplibre-gl/dist/maplibre-gl.css';
-	import { Map, NavigationControl, GeolocateControl, FullscreenControl } from '$lib/maplibreGL';
 	import layers from 'protomaps-themes-base';
-	import geojson from '../../../data/app-geojson.json';
 	import iconURL from '../../asset/icons8-marker-64.png';
-	import { map } from '$lib/store';
 
-	import { createPopup, instanceOfFeatureForPopup } from './Popup';
+	import { get } from 'svelte/store';
+	import { map, geodata } from '$lib/store';
+	import type { FeatureForPopup } from '$lib/store';
+	import { Map, NavigationControl, GeolocateControl, FullscreenControl } from '$lib/maplibreGL';
+	import { createPopup, instanceOfFeatureForPopup, flyTo } from './Popup';
+
+	export let initialFlyFeature: FeatureForPopup;
 
 	const protomapsURL = `https://api.protomaps.com/tiles/v3/{z}/{x}/{y}.pbf?key=${
 		import.meta.env.VITE_PROTOMAPS_API_KEY
 	}`;
 
-	function mapMount(node: HTMLElement) {
+	function mapMount(node: HTMLElement, initialFlyFeature: FeatureForPopup) {
 		const _map = new Map({
 			container: node,
 			maxZoom: 15.9, // for current protomap api
@@ -65,7 +68,7 @@
 
 				_map.addSource('places', {
 					type: 'geojson',
-					data: geojson
+					data: get(geodata)
 				});
 
 				_map.addImage('location-marker', image);
@@ -125,8 +128,14 @@
 			});
 
 			map.set(_map);
+
+			// fly to initial feature here
+			// onMount is too early, `map` store is not set yet
+			if (initialFlyFeature) {
+				flyTo(initialFlyFeature);
+			}
 		});
 	}
 </script>
 
-<div class="h-screen" use:mapMount />
+<div class="h-screen" use:mapMount={initialFlyFeature} />
