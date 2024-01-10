@@ -1,3 +1,4 @@
+import { pushState } from '$app/navigation';
 import { Popup } from '$lib/maplibreGL';
 import PopupContent from './PopupContent.svelte';
 import type { ComponentProps } from 'svelte';
@@ -29,6 +30,8 @@ export function flyTo(feature: FeatureForPopup) {
 		console.error('map is not ready');
 		return;
 	}
+
+	pushState(`/?videoid=${feature.properties.video_id}`, {});
 
 	_map.flyTo({
 		speed: 1,
