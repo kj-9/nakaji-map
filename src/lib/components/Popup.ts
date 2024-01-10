@@ -1,6 +1,8 @@
 import { Popup } from '$lib/maplibreGL';
 import PopupContent from './PopupContent.svelte';
 import type { ComponentProps } from 'svelte';
+import { get } from 'svelte/store';
+import { map } from '$lib/store';
 
 export const createPopup = (
 	coordinates: GeoJSON.Position,
@@ -16,6 +18,32 @@ export const createPopup = (
 	const [lng, lat] = coordinates;
 	return new Popup().setLngLat([lng, lat]).setDOMContent(container);
 };
+export function flyTo(feature: FeatureForPopup) {
+	const popup = createPopup(feature.geometry.coordinates, feature.properties);
+
+	const [lng, lat] = feature.geometry.coordinates;
+
+	const _map = get(map);
+	if (!_map) {
+		console.error('map is not ready');
+		return;
+	}
+
+	_map.flyTo({
+		speed: 1,
+		curve: 1,
+		easing(t) {
+			return t;
+		},
+		essential: true,
+		center: [lng, lat],
+		zoom: 15
+	});
+	// wait for flyTo
+	setTimeout(() => {
+		popup.addTo(_map);
+	}, 1000);
+}
 
 // type def for our Properties which extends GeoJsonProperties.
 // which has extra props: { name: string; publishedAt: string; title: string; video_id: string; google_maps: string; }
