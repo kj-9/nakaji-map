@@ -1,6 +1,8 @@
 <script lang="ts">
 	import About from '$lib/components/navbar/content/About.svelte';
 	import News from '$lib/components/navbar/content/News.svelte';
+	import Table from '$lib/components/Table.svelte';
+
 	import { onMount } from 'svelte';
 
 	// if true, show about page at start
@@ -12,11 +14,13 @@
 	type NavBarItems = {
 		About: typeof About;
 		News: typeof News;
+		Table: typeof Table;
 	};
 
 	const navBarItems: NavBarItems = {
 		About,
-		News
+		News,
+		Table
 	};
 
 	// workaround for typing string[] as keysof NavBarItems
