@@ -31,6 +31,6 @@
 	<Map {initialFlyFeature} />
 
 	<div class="absolute top-5 left-5">
-		<NavBar />
+		<NavBar showAbout={!initialFlyFeature} />
 	</div>
 </div>
