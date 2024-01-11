@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "N64XHoxXt3c",
+                "name": "ベツバラーレ",
+                "version": "1.2",
+                "address": "ベツバラーレ 福岡市西区姪の浜1丁目",
+                "open_location_code": "8Q5GH8PH+VJ",
+                "url": "https://www.geocoding.jp/?q=%E3%83%99%E3%83%84%E3%83%90%E3%83%A9%E3%83%BC%E3%83%AC%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E8%A5%BF%E5%8C%BA%E5%A7%AA%E3%81%AE%E6%B5%9C1%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "ベツバラーレ 姪浜店",
+                "error": null,
+                "title": "生パスタは好きですか!!!この店はその最高峰です!!!",
+                "publishedAt": "2024-01-09T10:00:16Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.329013,
+                    33.587216
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "moI0e1uQOQc",
                 "name": "絶好鳥",
                 "version": "1.2",
