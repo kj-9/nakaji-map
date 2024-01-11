@@ -1,7 +1,7 @@
 <script lang="ts">
 	import About from '$lib/components/navbar/content/About.svelte';
 	import News from '$lib/components/navbar/content/News.svelte';
-	import Table from '$lib/components/Table.svelte';
+	import SearchTable from '$lib/components/navbar/content/SearchTable.svelte';
 
 	import { onMount } from 'svelte';
 
@@ -14,13 +14,13 @@
 	type NavBarItems = {
 		About: typeof About;
 		News: typeof News;
-		Table: typeof Table;
+		Search: typeof SearchTable;
 	};
 
 	const navBarItems: NavBarItems = {
 		About,
 		News,
-		Table
+		Search: SearchTable
 	};
 
 	// workaround for typing string[] as keysof NavBarItems
