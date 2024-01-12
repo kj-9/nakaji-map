@@ -71,7 +71,7 @@
 	const table = createSvelteTable(options) as any; // for now
 </script>
 
-<div class="px-2 h-screen w-screen">
+<div class="px-2 h-screen" style="width:80vw">
 	<table class="text-sm text-left rtl:text-right text-gray-500 w-full">
 		<thead class="sticky top-0 bg-gray-50">
 			<tr>
