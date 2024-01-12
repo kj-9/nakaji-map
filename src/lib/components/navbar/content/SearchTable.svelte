@@ -124,7 +124,7 @@
 						<input
 							bind:value={$searchQuery}
 							type="text"
-							id="table-search-users"
+							id="table-search"
 							class="pt-2 pb-2 ps-10 text-sm text-gray-900 w-full border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500"
 							placeholder="店名で検索"
 						/>
