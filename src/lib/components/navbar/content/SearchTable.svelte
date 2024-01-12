@@ -39,6 +39,10 @@
 				header: '店名'
 			},
 			{
+				accessorFn: (row: any) => row.properties.title,
+				header: '動画タイトル'
+			},
+			{
 				accessorFn: (row: any) => formatDateStr(row.properties.publishedAt),
 				header: '公開日'
 			}
@@ -67,11 +71,11 @@
 	const table = createSvelteTable(options) as any; // for now
 </script>
 
-<div class="px-2 h-screen w-96">
+<div class="px-2 h-screen w-screen">
 	<table class="text-sm text-left rtl:text-right text-gray-500 w-full">
 		<thead class="sticky top-0 bg-gray-50">
 			<tr>
-				<th scope="col" colspan="2">
+				<th scope="col" colspan="3">
 					<label for="table-search" class="sr-only">Search</label>
 					<div class="relative">
 						<form class="top-0 right-0 mt-3" method="dialog">
