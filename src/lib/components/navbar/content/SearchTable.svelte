@@ -53,7 +53,6 @@
 
 	$: {
 		options.update((o) => {
-			console.log(o);
 			const newData = defaultData.filter((d: any) => {
 				const name = d.properties.google_maps || d.properties.name;
 				return name.includes($searchQuery);
