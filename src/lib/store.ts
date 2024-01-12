@@ -18,3 +18,5 @@ export const geodata = readable(geojson) as Readable<
 // which has extra props: { name: string; publishedAt: string; title: string; video_id: string; google_maps: string; }
 export interface FeatureForPopup
 	extends GeoJSON.Feature<GeoJSON.Point, ComponentProps<PopupContent>> {}
+
+export const searchQuery = writable('');
