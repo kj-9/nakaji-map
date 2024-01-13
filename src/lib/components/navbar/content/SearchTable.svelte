@@ -152,7 +152,7 @@
 			{#each $table.getRowModel().rows as row}
 				<tr class="bg-white border-b hover:bg-gray-50">
 					{#each row.getVisibleCells() as cell}
-						<td class="px-3 py-3" on:click={() => flyTo(cell.row.original)}>
+						<td class="px-1 py-2" on:click={() => flyTo(cell.row.original)}>
 							<svelte:component this={flexRender(cell.column.columnDef.cell, cell.getContext())} />
 						</td>
 					{/each}
