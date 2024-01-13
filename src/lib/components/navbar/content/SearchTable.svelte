@@ -58,8 +58,16 @@
 	$: {
 		options.update((o) => {
 			const newData = defaultData.filter((d: any) => {
-				const name = d.properties.google_maps || d.properties.name;
-				return name.includes($searchQuery);
+				const props = d.properties;
+
+				if (
+					props.google_maps?.includes($searchQuery) ||
+					props.name?.includes($searchQuery) ||
+					props.title?.includes($searchQuery)
+				)
+					return true;
+
+				return false;
 			});
 			return {
 				...o,
