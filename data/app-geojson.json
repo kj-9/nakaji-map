@@ -5117,7 +5117,7 @@
                 "open_location_code": "8Q5GJ9CW+3W",
                 "url": "https://www.geocoding.jp/?q=%E5%90%8D%E5%B3%B6%E4%BA%AD%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E6%9D%B1%E5%8C%BA%E5%90%8D%E5%B3%B62%E4%B8%81%E7%9B%AE",
                 "needs_to_verify": "yes",
-                "google_maps": null,
+                "google_maps": "名島亭本店",
                 "error": null,
                 "title": "本当に美味い豚骨ラーメン店を追及する企画!!!福岡ラーメンの名店巡り",
                 "publishedAt": "2021-08-13T10:00:24Z"
@@ -5125,8 +5125,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    130.397256,
-                    33.620196
+                    130.42804305386966,
+                    33.64422199848369
                 ]
             }
         },
