@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "AwnyCLpqr_g",
+                "name": "キッチンREST",
+                "version": "1.2",
+                "address": "キッチンREST 福岡市中央区渡辺通2丁目",
+                "open_location_code": "8Q5GHCM3+GF",
+                "url": "https://www.geocoding.jp/?q=%E3%82%AD%E3%83%83%E3%83%81%E3%83%B3REST%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E6%B8%A1%E8%BE%BA%E9%80%9A2%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "キッチンREST",
+                "error": null,
+                "title": "チキン南蛮最強の店!!!絶対ハズさない福岡飯店",
+                "publishedAt": "2024-01-12T10:00:08Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.40367,
+                    33.583755
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "N64XHoxXt3c",
                 "name": "ベツバラーレ",
                 "version": "1.2",
