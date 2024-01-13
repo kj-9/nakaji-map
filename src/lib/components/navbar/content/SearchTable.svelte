@@ -58,7 +58,7 @@
 	$: {
 		options.update((o) => {
 			const newData = defaultData.filter((d: any) => {
-				const name = d.properties.google_maps || d.properties.name;			
+				const name = d.properties.google_maps || d.properties.name;
 				return name.includes($searchQuery);
 			});
 			return {
@@ -72,7 +72,10 @@
 </script>
 
 <div class="px-2 h-screen" style="width:80vw">
-	<table class="text-sm text-left rtl:text-right text-gray-500 w-full">
+	<table
+		class="text-xs md:text-sm text-left rtl:text-right text-gray-500 w-full"
+		style="word-break: break-word;"
+	>
 		<thead class="sticky top-0 bg-gray-50">
 			<tr>
 				<th scope="col" colspan="3">
@@ -125,7 +128,7 @@
 							bind:value={$searchQuery}
 							type="text"
 							id="table-search"
-							class="pt-2 pb-2 ps-10 text-sm text-gray-900 w-full border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500"
+							class="pt-2 pb-2 ps-10 text-gray-900 w-full border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500"
 							placeholder="店名で検索"
 						/>
 					</div>
