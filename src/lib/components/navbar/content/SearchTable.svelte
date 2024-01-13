@@ -58,7 +58,7 @@
 	$: {
 		options.update((o) => {
 			const newData = defaultData.filter((d: any) => {
-				const name = d.properties.google_maps || d.properties.name;
+				const name = d.properties.google_maps || d.properties.name;			
 				return name.includes($searchQuery);
 			});
 			return {
@@ -78,7 +78,7 @@
 				<th scope="col" colspan="3">
 					<label for="table-search" class="sr-only">Search</label>
 					<div class="relative">
-						<form class="top-0 right-0 mt-3" method="dialog">
+						<form class="mt-3" method="dialog">
 							<button
 								type="submit"
 								class="bg-white rounded-md inline-flex items-center justify-center text-gray-400 hover:text-gray-800 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
