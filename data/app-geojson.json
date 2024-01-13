@@ -3806,7 +3806,7 @@
                 "open_location_code": null,
                 "url": "https://www.geocoding.jp/?q=%E3%81%8B%E3%81%B0%E9%A3%9F%E5%A0%82%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E5%9F%8E%E5%8D%97%E5%8C%BA%E5%88%A5%E5%BA%9C2%E4%B8%81%E7%9B%AE",
                 "needs_to_verify": "yes",
-                "google_maps": null,
+                "google_maps": "あじフライ食堂かば",
                 "error": null,
                 "title": "メニューはアジフライ定食１品のみ!!!超絶美味いアジフライの店!!絶対ハズさない福岡飯店",
                 "publishedAt": "2022-03-22T10:00:05Z"
@@ -3814,8 +3814,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    0.0,
-                    0.0
+                    130.3690189846567,
+                    33.57369562285289
                 ]
             }
         },
