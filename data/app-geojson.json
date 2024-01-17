@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "5MXoCpBT7NE",
+                "name": "あたふた",
+                "version": "1.2",
+                "address": "あたふた 福岡市博多区千代4丁目",
+                "open_location_code": "8Q5GJC48+8G",
+                "url": "https://www.geocoding.jp/?q=%E3%81%82%E3%81%9F%E3%81%B5%E3%81%9F%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E5%8D%9A%E5%A4%9A%E5%8C%BA%E5%8D%83%E4%BB%A34%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "煮干専門 あたふた",
+                "error": null,
+                "title": "福岡美味いラーメン屋放浪記!!!",
+                "publishedAt": "2024-01-16T10:00:07Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.416371,
+                    33.605756
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "AwnyCLpqr_g",
                 "name": "キッチンREST",
                 "version": "1.2",
