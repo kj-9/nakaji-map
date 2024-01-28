@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "RlKLy5tZhrk",
+                "name": "ツバメ",
+                "version": "1.2",
+                "address": "ツバメ 福岡市早良区西新5丁目",
+                "open_location_code": "8Q5GH9J4+HR",
+                "url": "https://www.geocoding.jp/?q=%E3%83%84%E3%83%90%E3%83%A1%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E6%97%A9%E8%89%AF%E5%8C%BA%E8%A5%BF%E6%96%B05%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "野菜巻き串屋ツバメ",
+                "error": null,
+                "title": "最高峰のエビマヨと絶品野菜巻き串!!!絶対ハズさない福岡飯店",
+                "publishedAt": "2024-01-26T10:00:29Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.357072,
+                    33.581413
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "Cy1WDFNy0jY",
                 "name": "珍や",
                 "version": "1.2",
