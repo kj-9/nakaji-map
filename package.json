@@ -26,6 +26,7 @@
 		"@sveltejs/vite-plugin-svelte": "^3.0.0",
 		"@tanstack/svelte-table": "^8.11.3",
 		"@tanstack/table-core": "^8.11.3",
+		"@tauri-apps/cli": "^1.5.9",
 		"@types/cookie": "^0.5.1",
 		"@typescript-eslint/eslint-plugin": "^6.0.0",
 		"@typescript-eslint/parser": "^6.0.0",
