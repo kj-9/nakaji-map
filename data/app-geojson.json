@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "f9bfawaMy6s",
+                "name": "博多うどん処 泰吉",
+                "version": "1.2",
+                "address": "博多うどん処 泰吉 福岡市中央区天神4丁目",
+                "open_location_code": "8Q5GHCW2+26",
+                "url": "https://www.geocoding.jp/?q=%E5%8D%9A%E5%A4%9A%E3%81%86%E3%81%A9%E3%82%93%E5%87%A6%20%E6%B3%B0%E5%90%89%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E5%A4%A9%E7%A5%9E4%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "博多うどん たい吉（泰吉）",
+                "error": null,
+                "title": "至極の一杯!!!博多うどん名店攻め!!!絶対ハズさない福岡うどん店",
+                "publishedAt": "2024-01-30T10:58:21Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.400614,
+                    33.595052
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "RlKLy5tZhrk",
                 "name": "ツバメ",
                 "version": "1.2",
