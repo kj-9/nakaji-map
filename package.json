@@ -22,7 +22,7 @@
 		"@playwright/test": "^1.28.1",
 		"@sveltejs/adapter-auto": "^3.0.0",
 		"@sveltejs/adapter-static": "^3.0.0",
-		"@sveltejs/kit": "^2.0.0",
+		"@sveltejs/kit": "^2.5.0",
 		"@sveltejs/vite-plugin-svelte": "^3.0.0",
 		"@tanstack/svelte-table": "^8.11.3",
 		"@tanstack/table-core": "^8.11.3",
