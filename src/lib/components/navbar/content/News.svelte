@@ -40,7 +40,7 @@
 	</form>
 
 	<ul>
-		<div class="font-semibold">最近の更新</div>
+		<h1 class="text-lg sm:text-xl font-semibold">最近の更新</h1>
 		{#each newFeatures as feature}
 			<li>
 				<button class="mt-1 text-xs sm:text-base text-left" on:click={() => flyTo(feature)}>
