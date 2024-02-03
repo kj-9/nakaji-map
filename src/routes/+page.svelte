@@ -27,8 +27,11 @@
 </script>
 
 <svelte:head>
-	<title>中島浩二チャンネルマップ</title>
-	<meta name="description" content="中島浩二チャンネルマップ(ファンサイト)" />
+	<title>中島浩二チャンネルマップ. ナカジーが紹介した福岡グルメ店を地図上に表示しています.</title>
+	<meta
+		name="description"
+		content="中島浩二チャンネルマップ. 中島浩二チャンネルのファンサイトです. ナカジーが紹介した福岡グルメ店を地図上に表示しています. 中島浩二さんは,通称ナカジーと呼ばれる福岡を中心に活動されているタレントです."
+	/>
 </svelte:head>
 
 <div class="relative">
