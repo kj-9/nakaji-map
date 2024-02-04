@@ -25,10 +25,11 @@
 	</form>
 	<ul class="text-left">
 		<li class="text-xs sm:text-base">
-			<h1 class="text-lg sm:text-xl font-semibold">中島浩二チャンネルマップ</h1>
+			<h1 class="text-lg sm:text-xl font-semibold">福岡グルメ 中島浩二チャンネルマップ</h1>
 			<p class="mt-2 leading-relaxed text-gray-800">
 				本サイトは<a href="https://www.youtube.com/@user-uw6md7xe9l">中島浩二チャンネル</a
-				>のファンサイトです。 動画で紹介されたお店を地図上に表示しています。
+				>のファンサイトです。
+				中島浩二チャンネルの動画で紹介された、福岡市を中心としたお店を地図上に表示しています。
 			</p>
 			<p class="mt-2 leading-relaxed text-gray-800">
 				中島浩二さんは、通称ナカジーと呼ばれる福岡を中心に活動されているタレントです。YouTubeチャンネルでは福岡の美味しいお店を紹介されています。
