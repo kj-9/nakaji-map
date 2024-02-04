@@ -29,7 +29,6 @@
 	<p>{title}</p>
 
 	<div class="mt-2 inline-flex items-center">
-		Watch on:
 		<a href={videoURL} target="_blank"
 			><img class="h-8" src={iconYouTubeURL} alt="Watch on YouTube" /></a
 		>
