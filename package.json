@@ -1,6 +1,6 @@
 {
 	"name": "nakaji-map",
-	"version": "0.3.3",
+	"version": "0.3.4",
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build",
@@ -14,7 +14,7 @@
 		"test:unit": "vitest"
 	},
 	"keywords": [],
-	"author": "MapLibre User Group Japan",
+	"author": "kj-9",
 	"license": "ISC",
 	"devDependencies": {
 		"@fontsource/fira-mono": "^4.5.10",
