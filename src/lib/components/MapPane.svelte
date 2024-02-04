@@ -56,6 +56,7 @@
 
 		// Add a layer showing the places.
 		_map.on('load', () => {
+			// can return promise since maplibre-gl v4 but not yet adopted.
 			_map.loadImage(iconURL, (err, image) => {
 				// declare type of `image` as ImageData to avoid ide warning
 
