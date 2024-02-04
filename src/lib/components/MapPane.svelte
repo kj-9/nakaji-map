@@ -54,37 +54,33 @@
 			})
 		);
 
-		// Add a layer showing the places.
-		_map.on('load', () => {
-			// can return promise since maplibre-gl v4 but not yet adopted.
-			_map.loadImage(iconURL, (err, image) => {
-				// declare type of `image` as ImageData to avoid ide warning
+		async function onLoadMap() {
+			const response = await _map.loadImage(iconURL);
 
-				if (err) throw err;
+			// guard for image
+			if (!response.data) {
+				throw new Error('image is null');
+			}
 
-				// guard for image
-				if (!image) {
-					throw new Error('image is null');
+			// set marker image
+			_map.addImage('location-marker', response.data);
+
+			// Add a GeoJSON source
+			_map.addSource('places', {
+				type: 'geojson',
+				data: get(geodata)
+			});
+
+			// Add a layer showing the places.
+			_map.addLayer({
+				id: 'places',
+				type: 'symbol',
+				source: 'places',
+				layout: {
+					'icon-allow-overlap': true,
+					'icon-image': 'location-marker',
+					'icon-size': 0.3
 				}
-
-				_map.addSource('places', {
-					type: 'geojson',
-					data: get(geodata)
-				});
-
-				_map.addImage('location-marker', image);
-
-				// Add a layer showing the places.
-				_map.addLayer({
-					id: 'places',
-					type: 'symbol',
-					source: 'places',
-					layout: {
-						'icon-allow-overlap': true,
-						'icon-image': 'location-marker',
-						'icon-size': 0.3
-					}
-				});
 			});
 
 			// When a click event occurs on a feature in the places layer, open a popup at the
@@ -136,6 +132,11 @@
 				// sleep 3sec
 				flyTo(initialFlyFeature);
 			}
+		}
+
+		// Add a layer showing the places.
+		_map.on('load', () => {
+			onLoadMap();
 		});
 	}
 </script>
