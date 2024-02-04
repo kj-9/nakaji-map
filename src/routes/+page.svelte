@@ -32,6 +32,7 @@
 		name="description"
 		content="中島浩二(ナカジー)が紹介した福岡グルメ店を地図上に表示しています。中島浩二さんは,通称ナカジーと呼ばれる福岡を中心に活動されているタレントです。本サイトは中島浩二チャンネルのファンサイト、中島浩二チャンネルマップです。"
 	/>
+	<link rel="canonical" href="https://nakaji-map.kj-dev.net/" />
 </svelte:head>
 
 <div class="relative">
