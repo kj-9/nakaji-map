@@ -22,7 +22,7 @@ jobs:
 
       - name: Install pnpm
         run: npm install -g pnpm
-  
+
       - name: Get pnpm store directory
         id: pnpm-cache
         shell: bash
