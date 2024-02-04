@@ -41,3 +41,10 @@
 		<a class="text-gray-300 text-xs" target="_blank" href="https://icons8.com">icon by Icons8</a>
 	</div>
 </div>
+
+<style>
+	/* override maplibre-gl's style sheet */
+	:global(.maplibregl-popup-close-button) {
+		font-size: 20px;
+	}
+</style>
