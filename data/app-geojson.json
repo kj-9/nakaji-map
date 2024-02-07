@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "cOD7cYoMuck",
+                "name": "鶏や久本",
+                "version": "1.2",
+                "address": "鶏や久本 福岡市中央区今泉1丁目",
+                "open_location_code": "8Q5GHCP2+P4",
+                "url": "https://www.geocoding.jp/?q=%E9%B6%8F%E3%82%84%E4%B9%85%E6%9C%AC%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E4%BB%8A%E6%B3%891%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "鶏や 久本",
+                "error": null,
+                "title": "鶏ならこの店!!!鶏焼き絶品店!!!",
+                "publishedAt": "2024-02-06T10:00:24Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.400315,
+                    33.586841
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "9hhimQcqVeQ",
                 "name": "中華そば 六(ろっぽう)",
                 "version": "1.2",
