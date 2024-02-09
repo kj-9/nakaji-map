@@ -9,8 +9,8 @@
 	import { geodata } from '$lib/store';
 	import type { FeatureForPopup } from '$lib/store';
 
-	import About from '$lib/components/navbar/content/About.svelte'
-	import News from '$lib/components/navbar/content/News.svelte'
+	import About from '$lib/components/navbar/content/About.svelte';
+	import News from '$lib/components/navbar/content/News.svelte';
 	import SearchTable from '$lib/components/navbar/content/SearchTable.svelte';
 
 	export let initialFlyFeature: FeatureForPopup;
@@ -43,18 +43,17 @@
 </svelte:head>
 
 <NoSSR>
-<div class="relative">
-	<Map {initialFlyFeature} />
-	<div class="absolute top-5 left-5">
-		<NavBar showAbout={!initialFlyFeature} />
+	<div class="relative">
+		<Map {initialFlyFeature} />
+		<div class="absolute top-5 left-5">
+			<NavBar showAbout={!initialFlyFeature} />
+		</div>
 	</div>
 
-</div>
-
-<svelte:fragment slot="fallback">
-	<About/>
-	(注意) 地図を表示するにはJavascriptを有効にしてください。
-	<News/>
-	<SearchTable/>
-</svelte:fragment>
+	<svelte:fragment slot="fallback">
+		<About />
+		(注意) 地図を表示するにはJavascriptを有効にしてください。
+		<News />
+		<SearchTable />
+	</svelte:fragment>
 </NoSSR>
