@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "wfrAVZhe1L4",
+                "name": "キッチン秋津",
+                "version": "1.2",
+                "address": "キッチン秋津 福岡市中央区大名2丁目",
+                "open_location_code": "8Q5GH9RW+72",
+                "url": "https://www.geocoding.jp/?q=%E3%82%AD%E3%83%83%E3%83%81%E3%83%B3%E7%A7%8B%E6%B4%A5%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E5%A4%A7%E5%90%8D2%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "秋津キッチン",
+                "error": null,
+                "title": "この店のハンバーグが凄い!!!100点満点です!!!",
+                "publishedAt": "2024-02-09T10:00:46Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.39501,
+                    33.590654
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "cOD7cYoMuck",
                 "name": "鶏や久本",
                 "version": "1.2",
