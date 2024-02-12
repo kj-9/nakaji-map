@@ -3,6 +3,6 @@
 	import './styles.css';
 </script>
 
-<slot />
-
-<style></style>
+<div class="bg-gray-50">
+	<slot />
+</div>
