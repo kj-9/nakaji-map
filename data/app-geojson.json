@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "MmCmUPbzico",
+                "name": "平尾",
+                "version": "1.2",
+                "address": "平尾 福岡市中央区平尾2丁目",
+                "open_location_code": "8Q5GHCF3+PM",
+                "url": "https://www.geocoding.jp/?q=%E5%B9%B3%E5%B0%BE%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E5%B9%B3%E5%B0%BE2%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": null,
+                "error": null,
+                "title": "福岡最高ランクです!!!このうどん屋が凄い!!!!!!大将も最高!!!",
+                "publishedAt": "2024-02-16T10:00:13Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.404211,
+                    33.574335
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "l5kLQg5ip3Q",
                 "name": "ハイダル",
                 "version": "1.2",
