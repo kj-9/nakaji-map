@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "rYC_RRGgd5E",
+                "name": "喫茶コティー",
+                "version": "1.2",
+                "address": "喫茶コティー 福岡市中央区高砂2丁目",
+                "open_location_code": "8Q5GHCG5+Q9",
+                "url": "https://www.geocoding.jp/?q=%E5%96%AB%E8%8C%B6%E3%82%B3%E3%83%86%E3%82%A3%E3%83%BC%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E9%AB%98%E7%A0%822%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "Cotty / 喫茶コティー",
+                "error": null,
+                "title": "最高の喫茶店飯を追求する!!!極上ナポリタンと王道のオムライス!!!",
+                "publishedAt": "2024-02-20T10:00:43Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.408494,
+                    33.576985
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "MmCmUPbzico",
                 "name": "平尾",
                 "version": "1.2",
