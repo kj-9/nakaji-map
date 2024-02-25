@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "Z6bNkElpgOc",
+                "name": "博多豊一長浜食堂",
+                "version": "1.2",
+                "address": "博多豊一長浜食堂 福岡市中央区長浜2丁目",
+                "open_location_code": "8Q5GH9VP+2M",
+                "url": "https://www.geocoding.jp/?q=%E5%8D%9A%E5%A4%9A%E8%B1%8A%E4%B8%80%E9%95%B7%E6%B5%9C%E9%A3%9F%E5%A0%82%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E9%95%B7%E6%B5%9C2%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "博多豊一 長浜食堂",
+                "error": null,
+                "title": "激安なのに激ウマ!!!超絶人気寿司バイキングを攻める!!!!",
+                "publishedAt": "2024-02-23T10:00:21Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.386747,
+                    33.592534
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "rYC_RRGgd5E",
                 "name": "喫茶コティー",
                 "version": "1.2",
