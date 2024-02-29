@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "-XopCQZJlf8",
+                "name": "ひなや",
+                "version": "1.2",
+                "address": "ひなや 福岡市博多区竹下4丁目",
+                "open_location_code": "8Q5GHC9J+QH",
+                "url": "https://www.geocoding.jp/?q=%E3%81%B2%E3%81%AA%E3%82%84%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E5%8D%9A%E5%A4%9A%E5%8C%BA%E7%AB%B9%E4%B8%8B4%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "お好み焼き・鉄板焼 ひなや 竹下店",
+                "error": null,
+                "title": "福岡このお好み焼き屋が凄い!!!!!!焼きそばも凄い!!!",
+                "publishedAt": "2024-02-27T10:00:00Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.431436,
+                    33.569392
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "Z6bNkElpgOc",
                 "name": "博多豊一長浜食堂",
                 "version": "1.2",
