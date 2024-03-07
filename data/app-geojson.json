@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "bGj-3yBNOtk",
+                "name": "RAMEN浜虎",
+                "version": "1.2",
+                "address": "RAMEN浜虎 福岡市博多区中洲5丁目",
+                "open_location_code": "8Q5GHCV3+CG",
+                "url": "https://www.geocoding.jp/?q=RAMEN%E6%B5%9C%E8%99%8E%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E5%8D%9A%E5%A4%9A%E5%8C%BA%E4%B8%AD%E6%B4%B25%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "RAMEN 浜虎 福岡中洲店",
+                "error": null,
+                "title": "絶対食べておくべき!!!福岡の絶品ラーメン屋を追求するシリーズ!!!",
+                "publishedAt": "2024-03-05T10:00:34Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.403853,
+                    33.593571
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "-XopCQZJlf8",
                 "name": "ひなや",
                 "version": "1.2",
