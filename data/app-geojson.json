@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "r9sAJmG9vCg",
+                "name": "黒毛和牛 博多牛まぶし 武蔵",
+                "version": "1.2",
+                "address": "黒毛和牛 博多牛まぶし 武蔵 福岡市博多区博多駅東1丁目",
+                "open_location_code": "8Q5GHCRF+25",
+                "url": "https://www.geocoding.jp/?q=%E9%BB%92%E6%AF%9B%E5%92%8C%E7%89%9B%20%E5%8D%9A%E5%A4%9A%E7%89%9B%E3%81%BE%E3%81%B6%E3%81%97%20%E6%AD%A6%E8%94%B5%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E5%8D%9A%E5%A4%9A%E5%8C%BA%E5%8D%9A%E5%A4%9A%E9%A7%85%E6%9D%B11%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "黒毛和牛 博多牛まぶし 武蔵",
+                "error": null,
+                "title": "肉好き大絶賛!!!ここは肉天国!!!絶対食べておくべき福岡飯!!!",
+                "publishedAt": "2024-03-12T10:00:42Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.42297,
+                    33.590096
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "OCuC7-OSRAE",
                 "name": "麺屋いし+",
                 "version": "1.2",
