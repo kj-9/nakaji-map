@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "8j5RH_-xQZ4",
+                "name": "麺屋たいそん",
+                "version": "1.2",
+                "address": "麺屋たいそん 福岡市博多区博多駅前3丁目",
+                "open_location_code": "8Q5GHCP7+XV",
+                "url": "https://www.geocoding.jp/?q=%E9%BA%BA%E5%B1%8B%E3%81%9F%E3%81%84%E3%81%9D%E3%82%93%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E5%8D%9A%E5%A4%9A%E5%8C%BA%E5%8D%9A%E5%A4%9A%E9%A7%85%E5%89%8D3%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "麺屋たいそん 博多駅前創業店",
+                "error": null,
+                "title": "悶絶モノです!!!絶対食べておきたい福岡の絶品豚骨ラーメン!!!",
+                "publishedAt": "2024-03-22T12:19:37Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.414719,
+                    33.587423
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "eK_RgF-fWwo",
                 "name": "天山食堂",
                 "version": "1.2",
