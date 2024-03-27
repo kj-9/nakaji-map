@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "oCz_xa7_ZMw",
+                "name": "海鮮食堂 サカナとごはん凪",
+                "version": "1.2",
+                "address": "海鮮食堂 サカナとごはん凪 福岡市中央区唐人町1丁目",
+                "open_location_code": "8Q5GH9RC+7F",
+                "url": "https://www.geocoding.jp/?q=%E6%B5%B7%E9%AE%AE%E9%A3%9F%E5%A0%82%20%E3%82%B5%E3%82%AB%E3%83%8A%E3%81%A8%E3%81%94%E3%81%AF%E3%82%93%E5%87%AA%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E5%94%90%E4%BA%BA%E7%94%BA1%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "海鮮食堂 サカナとごはん 凪",
+                "error": null,
+                "title": "今、福岡で一番行列ができる天丼!!!!最高の絶品天丼ドーン!!!",
+                "publishedAt": "2024-03-26T10:00:42Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.371168,
+                    33.590716
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "8j5RH_-xQZ4",
                 "name": "麺屋たいそん",
                 "version": "1.2",
