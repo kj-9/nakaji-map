@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "vi4clTibojY",
+                "name": "ウダーナ＆シャーニカ",
+                "version": "1.2",
+                "address": "ウダーナ＆シャーニカ 福岡市中央区渡辺通1丁目",
+                "open_location_code": "8Q5GHCM4+GJ",
+                "url": "https://www.geocoding.jp/?q=%E3%82%A6%E3%83%80%E3%83%BC%E3%83%8A%EF%BC%86%E3%82%B7%E3%83%A3%E3%83%BC%E3%83%8B%E3%82%AB%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E6%B8%A1%E8%BE%BA%E9%80%9A1%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "スリランカカレー ウダーナ＆シャーニカ アサンカ ラクマル",
+                "error": null,
+                "title": "福岡超絶美味いカレー屋ファイル!!!!絶対食べておくべき福岡飯",
+                "publishedAt": "2024-03-29T10:00:54Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.406576,
+                    33.583844
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "oCz_xa7_ZMw",
                 "name": "海鮮食堂 サカナとごはん凪",
                 "version": "1.2",
