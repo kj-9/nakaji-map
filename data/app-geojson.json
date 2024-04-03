@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "57qM4U6ysRU",
+                "name": "キャンディイナリブラン CANDY INARI brun",
+                "version": "1.2",
+                "address": "キャンディイナリブラン CANDY INARI brun 福岡市中央区大名1丁目",
+                "open_location_code": "8Q5GH9PR+VV",
+                "url": "https://www.geocoding.jp/?q=%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%87%E3%82%A3%E3%82%A4%E3%83%8A%E3%83%AA%E3%83%96%E3%83%A9%E3%83%B3%20CANDY%20INARI%20brun%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E5%A4%A7%E5%90%8D1%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "CANDY INARI brun(キャンディイナリブラン)",
+                "error": null,
+                "title": "福岡絶品テイクアウト飯!!!花見にどうぞ!!!",
+                "publishedAt": "2024-04-02T10:00:03Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.392141,
+                    33.587163
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "vi4clTibojY",
                 "name": "ウダーナ＆シャーニカ",
                 "version": "1.2",
