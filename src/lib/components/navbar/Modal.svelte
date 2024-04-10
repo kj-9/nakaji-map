@@ -19,3 +19,32 @@
 >
 	<slot />
 </dialog>
+
+<style>
+	@keyframes fade-in {
+		0% {
+			opacity: 0;
+		}
+		100% {
+			opacity: 1;
+		}
+	}
+
+	dialog[open] {
+		/* Apply animation properties to the open dialog */
+		opacity: 1;
+		animation: fade-in 0.5s ease-in-out;
+	}
+
+	dialog[open]::backdrop {
+		/* Apply animation properties to the open backdrop */
+		opacity: 1;
+		animation: fade-in 0.5s ease-in-out;
+	}
+
+	dialog[closed] {
+		/* Apply animation properties to the closed dialog */
+		opacity: 0;
+		animation: fade-in 0.5s ease-in-out;
+	}
+</style>
