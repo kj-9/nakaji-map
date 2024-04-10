@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { writable } from 'svelte/store';
+	import { createEventDispatcher } from 'svelte';
 	import { createSvelteTable, flexRender, getCoreRowModel } from '@tanstack/svelte-table';
 	import { geodata } from '$lib/store';
 	import { get } from 'svelte/store';
@@ -11,6 +12,8 @@
 	// so bypass typing and eslint rule for any.
 	//import type { ColumnDef, TableOptions } from '@tanstack/table-core/src/types';
 	/* eslint-disable @typescript-eslint/no-explicit-any */
+
+	const dispatch = createEventDispatcher();
 
 	const _geodata = get(geodata);
 	type Feature = {
@@ -160,7 +163,13 @@
 			{#each $table.getRowModel().rows as row}
 				<tr class="bg-white border-b hover:bg-gray-50">
 					{#each row.getVisibleCells() as cell}
-						<td class="px-1 py-2" on:click={() => flyTo(cell.row.original)}>
+						<td
+							class="px-1 py-2"
+							on:click={() => {
+								dispatch('fly');
+								flyTo(cell.row.original);
+							}}
+						>
 							<svelte:component this={flexRender(cell.column.columnDef.cell, cell.getContext())} />
 						</td>
 					{/each}

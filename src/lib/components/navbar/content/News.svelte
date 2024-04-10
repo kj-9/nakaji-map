@@ -1,6 +1,7 @@
-<script lang="ts" context="module">
+<script lang="ts">
 	import { geodata } from '$lib/store';
 	import { get } from 'svelte/store';
+	import { createEventDispatcher } from 'svelte';
 	import { instanceOfFeatureForPopup } from '$lib/components/Popup';
 	import { flyTo } from '$lib/components/Popup';
 	import { formatDateStr } from '$lib/formatter';
@@ -11,6 +12,8 @@
 	const newFeatures = get(geodata)
 		.features.slice(0, 5) // latest 5 features
 		.filter((feature) => instanceOfFeatureForPopup(feature));
+
+	const dispatch = createEventDispatcher();
 </script>
 
 <div class="bg-gray-50 max-w-xs sm:max-w-2xl px-4 py-5 text-gray-900">
@@ -43,7 +46,13 @@
 		<h1 class="text-lg sm:text-xl font-semibold">最近の更新</h1>
 		{#each newFeatures as feature}
 			<li>
-				<button class="mt-1 text-xs sm:text-base text-left" on:click={() => flyTo(feature)}>
+				<button
+					class="mt-1 text-xs sm:text-base text-left"
+					on:click={() => {
+						dispatch('fly');
+						flyTo(feature);
+					}}
+				>
 					{formatDateStr(feature.properties.publishedAt)}: {feature.properties.title}
 				</button>
 			</li>

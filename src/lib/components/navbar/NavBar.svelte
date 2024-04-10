@@ -15,10 +15,10 @@
 </Modal>
 
 <Modal bind:showModal={showNews}>
-	<News />
+	<News on:fly={() => (showNews = false)} />
 </Modal>
 <Modal bind:showModal={showSearch}>
-	<SearchTable />
+	<SearchTable on:fly={() => (showSearch = false)} />
 </Modal>
 
 <nav>
