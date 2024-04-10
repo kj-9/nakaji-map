@@ -1,5 +1,5 @@
 <div class="bg-gray-50 max-w-xs sm:max-w-2xl px-4 py-5 text-gray-900">
-	<form class="absolute top-0 right-0 mt-4 mr-4" method="dialog">
+	<form class="absolute top-0 right-0 mt-1 mr-1" method="dialog">
 		<button
 			type="submit"
 			class="bg-white rounded-md inline-flex items-center justify-center text-gray-400 hover:text-gray-800 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
