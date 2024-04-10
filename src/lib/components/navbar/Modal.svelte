@@ -41,10 +41,4 @@
 		opacity: 1;
 		animation: fade-in 0.5s ease-in-out;
 	}
-
-	dialog[closed] {
-		/* Apply animation properties to the closed dialog */
-		opacity: 0;
-		animation: fade-in 0.5s ease-in-out;
-	}
 </style>
