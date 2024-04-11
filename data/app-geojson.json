@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "GsabpDwge54",
+                "name": "ログキッチン",
+                "version": "1.2",
+                "address": "ログキッチン 福岡市城南区梅林2丁目",
+                "open_location_code": "8Q5GG9V5+MM",
+                "url": "https://www.geocoding.jp/?q=%E3%83%AD%E3%82%B0%E3%82%AD%E3%83%83%E3%83%81%E3%83%B3%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E5%9F%8E%E5%8D%97%E5%8C%BA%E6%A2%85%E6%9E%972%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "カフェ&ダイニング ログキッチン",
+                "error": null,
+                "title": "チキン南蛮福岡最強の店を追求するシリーズ!!!絶対食べておくべき福岡飯",
+                "publishedAt": "2024-04-09T10:00:17Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.359144,
+                    33.544195
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "IlIPZ3rzL-4",
                 "name": "六本松食堂",
                 "version": "1.2",
