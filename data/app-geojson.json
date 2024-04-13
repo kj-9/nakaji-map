@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "hyjjlIvciH0",
+                "name": "おみ焼きてぼ",
+                "version": "1.2",
+                "address": "おみ焼きてぼ 福岡市中央区渡辺通2丁目",
+                "open_location_code": "8Q5GHCJ3+WP",
+                "url": "https://www.geocoding.jp/?q=%E3%81%8A%E3%81%BF%E7%84%BC%E3%81%8D%E3%81%A6%E3%81%BC%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E6%B8%A1%E8%BE%BA%E9%80%9A2%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市中央区渡辺通２丁目２−２０ お好み焼てぼ",
+                "error": null,
+                "title": "海外からもお客が殺到する福岡の絶品お好み焼き店!!!",
+                "publishedAt": "2024-04-12T10:00:38Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.404305,
+                    33.58233
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "GsabpDwge54",
                 "name": "ログキッチン",
                 "version": "1.2",
