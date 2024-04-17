@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "Ea1iR4r9yvw",
+                "name": "HayashiRice TiE",
+                "version": "1.2",
+                "address": "HayashiRice TiE 福岡市中央区舞鶴1丁目",
+                "open_location_code": "8Q5GH9VV+3F",
+                "url": "https://www.geocoding.jp/?q=HayashiRice%20TiE%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E8%88%9E%E9%B6%B41%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": null,
+                "error": null,
+                "title": "福岡で一番美味いと言っても過言ではないハヤシライス!!!",
+                "publishedAt": "2024-04-16T10:00:19Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.393656,
+                    33.592689
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "hyjjlIvciH0",
                 "name": "おみ焼きてぼ",
                 "version": "1.2",
