@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "vwmZF0i12FQ",
+                "name": "加辺屋",
+                "version": "1.2",
+                "address": "加辺屋 福岡市博多区下川端町",
+                "open_location_code": "8Q5GHCW4+9Q",
+                "url": "https://www.geocoding.jp/?q=%E5%8A%A0%E8%BE%BA%E5%B1%8B%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E5%8D%9A%E5%A4%9A%E5%8C%BA%E4%B8%8B%E5%B7%9D%E7%AB%AF%E7%94%BA",
+                "needs_to_verify": "yes",
+                "google_maps": "加辺屋川端本店",
+                "error": null,
+                "title": "感動モノ!!!福岡最高峰の蕎麦屋で間違いないです!!!",
+                "publishedAt": "2024-04-19T10:26:16Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.406954,
+                    33.595896
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "Ea1iR4r9yvw",
                 "name": "HayashiRice TiE",
                 "version": "1.2",
