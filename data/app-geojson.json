@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "1JgVUJKAkrk",
+                "name": "永福",
+                "version": "1.2",
+                "address": "永福 福岡市中央区渡辺通5丁目",
+                "open_location_code": "8Q5GHCQ3+85",
+                "url": "https://www.geocoding.jp/?q=%E6%B0%B8%E7%A6%8F%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E6%B8%A1%E8%BE%BA%E9%80%9A5%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "中華そば・つけ麺 永福（えいふく）",
+                "error": null,
+                "title": "この店のつけ麺すげぇぞ!!中華そばも美味です!!!福岡名店ファイル",
+                "publishedAt": "2024-04-23T10:00:02Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.402905,
+                    33.588333
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "vwmZF0i12FQ",
                 "name": "加辺屋",
                 "version": "1.2",
