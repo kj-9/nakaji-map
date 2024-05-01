@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "PJg7MCSQ8Rg",
+                "name": "木藤商店",
+                "version": "1.2",
+                "address": "木藤商店 福岡市南区市崎1丁目",
+                "open_location_code": "8Q5GHCC3+RP",
+                "url": "https://www.geocoding.jp/?q=%E6%9C%A8%E8%97%A4%E5%95%86%E5%BA%97%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E5%8D%97%E5%8C%BA%E5%B8%82%E5%B4%8E1%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "手作り明太子 木藤商店",
+                "error": null,
+                "title": "福岡最高峰の明太子だ!!!!!!",
+                "publishedAt": "2024-04-30T10:00:30Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.404332,
+                    33.57202
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "rHnraXM2uAU",
                 "name": "麻婆豆腐専門店 とだや",
                 "version": "1.2",
