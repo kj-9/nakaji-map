@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "HI3akaFDXF4",
+                "name": "三願鮪臘",
+                "version": "1.2",
+                "address": "三願鮪臘 福岡市中央区渡辺通3丁目",
+                "open_location_code": "8Q5GHCP3+JM",
+                "url": "https://www.geocoding.jp/?q=%E4%B8%89%E9%A1%98%E9%AE%AA%E8%87%98%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E6%B8%A1%E8%BE%BA%E9%80%9A3%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "和とつま味 やまさん",
+                "error": null,
+                "title": "今福岡で一番行列ができると言っても過言ではない絶品豆腐店のランチ!!!",
+                "publishedAt": "2024-05-03T10:00:14Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.404203,
+                    33.586508
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "PJg7MCSQ8Rg",
                 "name": "木藤商店",
                 "version": "1.2",
