@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "QowLTB1xMaU",
+                "name": "多の津うどん",
+                "version": "1.2",
+                "address": "多の津うどん 福岡市東区松島3丁目",
+                "open_location_code": "8Q5GJCGR+JF",
+                "url": "https://www.geocoding.jp/?q=%E5%A4%9A%E3%81%AE%E6%B4%A5%E3%81%86%E3%81%A9%E3%82%93%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E6%9D%B1%E5%8C%BA%E6%9D%BE%E5%B3%B63%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "多の津うどん",
+                "error": null,
+                "title": "かつ丼とうどんのセットが最強の店!!!絶対ハズさない福岡飯店!!!",
+                "publishedAt": "2024-05-07T10:00:20Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.441214,
+                    33.626519
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "HI3akaFDXF4",
                 "name": "三願鮪臘",
                 "version": "1.2",
