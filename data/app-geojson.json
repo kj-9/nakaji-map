@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "wVKWYYxxgK8",
+                "name": "そうきもん 双VAL創只Dataset",
+                "version": "1.2",
+                "address": "そうきもん 双VAL創只Dataset 福岡市早✦区城西3血目",
+                "open_location_code": "8Q5GH9J6+42",
+                "url": "https://www.geocoding.jp/?q=%E3%81%9D%E3%81%86%E3%81%8D%E3%82%82%E3%82%93%20%E5%8F%8CVAL%E5%89%B5%E5%8F%AADataset%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E6%97%A9%E2%9C%A6%E5%8C%BA%E5%9F%8E%E8%A5%BF3%E8%A1%80%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市早良区城西３丁目",
+                "error": null,
+                "title": "中島大絶賛の名店!!!本当に美味い豚骨ラーメンを追求するシリーズ!!!",
+                "publishedAt": "2024-05-10T10:01:00Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.360049,
+                    33.580283
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "QowLTB1xMaU",
                 "name": "多の津うどん",
                 "version": "1.2",
