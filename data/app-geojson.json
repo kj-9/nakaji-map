@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "lpi4ifot8kI",
+                "name": "ビーフ亭",
+                "version": "1.2",
+                "address": "ビーフ亭 福岡市中央区大名2丁目",
+                "open_location_code": "8Q5GH9QR+6X",
+                "url": "https://www.geocoding.jp/?q=%E3%83%93%E3%83%BC%E3%83%95%E4%BA%AD%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E5%A4%A7%E5%90%8D2%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "ビーフ亭",
+                "error": null,
+                "title": "中島大絶賛!!!安くて美味い!!!福岡最高のステーキランチと絶品ハンバーグに悶絶!!!",
+                "publishedAt": "2024-05-14T10:00:40Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.392453,
+                    33.588095
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "wVKWYYxxgK8",
                 "name": "そうきもん 双VAL創只Dataset",
                 "version": "1.2",
