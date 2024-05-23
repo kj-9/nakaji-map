@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "C11UxW2Xozc",
+                "name": "博多海老山",
+                "version": "1.2",
+                "address": "博多海老山 福岡市中央区大名2丁目",
+                "open_location_code": "8Q5GH9QW+F8",
+                "url": "https://www.geocoding.jp/?q=%E5%8D%9A%E5%A4%9A%E6%B5%B7%E8%80%81%E5%B1%B1%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E5%A4%A7%E5%90%8D2%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市中央区大名２丁目１−５ １Ｆ 博多海老山 天神本店",
+                "error": null,
+                "title": "カツ好きが集まる名店です!!!絶対ハズさない福岡飯店!!!",
+                "publishedAt": "2024-05-21T10:00:15Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.395865,
+                    33.58865
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "QDWKHreuFyI",
                 "name": "中島",
                 "version": "1.2",
