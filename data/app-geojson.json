@@ -28,9 +28,9 @@
             "type": "Feature",
             "properties": {
                 "video_id": "QDWKHreuFyI",
-                "name": "中島",
+                "name": "春月庵",
                 "version": "1.2",
-                "address": "中島 福岡市博多区博多駅前1丁目",
+                "address": "春月庵 福岡市博多区博多駅前1丁目",
                 "open_location_code": "8Q5GHCR6+GM",
                 "url": "https://www.geocoding.jp/?q=%E4%B8%AD%E5%B3%B6%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E5%8D%9A%E5%A4%9A%E5%8C%BA%E5%8D%9A%E5%A4%9A%E9%A7%85%E5%89%8D1%E4%B8%81%E7%9B%AE",
                 "needs_to_verify": "yes",
