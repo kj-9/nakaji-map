@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "z4h9Su1xL0A",
+                "name": "麺屋優光",
+                "version": "1.2",
+                "address": "麺屋優光 福岡市中央区今泉1丁目",
+                "open_location_code": "8Q5GH9PX+J8",
+                "url": "https://www.geocoding.jp/?q=%E9%BA%BA%E5%B1%8B%E5%84%AA%E5%85%89%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E4%BB%8A%E6%B3%891%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市中央区今泉１丁目２０−２１ 天神KPビル １階 麺屋 優光",
+                "error": null,
+                "title": "新店発掘!!!今このラーメン屋が凄い!!!絶対ハズさない福岡飯店!!!",
+                "publishedAt": "2024-05-24T10:01:01Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.398368,
+                    33.586582
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "C11UxW2Xozc",
                 "name": "博多海老山",
                 "version": "1.2",
