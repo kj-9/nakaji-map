@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "lNRwXGV0sH0",
+                "name": "海鮮とおむすび",
+                "version": "1.2",
+                "address": "海鮮とおむすび 福岡市中央区大宮1丁目",
+                "open_location_code": "8Q5GHCG3+J8",
+                "url": "https://www.geocoding.jp/?q=%E6%B5%B7%E9%AE%AE%E3%81%A8%E3%81%8A%E3%82%80%E3%81%99%E3%81%B3%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E5%A4%A7%E5%AE%AE1%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市中央区大宮１丁目７−２１ 海鮮とおむすび",
+                "error": null,
+                "title": "福岡おむすび界の頂点!!!絶対ハズさない福岡飯店!!!",
+                "publishedAt": "2024-05-28T10:00:40Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.403291,
+                    33.576602
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "z4h9Su1xL0A",
                 "name": "麺屋優光",
                 "version": "1.2",
