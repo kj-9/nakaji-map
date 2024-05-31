@@ -38,7 +38,7 @@
 		//: ColumnDef<Feature>[]
 		[
 			{
-				accessorFn: (row: any) => row.properties.google_maps || row.properties.name,
+				accessorFn: (row: any) => row.properties.name || row.properties.google_maps,
 				header: '店名'
 			},
 			{
