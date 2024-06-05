@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "9TS-O1flqKU",
+                "name": "かねかつ館",
+                "version": "1.2",
+                "address": "かねかつ館 福岡市中央区春吉1丁目",
+                "open_location_code": "8Q5GHCM5+8G",
+                "url": "https://www.geocoding.jp/?q=%E3%81%8B%E3%81%AD%E3%81%8B%E3%81%A4%E9%A4%A8%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E6%98%A5%E5%90%891%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市中央区春吉１丁目３−２ ジョイフル柳橋 1F かねかつ食堂",
+                "error": null,
+                "title": "今福岡で一番お客が殺到するどんぶり店がココです!!!",
+                "publishedAt": "2024-06-04T10:00:07Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.408812,
+                    33.583292
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "W3P5N1iLCPc",
                 "name": "食堂海トごはん",
                 "version": "1.2",
