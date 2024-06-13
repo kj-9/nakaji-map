@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "8bQoFs4bc_U",
+                "name": "Bistro O",
+                "version": "1.2",
+                "address": "Bistro O 福岡市中央区舞鶴1丁目",
+                "open_location_code": "8Q5GH9RV+PH",
+                "url": "https://www.geocoding.jp/?q=Bistro%20O%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E8%88%9E%E9%B6%B41%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市中央区舞鶴１丁目９−１４ Bistro O",
+                "error": null,
+                "title": "一度は食べておきたい!!!福岡の絶品ハンバーグ!!!",
+                "publishedAt": "2024-06-11T10:00:07Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.393963,
+                    33.591831
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "2jaRu4Lgvbg",
                 "name": "博多鶏塩らぁめん みやびや",
                 "version": "1.2",
