@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "WTcyAjKQKrM",
+                "name": "喫茶千歳",
+                "version": "1.2",
+                "address": "喫茶千歳 福岡市南区大楠2丁目",
+                "open_location_code": "8Q5GHCF5+CQ",
+                "url": "https://www.geocoding.jp/?q=%E5%96%AB%E8%8C%B6%E5%8D%83%E6%AD%B3%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E5%8D%97%E5%8C%BA%E5%A4%A7%E6%A5%A02%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市南区大楠２丁目１７−３ 井谷ビル 201 千歳",
+                "error": null,
+                "title": "中島史上第一位の最強ナポリタンと最高オムライス!!!",
+                "publishedAt": "2024-06-14T10:00:35Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.40946,
+                    33.573612
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "8bQoFs4bc_U",
                 "name": "Bistro O",
                 "version": "1.2",
