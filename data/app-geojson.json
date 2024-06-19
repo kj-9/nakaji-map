@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "cqMfZPseW7o",
+                "name": "豚マニア丼稲田屋",
+                "version": "1.2",
+                "address": "豚マニア丼稲田屋 福岡市中央区渡辺通1丁目",
+                "open_location_code": "8Q5GHCM4+5R",
+                "url": "https://www.geocoding.jp/?q=%E8%B1%9A%E3%83%9E%E3%83%8B%E3%82%A2%E4%B8%BC%E7%A8%B2%E7%94%B0%E5%B1%8B%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E6%B8%A1%E8%BE%BA%E9%80%9A1%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市中央区渡辺通１丁目１−１−１ Ｂ１ 地下１階 豚マニア丼 稲田",
+                "error": null,
+                "title": "福岡で一番美味い丼物を追求するシリーズ!!!肉系最高峰の店!!!",
+                "publishedAt": "2024-06-18T10:00:29Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.407105,
+                    33.58296
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "WTcyAjKQKrM",
                 "name": "喫茶千歳",
                 "version": "1.2",
