@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "pUoAEU0Xy3Q",
+                "name": "担々麺のはこ",
+                "version": "1.2",
+                "address": "担々麺のはこ 福岡市中央区舞鶴1丁目",
+                "open_location_code": "8Q5GH9VV+2P",
+                "url": "https://www.geocoding.jp/?q=%E6%8B%85%E3%80%85%E9%BA%BA%E3%81%AE%E3%81%AF%E3%81%93%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E8%88%9E%E9%B6%B41%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市中央区舞鶴１丁目８−２６ 1F 麺酒場 担々麺のはこ",
+                "error": null,
+                "title": "担々麺の名店です!!!絶対ハズさない福岡飯店!!!",
+                "publishedAt": "2024-06-25T10:00:50Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.394354,
+                    33.592545
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "cqMfZPseW7o",
                 "name": "豚マニア丼稲田屋",
                 "version": "1.2",
