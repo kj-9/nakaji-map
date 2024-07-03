@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "po5yC8mX7jo",
+                "name": "黒豚とんかつ くろまつ",
+                "version": "1.2",
+                "address": "黒豚とんかつ くろまつ 福岡市中央区大名2丁目",
+                "open_location_code": "8Q5GH9QV+CQ",
+                "url": "https://www.geocoding.jp/?q=%E9%BB%92%E8%B1%9A%E3%81%A8%E3%82%93%E3%81%8B%E3%81%A4%20%E3%81%8F%E3%82%8D%E3%81%BE%E3%81%A4%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E5%A4%A7%E5%90%8D2%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市中央区大名２丁目１−３８ The Winds DaimyoⅡ 1階 黒豚とんかつ くろまつ",
+                "error": null,
+                "title": "今福岡で最も行列ができるトンカツ店!!!",
+                "publishedAt": "2024-07-02T10:00:54Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.394422,
+                    33.58862
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "cvP4SPMmjLA",
                 "name": "麺やおの食堂",
                 "version": "1.2",
