@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "rkiyjrYFxFI",
+                "name": "鰻の成瀬",
+                "version": "1.2",
+                "address": "鰻の成瀬 福岡市中央区渡辺通3丁目",
+                "open_location_code": "8Q5GHCP4+56",
+                "url": "https://www.geocoding.jp/?q=%E9%B0%BB%E3%81%AE%E6%88%90%E7%80%AC%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E6%B8%A1%E8%BE%BA%E9%80%9A3%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市中央区渡辺通３丁目１−１６ 鰻の成瀬 福岡渡辺通",
+                "error": null,
+                "title": "価格破壊と言われ今話題を呼ぶ名店!!!安くて超絶美味い!!!うな重ドーン!!!",
+                "publishedAt": "2024-07-05T10:00:51Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.405502,
+                    33.585383
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "po5yC8mX7jo",
                 "name": "黒豚とんかつ くろまつ",
                 "version": "1.2",
