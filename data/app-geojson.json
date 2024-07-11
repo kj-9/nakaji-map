@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "S74rO8KTfQE",
+                "name": "立ち呑みとラーメンれんげ",
+                "version": "1.2",
+                "address": "立ち呑みとラーメンれんげ 福岡市中央区天神3丁目",
+                "open_location_code": "8Q5GH9VW+2X",
+                "url": "https://www.geocoding.jp/?q=%E7%AB%8B%E3%81%A1%E5%91%91%E3%81%BF%E3%81%A8%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%B3%E3%82%8C%E3%82%93%E3%81%92%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E5%A4%A9%E7%A5%9E3%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市中央区天神３丁目３−２６ 佐伯ビル 1階 立ち呑みとラーメン れんげ🍜🍥🍺🍶🥟",
+                "error": null,
+                "title": "福岡の美味いラーメン屋シリーズ!!!塩と醤油ならこの店です",
+                "publishedAt": "2024-07-09T10:00:24Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.39745,
+                    33.592507
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "rkiyjrYFxFI",
                 "name": "鰻の成瀬",
                 "version": "1.2",
