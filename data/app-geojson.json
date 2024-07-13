@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "TvYJ6gtcX4w",
+                "name": "蕎麦ひら",
+                "version": "1.2",
+                "address": "蕎麦ひら 福岡市中央区薬院2丁目",
+                "open_location_code": "8Q5GH9JV+FQ",
+                "url": "https://www.geocoding.jp/?q=%E8%95%8E%E9%BA%A6%E3%81%B2%E3%82%89%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E8%96%AC%E9%99%A22%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市中央区薬院２丁目５−３３ サントーア薬院1F サントーア薬院 蕎麦ひら川",
+                "error": null,
+                "title": "これぞ名店!!!本当に美味い福岡の絶品そば屋!!!",
+                "publishedAt": "2024-07-12T10:00:29Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.394433,
+                    33.581167
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "S74rO8KTfQE",
                 "name": "立ち呑みとラーメンれんげ",
                 "version": "1.2",
