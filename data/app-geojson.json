@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "pVgmVSQIFns",
+                "name": "アジバサダ",
+                "version": "1.2",
+                "address": "アジバサダ 福岡市水道局",
+                "open_location_code": "8Q5GHCV9+R5",
+                "url": "https://www.geocoding.jp/?q=%E3%82%A2%E3%82%B8%E3%83%90%E3%82%B5%E3%83%80%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E6%B0%B4%E9%81%93%E5%B1%80",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡市水道局",
+                "error": null,
+                "title": "久留米絣の旅2024!!!ディスカバー福岡",
+                "publishedAt": "2024-07-16T10:00:52Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.417999,
+                    33.594519
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "TvYJ6gtcX4w",
                 "name": "蕎麦ひら",
                 "version": "1.2",
