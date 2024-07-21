@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "DOgu2CKmmvM",
+                "name": "あなご重やまと",
+                "version": "1.2",
+                "address": "あなご重やまと 福岡市中央区渡辺通2丁目",
+                "open_location_code": "8Q5GHCM3+HM",
+                "url": "https://www.geocoding.jp/?q=%E3%81%82%E3%81%AA%E3%81%94%E9%87%8D%E3%82%84%E3%81%BE%E3%81%A8%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E6%B8%A1%E8%BE%BA%E9%80%9A2%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "あなご重 やまと 渡辺通り二丁目",
+                "error": null,
+                "title": "感動です!!!あなご重!!!絶対ハズさない福岡飯店",
+                "publishedAt": "2024-07-19T10:00:12Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.40424,
+                    33.583922
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "pVgmVSQIFns",
                 "name": "アジバサダ",
                 "version": "1.2",
