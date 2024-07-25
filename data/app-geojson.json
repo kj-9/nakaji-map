@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "-j0BUq3ypV4",
+                "name": "バタチキラバー",
+                "version": "1.2",
+                "address": "バタチキラバー 福岡市中央区警固2丁目",
+                "open_location_code": "8Q5GH9MR+QF",
+                "url": "https://www.geocoding.jp/?q=%E3%83%90%E3%82%BF%E3%83%81%E3%82%AD%E3%83%A9%E3%83%90%E3%83%BC%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E8%AD%A6%E5%9B%BA2%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市中央区警固２丁目１５−１ 新警固ビル 2F バタチキラバー",
+                "error": null,
+                "title": "一度は食べておきたい福岡の絶品カレー!!!",
+                "publishedAt": "2024-07-23T10:00:00Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.391145,
+                    33.584405
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "DOgu2CKmmvM",
                 "name": "あなご重やまと",
                 "version": "1.2",
