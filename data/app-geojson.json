@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "milCKeFG-7E",
+                "name": "奈綸の店",
+                "version": "1.2",
+                "address": "奈綸の店 福岡市早良区西新4丁目",
+                "open_location_code": "8Q5GH9J5+WC",
+                "url": "https://www.geocoding.jp/?q=%E5%A5%88%E7%B6%B8%E3%81%AE%E5%BA%97%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E6%97%A9%E8%89%AF%E5%8C%BA%E8%A5%BF%E6%96%B04%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市早良区西新４丁目８−３４−２０２ 奈綸.の店",
+                "error": null,
+                "title": "福岡の名食堂シリーズ!!!超人気エビマヨ定食ドーン!!!",
+                "publishedAt": "2024-08-02T10:00:55Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.358515,
+                    33.582322
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "-j0BUq3ypV4",
                 "name": "バタチキラバー",
                 "version": "1.2",
