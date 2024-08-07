@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "JB4_sScKGfc",
+                "name": "ヴェルドゥーラ",
+                "version": "1.2",
+                "address": "ヴェルドゥーラ 福岡市西区姪の浜4丁目",
+                "open_location_code": "8Q5GH8MF+PW",
+                "url": "https://www.geocoding.jp/?q=%E3%83%B4%E3%82%A7%E3%83%AB%E3%83%89%E3%82%A5%E3%83%BC%E3%83%A9%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E8%A5%BF%E5%8C%BA%E5%A7%AA%E3%81%AE%E6%B5%9C4%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市西区姪の浜４丁目２２−１６ ヴェルドゥーラ",
+                "error": null,
+                "title": "この店の生パスタ抜群です!!!福岡行列ができる店シリーズ!!!",
+                "publishedAt": "2024-08-06T10:00:27Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.324813,
+                    33.584347
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "milCKeFG-7E",
                 "name": "奈綸の店",
                 "version": "1.2",
