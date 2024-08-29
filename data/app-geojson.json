@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "-1gOh2_-2xo",
+                "name": "ビアレストラン Pubキリン",
+                "version": "1.2",
+                "address": "ビアレストラン Pubキリン 福岡市中央区天神2丁目",
+                "open_location_code": "8Q5GH9RX+M8",
+                "url": "https://www.geocoding.jp/?q=%E3%83%93%E3%82%A2%E3%83%AC%E3%82%B9%E3%83%88%E3%83%A9%E3%83%B3%20Pub%E3%82%AD%E3%83%AA%E3%83%B3%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E5%A4%A9%E7%A5%9E2%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市中央区天神２丁目１２−１ 天神ビル B1F ビアレストラン Pubキリン",
+                "error": null,
+                "title": "絶品スペアリブランチ!!!ビールとの相性抜群です!!!",
+                "publishedAt": "2024-08-27T10:00:00Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.398374,
+                    33.591656
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "nvpFqXji1Pg",
                 "name": "熱粗大東園",
                 "version": "1.2",
