@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "d344WnQGzUk",
+                "name": "舟は喰海",
+                "version": "1.2",
+                "address": "舟は喰海 福岡市中央区天神2丁目天神ビルB1F",
+                "open_location_code": "8Q5GH9RX+Q8",
+                "url": "https://www.geocoding.jp/?q=%E8%88%9F%E3%81%AF%E5%96%B0%E6%B5%B7%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E5%A4%A9%E7%A5%9E2%E4%B8%81%E7%9B%AE%E5%A4%A9%E7%A5%9E%E3%83%93%E3%83%ABB1F",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市中央区天神２丁目１２−１ 天神ビル食 天神ビル Ｂ１ 喰海 天神ビル店(くうかい)",
+                "error": null,
+                "title": "中島大絶賛シリーズ!!!俺はこの店の肉そばが大好きだ!!!",
+                "publishedAt": "2024-09-03T10:00:30Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.398324,
+                    33.591924
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "ql8wSPhn7o0",
                 "name": "チャイニーズキッチン 星期菜",
                 "version": "1.2",
