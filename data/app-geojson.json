@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "DdGQeaxCvwM",
+                "name": "ぐらんまま",
+                "version": "1.2",
+                "address": "ぐらんまま 福岡市博多区榎田2丁目",
+                "open_location_code": "8Q5GHCVP+5Q",
+                "url": "https://www.geocoding.jp/?q=%E3%81%90%E3%82%89%E3%82%93%E3%81%BE%E3%81%BE%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E5%8D%9A%E5%A4%9A%E5%8C%BA%E6%A6%8E%E7%94%B02%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市博多区榎田２丁目１−７ ぐらんまま",
+                "error": null,
+                "title": "福岡の食いしん坊たちが聖地と憧れる名店に行ってきました",
+                "publishedAt": "2024-09-06T10:00:19Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.436957,
+                    33.592884
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "d344WnQGzUk",
                 "name": "舟は喰海",
                 "version": "1.2",
