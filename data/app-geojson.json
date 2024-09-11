@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "vO6WjAFXD9I",
+                "name": "ルーモノ・プラディション",
+                "version": "1.2",
+                "address": "ルーモノ・プラディション 福岡市博多区吉塚1丁目",
+                "open_location_code": "8Q5GJC2F+HP",
+                "url": "https://www.geocoding.jp/?q=%E3%83%AB%E3%83%BC%E3%83%A2%E3%83%8E%E3%83%BB%E3%83%97%E3%83%A9%E3%83%87%E3%82%A3%E3%82%B7%E3%83%A7%E3%83%B3%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E5%8D%9A%E5%A4%9A%E5%8C%BA%E5%90%89%E5%A1%9A1%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": null,
+                "error": null,
+                "title": "安くて美味いの極です!!!大衆天ぷらの名店に感動!!!",
+                "publishedAt": "2024-09-10T10:01:01Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.424358,
+                    33.601395
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "DdGQeaxCvwM",
                 "name": "ぐらんまま",
                 "version": "1.2",
