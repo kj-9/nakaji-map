@@ -4,6 +4,52 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "JgnAH7NiAsA",
+                "name": "GOONIES BURGER CLUB",
+                "version": "1.2",
+                "address": "GOONIES BURGER CLUB 福岡市中央区管固1丁目",
+                "open_location_code": "8Q5GH9MW+R5",
+                "url": "https://www.geocoding.jp/?q=GOONIES%20BURGER%20CLUB%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E7%AE%A1%E5%9B%BA1%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市中央区警固１丁目６−４ GOONIES BURGER CLUB",
+                "error": null,
+                "title": "アメリカンサイズを堪能!!!とんでもなく美味いハンバーガー屋見つけました!!!",
+                "publishedAt": "2024-09-13T10:00:31Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.395416,
+                    33.584501
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "video_id": "e9kiJLSg3S4",
+                "name": "千束",
+                "version": "1.2",
+                "address": "千束 福岡市中央区高砂2丁目",
+                "open_location_code": "8Q5GHCG6+HC",
+                "url": "https://www.geocoding.jp/?q=%E5%8D%83%E6%9D%9F%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E9%AB%98%E7%A0%822%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市中央区高砂２丁目９−５ 千束",
+                "error": null,
+                "title": "最高の定食を追求するとこの店に行きつきます!!!肉・魚ともに絶品です!!!",
+                "publishedAt": "2024-09-17T10:00:39Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.411101,
+                    33.576451
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "vO6WjAFXD9I",
                 "name": "ルーモノ・プラディション",
                 "version": "1.2",
