@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "mz4mjwda8rE",
+                "name": "らるきい",
+                "version": "1.2",
+                "address": "らるきい 福岡市中央区荒戸3丁目",
+                "open_location_code": "8Q5GH9RG+62",
+                "url": "https://www.geocoding.jp/?q=%E3%82%89%E3%82%8B%E3%81%8D%E3%81%84%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E8%8D%92%E6%88%B83%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市中央区荒戸３丁目１−１ らるきい",
+                "error": null,
+                "title": "福岡レジェンド店シリーズ!!!THE名店!!!行列がいつもハンパない店",
+                "publishedAt": "2024-09-24T10:01:00Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.375072,
+                    33.590549
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "-92EYABQn_w",
                 "name": "弥太郎うどん",
                 "version": "1.2",
