@@ -4,6 +4,75 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "HrF7NJnuz5I",
+                "name": "ISHIHARA",
+                "version": "1.2",
+                "address": "ISHIHARA 福岡市中央区地行1丁目",
+                "open_location_code": "8Q5GH9Q9+W7",
+                "url": "https://www.geocoding.jp/?q=ISHIHARA%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E5%9C%B0%E8%A1%8C1%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "石原牛精肉店 Ishihara Wagyu Meat Shop",
+                "error": null,
+                "title": "肉好き絶賛の店!!!ステーキ好きなら絶対この店です!!!",
+                "publishedAt": "2024-10-01T10:00:24Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.368131,
+                    33.589762
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "video_id": "Sc5Z1IY3b2U",
+                "name": "ジャポネ",
+                "version": "1.2",
+                "address": "ジャポネ 福岡市博多区須崎町13-2",
+                "open_location_code": "8Q5GHCX3+54",
+                "url": "https://www.geocoding.jp/?q=%E3%82%B8%E3%83%A3%E3%83%9D%E3%83%8D%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E5%8D%9A%E5%A4%9A%E5%8C%BA%E9%A0%88%E5%B4%8E%E7%94%BA13-2",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市博多区須崎町１３−２ イースト天神 5F ジャポネ",
+                "error": null,
+                "title": "福岡レジェンド店シリーズ!!!THE名店!!!行列ができる絶品ハンバーグ!!!",
+                "publishedAt": "2024-10-04T10:00:36Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.402828,
+                    33.59789
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "video_id": "DEoY4e3CN0Q",
+                "name": "大助うどん",
+                "version": "1.2",
+                "address": "大助うどん 福岡市早良区藤崎1丁目",
+                "open_location_code": "8Q5GH8JX+9C",
+                "url": "https://www.geocoding.jp/?q=%E5%A4%A7%E5%8A%A9%E3%81%86%E3%81%A9%E3%82%93%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E6%97%A9%E8%89%AF%E5%8C%BA%E8%97%A4%E5%B4%8E1%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市早良区藤崎１丁目１−４ JUGRANDMORE藤崎駅前 1F 大助うどん【全品手造りの店】",
+                "error": null,
+                "title": "うどん名店シリーズ!!!ここのごぼう天うどん最高です!!!",
+                "publishedAt": "2024-09-27T10:00:11Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.348512,
+                    33.5809
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "mz4mjwda8rE",
                 "name": "らるきい",
                 "version": "1.2",
