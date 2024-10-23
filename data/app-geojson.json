@@ -4,6 +4,121 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "dy8s0QrJC4Y",
+                "name": "ピッツェリアダネロ",
+                "version": "1.2",
+                "address": "ピッツェリアダネロ 福岡市南区大楠1丁目",
+                "open_location_code": "8Q5GHCF8+66",
+                "url": "https://www.geocoding.jp/?q=%E3%83%94%E3%83%83%E3%83%84%E3%82%A7%E3%83%AA%E3%82%A2%E3%83%80%E3%83%8D%E3%83%AD%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E5%8D%97%E5%8C%BA%E5%A4%A7%E6%A5%A01%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市南区大楠１丁目２６−１ プロシード日赤通り ピッツェリアダネロ",
+                "error": null,
+                "title": "福岡の超絶名店シリーズ!!!この店のピザは感動モノです!!!",
+                "publishedAt": "2024-10-11T11:43:41Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.41562,
+                    33.573094
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "video_id": "Gdh02vf_iZU",
+                "name": "106サウスインディアン",
+                "version": "1.2",
+                "address": "106サウスインディアン 福岡市中央区今泉1丁目",
+                "open_location_code": "8Q5GH9PX+CF",
+                "url": "https://www.geocoding.jp/?q=106%E3%82%B5%E3%82%A6%E3%82%B9%E3%82%A4%E3%83%B3%E3%83%87%E3%82%A3%E3%82%A2%E3%83%B3%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E4%BB%8A%E6%B3%891%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市中央区今泉１丁目１７−１４ ｉｍａｉｚｕｍｉ二十四節季 1F ビル 106サウスインディアン 福岡天神店",
+                "error": null,
+                "title": "中島大絶賛!!!福岡最高と言っても過言ではないカレー屋みつけました!!!",
+                "publishedAt": "2024-10-15T10:00:23Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.398632,
+                    33.586119
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "video_id": "YQk46PkxiNs",
+                "name": "舗とごはん万平",
+                "version": "1.2",
+                "address": "舗とごはん万平 福岡市中央区藥院2丁目",
+                "open_location_code": "8Q5GH9JW+8P",
+                "url": "https://www.geocoding.jp/?q=%E8%88%97%E3%81%A8%E3%81%94%E3%81%AF%E3%82%93%E4%B8%87%E5%B9%B3%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E8%97%A5%E9%99%A22%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市中央区薬院２丁目１−５ MODERN BUREAU 薬院大通り F9 饂飩とごはん 万平",
+                "error": null,
+                "title": "究極の丸天うどんが食べられる店!!!",
+                "publishedAt": "2024-10-22T10:00:39Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.396859,
+                    33.580806
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "video_id": "gswrWXu1vcQ",
+                "name": "チャイナダイニング",
+                "version": "1.2",
+                "address": "チャイナダイニング 福岡市中央区薬院3丁目",
+                "open_location_code": "8Q5GH9JX+9J",
+                "url": "https://www.geocoding.jp/?q=%E3%83%81%E3%83%A3%E3%82%A4%E3%83%8A%E3%83%80%E3%82%A4%E3%83%8B%E3%83%B3%E3%82%B0%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E8%96%AC%E9%99%A23%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市中央区薬院３丁目１５−１１ 劉 チャイナダイニング",
+                "error": null,
+                "title": "町中華名店攻め!!!絶品麻婆豆腐と海鮮焼きそば!!!",
+                "publishedAt": "2024-10-18T10:00:47Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.399092,
+                    33.580981
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "video_id": "eZPuhNJ6Sc8",
+                "name": "お酒とごはん晴海",
+                "version": "1.2",
+                "address": "お酒とごはん晴海 福岡市中央区藥院1丁目",
+                "open_location_code": "8Q5GH9JX+V8",
+                "url": "https://www.geocoding.jp/?q=%E3%81%8A%E9%85%92%E3%81%A8%E3%81%94%E3%81%AF%E3%82%93%E6%99%B4%E6%B5%B7%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E8%97%A5%E9%99%A21%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市中央区薬院１丁目１２−３２ 1階 お酒とごはん晴海",
+                "error": null,
+                "title": "福岡最高の丼物を追求するシリーズ!!!感動の絶品ぶた丼!!!",
+                "publishedAt": "2024-10-08T10:00:48Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.398271,
+                    33.582249
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "HrF7NJnuz5I",
                 "name": "ISHIHARA",
                 "version": "1.2",
