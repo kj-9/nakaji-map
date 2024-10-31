@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "yB7vtPipp-M",
+                "name": "中華紅蓉軒",
+                "version": "1.2",
+                "address": "中華紅蓉軒 福岡市中央区春吉2丁目",
+                "open_location_code": "8Q5GHCP5+J5",
+                "url": "https://www.geocoding.jp/?q=%E4%B8%AD%E8%8F%AF%E7%B4%85%E8%93%89%E8%BB%92%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E6%98%A5%E5%90%892%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市中央区春吉２丁目１２−１６ アビイ道路 紅蓉軒ビル 中華 紅蓉軒(こうようけん) 春吉",
+                "error": null,
+                "title": "皿うどんがとんでもなく美味い感動の町中華!!!",
+                "publishedAt": "2024-10-29T10:00:55Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.407911,
+                    33.586581
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "NJ9Pv505_5o",
                 "name": "アジフライとみさん食堂",
                 "version": "1.2",
