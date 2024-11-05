@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "lb773E1nJI4",
+                "name": "杏仁荘",
+                "version": "1.2",
+                "address": "杏仁荘 福岡市博多区博多駅南4丁目",
+                "open_location_code": "8Q5GHCHH+WG",
+                "url": "https://www.geocoding.jp/?q=%E6%9D%8F%E4%BB%81%E8%8D%98%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E5%8D%9A%E5%A4%9A%E5%8C%BA%E5%8D%9A%E5%A4%9A%E9%A7%85%E5%8D%974%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市博多区博多駅南４丁目１７−６ 杏仁荘",
+                "error": null,
+                "title": "感動モノの酢豚定食!!!本当に美味い町中華のレジェンド店",
+                "publishedAt": "2024-11-01T10:00:56Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.428866,
+                    33.579827
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "yB7vtPipp-M",
                 "name": "中華紅蓉軒",
                 "version": "1.2",
