@@ -4,6 +4,52 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "DpTcU9BRhGs",
+                "name": "39うどん",
+                "version": "1.2",
+                "address": "39うどん 福岡市中央区今泉1丁目",
+                "open_location_code": "8Q5GHCP2+CC",
+                "url": "https://www.geocoding.jp/?q=39%E3%81%86%E3%81%A9%E3%82%93%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E4%BB%8A%E6%B3%891%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市中央区今泉１丁目１０−２０ エーデル天神 1F 39うどん 【フードメニュー390円～】",
+                "error": null,
+                "title": "ずっと行ってみたかった話題のうどん店に行ってきました!!!",
+                "publishedAt": "2024-11-05T10:00:12Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.401099,
+                    33.586104
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "video_id": "mA0zeX9DVQw",
+                "name": "直球ホルモン",
+                "version": "1.2",
+                "address": "直球ホルモン 福岡市中央区今泉1丁目",
+                "open_location_code": "8Q5GH9PX+5P",
+                "url": "https://www.geocoding.jp/?q=%E7%9B%B4%E7%90%83%E3%83%9B%E3%83%AB%E3%83%A2%E3%83%B3%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E4%BB%8A%E6%B3%891%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市中央区今泉１丁目７−１６ TENJINアーク五番館1F 銀しゃり焼肉 直球ホルモン 今泉店",
+                "error": null,
+                "title": "感動レベル100点!!!超絶美味い昼焼肉!!!最高です",
+                "publishedAt": "2024-11-08T10:00:49Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.39934,
+                    33.585415
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "lb773E1nJI4",
                 "name": "杏仁荘",
                 "version": "1.2",
