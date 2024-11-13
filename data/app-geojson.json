@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "s3mh7DW3Mg4",
+                "name": "欧風ライスカレー ケンズ",
+                "version": "1.2",
+                "address": "欧風ライスカレー ケンズ 福岡市博多区住吉5丁目",
+                "open_location_code": "8Q5GHCM8+HG",
+                "url": "https://www.geocoding.jp/?q=%E6%AC%A7%E9%A2%A8%E3%83%A9%E3%82%A4%E3%82%B9%E3%82%AB%E3%83%AC%E3%83%BC%20%E3%82%B1%E3%83%B3%E3%82%BA%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E5%8D%9A%E5%A4%9A%E5%8C%BA%E4%BD%8F%E5%90%895%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市博多区住吉５丁目１−６ 欧風ライスカレーケンズ",
+                "error": null,
+                "title": "絶品欧風カレー!!!福岡カレー界を席巻する店",
+                "publishedAt": "2024-11-12T10:00:50Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.416344,
+                    33.583974
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "DpTcU9BRhGs",
                 "name": "39うどん",
                 "version": "1.2",
