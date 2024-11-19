@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "AmYPIiR3mnk",
+                "name": "麺と酒菜 はま麺",
+                "version": "1.2",
+                "address": "麺と酒菜 はま麺 福岡市中央区薬院3丁目",
+                "open_location_code": "8Q5GH9JX+JW",
+                "url": "https://www.geocoding.jp/?q=%E9%BA%BA%E3%81%A8%E9%85%92%E8%8F%9C%20%E3%81%AF%E3%81%BE%E9%BA%BA%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E8%96%AC%E9%99%A23%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市中央区薬院３丁目１−１６ 鍋と酒菜 はま岡",
+                "error": null,
+                "title": "絶対食べて欲しい福岡の絶品ラーメン!!!新たな名店発掘!!",
+                "publishedAt": "2024-11-15T10:00:21Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.399767,
+                    33.581545
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "s3mh7DW3Mg4",
                 "name": "欧風ライスカレー ケンズ",
                 "version": "1.2",
