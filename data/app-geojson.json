@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "r7xDjxTY3d8",
+                "name": "りんず",
+                "version": "1.2",
+                "address": "りんず 福岡市中央区大名1丁目",
+                "open_location_code": "8Q5GH9PV+93",
+                "url": "https://www.geocoding.jp/?q=%E3%82%8A%E3%82%93%E3%81%9A%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E5%A4%A7%E5%90%8D1%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市中央区大名１丁目４−２９ グローバルウインビル １階 りんず",
+                "error": null,
+                "title": "路地裏の超絶名店発見!!!感動の海老フライ定食!!!",
+                "publishedAt": "2024-11-19T10:01:01Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.392731,
+                    33.585889
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "AmYPIiR3mnk",
                 "name": "麺と酒菜 はま麺",
                 "version": "1.2",
