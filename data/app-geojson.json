@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "tOplTgzwRs8",
+                "name": "ようは",
+                "version": "1.2",
+                "address": "ようは 福岡市中央区大名1丁目",
+                "open_location_code": "8Q5GH9PV+C2",
+                "url": "https://www.geocoding.jp/?q=%E3%82%88%E3%81%86%E3%81%AF%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E5%A4%A7%E5%90%8D1%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市中央区大名１丁目４−２８ 台所 ようは",
+                "error": null,
+                "title": "路地裏の名店シリーズ!!!絶品厚切りとんかつに悶絶!!!",
+                "publishedAt": "2024-11-22T10:01:03Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.392579,
+                    33.586003
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "r7xDjxTY3d8",
                 "name": "りんず",
                 "version": "1.2",
