@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "kBl7mjjlgZQ",
+                "name": "天女",
+                "version": "1.2",
+                "address": "天女 福岡市中央区舞鶴3丁目",
+                "open_location_code": "8Q5GH9RR+42",
+                "url": "https://www.geocoding.jp/?q=%E5%A4%A9%E5%A5%B3%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E8%88%9E%E9%B6%B43%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "天安",
+                "error": null,
+                "title": "大衆天ぷらの名店!!!レジェンド編!!!",
+                "publishedAt": "2024-11-26T10:00:44Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.390004,
+                    33.590371
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "tOplTgzwRs8",
                 "name": "ようは",
                 "version": "1.2",
