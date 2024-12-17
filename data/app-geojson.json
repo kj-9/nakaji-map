@@ -4,6 +4,98 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "j8D1WgR3_7s",
+                "name": "龍はまじる",
+                "version": "1.2",
+                "address": "龍はまじる 福岡市中央区渡辺通5丁目",
+                "open_location_code": "8Q5GHCV2+64",
+                "url": "https://www.geocoding.jp/?q=%E9%BE%8D%E3%81%AF%E3%81%BE%E3%81%98%E3%82%8B%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E6%B8%A1%E8%BE%BA%E9%80%9A5%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "満龍",
+                "error": null,
+                "title": "中島大絶賛の店!!!この店のつけそば感動モノです!!!",
+                "publishedAt": "2024-12-03T10:00:43Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.400255,
+                    33.593093
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "video_id": "hfaE_4wptBI",
+                "name": "casual割烹 弓木野",
+                "version": "1.2",
+                "address": "casual割烹 弓木野 福岡市中央区清川3丁目",
+                "open_location_code": "8Q5GHCG7+Q9",
+                "url": "https://www.geocoding.jp/?q=casual%E5%89%B2%E7%83%B9%20%E5%BC%93%E6%9C%A8%E9%87%8E%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E6%B8%85%E5%B7%9D3%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市中央区清川３丁目９−２０ アップフェル 2階 casual割烹 弓木野",
+                "error": null,
+                "title": "中島史上最高の肉じゃが定食とアジの干物定食!!!",
+                "publishedAt": "2024-12-06T10:00:47Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.413395,
+                    33.576948
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "video_id": "YOERV1zN9DU",
+                "name": "ゴーゴーカレー",
+                "version": "1.2",
+                "address": "ゴーゴーカレー 博多バスターミナル8階",
+                "open_location_code": "8Q5GHCR9+GV",
+                "url": "https://www.geocoding.jp/?q=%E3%82%B4%E3%83%BC%E3%82%B4%E3%83%BC%E3%82%AB%E3%83%AC%E3%83%BC%20%E5%8D%9A%E5%A4%9A%E3%83%90%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%9F%E3%83%8A%E3%83%AB8%E9%9A%8E",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市博多区博多駅中央街２−１ 博多バスターミナル 8F ゴーゴーカレー 博多バスターミナルスタジアム",
+                "error": null,
+                "title": "中島がずっと憧れていたカレー店!!!常連確定です!!!",
+                "publishedAt": "2024-12-13T10:00:39Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.419722,
+                    33.591328
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "video_id": "StOb5Aw4sLQ",
+                "name": "ふきや博多店",
+                "version": "1.2",
+                "address": "ふきや博多店 福岡市博多区博多バスターミナル8階",
+                "open_location_code": "8Q5GHCRC+J2",
+                "url": "https://www.geocoding.jp/?q=%E3%81%B5%E3%81%8D%E3%82%84%E5%8D%9A%E5%A4%9A%E5%BA%97%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E5%8D%9A%E5%A4%9A%E5%8C%BA%E5%8D%9A%E5%A4%9A%E3%83%90%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%9F%E3%83%8A%E3%83%AB8%E9%9A%8E",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市博多区博多駅中央街２−１ ８Ｆ お好み焼 ふきや 博多店",
+                "error": null,
+                "title": "福岡お好み焼き界の王様と言っても過言ではない店!!!",
+                "publishedAt": "2024-12-10T10:00:27Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.42003,
+                    33.591591
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "UklsJxQmsD8",
                 "name": "長浜魚鮮",
                 "version": "1.2",
