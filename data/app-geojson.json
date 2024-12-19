@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "uFJJ_qdDUfk",
+                "name": "鬼龍博多本店",
+                "version": "1.2",
+                "address": "鬼龍博多本店 福岡市博多区東那珂2丁目",
+                "open_location_code": "8Q5GHCHW+75",
+                "url": "https://www.geocoding.jp/?q=%E9%AC%BC%E9%BE%8D%E5%8D%9A%E5%A4%9A%E6%9C%AC%E5%BA%97%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E5%8D%9A%E5%A4%9A%E5%8C%BA%E6%9D%B1%E9%82%A3%E7%8F%822%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市博多区東那珂２丁目４−３１ どトンコツラーメン 魁龍 博多本店",
+                "error": null,
+                "title": "本当に美味い豚骨ラーメンシリーズ!!!超絶こだわりのレジェンド店攻め!!!",
+                "publishedAt": "2024-12-17T10:00:52Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.445485,
+                    33.578129
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "j8D1WgR3_7s",
                 "name": "龍はまじる",
                 "version": "1.2",
