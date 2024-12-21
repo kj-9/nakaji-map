@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "x-lB3dpzMiE",
+                "name": "まぐろ遊漁",
+                "version": "1.2",
+                "address": "まぐろ遊漁 福岡市中央区春吉（柳橋連合市場）",
+                "open_location_code": "8Q5GHCM5+8H",
+                "url": "https://www.geocoding.jp/?q=%E3%81%BE%E3%81%90%E3%82%8D%E9%81%8A%E6%BC%81%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E6%98%A5%E5%90%89%EF%BC%88%E6%9F%B3%E6%A9%8B%E9%80%A3%E5%90%88%E5%B8%82%E5%A0%B4%EF%BC%89",
+                "needs_to_verify": "yes",
+                "google_maps": "まぐろ玄海",
+                "error": null,
+                "title": "市場の中の超絶名店!!!安くて美味い悶絶モノのマグロ丼!!!",
+                "publishedAt": "2024-12-20T10:01:05Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.40896,
+                    33.58329
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "uFJJ_qdDUfk",
                 "name": "鬼龍博多本店",
                 "version": "1.2",
