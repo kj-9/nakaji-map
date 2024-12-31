@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "F-QX1zkap0c",
+                "name": "あんず",
+                "version": "1.2",
+                "address": "あんず 福岡市東区原田4丁目",
+                "open_location_code": "8Q5GJCFQ+8W",
+                "url": "https://www.geocoding.jp/?q=%E3%81%82%E3%82%93%E3%81%9A%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E6%9D%B1%E5%8C%BA%E5%8E%9F%E7%94%B04%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "和心とんかつ あんず 原田本店",
+                "error": null,
+                "title": "中島が福岡で一番美味いと大絶賛するトンカツ屋!!!",
+                "publishedAt": "2024-12-27T10:00:23Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.43979,
+                    33.623366
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "pcbMopU6XPA",
                 "name": "ウェルビーイング博多",
                 "version": "1.2",
