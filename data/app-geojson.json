@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "092CfqFzl7U",
+                "name": "麺やよかやす",
+                "version": "1.2",
+                "address": "麺やよかやす 福岡市東区筥松1丁目",
+                "open_location_code": "8Q5GJC7M+QH",
+                "url": "https://www.geocoding.jp/?q=%E9%BA%BA%E3%82%84%E3%82%88%E3%81%8B%E3%82%84%E3%81%99%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E6%9D%B1%E5%8C%BA%E7%AD%A5%E6%9D%BE1%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県東区筥松１丁目８−３１ 麺や よかやす 【鶏白湯ラーメン専門店】",
+                "error": null,
+                "title": "本当に美味い福岡のラーメンをする追求するシリーズ!!!絶品鶏白湯ラーメン!!!",
+                "publishedAt": "2025-01-03T10:00:01Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.433916,
+                    33.614452
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "F-QX1zkap0c",
                 "name": "あんず",
                 "version": "1.2",
