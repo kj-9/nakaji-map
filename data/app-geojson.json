@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "v2aJ3A74-JQ",
+                "name": "八幡灘",
+                "version": "1.2",
+                "address": "八幡灘 福岡県筑紫野市永岡1394-17",
+                "open_location_code": "8Q5GFGFM+HP",
+                "url": "https://www.geocoding.jp/?q=%E5%85%AB%E5%B9%A1%E7%81%98%20%E7%A6%8F%E5%B2%A1%E7%9C%8C%E7%AD%91%E7%B4%AB%E9%87%8E%E5%B8%82%E6%B0%B8%E5%B2%A11394-17",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県筑紫野市永岡１３９４−１７ 八幡丸玄海",
+                "error": null,
+                "title": "絶品鍋に大感動!!!カニと海鮮の美味さに感動する店!!!大切な人を連れて行きたい名店!!!",
+                "publishedAt": "2025-01-10T10:01:03Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.534271,
+                    33.473932
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "ymR0m5YbZnc",
                 "name": "スパイス",
                 "version": "1.2",
