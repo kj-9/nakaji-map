@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "WGvtW1Y0bbs",
+                "name": "山本のハンバーグ",
+                "version": "1.2",
+                "address": "山本のハンバーグ 福岡市中央区六本松4丁目",
+                "open_location_code": "8Q5GH9GG+GG",
+                "url": "https://www.geocoding.jp/?q=%E5%B1%B1%E6%9C%AC%E3%81%AE%E3%83%8F%E3%83%B3%E3%83%90%E3%83%BC%E3%82%B0%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E5%85%AD%E6%9C%AC%E6%9D%BE4%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市中央区六本松４丁目９−１０ 山本のハンバーグ 六本松店",
+                "error": null,
+                "title": "名店です!!!感動するハンバーグ!!!絶品です!!!絶対外さない福岡飯店",
+                "publishedAt": "2025-01-17T10:00:38Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.376338,
+                    33.576289
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "v6L_XUK_Os0",
                 "name": "ジンギスカン＆焼肉 東京苑 川端店",
                 "version": "1.2",
