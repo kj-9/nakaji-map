@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "kpYopgwO0fw",
+                "name": "ポーク凡平",
+                "version": "1.2",
+                "address": "ポーク凡平 福岡市中央区六本松4丁目",
+                "open_location_code": "8Q5GH9GG+FH",
+                "url": "https://www.geocoding.jp/?q=%E3%83%9D%E3%83%BC%E3%82%AF%E5%87%A1%E5%B9%B3%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E5%85%AD%E6%9C%AC%E6%9D%BE4%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市中央区六本松４丁目９−１０ ポーク凡平 六本松店",
+                "error": null,
+                "title": "この店の厚切りロースカツ定食100点です!!!感動するトンカツ店",
+                "publishedAt": "2025-01-21T10:00:54Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.376384,
+                    33.576172
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "WGvtW1Y0bbs",
                 "name": "山本のハンバーグ",
                 "version": "1.2",
