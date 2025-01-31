@@ -4,6 +4,75 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "lwYKhZX5-sQ",
+                "name": "おにぎりこうちゃん",
+                "version": "1.2",
+                "address": "おにぎりこうちゃん 福岡市中央区渡辺通3丁目",
+                "open_location_code": "8Q5GHCP3+9P",
+                "url": "https://www.geocoding.jp/?q=%E3%81%8A%E3%81%AB%E3%81%8E%E3%82%8A%E3%81%93%E3%81%86%E3%81%A1%E3%82%83%E3%82%93%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E6%B8%A1%E8%BE%BA%E9%80%9A3%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "おにぎりごりちゃん 天神店",
+                "error": null,
+                "title": "超絶人気!!!おにぎりを極める店に行ってきました!!!",
+                "publishedAt": "2025-01-28T10:00:49Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.404337,
+                    33.585977
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "video_id": "At3wNIaRJNw",
+                "name": "鶏料理 よしかわ食堂",
+                "version": "1.2",
+                "address": "鶏料理 よしかわ食堂 福岡市中央区舞鶴1丁目",
+                "open_location_code": "8Q5GH9VV+25",
+                "url": "https://www.geocoding.jp/?q=%E9%B6%8F%E6%96%99%E7%90%86%20%E3%82%88%E3%81%97%E3%81%8B%E3%82%8F%E9%A3%9F%E5%A0%82%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E8%88%9E%E9%B6%B41%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市中央区舞鶴 1₋3₋31 ハイラーク舞鶴107 よし川食堂",
+                "error": null,
+                "title": "福岡で一番美味い唐揚げを追求するシリーズ!!!親子丼も絶品でした!!!",
+                "publishedAt": "2025-01-31T10:00:21Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.392925,
+                    33.59258
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "video_id": "NvKAxaPXUQM",
+                "name": "レストラン蓮",
+                "version": "1.2",
+                "address": "レストラン蓮 福岡市中央区天神3丁目",
+                "open_location_code": "8Q5GHCM5+97",
+                "url": "https://www.geocoding.jp/?q=%E3%83%AC%E3%82%B9%E3%83%88%E3%83%A9%E3%83%B3%E8%93%AE%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E5%A4%A9%E7%A5%9E3%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "蓮",
+                "error": null,
+                "title": "日本一美味いと言っても過言ではないビーフシチュー!!!",
+                "publishedAt": "2025-01-24T10:00:31Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.408145,
+                    33.583431
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "kpYopgwO0fw",
                 "name": "ポーク凡平",
                 "version": "1.2",
