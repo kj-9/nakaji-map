@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "OKFjXHkpnsw",
+                "name": "マグロと飯 黒田屋",
+                "version": "1.2",
+                "address": "マグロと飯 黒田屋 福岡市中央区大名1丁目",
+                "open_location_code": "8Q5GH9PW+G6",
+                "url": "https://www.geocoding.jp/?q=%E3%83%9E%E3%82%B0%E3%83%AD%E3%81%A8%E9%A3%AF%20%E9%BB%92%E7%94%B0%E5%B1%8B%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E5%A4%A7%E5%90%8D1%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市中央区大名１丁目１−２３ サボイビル 1階 マグロとご飯 黒田飯",
+                "error": null,
+                "title": "これは食べるべき!!!福岡最高峰の絶品海鮮丼!!!",
+                "publishedAt": "2025-02-04T10:00:19Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.395531,
+                    33.586365
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "lwYKhZX5-sQ",
                 "name": "おにぎりこうちゃん",
                 "version": "1.2",
