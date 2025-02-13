@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "T1a8vEUFZeM",
+                "name": "そば処 藪",
+                "version": "1.2",
+                "address": "そば処 藪 福岡市中央区天神3丁目",
+                "open_location_code": "8Q5GH9QV+8V",
+                "url": "https://www.geocoding.jp/?q=%E3%81%9D%E3%81%B0%E5%87%A6%20%E8%97%AA%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E5%A4%A9%E7%A5%9E3%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "手打ち蕎麦 やぶ金",
+                "error": null,
+                "title": "中島が長年愛してきた老舗蕎麦屋の絶品かつ丼",
+                "publishedAt": "2025-02-11T10:00:33Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.394723,
+                    33.588333
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "TMNBXZRhWoA",
                 "name": "うなぎ源内",
                 "version": "1.2",
