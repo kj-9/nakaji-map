@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "I-BO2Y48bdY",
+                "name": "焼鳥と小料理のお店 おとん",
+                "version": "1.2",
+                "address": "焼鳥と小料理のお店 おとん 福岡市中央区春吉3丁目",
+                "open_location_code": "8Q5GHCQ3+QV",
+                "url": "https://www.geocoding.jp/?q=%E7%84%BC%E9%B3%A5%E3%81%A8%E5%B0%8F%E6%96%99%E7%90%86%E3%81%AE%E3%81%8A%E5%BA%97%20%E3%81%8A%E3%81%A8%E3%82%93%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E6%98%A5%E5%90%893%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市中央区春吉３丁目２１−２２ クレヴィス天神 2F 串揚げと小料理の店 おとん",
+                "error": null,
+                "title": "わざわざ食べに行く価値がある感動の大海老フライ定食!!!",
+                "publishedAt": "2025-02-14T10:51:28Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.404744,
+                    33.589423
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "T1a8vEUFZeM",
                 "name": "そば処 藪",
                 "version": "1.2",
