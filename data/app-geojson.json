@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "PkIpOpSrv_o",
+                "name": "博多文福",
+                "version": "1.2",
+                "address": "博多文福 春日市須玖北9丁目",
+                "open_location_code": "8Q5GGCVV+F6",
+                "url": "https://www.geocoding.jp/?q=%E5%8D%9A%E5%A4%9A%E6%96%87%E7%A6%8F%20%E6%98%A5%E6%97%A5%E5%B8%82%E9%A0%88%E7%8E%96%E5%8C%979%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県春日市須玖北９丁目６２ 博多 文福",
+                "error": null,
+                "title": "ラーメンコンテストで優勝した福岡の味噌ラーメン専門店",
+                "publishedAt": "2025-02-18T10:00:26Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.443097,
+                    33.543646
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "I-BO2Y48bdY",
                 "name": "焼鳥と小料理のお店 おとん",
                 "version": "1.2",
