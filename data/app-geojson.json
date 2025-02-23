@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "lGMnSu_vpqA",
+                "name": "牛車",
+                "version": "1.2",
+                "address": "牛車 福岡市中央区薬院4丁目",
+                "open_location_code": "8Q5GH9HX+6J",
+                "url": "https://www.geocoding.jp/?q=%E7%89%9B%E8%BB%8A%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E8%96%AC%E9%99%A24%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市中央区薬院４丁目３−１３ ステーキの店 牛車",
+                "error": null,
+                "title": "福岡ハンバーグ界の頂点と言われる!!!絶品ふわトロ飲めるハンバーグに感動!!!",
+                "publishedAt": "2025-02-21T10:00:58Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.399066,
+                    33.578109
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "PkIpOpSrv_o",
                 "name": "博多文福",
                 "version": "1.2",
