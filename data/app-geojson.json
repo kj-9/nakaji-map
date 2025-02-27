@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "TrLC0iTgGQg",
+                "name": "元祖赤のれん成ちゃんラーメン",
+                "version": "1.2",
+                "address": "元祖赤のれん成ちゃんラーメン 福岡市東区箱崎1丁目",
+                "open_location_code": "8Q5GJC9G+8F",
+                "url": "https://www.geocoding.jp/?q=%E5%85%83%E7%A5%96%E8%B5%A4%E3%81%AE%E3%82%8C%E3%82%93%E6%88%90%E3%81%A1%E3%82%83%E3%82%93%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%B3%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E6%9D%B1%E5%8C%BA%E7%AE%B1%E5%B4%8E1%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市東区箱崎１丁目７−４３ 元祖赤のれん 茂ちゃんラーメン",
+                "error": null,
+                "title": "本当に美味い福岡の豚骨ラーメン店!!!THEレジェンドの店!!!",
+                "publishedAt": "2025-02-25T10:00:34Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.426179,
+                    33.618257
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "lGMnSu_vpqA",
                 "name": "牛車",
                 "version": "1.2",
