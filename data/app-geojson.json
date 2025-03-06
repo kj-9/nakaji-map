@@ -4,6 +4,52 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "Uss9QnlxzTE",
+                "name": "天ぷらまつお",
+                "version": "1.2",
+                "address": "天ぷらまつお 福岡市西区愛宕南2丁目",
+                "open_location_code": null,
+                "url": "https://www.geocoding.jp/?q=%E5%A4%A9%E3%81%B7%E3%82%89%E3%81%BE%E3%81%A4%E3%81%8A%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E8%A5%BF%E5%8C%BA%E6%84%9B%E5%AE%95%E5%8D%972%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": null,
+                "error": null,
+                "title": "中島大絶賛!!!大衆天ぷらの名店発見!!!最高でした!!!",
+                "publishedAt": "2025-02-28T10:00:36Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.0,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "video_id": "xdvEdtLu30Q",
+                "name": "ノムカ+cafe",
+                "version": "1.2",
+                "address": "ノムカ+cafe 福岡市西区姪浜駅南2丁目",
+                "open_location_code": "8Q5GH8JF+HF",
+                "url": "https://www.geocoding.jp/?q=%E3%83%8E%E3%83%A0%E3%82%AB%2Bcafe%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E8%A5%BF%E5%8C%BA%E5%A7%AA%E6%B5%9C%E9%A7%85%E5%8D%972%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市西区姪浜駅南２丁目１−３７ メディカルビル竹下 103 ノムカ+cafe",
+                "error": null,
+                "title": "超絶美味いと話題のステーキランチを喰らう!!!",
+                "publishedAt": "2025-03-04T10:01:07Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.323705,
+                    33.581406
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "TrLC0iTgGQg",
                 "name": "元祖赤のれん成ちゃんラーメン",
                 "version": "1.2",
