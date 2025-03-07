@@ -11,7 +11,11 @@
 	// and check each feature
 	const newFeatures = get(geodata)
 		.features.slice(0, 5) // latest 5 features
-		.filter((feature) => instanceOfFeatureForPopup(feature));
+		.filter((feature) => instanceOfFeatureForPopup(feature))
+		.sort(
+			(a, b) =>
+				new Date(b.properties.publishedAt).getTime() - new Date(a.properties.publishedAt).getTime()
+		);
 
 	const dispatch = createEventDispatcher();
 </script>
