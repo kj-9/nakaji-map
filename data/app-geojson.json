@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "E2iGgiXUnpM",
+                "name": "つけ麺 がんつけ",
+                "version": "1.2",
+                "address": "つけ麺 がんつけ 福岡市博多区住吉1丁目",
+                "open_location_code": "8Q5GHCR6+93",
+                "url": "https://www.geocoding.jp/?q=%E3%81%A4%E3%81%91%E9%BA%BA%20%E3%81%8C%E3%82%93%E3%81%A4%E3%81%91%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E5%8D%9A%E5%A4%9A%E5%8C%BA%E4%BD%8F%E5%90%891%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市博多区住吉１丁目６−８ Modern Bureau Sumiyoshi riva 202 つけ麺 がんつけ",
+                "error": null,
+                "title": "今、福岡で一番美味いと言っても過言ではない絶品つけ麺屋!!!",
+                "publishedAt": "2025-03-07T10:00:17Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.410136,
+                    33.590956
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "Uss9QnlxzTE",
                 "name": "天ぷらまつお",
                 "version": "1.2",
