@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "bLubJvaSGrE",
+                "name": "NEW SMILE",
+                "version": "1.2",
+                "address": "NEW SMILE 福岡市中央区薬院2丁目",
+                "open_location_code": "8Q5GH9JR+RX",
+                "url": "https://www.geocoding.jp/?q=NEW%20SMILE%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E8%96%AC%E9%99%A22%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市中央区薬院２丁目１９−１ NEW SMILE",
+                "error": null,
+                "title": "中島大絶賛!!!ナポリタンの名店攻め!!!",
+                "publishedAt": "2025-03-11T10:00:47Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.392411,
+                    33.582075
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "E2iGgiXUnpM",
                 "name": "つけ麺 がんつけ",
                 "version": "1.2",
