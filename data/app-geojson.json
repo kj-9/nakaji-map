@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "ByKRJSzkcRc",
+                "name": "まりも本店",
+                "version": "1.2",
+                "address": "まりも本店 福岡市博多区上呉服町11-212",
+                "open_location_code": "8Q5GHCX6+6H",
+                "url": "https://www.geocoding.jp/?q=%E3%81%BE%E3%82%8A%E3%82%82%E6%9C%AC%E5%BA%97%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E5%8D%9A%E5%A4%9A%E5%8C%BA%E4%B8%8A%E5%91%89%E6%9C%8D%E7%94%BA11-212",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市博多区上呉服町１１−２１２ まりも本店",
+                "error": null,
+                "title": "絶対行くべき!!!行列ができる超絶人気の皿うどん店!!!",
+                "publishedAt": "2025-03-18T10:00:15Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.411454,
+                    33.598001
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "SUZKEiZxrlk",
                 "name": "食堂はまかに",
                 "version": "1.2",
