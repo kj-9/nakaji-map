@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "CWA2BCsaxFc",
+                "name": "そば耕作",
+                "version": "1.2",
+                "address": "そば耕作 福岡市博多区住吉2丁目",
+                "open_location_code": "8Q5GHCQ7+92",
+                "url": "https://www.geocoding.jp/?q=%E3%81%9D%E3%81%B0%E8%80%95%E4%BD%9C%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E5%8D%9A%E5%A4%9A%E5%8C%BA%E4%BD%8F%E5%90%892%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市博多区住吉２丁目４−３ 大蔵マンション博多 102 手打ち と 天ぷら そば 耕作",
+                "error": null,
+                "title": "蕎麦と天ぷら最強コンビの店!!!",
+                "publishedAt": "2025-03-21T10:00:22Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.412529,
+                    33.588391
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "ByKRJSzkcRc",
                 "name": "まりも本店",
                 "version": "1.2",
