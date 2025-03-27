@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "w5AfsxSRYfw",
+                "name": "みわCurry",
+                "version": "1.2",
+                "address": "みわCurry 福岡市博多区美野島3丁目",
+                "open_location_code": "8Q5GHCG9+HX",
+                "url": "https://www.geocoding.jp/?q=%E3%81%BF%E3%82%8FCurry%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E5%8D%9A%E5%A4%9A%E5%8C%BA%E7%BE%8E%E9%87%8E%E5%B3%B63%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市博多区美野島３丁目１２−１１ みわCurry",
+                "error": null,
+                "title": "名店発掘!!!福岡の美味いカレー屋を追求するシリーズ!!!",
+                "publishedAt": "2025-03-25T10:01:12Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.419879,
+                    33.576409
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "CWA2BCsaxFc",
                 "name": "そば耕作",
                 "version": "1.2",
