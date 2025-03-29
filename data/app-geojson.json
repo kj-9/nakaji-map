@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "Tr5A8Yy-rHQ",
+                "name": "麻婆豆腐TOKYO",
+                "version": "1.2",
+                "address": "麻婆豆腐TOKYO 福岡市早良区西新4丁目",
+                "open_location_code": "8Q5GH9M5+3P",
+                "url": "https://www.geocoding.jp/?q=%E9%BA%BB%E5%A9%86%E8%B1%86%E8%85%90TOKYO%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E6%97%A9%E8%89%AF%E5%8C%BA%E8%A5%BF%E6%96%B04%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市早良区西新４丁目８−４２ 麻婆豆腐TOKYO 福岡西新店",
+                "error": null,
+                "title": "麻婆豆腐に魂を注ぐ店!!!絶対ハズさない福岡飯店!!!",
+                "publishedAt": "2025-03-28T10:00:40Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.359294,
+                    33.582696
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "w5AfsxSRYfw",
                 "name": "みわCurry",
                 "version": "1.2",
