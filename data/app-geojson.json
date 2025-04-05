@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "XrfMvKOPseM",
+                "name": "うどん平",
+                "version": "1.2",
+                "address": "うどん平 福岡市博多区住吉5丁目",
+                "open_location_code": null,
+                "url": "https://www.geocoding.jp/?q=%E3%81%86%E3%81%A9%E3%82%93%E5%B9%B3%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E5%8D%9A%E5%A4%9A%E5%8C%BA%E4%BD%8F%E5%90%895%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": null,
+                "error": null,
+                "title": "行列必至!!!福岡の至宝と言っても過言ではないうどんの名店!!!",
+                "publishedAt": "2025-04-04T10:00:46Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.0,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "svxw7DTxoGU",
                 "name": "博多ラーメン はかたや 西新店",
                 "version": "1.2",
