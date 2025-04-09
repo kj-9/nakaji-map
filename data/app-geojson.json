@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "64cut3jeSqQ",
+                "name": "魚好亭",
+                "version": "1.2",
+                "address": "魚好亭 福岡市博多区博多駅前2丁目",
+                "open_location_code": "8Q5GHCR8+CG",
+                "url": "https://www.geocoding.jp/?q=%E9%AD%9A%E5%A5%BD%E4%BA%AD%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E5%8D%9A%E5%A4%9A%E5%8C%BA%E5%8D%9A%E5%A4%9A%E9%A7%85%E5%89%8D2%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市博多区博多駅前２丁目１７−１５ 魚好亭",
+                "error": null,
+                "title": "安くて美味い!!!絶対に外さない天ぷら定食!!!",
+                "publishedAt": "2025-04-08T10:00:11Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.416329,
+                    33.591111
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "XrfMvKOPseM",
                 "name": "うどん平",
                 "version": "1.2",
