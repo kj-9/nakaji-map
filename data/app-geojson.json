@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "9KMuBL1Ekrw",
+                "name": "八州",
+                "version": "1.2",
+                "address": "八州 福岡市博多区住吉1丁目",
+                "open_location_code": "8Q5GHCQ6+RW",
+                "url": "https://www.geocoding.jp/?q=%E5%85%AB%E5%B7%9E%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E5%8D%9A%E5%A4%9A%E5%8C%BA%E4%BD%8F%E5%90%891%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市博多区住吉１丁目１−３ 八州",
+                "error": null,
+                "title": "こういうかつ丼を最高と言います!!!絶対ハズさない福岡飯",
+                "publishedAt": "2025-04-11T10:00:23Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.412352,
+                    33.589566
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "64cut3jeSqQ",
                 "name": "魚好亭",
                 "version": "1.2",
