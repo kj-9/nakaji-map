@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "w2xnfX6t-rA",
+                "name": "らーめん あんゆ亭",
+                "version": "1.2",
+                "address": "らーめん あんゆ亭 福岡市東区箱崎1丁目",
+                "open_location_code": "8Q5GJC8G+H6",
+                "url": "https://www.geocoding.jp/?q=%E3%82%89%E3%83%BC%E3%82%81%E3%82%93%20%E3%81%82%E3%82%93%E3%82%86%E4%BA%AD%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E6%9D%B1%E5%8C%BA%E7%AE%B1%E5%B4%8E1%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市東区箱崎１丁目１２−１４ エステートモア箱崎 らーめん あんゆう亭",
+                "error": null,
+                "title": "感動の一杯!!!塩ラーメンと塩つけ麺",
+                "publishedAt": "2025-04-15T10:01:32Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.425507,
+                    33.616489
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "9KMuBL1Ekrw",
                 "name": "八州",
                 "version": "1.2",
