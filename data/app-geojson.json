@@ -4,6 +4,75 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "sb52QgLI4dA",
+                "name": "ざいとん",
+                "version": "1.2",
+                "address": "ざいとん 福岡市東区香椎駅前1丁目",
+                "open_location_code": "8Q5GMC5R+QQ",
+                "url": "https://www.geocoding.jp/?q=%E3%81%96%E3%81%84%E3%81%A8%E3%82%93%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E6%9D%B1%E5%8C%BA%E9%A6%99%E6%A4%8E%E9%A7%85%E5%89%8D1%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市東区香椎駅前１丁目１７−２４ ざいとん 香椎本店",
+                "error": null,
+                "title": "福岡のレジェンドラーメン店攻め!!!唯一無二の名店です",
+                "publishedAt": "2025-04-22T10:01:30Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.441956,
+                    33.65938
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "video_id": "cqOnhDE6owo",
+                "name": "ザエカ",
+                "version": "1.2",
+                "address": "ザエカ 福岡市中央区舞鶴1丁目",
+                "open_location_code": "8Q5GH9RV+MC",
+                "url": "https://www.geocoding.jp/?q=%E3%82%B6%E3%82%A8%E3%82%AB%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E8%88%9E%E9%B6%B41%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市中央区舞鶴１丁目３−４ ザエカ",
+                "error": null,
+                "title": "福岡カレー界の最高峰と言われる名店!!!",
+                "publishedAt": "2025-04-25T10:01:06Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.393516,
+                    33.591625
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "video_id": "jR9inOcVHco",
+                "name": "餃子 一鉄",
+                "version": "1.2",
+                "address": "餃子 一鉄 福岡市中央区六本松2丁目",
+                "open_location_code": "8Q5GH9HH+MH",
+                "url": "https://www.geocoding.jp/?q=%E9%A4%83%E5%AD%90%20%E4%B8%80%E9%89%84%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E5%85%AD%E6%9C%AC%E6%9D%BE2%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市中央区六本松２丁目３−２１ 餃子 一鉄（いってつ）",
+                "error": null,
+                "title": "圧倒的に美味い餃子定食をだす店!!!",
+                "publishedAt": "2025-04-18T10:01:16Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.378934,
+                    33.579132
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "w2xnfX6t-rA",
                 "name": "らーめん あんゆ亭",
                 "version": "1.2",
