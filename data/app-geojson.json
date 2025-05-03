@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "DMrfZb6lxAM",
+                "name": "一輩子吉華",
+                "version": "1.2",
+                "address": "一輩子吉華 福岡市博多区美野島2丁目",
+                "open_location_code": "8Q5GHCJ9+2M",
+                "url": "https://www.geocoding.jp/?q=%E4%B8%80%E8%BC%A9%E5%AD%90%E5%90%89%E8%8F%AF%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E5%8D%9A%E5%A4%9A%E5%8C%BA%E7%BE%8E%E9%87%8E%E5%B3%B62%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市博多区美野島２丁目３−１４ 一輩子 吉華【いーぺいず きっか】",
+                "error": null,
+                "title": "福岡町中華名店攻め!!!",
+                "publishedAt": "2025-05-02T10:00:32Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.419128,
+                    33.580027
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "usibPhLSg7k",
                 "name": "うどん秀",
                 "version": "1.2",
