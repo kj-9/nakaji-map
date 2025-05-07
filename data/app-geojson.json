@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "mKwH5MgFXVo",
+                "name": "やまみラーメン",
+                "version": "1.2",
+                "address": "やまみラーメン 福岡市博多区堅粕2丁目",
+                "open_location_code": "8Q5GHCWC+M8",
+                "url": "https://www.geocoding.jp/?q=%E3%82%84%E3%81%BE%E3%81%BF%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%B3%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E5%8D%9A%E5%A4%9A%E5%8C%BA%E5%A0%85%E7%B2%952%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市博多区堅粕２丁目２０−８−５ やまみラーメン",
+                "error": null,
+                "title": "製麺所が営む豚骨ラーメン店!!!こだわりの一杯!!!",
+                "publishedAt": "2025-05-06T10:01:17Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.420862,
+                    33.596631
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "DMrfZb6lxAM",
                 "name": "一輩子吉華",
                 "version": "1.2",
