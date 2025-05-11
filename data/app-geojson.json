@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "PJXPFx6SLgM",
+                "name": "チキン南蛮研究所",
+                "version": "1.2",
+                "address": "チキン南蛮研究所 福岡市南区大橋4丁目",
+                "open_location_code": "8Q5GHC4H+85",
+                "url": "https://www.geocoding.jp/?q=%E3%83%81%E3%82%AD%E3%83%B3%E5%8D%97%E8%9B%AE%E7%A0%94%E7%A9%B6%E6%89%80%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E5%8D%97%E5%8C%BA%E5%A4%A7%E6%A9%8B4%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市南区大橋４丁目１２−２８ Kステーション 1F チキン南蛮研究所 -南研-",
+                "error": null,
+                "title": "超絶美味い!!!チキン南蛮を極める店!!!絶対外さない福岡飯!!!",
+                "publishedAt": "2025-05-10T10:00:39Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.427952,
+                    33.555759
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "mKwH5MgFXVo",
                 "name": "やまみラーメン",
                 "version": "1.2",
