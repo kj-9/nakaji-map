@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "knt8z05Kplc",
+                "name": "くら重",
+                "version": "1.2",
+                "address": "くら重 福岡市中央区舞鶴2丁目",
+                "open_location_code": "8Q5GH9RR+VV",
+                "url": "https://www.geocoding.jp/?q=%E3%81%8F%E3%82%89%E9%87%8D%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E8%88%9E%E9%B6%B42%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市中央区舞鶴２丁目７−１ ライオンズマンション舞鶴第3 くら重",
+                "error": null,
+                "title": "中島大絶賛!!!この店のハンバーグとカレーは完璧です!!!",
+                "publishedAt": "2025-05-13T10:01:14Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.392191,
+                    33.592205
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "PJXPFx6SLgM",
                 "name": "チキン南蛮研究所",
                 "version": "1.2",
