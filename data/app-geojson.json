@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "AUzJlbH-QlE",
+                "name": "俏久上海",
+                "version": "1.2",
+                "address": "俏久上海 福岡市中央区天神3丁目",
+                "open_location_code": "8Q5GH9VX+33",
+                "url": "https://www.geocoding.jp/?q=%E4%BF%8F%E4%B9%85%E4%B8%8A%E6%B5%B7%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E5%A4%A9%E7%A5%9E3%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "俏",
+                "error": null,
+                "title": "福岡ナンバーワンと言われる炒飯と感動の麻婆豆腐定食!!!",
+                "publishedAt": "2025-05-16T10:00:15Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.397708,
+                    33.592678
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "knt8z05Kplc",
                 "name": "くら重",
                 "version": "1.2",
