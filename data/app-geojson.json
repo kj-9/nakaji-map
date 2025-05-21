@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "j5M2OZMWpSU",
+                "name": "そば道",
+                "version": "1.2",
+                "address": "そば道 福岡市中央区大名2丁目",
+                "open_location_code": "8Q5GH9QR+6J",
+                "url": "https://www.geocoding.jp/?q=%E3%81%9D%E3%81%B0%E9%81%93%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E5%A4%A7%E5%90%8D2%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市中央区大名２丁目３−１ そば道 天神大名店",
+                "error": null,
+                "title": "超絶美味い蕎麦屋発見!!!新たな福岡の名店です!!!",
+                "publishedAt": "2025-05-20T10:01:11Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.391611,
+                    33.588083
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "AUzJlbH-QlE",
                 "name": "俏久上海",
                 "version": "1.2",
