@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "Bna54Cv6td0",
+                "name": "ひるとよる",
+                "version": "1.2",
+                "address": "ひるとよる 福岡市中央区大名2丁目",
+                "open_location_code": "8Q5GH9QR+6R",
+                "url": "https://www.geocoding.jp/?q=%E3%81%B2%E3%82%8B%E3%81%A8%E3%82%88%E3%82%8B%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E5%A4%A7%E5%90%8D2%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市中央区大名２丁目２−４１ ひるとよる 本店",
+                "error": null,
+                "title": "チャンポンと焼飯がとんでもなく美味い店!!!",
+                "publishedAt": "2025-05-23T10:00:20Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.392027,
+                    33.58801
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "j5M2OZMWpSU",
                 "name": "そば道",
                 "version": "1.2",
