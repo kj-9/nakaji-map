@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "geFptiJ6RTs",
+                "name": "コリアンダイニングLEE(リー)",
+                "version": "1.2",
+                "address": "コリアンダイニングLEE(リー) 福岡市博多区吉塚1丁目",
+                "open_location_code": null,
+                "url": "https://www.geocoding.jp/?q=%E3%82%B3%E3%83%AA%E3%82%A2%E3%83%B3%E3%83%80%E3%82%A4%E3%83%8B%E3%83%B3%E3%82%B0LEE%28%E3%83%AA%E3%83%BC%29%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E5%8D%9A%E5%A4%9A%E5%8C%BA%E5%90%89%E5%A1%9A1%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": null,
+                "error": null,
+                "title": "行列ができる焼肉定食!!!最高です!!!絶対外さない福岡飯店",
+                "publishedAt": "2025-05-27T10:01:09Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.0,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "Bna54Cv6td0",
                 "name": "ひるとよる",
                 "version": "1.2",
