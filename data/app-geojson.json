@@ -4,6 +4,98 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "u9NlKPns7a4",
+                "name": "駒や",
+                "version": "1.2",
+                "address": "駒や 福岡市東区馬出2丁目",
+                "open_location_code": "8Q5GJC69+MQ",
+                "url": "https://www.geocoding.jp/?q=%E9%A7%92%E3%82%84%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E6%9D%B1%E5%8C%BA%E9%A6%AC%E5%87%BA2%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市東区馬出２丁目５−７ 博多ラーメン 駒や 馬出創業店",
+                "error": null,
+                "title": "本当に美味い福岡のラーメン店!!!豚骨の極みと言われる名店!!!",
+                "publishedAt": "2025-06-13T10:01:28Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.419405,
+                    33.611626
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "video_id": "4a31svpUSqg",
+                "name": "ナイス!!はっちゃん",
+                "version": "1.2",
+                "address": "ナイス!!はっちゃん 福岡市中央区舞鶴2丁目",
+                "open_location_code": "8Q5GH9RR+RW",
+                "url": "https://www.geocoding.jp/?q=%E3%83%8A%E3%82%A4%E3%82%B9%21%21%E3%81%AF%E3%81%A3%E3%81%A1%E3%82%83%E3%82%93%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E8%88%9E%E9%B6%B42%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市中央区舞鶴２丁目７−１ ライオンズマンション ナイス! はっちゃん（骨付鶏定食専門店）",
+                "error": null,
+                "title": "超絶人気の骨付き肉を豪快にかぶりついてきました!!!",
+                "publishedAt": "2025-06-03T10:00:07Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.392254,
+                    33.592108
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "video_id": "o2HXAtdECSE",
+                "name": "海鮮丼てんや",
+                "version": "1.2",
+                "address": "海鮮丼てんや 福岡市東区箱崎ふ頭1丁目",
+                "open_location_code": "8Q5GJCF7+7P",
+                "url": "https://www.geocoding.jp/?q=%E6%B5%B7%E9%AE%AE%E4%B8%BC%E3%81%A6%E3%82%93%E3%82%84%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E6%9D%B1%E5%8C%BA%E7%AE%B1%E5%B4%8E%E3%81%B5%E9%A0%AD1%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市東区箱崎ふ頭１丁目１−４０ 海鮮丼てんや",
+                "error": null,
+                "title": "今福岡で最も人気があると言っても過言ではない海鮮丼店",
+                "publishedAt": "2025-06-10T10:01:30Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.414306,
+                    33.623146
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "video_id": "mav6S378mSc",
+                "name": "有吉商店",
+                "version": "1.2",
+                "address": "有吉商店 福岡市中央区渡辺通1丁目",
+                "open_location_code": "8Q5GHCP4+25",
+                "url": "https://www.geocoding.jp/?q=%E6%9C%89%E5%90%89%E5%95%86%E5%BA%97%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E6%B8%A1%E8%BE%BA%E9%80%9A1%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市中央区渡辺通１丁目８−１８ 博多担々麺 有吉商店",
+                "error": null,
+                "title": "担々麺と焼飯が最強の店!!!",
+                "publishedAt": "2025-06-06T10:01:28Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.405426,
+                    33.585019
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "lRQmGkfUaiw",
                 "name": "アジフライ たるたる食堂",
                 "version": "1.2",
