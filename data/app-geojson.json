@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "281GotD78hI",
+                "name": "レストラン Kawashima",
+                "version": "1.2",
+                "address": "レストラン Kawashima 福岡市博多区諸岡1丁目",
+                "open_location_code": "8Q5GHC7V+QW",
+                "url": "https://www.geocoding.jp/?q=%E3%83%AC%E3%82%B9%E3%83%88%E3%83%A9%E3%83%B3%20Kawashima%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E5%8D%9A%E5%A4%9A%E5%8C%BA%E8%AB%B8%E5%B2%A11%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市博多区諸岡１丁目２−２６ レストラン Kawashima",
+                "error": null,
+                "title": "食通大絶賛の名店シリーズ!!!絶品ステーキ最高です!!!",
+                "publishedAt": "2025-06-20T10:00:08Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.444797,
+                    33.564469
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "wGXFdYKfVz4",
                 "name": "トンテキや山田ロース",
                 "version": "1.2",
