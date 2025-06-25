@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "NsqWqdT8cRY",
+                "name": "担々麺 しま屋",
+                "version": "1.2",
+                "address": "担々麺 しま屋 福岡市博多区冷泉町9-1",
+                "open_location_code": "8Q5GHCW6+3M",
+                "url": "https://www.geocoding.jp/?q=%E6%8B%85%E3%80%85%E9%BA%BA%20%E3%81%97%E3%81%BE%E5%B1%8B%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E5%8D%9A%E5%A4%9A%E5%8C%BA%E5%86%B7%E6%B3%89%E7%94%BA9-1",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市博多区冷泉町９−１ 担々麺居酒屋 しま屋",
+                "error": null,
+                "title": "福岡の本当に美味い担々麺屋を追求するシリーズ!!!創業40年名店です!!!",
+                "publishedAt": "2025-06-24T10:00:39Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.411719,
+                    33.595133
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "281GotD78hI",
                 "name": "レストラン Kawashima",
                 "version": "1.2",
