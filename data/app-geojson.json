@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "Z4M0NbkFccw",
+                "name": "野村織物有限会社",
+                "version": "1.2",
+                "address": "野村織物有限会社 会場: 大丸福岡天神店",
+                "open_location_code": "8Q5GCF8G+G4",
+                "url": "https://www.geocoding.jp/?q=%E9%87%8E%E6%9D%91%E7%B9%94%E7%89%A9%E6%9C%89%E9%99%90%E4%BC%9A%E7%A4%BE%20%E4%BC%9A%E5%A0%B4%3A%20%E5%A4%A7%E4%B8%B8%E7%A6%8F%E5%B2%A1%E5%A4%A9%E7%A5%9E%E5%BA%97",
+                "needs_to_verify": "yes",
+                "google_maps": null,
+                "error": null,
+                "title": "2025夏一大プロジェクト!!!久留米絣の旅 完結編",
+                "publishedAt": "2025-07-04T10:21:37Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.475291,
+                    33.416374
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "qZN54aqaGOw",
                 "name": "立花うどん",
                 "version": "1.2",
