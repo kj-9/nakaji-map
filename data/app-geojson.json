@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "Ugkalj5fwO0",
+                "name": "うおざ",
+                "version": "1.2",
+                "address": "うおざ 福岡市中央区長浜3丁目",
+                "open_location_code": null,
+                "url": "https://www.geocoding.jp/?q=%E3%81%86%E3%81%8A%E3%81%96%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E9%95%B7%E6%B5%9C3%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": null,
+                "error": null,
+                "title": "福岡の海鮮処で今一番人気と言っても過言ではない巨大施設!!!",
+                "publishedAt": "2025-07-08T10:00:48Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.0,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "Z4M0NbkFccw",
                 "name": "野村織物有限会社",
                 "version": "1.2",
