@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "TrXh6XT7SRw",
+                "name": "田川洋食 黄ごん焼き あにおん",
+                "version": "1.2",
+                "address": "田川洋食 黄ごん焼き あにおん 福岡市中央区天神4丁目",
+                "open_location_code": "8Q5GH9VX+9C",
+                "url": "https://www.geocoding.jp/?q=%E7%94%B0%E5%B7%9D%E6%B4%8B%E9%A3%9F%20%E9%BB%84%E3%81%94%E3%82%93%E7%84%BC%E3%81%8D%20%E3%81%82%E3%81%AB%E3%81%8A%E3%82%93%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E5%A4%A9%E7%A5%9E4%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市中央区天神４丁目３−２５ 2階 田川洋食 天神 パフェ 黄ごん焼き あにおん",
+                "error": null,
+                "title": "絶対外さない福岡飯!!!福岡洋食界のレジェンド店で大感動!!!",
+                "publishedAt": "2025-07-11T10:00:56Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.398573,
+                    33.593391
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "Ugkalj5fwO0",
                 "name": "うおざ",
                 "version": "1.2",
