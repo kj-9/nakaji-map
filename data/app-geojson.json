@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "PgTpVSNMsog",
+                "name": "らぁめん39番地",
+                "version": "1.2",
+                "address": "らぁめん39番地 福岡市博多区下呉服町6-7-1",
+                "open_location_code": "8Q5GJC24+HR",
+                "url": "https://www.geocoding.jp/?q=%E3%82%89%E3%81%81%E3%82%81%E3%82%9339%E7%95%AA%E5%9C%B0%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E5%8D%9A%E5%A4%9A%E5%8C%BA%E4%B8%8B%E5%91%89%E6%9C%8D%E7%94%BA6-7-1",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市博多区下呉服町６−７−１ らぁめん 39番地",
+                "error": null,
+                "title": "本当に美味い福岡の豚骨ラーメン店を追求するシリーズ!!!シンプルイズベスト!!!名店です!!!",
+                "publishedAt": "2025-07-15T10:00:41Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.407086,
+                    33.601479
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "TrXh6XT7SRw",
                 "name": "田川洋食 黄ごん焼き あにおん",
                 "version": "1.2",
