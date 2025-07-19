@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "V_ZuAlAlnnM",
+                "name": "さゆりばあば亭",
+                "version": "1.2",
+                "address": "さゆりばあば亭 福岡市博多区上呉服町1-34",
+                "open_location_code": "8Q5GHCW6+JR",
+                "url": "https://www.geocoding.jp/?q=%E3%81%95%E3%82%86%E3%82%8A%E3%81%B0%E3%81%82%E3%81%B0%E4%BA%AD%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E5%8D%9A%E5%A4%9A%E5%8C%BA%E4%B8%8A%E5%91%89%E6%9C%8D%E7%94%BA1-34",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市博多区上呉服町１−３４ ちゃんぽん さゆりばぁば亭",
+                "error": null,
+                "title": "中島大絶賛!!!福岡最高峰のちゃんぽんと唐揚げ定食!!!",
+                "publishedAt": "2025-07-18T10:01:06Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.412028,
+                    33.596517
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "PgTpVSNMsog",
                 "name": "らぁめん39番地",
                 "version": "1.2",
