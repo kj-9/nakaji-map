@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "fnysV0u5jQY",
+                "name": "てんてん亭",
+                "version": "1.2",
+                "address": "てんてん亭 福岡市中央区天神4丁目",
+                "open_location_code": "8Q5GHCV2+R8",
+                "url": "https://www.geocoding.jp/?q=%E3%81%A6%E3%82%93%E3%81%A6%E3%82%93%E4%BA%AD%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E5%A4%A9%E7%A5%9E4%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市中央区天神４丁目１−26-1F 吉田ビル てんてん亭",
+                "error": null,
+                "title": "福岡最高のチーズハンバーグ定食!!!絶対外さない福岡飯店",
+                "publishedAt": "2025-07-22T10:01:04Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.400779,
+                    33.594518
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "V_ZuAlAlnnM",
                 "name": "さゆりばあば亭",
                 "version": "1.2",
