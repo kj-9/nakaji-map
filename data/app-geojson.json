@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "n440ELK1J2g",
+                "name": "誠月庵",
+                "version": "1.2",
+                "address": "誠月庵 福岡市中央区天神4丁目",
+                "open_location_code": "8Q5GHCV2+R6",
+                "url": "https://www.geocoding.jp/?q=%E8%AA%A0%E6%9C%88%E5%BA%B5%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E5%A4%A9%E7%A5%9E4%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市中央区天神４丁目７−４ 誠月庵",
+                "error": null,
+                "title": "行列ができる店シリーズ!!!福岡を代表するそばの名店です!!!",
+                "publishedAt": "2025-07-25T10:01:25Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.400517,
+                    33.594618
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "fnysV0u5jQY",
                 "name": "てんてん亭",
                 "version": "1.2",
