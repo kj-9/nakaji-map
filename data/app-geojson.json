@@ -4,6 +4,75 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "OhD5l-GkaYc",
+                "name": "うっちゃり食堂",
+                "version": "1.2",
+                "address": "うっちゃり食堂 福岡市中央区高砂2丁目",
+                "open_location_code": "8Q5GHCG6+C4",
+                "url": "https://www.geocoding.jp/?q=%E3%81%86%E3%81%A3%E3%81%A1%E3%82%83%E3%82%8A%E9%A3%9F%E5%A0%82%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E9%AB%98%E7%A0%822%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市中央区高砂２丁目１２−１０ ミツワマンション高砂 1階 大衆食堂 うっちゃり",
+                "error": null,
+                "title": "こういう食堂を最高と言います!!!絶対外さない福岡飯店",
+                "publishedAt": "2025-08-05T10:00:38Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.41027,
+                    33.576029
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "video_id": "Y7DLpH0WQE8",
+                "name": "らいじん",
+                "version": "1.2",
+                "address": "らいじん 福岡市中央区高砂1丁目",
+                "open_location_code": "8Q5GHCH5+Q3",
+                "url": "https://www.geocoding.jp/?q=%E3%82%89%E3%81%84%E3%81%98%E3%82%93%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E9%AB%98%E7%A0%821%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市中央区高砂１丁目１５−３３ SPAZIO高砂 1F らいじん",
+                "error": null,
+                "title": "中島大絶賛!!!福岡最高峰のコロッケ定食に感動しました!!!",
+                "publishedAt": "2025-08-01T10:00:53Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.407698,
+                    33.579462
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "video_id": "CvrzXbUBSGE",
+                "name": "新三浦（天神店）",
+                "version": "1.2",
+                "address": "新三浦（天神店） 福岡市中央区天神2丁目",
+                "open_location_code": "8Q5GH9RX+M9",
+                "url": "https://www.geocoding.jp/?q=%E6%96%B0%E4%B8%89%E6%B5%A6%EF%BC%88%E5%A4%A9%E7%A5%9E%E5%BA%97%EF%BC%89%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E5%A4%A9%E7%A5%9E2%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市中央区天神２丁目１２−１ 天神ビル B1F 新三浦 天神店",
+                "error": null,
+                "title": "中島大絶賛!!!これが福岡で一番美味い親子丼です!!!",
+                "publishedAt": "2025-07-29T10:00:31Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.398463,
+                    33.59163
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "n440ELK1J2g",
                 "name": "誠月庵",
                 "version": "1.2",
