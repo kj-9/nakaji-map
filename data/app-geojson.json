@@ -4,6 +4,75 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "x2fM10pfpmE",
+                "name": "えぐし屋",
+                "version": "1.2",
+                "address": "えぐし屋 福岡市中央区高砂2丁目",
+                "open_location_code": "8Q5GHCG6+J3",
+                "url": "https://www.geocoding.jp/?q=%E3%81%88%E3%81%90%E3%81%97%E5%B1%8B%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E9%AB%98%E7%A0%822%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市中央区高砂２丁目１３−７ えぐし屋",
+                "error": null,
+                "title": "店主一人で切り盛りしてます!!!ワンオペ絶品ラーメン店!!!",
+                "publishedAt": "2025-08-08T10:01:43Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.410189,
+                    33.576597
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "video_id": "Q991HXTeAZw",
+                "name": "焼肉ホルモン いその商店",
+                "version": "1.2",
+                "address": "焼肉ホルモン いその商店 福岡市中央区春吉3丁目",
+                "open_location_code": "8Q5GHCQ4+72",
+                "url": "https://www.geocoding.jp/?q=%E7%84%BC%E8%82%89%E3%83%9B%E3%83%AB%E3%83%A2%E3%83%B3%20%E3%81%84%E3%81%9D%E3%81%AE%E5%95%86%E5%BA%97%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E6%98%A5%E5%90%893%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市中央区春吉３丁目２３−１３ 大取ビル ２F 焼肉 いその商店 春吉本店",
+                "error": null,
+                "title": "ある焼肉屋が出すカレーが超絶美味いと話題沸騰です!!!",
+                "publishedAt": "2025-08-15T10:00:41Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.405056,
+                    33.588233
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "video_id": "m7S2nHpX8zg",
+                "name": "ほっともっと",
+                "version": "1.2",
+                "address": "ほっともっと 福岡県内247店舗のほっともっとにて!!!",
+                "open_location_code": "8Q5GMC42+9R",
+                "url": "https://www.geocoding.jp/?q=%E3%81%BB%E3%81%A3%E3%81%A8%E3%82%82%E3%81%A3%E3%81%A8%20%E7%A6%8F%E5%B2%A1%E7%9C%8C%E5%86%85247%E5%BA%97%E8%88%97%E3%81%AE%E3%81%BB%E3%81%A3%E3%81%A8%E3%82%82%E3%81%A3%E3%81%A8%E3%81%AB%E3%81%A6%21%21%21",
+                "needs_to_verify": "yes",
+                "google_maps": "ほっと",
+                "error": null,
+                "title": "日本一と言っても過言ではない絶品メンチカツ!!!都城メンチに大感動!!!",
+                "publishedAt": "2025-08-12T10:01:21Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.40209,
+                    33.655971
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "OhD5l-GkaYc",
                 "name": "うっちゃり食堂",
                 "version": "1.2",
