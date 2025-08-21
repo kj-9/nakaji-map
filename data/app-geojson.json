@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "gdpj60-guhM",
+                "name": "ウェルビーイング博多",
+                "version": "1.2",
+                "address": "ウェルビーイング博多 福岡市博多区博多駅前3丁目",
+                "open_location_code": "8Q5GHCQ8+F3",
+                "url": "https://www.geocoding.jp/?q=%E3%82%A6%E3%82%A7%E3%83%AB%E3%83%93%E3%83%BC%E3%82%A4%E3%83%B3%E3%82%B0%E5%8D%9A%E5%A4%9A%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E5%8D%9A%E5%A4%9A%E5%8C%BA%E5%8D%9A%E5%A4%9A%E9%A7%85%E5%89%8D3%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市博多区博多駅前３丁目１９−５ ウェルビーイング博多（一般財団法人日本予防医学協会附属診療所）",
+                "error": null,
+                "title": "リアルドキュメント!!!健康診断!!!",
+                "publishedAt": "2025-08-19T10:01:10Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.415181,
+                    33.588748
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "x2fM10pfpmE",
                 "name": "えぐし屋",
                 "version": "1.2",
