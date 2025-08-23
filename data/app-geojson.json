@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "sxqZETKH5Vs",
+                "name": "ぎょうざの日 国勝",
+                "version": "1.2",
+                "address": "ぎょうざの日 国勝 福岡市早良区西新５丁目",
+                "open_location_code": "8Q5GH9J4+WR",
+                "url": "https://www.geocoding.jp/?q=%E3%81%8E%E3%82%87%E3%81%86%E3%81%96%E3%81%AE%E6%97%A5%20%E5%9B%BD%E5%8B%9D%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E6%97%A9%E8%89%AF%E5%8C%BA%E8%A5%BF%E6%96%B0%EF%BC%95%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市早良区西新５丁目１−１６ ぎょうざの日国勝",
+                "error": null,
+                "title": "中島大絶賛!!!文句なし名店です!餃子が超絶美味い店!!!",
+                "publishedAt": "2025-08-22T10:01:28Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.357003,
+                    33.582367
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "gdpj60-guhM",
                 "name": "ウェルビーイング博多",
                 "version": "1.2",
