@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "qAMZbNCYf6k",
+                "name": "ひびか食堂",
+                "version": "1.2",
+                "address": "ひびか食堂 福岡市早良区西新４丁目",
+                "open_location_code": "8Q5GH9M6+97",
+                "url": "https://www.geocoding.jp/?q=%E3%81%B2%E3%81%B3%E3%81%8B%E9%A3%9F%E5%A0%82%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E6%97%A9%E8%89%AF%E5%8C%BA%E8%A5%BF%E6%96%B0%EF%BC%94%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市早良区西新４丁目４−２０−８ ひびか食堂",
+                "error": null,
+                "title": "福岡最高の定食屋を追求するシリーズ!!!",
+                "publishedAt": "2025-08-26T10:01:18Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.360641,
+                    33.583402
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "sxqZETKH5Vs",
                 "name": "ぎょうざの日 国勝",
                 "version": "1.2",
