@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "eELcJXTKzfk",
+                "name": "ろくでなし 吉塚店",
+                "version": "1.2",
+                "address": "ろくでなし 吉塚店 福岡市博多区東公園2-24",
+                "open_location_code": "8Q5GJC4C+FV",
+                "url": "https://www.geocoding.jp/?q=%E3%82%8D%E3%81%8F%E3%81%A7%E3%81%AA%E3%81%97%20%E5%90%89%E5%A1%9A%E5%BA%97%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E5%8D%9A%E5%A4%9A%E5%8C%BA%E6%9D%B1%E5%85%AC%E5%9C%922-24",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市博多区東公園２−２４ イーストパーク２９ ２Ｆ ろくでなし吉塚店",
+                "error": null,
+                "title": "本当に美味い福岡の豚骨ラーメンを追求するシリーズ!!!名店です!!!",
+                "publishedAt": "2025-08-29T10:52:10Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.422185,
+                    33.606157
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "qAMZbNCYf6k",
                 "name": "ひびか食堂",
                 "version": "1.2",
