@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "wGpZO17cnzA",
+                "name": "一世ラーメン",
+                "version": "1.2",
+                "address": "一世ラーメン 福岡市東区多の津3丁目",
+                "open_location_code": "8Q5GJCHV+4G",
+                "url": "https://www.geocoding.jp/?q=%E4%B8%80%E4%B8%96%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%B3%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E6%9D%B1%E5%8C%BA%E5%A4%9A%E3%81%AE%E6%B4%A53%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市東区多の津３丁目３−１ 一也ラーメン（いちなりラーメン）",
+                "error": null,
+                "title": "本当に美味い豚骨ラーメン店攻め!!!大注目の新店です!!!",
+                "publishedAt": "2025-09-09T10:01:38Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.443826,
+                    33.627762
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "iNU3Hx2Kjvc",
                 "name": "ステーキハウス ロデオ",
                 "version": "1.2",
