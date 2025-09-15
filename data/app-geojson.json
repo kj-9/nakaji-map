@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "K-p31SfYTEI",
+                "name": "めん処 三喜",
+                "version": "1.2",
+                "address": "めん処 三喜 福岡市中央区春吉1丁目",
+                "open_location_code": "8Q5GHCM5+96",
+                "url": "https://www.geocoding.jp/?q=%E3%82%81%E3%82%93%E5%87%A6%20%E4%B8%89%E5%96%9C%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E6%98%A5%E5%90%891%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市中央区春吉１丁目７−１ めん処 三喜",
+                "error": null,
+                "title": "路地裏の超絶名店!!!かつ丼とうどん最強コンビ攻め!!!",
+                "publishedAt": "2025-09-12T10:00:37Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.408015,
+                    33.583397
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "wGpZO17cnzA",
                 "name": "一世ラーメン",
                 "version": "1.2",
