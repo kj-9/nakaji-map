@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "9Sq3pJZQ_LQ",
+                "name": "太陽とひまわりとレオン",
+                "version": "1.2",
+                "address": "太陽とひまわりとレオン 福岡市博多区住吉4丁目",
+                "open_location_code": "8Q5GHCJ6+XG",
+                "url": "https://www.geocoding.jp/?q=%E5%A4%AA%E9%99%BD%E3%81%A8%E3%81%B2%E3%81%BE%E3%82%8F%E3%82%8A%E3%81%A8%E3%83%AC%E3%82%AA%E3%83%B3%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E5%8D%9A%E5%A4%9A%E5%8C%BA%E4%BD%8F%E5%90%894%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市博多区住吉４丁目３０−５ 太陽とひまわりとレオン",
+                "error": null,
+                "title": "食通大絶賛!!!キーマカレーの超絶名店",
+                "publishedAt": "2025-09-16T10:00:18Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.411263,
+                    33.582478
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "K-p31SfYTEI",
                 "name": "めん処 三喜",
                 "version": "1.2",
