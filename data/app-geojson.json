@@ -4,6 +4,52 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "l07PVDHt2Vc",
+                "name": "麺屋蓮々",
+                "version": "1.2",
+                "address": "麺屋蓮々 福岡市博多区吉塚本町4-12",
+                "open_location_code": "8Q5GJC4G+3F",
+                "url": "https://www.geocoding.jp/?q=%E9%BA%BA%E5%B1%8B%E8%93%AE%E3%80%85%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E5%8D%9A%E5%A4%9A%E5%8C%BA%E5%90%89%E5%A1%9A%E6%9C%AC%E7%94%BA4-12",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市博多区吉塚本町４−１２ 鶏専門 麺屋蓮々",
+                "error": null,
+                "title": "中島が最高峰と絶賛するラーメン店!!!",
+                "publishedAt": "2025-09-19T10:01:35Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.426204,
+                    33.60514
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "video_id": "8_f8i-8MsfE",
+                "name": "たこ福",
+                "version": "1.2",
+                "address": "たこ福 福岡市東区原田2丁目",
+                "open_location_code": "8Q5GJC9J+M9",
+                "url": "https://www.geocoding.jp/?q=%E3%81%9F%E3%81%93%E7%A6%8F%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E6%9D%B1%E5%8C%BA%E5%8E%9F%E7%94%B02%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市東区原田２丁目２−４１ Ｕハウス原田 102 たこ福",
+                "error": null,
+                "title": "中島が福岡で一番美味いと大絶賛したタコ焼き屋!!!",
+                "publishedAt": "2025-09-23T10:00:13Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.43096,
+                    33.61914
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "9Sq3pJZQ_LQ",
                 "name": "太陽とひまわりとレオン",
                 "version": "1.2",
