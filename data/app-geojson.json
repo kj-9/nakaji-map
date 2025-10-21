@@ -4,6 +4,144 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "zdit4WFY9J4",
+                "name": "SHEEPMAN WONDER",
+                "version": "1.2",
+                "address": "SHEEPMAN WONDER 福岡市南区市崎1-17-28",
+                "open_location_code": "8Q5GHCC3+X4",
+                "url": "https://www.geocoding.jp/?q=SHEEPMAN%20WONDER%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E5%8D%97%E5%8C%BA%E5%B8%82%E5%B4%8E1-17-28",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市南区市崎１丁目１７−２８ SHEEPMAN WONDER",
+                "error": null,
+                "title": "カフェ飯最高!!!ずっと行ってみたかった話題の店へ!!!",
+                "publishedAt": "2025-09-30T10:01:51Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.402814,
+                    33.572401
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "video_id": "K1caTGpo9OA",
+                "name": "ラーメン住吉亭",
+                "version": "1.2",
+                "address": "ラーメン住吉亭 福岡市博多区博多駅南5丁目",
+                "open_location_code": "8Q5GHCHH+F6",
+                "url": "https://www.geocoding.jp/?q=%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%B3%E4%BD%8F%E5%90%89%E4%BA%AD%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E5%8D%9A%E5%A4%9A%E5%8C%BA%E5%8D%9A%E5%A4%9A%E9%A7%85%E5%8D%975%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市博多区博多駅南５丁目５−１ ラーメン 住吉亭",
+                "error": null,
+                "title": "本当に美味い福岡の豚骨ラーメン店シリーズ!!!シンプルの極!!!",
+                "publishedAt": "2025-10-14T10:00:42Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.428065,
+                    33.578721
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "video_id": "zk9kyZ8EO78",
+                "name": "健",
+                "version": "1.2",
+                "address": "健 福岡市南区大橋1丁目",
+                "open_location_code": "8Q5GHC4C+G4",
+                "url": "https://www.geocoding.jp/?q=%E5%81%A5%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E5%8D%97%E5%8C%BA%E5%A4%A7%E6%A9%8B1%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "健",
+                "error": null,
+                "title": "福岡の本当に美味いラーメンを追求するシリーズ!!!塩そば!!!中華そば!!!絶品です!!!",
+                "publishedAt": "2025-10-07T10:01:45Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.420344,
+                    33.556326
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "video_id": "BGjo8TfmIw4",
+                "name": "博多拉担麺 まるたん",
+                "version": "1.2",
+                "address": "博多拉担麺 まるたん 福岡市南区那の川２丁目",
+                "open_location_code": "8Q5GHCF6+WX",
+                "url": "https://www.geocoding.jp/?q=%E5%8D%9A%E5%A4%9A%E6%8B%89%E6%8B%85%E9%BA%BA%20%E3%81%BE%E3%82%8B%E3%81%9F%E3%82%93%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E5%8D%97%E5%8C%BA%E9%82%A3%E3%81%AE%E5%B7%9D%EF%BC%92%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市南区那の川２丁目２−９ まるたん本店",
+                "error": null,
+                "title": "この店の汁なし担々麺はわざわざ食べに行く価値があります!!!",
+                "publishedAt": "2025-10-17T10:00:21Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.412406,
+                    33.574867
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "video_id": "So8ofexWUao",
+                "name": "十魚十色",
+                "version": "1.2",
+                "address": "十魚十色 福岡市中央区渡辺通2丁目",
+                "open_location_code": "8Q5GHCJ3+RQ",
+                "url": "https://www.geocoding.jp/?q=%E5%8D%81%E9%AD%9A%E5%8D%81%E8%89%B2%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E6%B8%A1%E8%BE%BA%E9%80%9A2%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市中央区渡辺通２丁目２−１ 1f 十魚十色",
+                "error": null,
+                "title": "福岡最高と言っても過言ではない!!!ご飯が美味い店!!!銀鮭と卵焼きに感動!!!",
+                "publishedAt": "2025-10-10T10:01:00Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.404489,
+                    33.582095
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "video_id": "MGTWsMV-lsU",
+                "name": "だし家橫丁 まえだ",
+                "version": "1.2",
+                "address": "だし家橫丁 まえだ 福岡市南区玉川町12-25",
+                "open_location_code": "8Q5GHC88+JM",
+                "url": "https://www.geocoding.jp/?q=%E3%81%A0%E3%81%97%E5%AE%B6%E6%A9%AB%E4%B8%81%20%E3%81%BE%E3%81%88%E3%81%A0%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E5%8D%97%E5%8C%BA%E7%8E%89%E5%B7%9D%E7%94%BA12-25",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市南区玉川町１２−２５ だし家横丁 まえだ",
+                "error": null,
+                "title": "この店のチャンポン100点満点です!!!絶対外さない福岡飯店",
+                "publishedAt": "2025-10-03T10:00:40Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.41667,
+                    33.566596
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "Fy-o6Rb5gJ4",
                 "name": "むらしま",
                 "version": "1.2",
