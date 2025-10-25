@@ -4,6 +4,52 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "P45_pImG6l0",
+                "name": "wasyoku幸史",
+                "version": "1.2",
+                "address": "wasyoku幸史 福岡市中央区渡辺通5丁目",
+                "open_location_code": "8Q5GHCP3+JF",
+                "url": "https://www.geocoding.jp/?q=wasyoku%E5%B9%B8%E5%8F%B2%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E6%B8%A1%E8%BE%BA%E9%80%9A5%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市中央区渡辺通５丁目１４−２５ 深町ビル 101 wasyoku幸史（わしょくこうじ）",
+                "error": null,
+                "title": "シンプルの極!!!麺を極めた店!!!",
+                "publishedAt": "2025-10-24T10:00:47Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.40364,
+                    33.58658
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "video_id": "OWJZ2SJ_uas",
+                "name": "「神の牛まぶし」",
+                "version": "1.2",
+                "address": "「神の牛まぶし」 福岡市中央区清川2丁目",
+                "open_location_code": "8Q5GHCJ5+4P",
+                "url": "https://www.geocoding.jp/?q=%E3%80%8C%E7%A5%9E%E3%81%AE%E7%89%9B%E3%81%BE%E3%81%B6%E3%81%97%E3%80%8D%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E6%B8%85%E5%B7%9D2%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市中央区清川２丁目１１−２３ ヴィラニューエイジ 1F 神の牛まぶし",
+                "error": null,
+                "title": "俺のご褒美飯!!!肉好き大絶賛の名店攻め!!!",
+                "publishedAt": "2025-10-21T10:00:42Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.409264,
+                    33.580264
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "zdit4WFY9J4",
                 "name": "SHEEPMAN WONDER",
                 "version": "1.2",
