@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "3zsOvuMka7o",
+                "name": "ICHIYU",
+                "version": "1.2",
+                "address": "ICHIYU 福岡市博多区奈良屋町4-1",
+                "open_location_code": "8Q5GHCX4+87",
+                "url": "https://www.geocoding.jp/?q=ICHIYU%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E5%8D%9A%E5%A4%9A%E5%8C%BA%E5%A5%88%E8%89%AF%E5%B1%8B%E7%94%BA4-1",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市博多区奈良屋町４−１ 森ビル 1F ICHIYU",
+                "error": null,
+                "title": "中島が完璧と大絶賛したラーメン!!!",
+                "publishedAt": "2025-10-31T10:35:27Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.405701,
+                    33.598261
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "Ain5Unau1fQ",
                 "name": "博多九ちゃんラーメン",
                 "version": "1.2",
