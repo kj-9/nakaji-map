@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "BHLXJGFXbEs",
+                "name": "グッドタイムスモークス",
+                "version": "1.2",
+                "address": "グッドタイムスモークス 福岡市中央区渡辺通3丁目",
+                "open_location_code": "8Q5GHCP3+7P",
+                "url": "https://www.geocoding.jp/?q=%E3%82%B0%E3%83%83%E3%83%89%E3%82%BF%E3%82%A4%E3%83%A0%E3%82%B9%E3%83%A2%E3%83%BC%E3%82%AF%E3%82%B9%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E6%B8%A1%E8%BE%BA%E9%80%9A3%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市中央区渡辺通３丁目６−３２ 佐竹会館 A棟2号室 GOOD TIME SMOKES",
+                "error": null,
+                "title": "路地裏の超絶名店!!!福岡最高峰のハンバーガー!!!",
+                "publishedAt": "2025-11-04T10:00:19Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.404327,
+                    33.585679
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "3zsOvuMka7o",
                 "name": "ICHIYU",
                 "version": "1.2",
