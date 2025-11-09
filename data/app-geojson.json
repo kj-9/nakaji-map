@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "NqPXSpmHVBk",
+                "name": "カレーのお店８点９別邸",
+                "version": "1.2",
+                "address": "カレーのお店８点９別邸 福岡市中央区清川2丁目",
+                "open_location_code": "8Q5GHCJ6+85",
+                "url": "https://www.geocoding.jp/?q=%E3%82%AB%E3%83%AC%E3%83%BC%E3%81%AE%E3%81%8A%E5%BA%97%EF%BC%98%E7%82%B9%EF%BC%99%E5%88%A5%E9%82%B8%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E6%B8%85%E5%B7%9D2%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": null,
+                "error": null,
+                "title": "福岡最高峰のカツカレー!!!",
+                "publishedAt": "2025-11-07T11:03:03Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.410448,
+                    33.580805
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "BHLXJGFXbEs",
                 "name": "グッドタイムスモークス",
                 "version": "1.2",
