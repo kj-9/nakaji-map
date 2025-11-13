@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "-fmf9Ys8iWA",
+                "name": "博多うどん酒場 和八わっぱち",
+                "version": "1.2",
+                "address": "博多うどん酒場 和八わっぱち 福岡市中央区今泉1丁目",
+                "open_location_code": "8Q5GHCP2+M5",
+                "url": "https://www.geocoding.jp/?q=%E5%8D%9A%E5%A4%9A%E3%81%86%E3%81%A9%E3%82%93%E9%85%92%E5%A0%B4%20%E5%92%8C%E5%85%AB%E3%82%8F%E3%81%A3%E3%81%B1%E3%81%A1%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E4%BB%8A%E6%B3%891%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": null,
+                "error": null,
+                "title": "一度は食べておくべき福岡のうどんとかつ丼!!!",
+                "publishedAt": "2025-11-11T10:00:01Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.400414,
+                    33.586694
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "NqPXSpmHVBk",
                 "name": "カレーのお店８点９別邸",
                 "version": "1.2",
