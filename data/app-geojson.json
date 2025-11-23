@@ -4,6 +4,75 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "jQsiLSdwOj8",
+                "name": "大濠うなぎ",
+                "version": "1.2",
+                "address": "大濠うなぎ 福岡市中央区赤坂1丁目",
+                "open_location_code": "8Q5GH9QQ+QF",
+                "url": "https://www.geocoding.jp/?q=%E5%A4%A7%E6%BF%A0%E3%81%86%E3%81%AA%E3%81%8E%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E8%B5%A4%E5%9D%821%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": null,
+                "error": null,
+                "title": "俺のご褒美飯!!!福岡の超絶名店シリーズ!!!この店の鰻は感動モノです!!!",
+                "publishedAt": "2025-11-18T10:01:24Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.388636,
+                    33.589379
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "video_id": "EEu_5w93fWs",
+                "name": "ハンバーグステーキJUMBO（ジャンボ）",
+                "version": "1.2",
+                "address": "ハンバーグステーキJUMBO（ジャンボ） 福岡市中央区大手門3丁目",
+                "open_location_code": "8Q5GH9RJ+4M",
+                "url": "https://www.geocoding.jp/?q=%E3%83%8F%E3%83%B3%E3%83%90%E3%83%BC%E3%82%B0%E3%82%B9%E3%83%86%E3%83%BC%E3%82%ADJUMBO%EF%BC%88%E3%82%B8%E3%83%A3%E3%83%B3%E3%83%9C%EF%BC%89%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E5%A4%A7%E6%89%8B%E9%96%803%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": null,
+                "error": null,
+                "title": "話題の名店!!!完璧なハンバーグステーキと絶賛される店!!!",
+                "publishedAt": "2025-11-21T10:00:33Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.381721,
+                    33.590291
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "video_id": "iBtmTx5bucU",
+                "name": "大重食堂",
+                "version": "1.2",
+                "address": "大重食堂 福岡市中央区今泉1丁目",
+                "open_location_code": "8Q5GHCP2+R7",
+                "url": "https://www.geocoding.jp/?q=%E5%A4%A7%E9%87%8D%E9%A3%9F%E5%A0%82%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E4%BB%8A%E6%B3%891%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": null,
+                "error": null,
+                "title": "一度は行っておくべき福岡の絶品ラーメン店!!!",
+                "publishedAt": "2025-11-14T10:01:19Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.400713,
+                    33.587044
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "-fmf9Ys8iWA",
                 "name": "博多うどん酒場 和八わっぱち",
                 "version": "1.2",
