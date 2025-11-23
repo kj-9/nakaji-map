@@ -10,7 +10,6 @@
 	}
 </script>
 
-<!-- svelte-ignore a11y-click-events-have-key-events a11y-no-noninteractive-element-interactions -->
 <dialog
 	bind:this={dialog}
 	on:close={() => (showModal = false)}

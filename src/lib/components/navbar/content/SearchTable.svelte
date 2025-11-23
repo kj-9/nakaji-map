@@ -74,15 +74,15 @@
 				</th>
 			</tr>
 			<tr class="bg-white text-gray-700 border-t border-gray-200">
-				{#each columns as column}
+				{#each columns as column (column.key)}
 					<th scope="col" class="px-3 py-2">{column.header}</th>
 				{/each}
 			</tr>
 		</thead>
 		<tbody>
-			{#each filteredData as feature}
+			{#each filteredData as feature (feature.properties.video_id)}
 				<tr class="bg-white border-b last:border-none hover:bg-gray-50">
-					{#each columns as column}
+					{#each columns as column (column.key)}
 						<td
 							class="px-3 py-2 align-top"
 							on:click={() => {

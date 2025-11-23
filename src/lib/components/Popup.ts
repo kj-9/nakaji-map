@@ -6,9 +6,10 @@ import { get } from 'svelte/store';
 import { map } from '$lib/store';
 import type { FeatureForPopup } from '$lib/store';
 import { browser } from '$app/environment';
+import type { Position } from 'geojson';
 
 export const createPopupAndPushState = (
-	coordinates: GeoJSON.Position,
+	coordinates: Position,
 	popupContentProps: ComponentProps<PopupContent>
 ) => {
 	const container = document.createElement('div');

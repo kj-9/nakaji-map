@@ -29,10 +29,10 @@
 	<p>{title}</p>
 
 	<div class="mt-2 inline-flex items-center">
-		<a href={videoURL} target="_blank"
+		<a href={videoURL} target="_blank" rel="noreferrer noopener"
 			><img class="h-8" src={iconYouTubeURL} alt="Watch on YouTube" /></a
 		>
-		<a href={gmapURL} target="_blank"
+		<a href={gmapURL} target="_blank" rel="noreferrer noopener"
 			><img class="h-8" src={iconGoogleMapURL} alt="Open in Google Maps" /></a
 		>
 	</div>

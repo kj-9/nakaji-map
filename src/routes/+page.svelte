@@ -10,10 +10,9 @@
 	import { geodata } from '$lib/store';
 	import type { FeatureForPopup } from '$lib/store';
 
-	export let initialFlyFeature: FeatureForPopup;
+	let initialFlyFeature: FeatureForPopup | undefined;
 	let mounted = false;
 	let showAbout = false;
-	let mapLoaded = false;
 	let showPlaceholder = true;
 	let showLoading = true;
 
@@ -57,7 +56,6 @@
 		<Map
 			{initialFlyFeature}
 			on:loaded={() => {
-				mapLoaded = true;
 				setTimeout(() => {
 					showPlaceholder = false;
 				}, 250);

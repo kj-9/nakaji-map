@@ -18,7 +18,7 @@
 	import type maplibregl from 'maplibre-gl';
 	import { createEventDispatcher } from 'svelte';
 
-	export let initialFlyFeature: FeatureForPopup;
+	export let initialFlyFeature: FeatureForPopup | undefined;
 	const dispatch = createEventDispatcher<{ loaded: void }>();
 
 	const protomapsURL = `https://api.protomaps.com/tiles/v3/{z}/{x}/{y}.pbf?key=${
@@ -78,11 +78,17 @@
 	};
 
 	const handleMouseEnter = () => {
-		mapInstance?.getCanvas().style && (mapInstance.getCanvas().style.cursor = 'pointer');
+		const canvas = mapInstance?.getCanvas();
+		if (canvas?.style) {
+			canvas.style.cursor = 'pointer';
+		}
 	};
 
 	const handleMouseLeave = () => {
-		mapInstance?.getCanvas().style && (mapInstance.getCanvas().style.cursor = '');
+		const canvas = mapInstance?.getCanvas();
+		if (canvas?.style) {
+			canvas.style.cursor = '';
+		}
 	};
 
 	const handleMapLoad = () => {

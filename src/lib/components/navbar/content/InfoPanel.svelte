@@ -51,7 +51,7 @@
 			<span class="text-xs text-gray-500">最新5件</span>
 		</div>
 		<ul class="mt-2 space-y-2">
-			{#each newFeatures as feature}
+			{#each newFeatures as feature (feature.properties.video_id)}
 				<li>
 					<button
 						class="w-full text-left p-2 rounded-lg hover:bg-gray-50 transition"
