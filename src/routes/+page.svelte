@@ -66,7 +66,7 @@ import { get } from 'svelte/store';
 	{/if}
 
 	<div class="absolute top-5 left-5">
-		<NavBar bind:showAbout />
+		<NavBar bind:showAbout initialOpen={true} initialTab="info" />
 	</div>
 
 	{#if showLoading}

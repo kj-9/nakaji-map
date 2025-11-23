@@ -36,90 +36,68 @@
 	});
 </script>
 
-<div class="px-2 h-screen" style="width:80vw">
+<div class="px-2 sm:px-3 w-full max-w-[720px] relative">
+	<div class="sticky top-0 z-50 bg-white shadow-[0_4px_12px_-2px_rgba(0,0,0,0.2)] px-3 pt-3 pb-2">
+		<label for="table-search" class="sr-only">Search</label>
+		<div class="relative">
+			<div class="absolute inset-y-0 left-0 flex items-center ps-3 pointer-events-none">
+				<svg
+					class="w-4 h-4 text-gray-500"
+					aria-hidden="true"
+					xmlns="http://www.w3.org/2000/svg"
+					fill="none"
+					viewBox="0 0 20 20"
+				>
+					<path
+						stroke="currentColor"
+						stroke-linecap="round"
+						stroke-linejoin="round"
+						stroke-width="2"
+						d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"
+					/>
+				</svg>
+			</div>
+			<input
+				bind:value={$searchQuery}
+				type="text"
+				id="table-search"
+				class="pt-2 pb-2 ps-10 text-gray-900 w-full border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500"
+				placeholder="店名で検索"
+			/>
+		</div>
+	</div>
+
 	<table
-		class="text-xs md:text-sm text-left rtl:text-right text-gray-500 w-full"
+		class="text-xs md:text-sm text-left rtl:text-right text-gray-700 w-full border border-gray-200 rounded-lg shadow-sm bg-white"
 		style="word-break: break-word;"
 	>
-		<thead class="sticky top-0 bg-gray-50">
-			<tr>
-				<th scope="col" colspan="3">
-					<label for="table-search" class="sr-only">Search</label>
-					<div class="relative">
-						<form class="mt-2 text-right" method="dialog">
-							<button
-								type="submit"
-								class="bg-white rounded-md inline-flex items-center justify-center text-gray-400 hover:text-gray-800 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
-							>
-								<span class="sr-only">Close menu</span>
-								<!-- Heroicon name: outline/x -->
-								<svg
-									class="h-6 w-6"
-									xmlns="http://www.w3.org/2000/svg"
-									fill="none"
-									viewBox="0 0 24 24"
-									stroke="currentColor"
-									aria-hidden="true"
-								>
-									<path
-										stroke-linecap="round"
-										stroke-linejoin="round"
-										stroke-width="2"
-										d="M6 18L18 6M6 6l12 12"
-									/>
-								</svg>
-							</button>
-						</form>
-						<div
-							class="mt-7 absolute inset-y-0 rtl:inset-r-0 flex items-center ps-3 pointer-events-none"
-						>
-							<svg
-								class="w-4 h-4 text-gray-500"
-								aria-hidden="true"
-								xmlns="http://www.w3.org/2000/svg"
-								fill="none"
-								viewBox="0 0 20 20"
-							>
-								<path
-									stroke="currentColor"
-									stroke-linecap="round"
-									stroke-linejoin="round"
-									stroke-width="2"
-									d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"
-								/>
-							</svg>
-						</div>
-						<input
-							bind:value={$searchQuery}
-							type="text"
-							id="table-search"
-							class="pt-2 pb-2 ps-10 text-gray-900 w-full border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500"
-							placeholder="店名で検索"
-						/>
-					</div>
-				</th>
-			</tr>
-			<tr>
+		<thead class="sticky top-[60px] z-40 bg-white shadow-[0_2px_8px_-2px_rgba(0,0,0,0.2)]">
+			<tr class="bg-white text-gray-700 border-t border-gray-200">
 				{#each columns as column}
-					<th scope="col" class="px-6 py-3 text-gray-700">{column.header}</th>
+					<th scope="col" class="px-3 py-2">{column.header}</th>
 				{/each}
 			</tr>
 		</thead>
 		<tbody>
 			{#each filteredData as feature}
-				<tr class="bg-white border-b hover:bg-gray-50">
+				<tr class="bg-white border-b last:border-none hover:bg-gray-50">
 					{#each columns as column}
 						<td
-							class="px-1 py-2"
+							class="px-3 py-2 align-top"
 							on:click={() => {
 								dispatch('fly');
 								flyTo(feature);
 							}}
 						>
 							{#if column.key === 'name'}
-								{feature.properties.name || feature.properties.google_maps}
+								<div class="font-semibold text-gray-900">
+									{feature.properties.name || feature.properties.google_maps}
+								</div>
+								<div class="text-[11px] text-gray-500 break-words">
+									{feature.properties.address}
+								</div>
 							{:else if column.key === 'title'}
-								{feature.properties.title}
+								<div class="text-gray-800">{feature.properties.title}</div>
 							{:else if column.key === 'publishedAt'}
 								{formatDateStr(feature.properties.publishedAt)}
 							{/if}
@@ -127,6 +105,13 @@
 					{/each}
 				</tr>
 			{/each}
+			{#if filteredData.length === 0}
+				<tr>
+					<td colspan={columns.length} class="px-3 py-4 text-center text-gray-500 text-sm">
+						一致するお店が見つかりませんでした
+					</td>
+				</tr>
+			{/if}
 		</tbody>
 	</table>
 </div>
