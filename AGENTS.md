@@ -12,7 +12,7 @@
 - `pnpm install`（preinstall で `pnpm` を強制）。Node は TypeScript + SvelteKit 前提。
 - 開発サーバー: `pnpm dev`（デフォルトで http://localhost:5173）。サーバー起動後に地図描画を確認。
 - 静的ビルド: `pnpm build`。生成物は `build/` に出力され、`pnpm preview` でローカル確認。
-- 型・Lint: `pnpm check`（svelte-check）、`pnpm lint`（Prettier チェック + ESLint）、自動整形は `pnpm format`。
+- 型・Lint・整形: `pnpm verify` で `pnpm format && pnpm check && pnpm lint` を一括実行。個別に回したい場合は `pnpm check`（svelte-check）、`pnpm lint`（Prettier チェック + ESLint）、`pnpm format`（整形）。
 - テスト: `pnpm test` で統合実行、`pnpm test:unit`（Vitest）、`pnpm test:integration`（Playwright；`playwright.config.ts` で `npm run build && npm run preview` を起動）。
 
 ## コーディングスタイルと命名
