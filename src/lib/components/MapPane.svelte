@@ -16,8 +16,10 @@
 		SymbolLayer
 	} from 'svelte-maplibre-gl';
 	import type maplibregl from 'maplibre-gl';
+	import { createEventDispatcher } from 'svelte';
 
 	export let initialFlyFeature: FeatureForPopup;
+	const dispatch = createEventDispatcher<{ loaded: void }>();
 
 	const protomapsURL = `https://api.protomaps.com/tiles/v3/{z}/{x}/{y}.pbf?key=${
 		import.meta.env.VITE_PROTOMAPS_API_KEY
@@ -87,6 +89,7 @@
 		if (!mapInstance) return;
 
 		map.set(mapInstance);
+		dispatch('loaded');
 
 		if (initialFlyFeature && !hasFlownToInitial) {
 			hasFlownToInitial = true;

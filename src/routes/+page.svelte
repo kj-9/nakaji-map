@@ -1,5 +1,6 @@
 <script lang="ts">
 import { onMount } from 'svelte';
+import { fade } from 'svelte/transition';
 import { page } from '$app/stores';
 import { browser } from '$app/environment';
 import { get } from 'svelte/store';
@@ -9,16 +10,20 @@ import { get } from 'svelte/store';
 	import { geodata } from '$lib/store';
 	import type { FeatureForPopup } from '$lib/store';
 
-	import About from '$lib/components/navbar/content/About.svelte';
-	import News from '$lib/components/navbar/content/News.svelte';
-	import SearchTable from '$lib/components/navbar/content/SearchTable.svelte';
-
 	export let initialFlyFeature: FeatureForPopup;
 	let mounted = false;
+	let showAbout = false;
+	let mapLoaded = false;
+	let showPlaceholder = true;
+	let showLoading = true;
 
 	onMount(() => {
-		if (browser) mounted = true;
+		if (browser) {
+			mounted = true;
+		}
 	});
+
+	$: showLoading = !mounted || showPlaceholder;
 
 	if (browser) {
 		const videoId = $page.url.searchParams.get('videoid');
@@ -47,25 +52,40 @@ import { get } from 'svelte/store';
 	<link rel="canonical" href="https://nakaji-map.kj-dev.net/" />
 </svelte:head>
 
-{#if mounted}
-	<div class="relative">
-		<Map {initialFlyFeature} />
-		<div class="absolute top-5 left-5">
-			<NavBar showAbout={!initialFlyFeature} />
-		</div>
+<div class="relative min-h-screen bg-gradient-to-br from-gray-50 via-white to-gray-100">
+	{#if mounted}
+		<Map
+			{initialFlyFeature}
+			on:loaded={() => {
+				mapLoaded = true;
+				setTimeout(() => {
+					showPlaceholder = false;
+				}, 250);
+			}}
+		/>
+	{/if}
+
+	<div class="absolute top-5 left-5">
+		<NavBar bind:showAbout />
 	</div>
-{:else}
-		<div class="flex flex-col items-center justify-center gap-4 py-12 text-center">
-			<div class="text-xl font-semibold text-gray-800">地図を読み込み中…</div>
-			<div class="text-sm text-gray-600">
-				JavaScript が無効な場合は地図が表示されません。<br />
-				少し待っても表示されないときはページを再読み込みしてください。
+
+	{#if showLoading}
+		<div
+			class="absolute inset-0 z-10 pointer-events-none flex items-center justify-center"
+			transition:fade={{ duration: 200 }}
+		>
+			<div class="absolute inset-0 bg-gradient-to-br from-slate-100 via-white to-slate-200 animate-pulse opacity-90"></div>
+			<div class="relative text-sm text-gray-700 bg-white/80 backdrop-blur px-5 py-3 rounded-full shadow">
+				マップを準備中…
 			</div>
-			<div class="h-10 w-10 animate-spin rounded-full border-4 border-blue-200 border-t-blue-500"></div>
 		</div>
-		<noscript>
-			<div class="p-6 text-center text-sm text-red-700 bg-red-50 rounded-md">
+	{/if}
+
+	<noscript>
+		<div class="absolute inset-0 z-20 flex items-center justify-center px-4">
+			<div class="w-full max-w-md p-6 text-center text-sm text-red-700 bg-red-50 rounded-md shadow">
 				地図を表示するには JavaScript を有効にしてください。
 			</div>
-		</noscript>
-{/if}
+		</div>
+	</noscript>
+</div>
