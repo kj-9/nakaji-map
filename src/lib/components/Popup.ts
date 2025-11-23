@@ -1,4 +1,3 @@
-import { pushState } from '$app/navigation';
 import { Popup } from '$lib/maplibreGL';
 import PopupContent from './PopupContent.svelte';
 import { mount } from 'svelte';
@@ -6,6 +5,7 @@ import type { ComponentProps } from 'svelte';
 import { get } from 'svelte/store';
 import { map } from '$lib/store';
 import type { FeatureForPopup } from '$lib/store';
+import { browser } from '$app/environment';
 
 export const createPopupAndPushState = (
 	coordinates: GeoJSON.Position,
@@ -20,7 +20,11 @@ export const createPopupAndPushState = (
 	// type check coodinates is [number, number]
 	const [lng, lat] = coordinates;
 
-	pushState(`/?videoid=${popupContentProps.video_id}`, {});
+	if (browser) {
+		const url = new URL(window.location.href);
+		url.searchParams.set('videoid', popupContentProps.video_id);
+		window.history.pushState({}, '', url);
+	}
 
 	return new Popup().setLngLat([lng, lat]).setDOMContent(container);
 };
