@@ -1,12 +1,11 @@
 <script lang="ts">
-	import { writable } from 'svelte/store';
 	import { createEventDispatcher } from 'svelte';
-	import { createSvelteTable, flexRender, getCoreRowModel } from '@tanstack/svelte-table';
 	import { geodata } from '$lib/store';
 	import { get } from 'svelte/store';
 	import { formatDateStr } from '$lib/formatter';
 	import { flyTo } from '$lib/components/Popup';
 	import { searchQuery } from '$lib/store';
+	import type { FeatureForPopup } from '$lib/store';
 
 	// currently, cannot import '@tanstack/table-core/src/types';
 	// so bypass typing and eslint rule for any.
@@ -16,70 +15,25 @@
 	const dispatch = createEventDispatcher();
 
 	const _geodata = get(geodata);
-	type Feature = {
-		properties: {
-			//video_id: string
-			name: string;
-			//version: string
-			address: string;
-			//open_location_code: string
-			//url: string
-			//needs_to_verify: string
-			google_maps: string;
-			//error: string
-			//title: string;
-			publishedAt: string;
-		};
-	};
+	const defaultData = _geodata.features as FeatureForPopup[];
 
-	const defaultData: Feature[] = _geodata.features;
+	const columns = [
+		{ header: '店名', key: 'name' },
+		{ header: '動画タイトル', key: 'title' },
+		{ header: '公開日', key: 'publishedAt' }
+	] as const;
 
-	const defaultColumns =
-		//: ColumnDef<Feature>[]
-		[
-			{
-				accessorFn: (row: any) => row.properties.name || row.properties.google_maps,
-				header: '店名'
-			},
-			{
-				accessorFn: (row: any) => row.properties.title,
-				header: '動画タイトル'
-			},
-			{
-				accessorFn: (row: any) => formatDateStr(row.properties.publishedAt),
-				header: '公開日'
-			}
-		];
+	$: filteredData = defaultData.filter((d: any) => {
+		const props = d.properties;
+		const query = $searchQuery;
+		if (!query) return true;
 
-	const options = writable({
-		//<TableOptions<Feature>>({
-		data: defaultData,
-		columns: defaultColumns,
-		getCoreRowModel: getCoreRowModel()
+		return (
+			props.google_maps?.includes(query) ||
+			props.name?.includes(query) ||
+			props.title?.includes(query)
+		);
 	});
-
-	$: {
-		options.update((o) => {
-			const newData = defaultData.filter((d: any) => {
-				const props = d.properties;
-
-				if (
-					props.google_maps?.includes($searchQuery) ||
-					props.name?.includes($searchQuery) ||
-					props.title?.includes($searchQuery)
-				)
-					return true;
-
-				return false;
-			});
-			return {
-				...o,
-				data: newData
-			};
-		});
-	}
-
-	const table = createSvelteTable(options) as any; // for now
 </script>
 
 <div class="px-2 h-screen" style="width:80vw">
@@ -145,32 +99,30 @@
 					</div>
 				</th>
 			</tr>
-			{#each $table.getHeaderGroups() as headerGroup}
-				<tr>
-					{#each headerGroup.headers as header}
-						<th scope="col" class="px-6 py-3 text-gray-700">
-							{#if !header.isPlaceholder}
-								<svelte:component
-									this={flexRender(header.column.columnDef.header, header.getContext())}
-								/>
-							{/if}
-						</th>
-					{/each}
-				</tr>
-			{/each}
+			<tr>
+				{#each columns as column}
+					<th scope="col" class="px-6 py-3 text-gray-700">{column.header}</th>
+				{/each}
+			</tr>
 		</thead>
 		<tbody>
-			{#each $table.getRowModel().rows as row}
+			{#each filteredData as feature}
 				<tr class="bg-white border-b hover:bg-gray-50">
-					{#each row.getVisibleCells() as cell}
+					{#each columns as column}
 						<td
 							class="px-1 py-2"
 							on:click={() => {
 								dispatch('fly');
-								flyTo(cell.row.original);
+								flyTo(feature);
 							}}
 						>
-							<svelte:component this={flexRender(cell.column.columnDef.cell, cell.getContext())} />
+							{#if column.key === 'name'}
+								{feature.properties.name || feature.properties.google_maps}
+							{:else if column.key === 'title'}
+								{feature.properties.title}
+							{:else if column.key === 'publishedAt'}
+								{formatDateStr(feature.properties.publishedAt)}
+							{/if}
 						</td>
 					{/each}
 				</tr>

@@ -1,6 +1,7 @@
 import { pushState } from '$app/navigation';
 import { Popup } from '$lib/maplibreGL';
 import PopupContent from './PopupContent.svelte';
+import { mount } from 'svelte';
 import type { ComponentProps } from 'svelte';
 import { get } from 'svelte/store';
 import { map } from '$lib/store';
@@ -11,7 +12,7 @@ export const createPopupAndPushState = (
 	popupContentProps: ComponentProps<PopupContent>
 ) => {
 	const container = document.createElement('div');
-	new PopupContent({
+	mount(PopupContent, {
 		target: container,
 		props: popupContentProps
 	});
