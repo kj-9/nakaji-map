@@ -67,8 +67,19 @@
 		on:click={togglePanel}
 		aria-pressed={panelOpen}
 	>
-		<svg class="h-4 w-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-			<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+		<svg
+			class="h-4 w-4"
+			xmlns="http://www.w3.org/2000/svg"
+			fill="none"
+			viewBox="0 0 24 24"
+			stroke="currentColor"
+		>
+			<path
+				stroke-linecap="round"
+				stroke-linejoin="round"
+				stroke-width="2"
+				d="M4 6h16M4 12h16M4 18h16"
+			/>
 		</svg>
 		Menu
 		<span class="text-xs font-normal text-gray-500">/ {activeTab}</span>
@@ -87,33 +98,50 @@
 
 	{#if panelOpen}
 		<div class="absolute left-0 top-12 z-30" transition:slide={{ duration: 160, axis: 'y' }}>
-			<div class="w-[min(760px,94vw)] rounded-2xl bg-white/95 shadow-2xl backdrop-blur border border-gray-200 overflow-hidden">
-				<div class="flex items-center justify-between px-4 py-3 border-b sticky top-0 z-30 bg-white/95 backdrop-blur">
-				<div class="flex gap-2 text-sm font-semibold text-gray-800">
-					<button
-						class="px-3 py-1.5 rounded-lg border text-xs sm:text-sm transition {activeTab === 'info'
-							? 'bg-blue-600 text-white border-blue-600'
-							: 'bg-white text-gray-700 border-gray-200 hover:border-blue-200'}"
-						on:click={() => selectTab('info')}
-					>
-						Info
-					</button>
-					<button
-						class="px-3 py-1.5 rounded-lg border text-xs sm:text-sm transition {activeTab === 'search'
-							? 'bg-blue-600 text-white border-blue-600'
-							: 'bg-white text-gray-700 border-gray-200 hover:border-blue-200'}"
-						on:click={() => selectTab('search')}
-					>
-						Search
-					</button>
-				</div>
+			<div
+				class="w-[min(760px,94vw)] rounded-2xl bg-white/95 shadow-2xl backdrop-blur border border-gray-200 overflow-hidden"
+			>
+				<div
+					class="flex items-center justify-between px-4 py-3 border-b sticky top-0 z-30 bg-white/95 backdrop-blur"
+				>
+					<div class="flex gap-2 text-sm font-semibold text-gray-800">
+						<button
+							class="px-3 py-1.5 rounded-lg border text-xs sm:text-sm transition {activeTab ===
+							'info'
+								? 'bg-blue-600 text-white border-blue-600'
+								: 'bg-white text-gray-700 border-gray-200 hover:border-blue-200'}"
+							on:click={() => selectTab('info')}
+						>
+							Info
+						</button>
+						<button
+							class="px-3 py-1.5 rounded-lg border text-xs sm:text-sm transition {activeTab ===
+							'search'
+								? 'bg-blue-600 text-white border-blue-600'
+								: 'bg-white text-gray-700 border-gray-200 hover:border-blue-200'}"
+							on:click={() => selectTab('search')}
+						>
+							Search
+						</button>
+					</div>
 					<button
 						class="rounded-full p-2 text-gray-500 hover:bg-gray-100 hover:text-gray-800 transition"
 						on:click={closePanel}
 						aria-label="Close menu"
 					>
-						<svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+						<svg
+							class="h-5 w-5"
+							xmlns="http://www.w3.org/2000/svg"
+							fill="none"
+							viewBox="0 0 24 24"
+							stroke="currentColor"
+						>
+							<path
+								stroke-linecap="round"
+								stroke-linejoin="round"
+								stroke-width="2"
+								d="M6 18L18 6M6 6l12 12"
+							/>
 						</svg>
 					</button>
 				</div>

@@ -25,8 +25,7 @@
 				href="https://www.youtube.com/channel/UCcWWwmgV5dLmqUJCtAZqHfw"
 				class="text-blue-600 hover:underline"
 				target="_blank"
-				rel="noreferrer"
-				>中島浩二チャンネル</a
+				rel="noreferrer">中島浩二チャンネル</a
 			>
 			のファンサイトです。動画で紹介された福岡市近郊のお店を地図にまとめています。
 		</p>
@@ -40,15 +39,14 @@
 				href="https://github.com/kj-9/nakaji-map/issues/new"
 				class="text-blue-600 hover:underline"
 				target="_blank"
-				rel="noreferrer"
-				>GitHubのIssue</a
+				rel="noreferrer">GitHubのIssue</a
 			>
 			からお願いします。
 		</p>
 	</section>
 
 	<section class="bg-white rounded-xl px-3 sm:px-4 py-4 shadow-sm border border-gray-100">
-		<div class="flex items-center justify-between">
+		<div class="flex items-baseline gap-2">
 			<h2 class="text-base sm:text-lg font-semibold text-gray-900">最近の更新</h2>
 			<span class="text-xs text-gray-500">最新5件</span>
 		</div>

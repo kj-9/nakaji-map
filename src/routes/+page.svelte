@@ -1,9 +1,9 @@
 <script lang="ts">
-import { onMount } from 'svelte';
-import { fade } from 'svelte/transition';
-import { page } from '$app/stores';
-import { browser } from '$app/environment';
-import { get } from 'svelte/store';
+	import { onMount } from 'svelte';
+	import { fade } from 'svelte/transition';
+	import { page } from '$app/stores';
+	import { browser } from '$app/environment';
+	import { get } from 'svelte/store';
 
 	import Map from '$lib/components/MapPane.svelte';
 	import NavBar from '$lib/components/navbar/NavBar.svelte';
@@ -74,8 +74,12 @@ import { get } from 'svelte/store';
 			class="absolute inset-0 z-10 pointer-events-none flex items-center justify-center"
 			transition:fade={{ duration: 200 }}
 		>
-			<div class="absolute inset-0 bg-gradient-to-br from-slate-100 via-white to-slate-200 animate-pulse opacity-90"></div>
-			<div class="relative text-sm text-gray-700 bg-white/80 backdrop-blur px-5 py-3 rounded-full shadow">
+			<div
+				class="absolute inset-0 bg-gradient-to-br from-slate-100 via-white to-slate-200 animate-pulse opacity-90"
+			></div>
+			<div
+				class="relative text-sm text-gray-700 bg-white/80 backdrop-blur px-5 py-3 rounded-full shadow"
+			>
 				マップを準備中…
 			</div>
 		</div>
