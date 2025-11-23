@@ -36,42 +36,43 @@
 	});
 </script>
 
-<div class="px-2 sm:px-3 w-full max-w-[720px] relative">
-	<div class="sticky top-0 z-50 bg-white shadow-[0_4px_12px_-2px_rgba(0,0,0,0.2)] px-3 pt-3 pb-2">
-		<label for="table-search" class="sr-only">Search</label>
-		<div class="relative">
-			<div class="absolute inset-y-0 left-0 flex items-center ps-3 pointer-events-none">
-				<svg
-					class="w-4 h-4 text-gray-500"
-					aria-hidden="true"
-					xmlns="http://www.w3.org/2000/svg"
-					fill="none"
-					viewBox="0 0 20 20"
-				>
-					<path
-						stroke="currentColor"
-						stroke-linecap="round"
-						stroke-linejoin="round"
-						stroke-width="2"
-						d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"
-					/>
-				</svg>
-			</div>
-			<input
-				bind:value={$searchQuery}
-				type="text"
-				id="table-search"
-				class="pt-2 pb-2 ps-10 text-gray-900 w-full border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500"
-				placeholder="店名で検索"
-			/>
-		</div>
-	</div>
-
+<div class="px-2 sm:px-3 w-full max-w-[760px] bg-white">
 	<table
 		class="text-xs md:text-sm text-left rtl:text-right text-gray-700 w-full border border-gray-200 rounded-lg shadow-sm bg-white"
 		style="word-break: break-word;"
 	>
-		<thead class="sticky top-[60px] z-40 bg-white shadow-[0_2px_8px_-2px_rgba(0,0,0,0.2)]">
+		<thead class="sticky top-0 z-50 bg-white shadow-[0_4px_12px_-2px_rgba(0,0,0,0.2)]">
+			<tr>
+				<th scope="col" colspan="3" class="px-3 pt-3 pb-2 bg-white">
+					<label for="table-search" class="sr-only">Search</label>
+					<div class="relative">
+						<div class="absolute inset-y-0 left-0 flex items-center ps-3 pointer-events-none">
+							<svg
+								class="w-4 h-4 text-gray-500"
+								aria-hidden="true"
+								xmlns="http://www.w3.org/2000/svg"
+								fill="none"
+								viewBox="0 0 20 20"
+							>
+								<path
+									stroke="currentColor"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+									stroke-width="2"
+									d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"
+								/>
+							</svg>
+						</div>
+						<input
+							bind:value={$searchQuery}
+							type="text"
+							id="table-search"
+							class="pt-2 pb-2 ps-10 text-gray-900 w-full border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500"
+							placeholder="店名で検索"
+						/>
+					</div>
+				</th>
+			</tr>
 			<tr class="bg-white text-gray-700 border-t border-gray-200">
 				{#each columns as column}
 					<th scope="col" class="px-3 py-2">{column.header}</th>

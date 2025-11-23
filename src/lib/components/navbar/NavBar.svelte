@@ -117,7 +117,7 @@
 						</svg>
 					</button>
 				</div>
-				<div class="relative max-h-[60vh] overflow-auto px-3 sm:px-4 py-3 sm:py-4">
+				<div class="relative max-h-[60vh] overflow-auto bg-white px-3 sm:px-4 pb-4 pt-0">
 					{#if activeTab === 'info'}
 						<InfoPanel on:fly={closePanel} />
 					{:else}
