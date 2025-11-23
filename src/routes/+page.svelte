@@ -1,11 +1,11 @@
 <script lang="ts">
-	import { page } from '$app/stores';
-	import { browser } from '$app/environment';
-	import { get } from 'svelte/store';
+import { onMount } from 'svelte';
+import { page } from '$app/stores';
+import { browser } from '$app/environment';
+import { get } from 'svelte/store';
 
 	import Map from '$lib/components/MapPane.svelte';
 	import NavBar from '$lib/components/navbar/NavBar.svelte';
-	import NoSSR from '$lib/components/NoSSR.svelte';
 	import { geodata } from '$lib/store';
 	import type { FeatureForPopup } from '$lib/store';
 
@@ -14,6 +14,11 @@
 	import SearchTable from '$lib/components/navbar/content/SearchTable.svelte';
 
 	export let initialFlyFeature: FeatureForPopup;
+	let mounted = false;
+
+	onMount(() => {
+		if (browser) mounted = true;
+	});
 
 	if (browser) {
 		const videoId = $page.url.searchParams.get('videoid');
@@ -42,18 +47,25 @@
 	<link rel="canonical" href="https://nakaji-map.kj-dev.net/" />
 </svelte:head>
 
-<NoSSR>
+{#if mounted}
 	<div class="relative">
 		<Map {initialFlyFeature} />
 		<div class="absolute top-5 left-5">
 			<NavBar showAbout={!initialFlyFeature} />
 		</div>
 	</div>
-
-	<svelte:fragment slot="fallback">
-		<About />
-		(注意) 地図を表示するにはJavascriptを有効にしてください。
-		<News />
-		<SearchTable />
-	</svelte:fragment>
-</NoSSR>
+{:else}
+		<div class="flex flex-col items-center justify-center gap-4 py-12 text-center">
+			<div class="text-xl font-semibold text-gray-800">地図を読み込み中…</div>
+			<div class="text-sm text-gray-600">
+				JavaScript が無効な場合は地図が表示されません。<br />
+				少し待っても表示されないときはページを再読み込みしてください。
+			</div>
+			<div class="h-10 w-10 animate-spin rounded-full border-4 border-blue-200 border-t-blue-500"></div>
+		</div>
+		<noscript>
+			<div class="p-6 text-center text-sm text-red-700 bg-red-50 rounded-md">
+				地図を表示するには JavaScript を有効にしてください。
+			</div>
+		</noscript>
+{/if}
