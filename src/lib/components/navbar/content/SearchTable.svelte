@@ -1,49 +1,131 @@
 <script lang="ts">
 	import { createEventDispatcher } from 'svelte';
-	import { geodata } from '$lib/store';
-	import { get } from 'svelte/store';
+	import {
+		categorizedFeatures,
+		filteredFeatures,
+		searchQuery,
+		selectedCategories
+	} from '$lib/store';
 	import { formatDateStr } from '$lib/formatter';
 	import { flyTo } from '$lib/components/Popup';
-	import { searchQuery } from '$lib/store';
 	import type { FeatureForPopup } from '$lib/store';
-
-	// currently, cannot import '@tanstack/table-core/src/types';
-	// so bypass typing and eslint rule for any.
-	//import type { ColumnDef, TableOptions } from '@tanstack/table-core/src/types';
-	/* eslint-disable @typescript-eslint/no-explicit-any */
+	import { CATEGORIES } from '$lib/category';
+	import type { Category } from '$lib/category';
 
 	const dispatch = createEventDispatcher();
-
-	const _geodata = get(geodata);
-	const defaultData = _geodata.features as FeatureForPopup[];
 
 	const columns = [
 		{ header: '店名', key: 'name' },
 		{ header: '動画タイトル', key: 'title' },
-		{ header: '公開日', key: 'publishedAt' }
+		{ header: '公開日', key: 'publishedAt' },
+		{ header: 'カテゴリ', key: 'category' }
 	] as const;
 
-	$: filteredData = defaultData.filter((d: any) => {
-		const props = d.properties;
-		const query = $searchQuery;
-		if (!query) return true;
+	const toggleCategory = (category: Category) => {
+		selectedCategories.update((current) => {
+			if (current.includes(category)) {
+				return current.filter((c) => c !== category);
+			}
+			return [...current, category];
+		});
+	};
 
-		return (
-			props.google_maps?.includes(query) ||
-			props.name?.includes(query) ||
-			props.title?.includes(query)
-		);
+	const resetCategories = () => {
+		selectedCategories.set([...CATEGORIES]);
+	};
+
+	const clearCategories = () => {
+		selectedCategories.set([]);
+	};
+
+	let selectedSet = new Set<Category>();
+	$: selectedSet = new Set($selectedCategories);
+
+	let categoryCounts: Record<Category, number> = {} as Record<Category, number>;
+	$: categoryCounts = (() => {
+		const counts = Object.fromEntries(CATEGORIES.map((category) => [category, 0])) as Record<
+			Category,
+			number
+		>;
+		$categorizedFeatures.forEach((feature) => {
+			const category = feature.properties.category;
+			counts[category] = (counts[category] ?? 0) + 1;
+		});
+		return counts;
+	})();
+
+	let filteredData: FeatureForPopup[] = [];
+	$: filteredData = $filteredFeatures;
+	$: totalCount = $categorizedFeatures.length;
+
+	const chipBaseClass =
+		'inline-flex items-center gap-2 px-3 py-1.5 rounded-full border text-xs font-semibold transition';
+
+	let sortedCategories: Category[] = [];
+	$: sortedCategories = [...CATEGORIES].sort((a, b) => {
+		const diff = (categoryCounts[b] ?? 0) - (categoryCounts[a] ?? 0);
+		if (diff !== 0) return diff;
+		return a.localeCompare(b, 'ja');
 	});
 </script>
 
-<div class="px-2 sm:px-3 w-full max-w-[760px] bg-white">
+<div class="px-2 sm:px-3 w-full max-w-[760px] bg-white space-y-3">
+	<section class="border border-gray-200 rounded-lg shadow-sm bg-white p-3">
+		<div class="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
+			<div class="space-y-1">
+				<p class="text-sm font-semibold text-gray-900">カテゴリで絞り込み</p>
+				<p class="text-[11px] text-gray-500">
+					選択したカテゴリとキーワードに一致するお店のみを地図と一覧に表示します。
+				</p>
+			</div>
+			<div class="flex gap-2">
+				<button
+					class="text-xs px-2 py-1 rounded border border-gray-200 hover:border-blue-200 hover:text-blue-700 transition"
+					on:click={resetCategories}
+					type="button"
+				>
+					すべて選択
+				</button>
+				<button
+					class="text-xs px-2 py-1 rounded border border-gray-200 hover:border-red-200 hover:text-red-700 transition"
+					on:click={clearCategories}
+					type="button"
+				>
+					すべて解除
+				</button>
+			</div>
+		</div>
+
+		<div class="mt-2 flex flex-wrap gap-2">
+			{#each sortedCategories as category (category)}
+				<button
+					type="button"
+					class={`${chipBaseClass} ${
+						selectedSet.has(category)
+							? 'bg-blue-600 text-white border-blue-600 ring-2 ring-blue-200 shadow'
+							: 'bg-gray-200 text-gray-700 border-gray-400 hover:bg-gray-300'
+					}`}
+					on:click={() => toggleCategory(category)}
+					aria-pressed={selectedSet.has(category)}
+				>
+					<span>{category}</span>
+					<span class="text-[11px] opacity-80">({categoryCounts[category] ?? 0})</span>
+				</button>
+			{/each}
+		</div>
+		<div class="mt-1 text-[11px] text-gray-500 flex flex-wrap gap-2">
+			<span>カテゴリ: {$selectedCategories.length} / {CATEGORIES.length}</span>
+			<span>店舗: {filteredData.length} / {totalCount} 件</span>
+		</div>
+	</section>
+
 	<table
 		class="text-xs md:text-sm text-left rtl:text-right text-gray-700 w-full border border-gray-200 rounded-lg shadow-sm bg-white"
 		style="word-break: break-word;"
 	>
 		<thead class="sticky top-0 z-50 bg-white shadow-[0_4px_12px_-2px_rgba(0,0,0,0.2)]">
 			<tr>
-				<th scope="col" colspan="3" class="px-3 pt-3 pb-2 bg-white">
+				<th scope="col" colspan={columns.length} class="px-3 pt-3 pb-2 bg-white">
 					<label for="table-search" class="sr-only">Search</label>
 					<div class="relative">
 						<div class="absolute inset-y-0 left-0 flex items-center ps-3 pointer-events-none">
@@ -101,6 +183,12 @@
 								<div class="text-gray-800">{feature.properties.title}</div>
 							{:else if column.key === 'publishedAt'}
 								{formatDateStr(feature.properties.publishedAt)}
+							{:else if column.key === 'category'}
+								<span
+									class="inline-flex items-center rounded-full bg-blue-50 text-blue-700 text-[11px] px-2 py-0.5 border border-blue-100"
+								>
+									{feature.properties.category}
+								</span>
 							{/if}
 						</td>
 					{/each}

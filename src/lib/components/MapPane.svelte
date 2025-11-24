@@ -3,7 +3,7 @@
 	import layers from 'protomaps-themes-base';
 	import iconURL from '../../asset/icons8-marker-64.png';
 
-	import { geodata, map } from '$lib/store';
+	import { filteredGeodata, map } from '$lib/store';
 	import type { FeatureForPopup } from '$lib/store';
 	import { createPopupAndPushState, instanceOfFeatureForPopup, flyTo } from './Popup';
 	import {
@@ -129,7 +129,7 @@
 	/>
 
 	<ImageLoader images={markerImages}>
-		<GeoJSONSource id="places" data={$geodata}>
+		<GeoJSONSource id="places" data={$filteredGeodata}>
 			<SymbolLayer
 				id="places"
 				layout={{

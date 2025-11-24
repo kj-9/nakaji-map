@@ -9,6 +9,7 @@
 	export let video_id: string;
 	export let google_maps: string;
 	export let address: string;
+	export let category: string | undefined;
 
 	// if google_map is not set, use address as google_map
 	if (!google_maps) {
@@ -23,7 +24,16 @@
 
 <div class="rounded-lg text-sm">
 	<div class="mb-2">
-		<h2 class="font-bold">{name}</h2>
+		<h2 class="font-bold flex items-center gap-2 flex-wrap">
+			<span>{name}</span>
+			{#if category}
+				<span
+					class="inline-flex items-center rounded-full bg-blue-50 text-blue-700 text-[11px] px-2 py-0.5 border border-blue-100"
+				>
+					{category}
+				</span>
+			{/if}
+		</h2>
 		<span class="text-gray-800">{date}</span>
 	</div>
 	<p>{title}</p>

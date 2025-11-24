@@ -7,7 +7,7 @@
 
 	import Map from '$lib/components/MapPane.svelte';
 	import NavBar from '$lib/components/navbar/NavBar.svelte';
-	import { geodata } from '$lib/store';
+	import { categorizedFeatures } from '$lib/store';
 	import type { FeatureForPopup } from '$lib/store';
 
 	let initialFlyFeature: FeatureForPopup | undefined;
@@ -28,9 +28,9 @@
 		const videoId = $page.url.searchParams.get('videoid');
 
 		if (videoId) {
-			const _geodata = get(geodata);
+			const _geodata = get(categorizedFeatures);
 			console.log('searching videoId', videoId);
-			_geodata.features.forEach((feature) => {
+			_geodata.forEach((feature) => {
 				if (feature.properties.video_id === videoId) {
 					initialFlyFeature = feature;
 					return;
