@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "BtKQqT30bJ4",
+                "name": "Soos",
+                "version": "1.2",
+                "address": "Soos 福岡市中央区今泉1丁目",
+                "open_location_code": "8Q5GHCP2+9F",
+                "url": "https://www.geocoding.jp/?q=Soos%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E4%BB%8A%E6%B3%891%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市中央区今泉１丁目１０−２３ ヤクルト天神ビル 2F Soos ソース パスタ",
+                "error": null,
+                "title": "今福岡で最も話題の超絶美味パスタ専門店!!!",
+                "publishedAt": "2026-01-30T10:00:30Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.401221,
+                    33.585893
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "Yn4o5MOUuWk",
                 "name": "喫茶ボネ",
                 "version": "1.2",
