@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "8kGJvupJxRg",
+                "name": "焼き鳥 松元 (赤坂店)",
+                "version": "1.2",
+                "address": "焼き鳥 松元 (赤坂店) 福岡市中央区赤坂1丁目",
+                "open_location_code": "8Q5GH9QQ+PQ",
+                "url": "https://www.geocoding.jp/?q=%E7%84%BC%E3%81%8D%E9%B3%A5%20%E6%9D%BE%E5%85%83%20%28%E8%B5%A4%E5%9D%82%E5%BA%97%29%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E8%B5%A4%E5%9D%821%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市中央区赤坂１丁目１３−２８ ロマネスク赤坂 １階 焼き鳥松元 福岡赤坂店",
+                "error": null,
+                "title": "焼き鳥屋が作るこだわりの絶品親子丼!!!",
+                "publishedAt": "2026-02-03T10:00:11Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.3895,
+                    33.589372
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "BtKQqT30bJ4",
                 "name": "Soos",
                 "version": "1.2",
