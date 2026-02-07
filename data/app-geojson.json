@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "QOWtjRBhO58",
+                "name": "中華料理 シャン",
+                "version": "1.2",
+                "address": "中華料理 シャン 福岡市博多区住吉4丁目",
+                "open_location_code": "8Q5GHCM7+C5",
+                "url": "https://www.geocoding.jp/?q=%E4%B8%AD%E8%8F%AF%E6%96%99%E7%90%86%20%E3%82%B7%E3%83%A3%E3%83%B3%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E5%8D%9A%E5%A4%9A%E5%8C%BA%E4%BD%8F%E5%90%894%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市博多区住吉４丁目１５−５ 中華料理 シャン",
+                "error": null,
+                "title": "福岡最高のパリパリ焼きそばに大感動!!!町中華の名店シリーズ",
+                "publishedAt": "2026-02-06T10:00:42Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.412929,
+                    33.583512
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "8kGJvupJxRg",
                 "name": "焼き鳥 松元 (赤坂店)",
                 "version": "1.2",
