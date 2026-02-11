@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "vQ-AxFXvYUc",
+                "name": "天ぷら みうら",
+                "version": "1.2",
+                "address": "天ぷら みうら 福岡市中央区舞鶴3丁目",
+                "open_location_code": "8Q5GH9RP+2Q",
+                "url": "https://www.geocoding.jp/?q=%E5%A4%A9%E3%81%B7%E3%82%89%20%E3%81%BF%E3%81%86%E3%82%89%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E8%88%9E%E9%B6%B43%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市中央区舞鶴３丁目２−１７ みうら",
+                "error": null,
+                "title": "取材拒否の店!!!大衆天ぷらの名店攻め!!!",
+                "publishedAt": "2026-02-10T10:01:27Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.386997,
+                    33.590088
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "QOWtjRBhO58",
                 "name": "中華料理 シャン",
                 "version": "1.2",
