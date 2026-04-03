@@ -9,6 +9,7 @@ import type maplibregl from 'maplibre-gl';
 import type { Feature, FeatureCollection, Point } from 'geojson';
 import { CATEGORIES, resolveCategory } from './category';
 import type { Category } from './category';
+import { compareDateStrDesc } from './formatter';
 
 // writable of maplibre map
 export const map: Writable<maplibregl.Map | undefined> = writable();
@@ -33,13 +34,17 @@ export const searchQuery = writable('');
 export const selectedCategories = writable<Category[]>([...CATEGORIES]);
 
 export const categorizedFeatures = derived(geodata, ($geodata) => {
-	return $geodata.features.map((feature) => ({
-		...feature,
-		properties: {
-			...feature.properties,
-			category: resolveCategory(feature.properties)
-		}
-	})) satisfies FeatureForPopup[];
+	const features = $geodata.features
+		.map((feature) => ({
+			...feature,
+			properties: {
+				...feature.properties,
+				category: resolveCategory(feature.properties)
+			}
+		}))
+		.sort((a, b) => compareDateStrDesc(a.properties.publishedAt, b.properties.publishedAt));
+
+	return features satisfies FeatureForPopup[];
 });
 
 export const filteredFeatures = derived(

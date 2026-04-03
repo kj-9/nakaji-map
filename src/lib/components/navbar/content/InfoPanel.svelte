@@ -1,19 +1,13 @@
 <script lang="ts">
-	import { geodata } from '$lib/store';
+	import { categorizedFeatures } from '$lib/store';
 	import { get } from 'svelte/store';
 	import { createEventDispatcher } from 'svelte';
-	import { instanceOfFeatureForPopup, flyTo } from '$lib/components/Popup';
+	import { flyTo } from '$lib/components/Popup';
 	import { formatDateStr } from '$lib/formatter';
 
 	const dispatch = createEventDispatcher();
 
-	const newFeatures = get(geodata)
-		.features.slice(0, 5)
-		.filter((feature) => instanceOfFeatureForPopup(feature))
-		.sort(
-			(a, b) =>
-				new Date(b.properties.publishedAt).getTime() - new Date(a.properties.publishedAt).getTime()
-		);
+	const newFeatures = get(categorizedFeatures).slice(0, 5);
 </script>
 
 <div class="space-y-4 text-gray-900">
