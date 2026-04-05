@@ -4,6 +4,52 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "ap1cMQ8W5lo",
+                "name": "裕英うどん",
+                "version": "1.2",
+                "address": "裕英うどん 志免町志免中央3丁目",
+                "open_location_code": "8Q5GHFPH+GR",
+                "url": "https://www.geocoding.jp/?q=%E8%A3%95%E8%8B%B1%E3%81%86%E3%81%A9%E3%82%93%20%E5%BF%97%E5%85%8D%E7%94%BA%E5%BF%97%E5%85%8D%E4%B8%AD%E5%A4%AE3%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県糟屋郡志免町志免中央３丁目１０−１８ 裕英うどん (ひろえうどん) HIROE UDON",
+                "error": null,
+                "title": "超絶人気!!!行列ができるうどんの名店!!!シンプルこそ最強!!!",
+                "publishedAt": "2026-03-31T10:00:00Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.479551,
+                    33.586315
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "video_id": "BaihIM6h-uY",
+                "name": "手作りハンバーグ きりん",
+                "version": "1.2",
+                "address": "手作りハンバーグ きりん 糟屋郡志免町別府3丁目",
+                "open_location_code": "8Q5GJF34+36",
+                "url": "https://www.geocoding.jp/?q=%E6%89%8B%E4%BD%9C%E3%82%8A%E3%83%8F%E3%83%B3%E3%83%90%E3%83%BC%E3%82%B0%20%E3%81%8D%E3%82%8A%E3%82%93%20%E7%B3%9F%E5%B1%8B%E9%83%A1%E5%BF%97%E5%85%8D%E7%94%BA%E5%88%A5%E5%BA%9C3%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県糟屋郡志免町別府３丁目１１−２１ 手作りハンバーグきりん ROUTE68",
+                "error": null,
+                "title": "超絶話題の名店!!!!ふわっふわのとろける絶品ハンバーグ!!!!最高です!!!",
+                "publishedAt": "2026-04-03T10:00:16Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.455571,
+                    33.602628
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "6LKWt-2o1G0",
                 "name": "料理屋とりしげ",
                 "version": "1.2",
