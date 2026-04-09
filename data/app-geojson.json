@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "HwFTl1wbg0E",
+                "name": "ステーキ洋食 Esaki",
+                "version": "1.2",
+                "address": "ステーキ洋食 Esaki 福岡市城南区鳥飼5丁目",
+                "open_location_code": "8Q5GH9GC+CF",
+                "url": "https://www.geocoding.jp/?q=%E3%82%B9%E3%83%86%E3%83%BC%E3%82%AD%E6%B4%8B%E9%A3%9F%20Esaki%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E5%9F%8E%E5%8D%97%E5%8C%BA%E9%B3%A5%E9%A3%BC5%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市城南区鳥飼５丁目２−３９ ダイナコート鳥飼 1F ステーキ洋食Esaki",
+                "error": null,
+                "title": "安いのに超絶美味い!!!名店です!!!最強のステーキランチに感動!!!",
+                "publishedAt": "2026-04-07T10:00:23Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.371219,
+                    33.576016
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "ap1cMQ8W5lo",
                 "name": "裕英うどん",
                 "version": "1.2",
