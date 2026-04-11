@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "nAi5JdFF4no",
+                "name": "鍛治屋餃子",
+                "version": "1.2",
+                "address": "鍛治屋餃子 福岡市中央区六本松4丁目",
+                "open_location_code": "8Q5GH9FH+V4",
+                "url": "https://www.geocoding.jp/?q=%E9%8D%9B%E6%B2%BB%E5%B1%8B%E9%A4%83%E5%AD%90%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E5%85%AD%E6%9C%AC%E6%9D%BE4%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市中央区六本松４丁目４−１２ 鍛冶屋餃子",
+                "error": null,
+                "title": "絶対外さない餃子定食の店!!!絶品です",
+                "publishedAt": "2026-04-10T10:01:21Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.377869,
+                    33.574725
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "HwFTl1wbg0E",
                 "name": "ステーキ洋食 Esaki",
                 "version": "1.2",
