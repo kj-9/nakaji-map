@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "I7M7ARv4_qg",
+                "name": "洋食ビストロ むろ屋",
+                "version": "1.2",
+                "address": "洋食ビストロ むろ屋 福岡市博多区中呉服町2丁目",
+                "open_location_code": "8Q5GHCX5+HM",
+                "url": "https://www.geocoding.jp/?q=%E6%B4%8B%E9%A3%9F%E3%83%93%E3%82%B9%E3%83%88%E3%83%AD%20%E3%82%80%E3%82%8D%E5%B1%8B%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E5%8D%9A%E5%A4%9A%E5%8C%BA%E4%B8%AD%E5%91%89%E6%9C%8D%E7%94%BA2%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市博多区中呉服町２丁目２−９ 中洲第一ビル 2F 洋食ビストロ むろ屋",
+                "error": null,
+                "title": "完璧なカニクリームコロッケと完璧なチーズハンバーグ!!!素晴らしい洋食店",
+                "publishedAt": "2026-04-14T10:00:23Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.409143,
+                    33.598976
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "nAi5JdFF4no",
                 "name": "鍛治屋餃子",
                 "version": "1.2",
