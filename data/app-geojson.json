@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "PIs3XHbX-4I",
+                "name": "天ぷらnasubi",
+                "version": "1.2",
+                "address": "天ぷらnasubi 福岡市中央区春吉2丁目",
+                "open_location_code": "8Q5GHCP4+6V",
+                "url": "https://www.geocoding.jp/?q=%E5%A4%A9%E3%81%B7%E3%82%89nasubi%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E6%98%A5%E5%90%892%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市中央区春吉２丁目１７−１ Novaife春吉 天ぷらnasubi",
+                "error": null,
+                "title": "大衆天ぷらの極ここにあり!!!絶対外さない福岡飯",
+                "publishedAt": "2026-04-21T10:00:42Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.407206,
+                    33.585554
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "MVCAwgnChtU",
                 "name": "博多綱場うどん しん田",
                 "version": "1.2",
