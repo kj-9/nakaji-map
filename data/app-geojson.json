@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "GNLGYoaQERc",
+                "name": "らぁ麺辰巳山",
+                "version": "1.2",
+                "address": "らぁ麺辰巳山 福岡市中央区白金2丁目",
+                "open_location_code": "8Q5GHCG4+PP",
+                "url": "https://www.geocoding.jp/?q=%E3%82%89%E3%81%81%E9%BA%BA%E8%BE%B0%E5%B7%B3%E5%B1%B1%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E7%99%BD%E9%87%912%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市中央区白金２丁目１５−１７ K2-A らぁ麺 辰山",
+                "error": null,
+                "title": "福岡の本当に美味いラーメン屋攻め!!!新たな名店誕生!!!",
+                "publishedAt": "2026-04-24T10:00:33Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.406791,
+                    33.576788
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "PIs3XHbX-4I",
                 "name": "天ぷらnasubi",
                 "version": "1.2",
