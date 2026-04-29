@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "sfy-x6HVTk4",
+                "name": "田島屋味噌 中洲川端",
+                "version": "1.2",
+                "address": "田島屋味噌 中洲川端 福岡市博多区店屋町3-3",
+                "open_location_code": "8Q5GHCW6+54",
+                "url": "https://www.geocoding.jp/?q=%E7%94%B0%E5%B3%B6%E5%B1%8B%E5%91%B3%E5%99%8C%20%E4%B8%AD%E6%B4%B2%E5%B7%9D%E7%AB%AF%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E5%8D%9A%E5%A4%9A%E5%8C%BA%E5%BA%97%E5%B1%8B%E7%94%BA3-3",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市博多区店屋町３−３ 34TENYAビル １F 創業百年味噌の味 博多もつ鍋 田島屋味噌 中洲川端",
+                "error": null,
+                "title": "味噌ラーメンの名店ここにあり!!!最高です!!!",
+                "publishedAt": "2026-04-28T10:01:19Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.410258,
+                    33.595414
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "GNLGYoaQERc",
                 "name": "らぁ麺辰巳山",
                 "version": "1.2",
