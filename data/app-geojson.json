@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "bjEMGU7bJvI",
+                "name": "焼肉庭鳳",
+                "version": "1.2",
+                "address": "焼肉庭鳳 福岡市中央区舞鶴1丁目",
+                "open_location_code": "8Q5GH9RV+H3",
+                "url": "https://www.geocoding.jp/?q=%E7%84%BC%E8%82%89%E5%BA%AD%E9%B3%B3%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E8%88%9E%E9%B6%B41%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市中央区舞鶴１丁目３−１４ 小榎ビル １F 焼肉 庭鳳（ていほう）",
+                "error": null,
+                "title": "焼肉屋の究極メニュー!!!レモンステーキ定食!!!",
+                "publishedAt": "2026-05-01T10:01:05Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.39273,
+                    33.591458
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "sfy-x6HVTk4",
                 "name": "田島屋味噌 中洲川端",
                 "version": "1.2",
