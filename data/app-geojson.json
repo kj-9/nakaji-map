@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "EVPx9F5mhHM",
+                "name": "麺屋 最後のー滴",
+                "version": "1.2",
+                "address": "麺屋 最後のー滴 福岡市中央区天神3丁目",
+                "open_location_code": "8Q5GH9RW+P6",
+                "url": "https://www.geocoding.jp/?q=%E9%BA%BA%E5%B1%8B%20%E6%9C%80%E5%BE%8C%E3%81%AE%E3%83%BC%E6%BB%B4%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E5%A4%A9%E7%A5%9E3%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市中央区天神３丁目４−１５ 天神バッカス館 102 麺屋 最後の一滴",
+                "error": null,
+                "title": "福岡の本当に美味いラーメン屋攻め!!!唯一無二の絶品ラーメン",
+                "publishedAt": "2026-05-05T10:00:33Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.395606,
+                    33.591845
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "bjEMGU7bJvI",
                 "name": "焼肉庭鳳",
                 "version": "1.2",
