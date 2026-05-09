@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "KAr3dqQ6ubQ",
+                "name": "玄風館 吉塚",
+                "version": "1.2",
+                "address": "玄風館 吉塚 福岡市博多区吉塚7丁目",
+                "open_location_code": null,
+                "url": "https://www.geocoding.jp/?q=%E7%8E%84%E9%A2%A8%E9%A4%A8%20%E5%90%89%E5%A1%9A%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E5%8D%9A%E5%A4%9A%E5%8C%BA%E5%90%89%E5%A1%9A7%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": null,
+                "error": null,
+                "title": "福岡最高と言っても過言ではない焼肉屋の超絶絶品カルビランチ!!!",
+                "publishedAt": "2026-05-08T10:00:36Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.0,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "EVPx9F5mhHM",
                 "name": "麺屋 最後のー滴",
                 "version": "1.2",
