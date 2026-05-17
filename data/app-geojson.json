@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "RtI6LlAACGY",
+                "name": "らーめん一終",
+                "version": "1.2",
+                "address": "らーめん一終 福岡市東区二又瀬4-15",
+                "open_location_code": "8Q5GJC5Q+GC",
+                "url": "https://www.geocoding.jp/?q=%E3%82%89%E3%83%BC%E3%82%81%E3%82%93%E4%B8%80%E7%B5%82%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E6%9D%B1%E5%8C%BA%E4%BA%8C%E5%8F%88%E7%80%AC4-15",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市東区二又瀬４−１５ シティスクエア福岡 1F-01 らーめん 一柊",
+                "error": null,
+                "title": "本当に美味い豚骨ラーメン店を追及するシリーズ!!!炒飯も超絶美味いよ!!!",
+                "publishedAt": "2026-05-15T10:00:43Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.438589,
+                    33.608871
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "KAr3dqQ6ubQ",
                 "name": "玄風館 吉塚",
                 "version": "1.2",
