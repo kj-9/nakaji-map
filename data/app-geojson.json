@@ -4,6 +4,52 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "b7q6bk314hk",
+                "name": "ブルース軒",
+                "version": "1.2",
+                "address": "ブルース軒 福岡市早良区西新4丁目",
+                "open_location_code": "8Q5GH9M5+4G",
+                "url": "https://www.geocoding.jp/?q=%E3%83%96%E3%83%AB%E3%83%BC%E3%82%B9%E8%BB%92%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E6%97%A9%E8%89%AF%E5%8C%BA%E8%A5%BF%E6%96%B04%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市早良区西新４丁目９−１７ ２ ブルース軒",
+                "error": null,
+                "title": "中島が完璧だと唸った!!!非の打ちどころのない極上ラーメン店!!!",
+                "publishedAt": "2026-05-19T10:00:22Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.358786,
+                    33.582843
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "video_id": "h4k_DFuYWgg",
+                "name": "カレーの店 インデラ",
+                "version": "1.2",
+                "address": "カレーの店 インデラ 福岡市早良区西新4丁目",
+                "open_location_code": "8Q5GH9M5+5F",
+                "url": "https://www.geocoding.jp/?q=%E3%82%AB%E3%83%AC%E3%83%BC%E3%81%AE%E5%BA%97%20%E3%82%A4%E3%83%B3%E3%83%87%E3%83%A9%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E6%97%A9%E8%89%AF%E5%8C%BA%E8%A5%BF%E6%96%B04%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市早良区西新４丁目９−１７ インデラ",
+                "error": null,
+                "title": "懐かし美味いカレーの最高峰!!!",
+                "publishedAt": "2026-05-22T10:00:13Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.358671,
+                    33.582953
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "RtI6LlAACGY",
                 "name": "らーめん一終",
                 "version": "1.2",
