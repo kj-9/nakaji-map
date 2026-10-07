@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "X9LBnhWbWkc",
+                "name": "素うどん 華ちゃん",
+                "version": "1.2",
+                "address": "素うどん 華ちゃん 福岡市南区鶴田3丁目",
+                "open_location_code": "8Q5GGCG6+5J",
+                "url": "https://www.geocoding.jp/?q=%E7%B4%A0%E3%81%86%E3%81%A9%E3%82%93%20%E8%8F%AF%E3%81%A1%E3%82%83%E3%82%93%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E5%8D%97%E5%8C%BA%E9%B6%B4%E7%94%B03%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市南区鶴田３丁目１０−２８ 素うどん 華ちゃん",
+                "error": null,
+                "title": "超絶美味い!!!丸天うどん最強の店!!!名店です!!!",
+                "publishedAt": "2026-10-06T10:00:21Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.411625,
+                    33.525439
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "b7q6bk314hk",
                 "name": "ブルース軒",
                 "version": "1.2",
