@@ -4,6 +4,52 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "g5MTDyazwg8",
+                "name": "青空食堂",
+                "version": "1.2",
+                "address": "青空食堂 那珂川市片縄1丁目",
+                "open_location_code": "8Q5GGC8G+9G",
+                "url": "https://www.geocoding.jp/?q=%E9%9D%92%E7%A9%BA%E9%A3%9F%E5%A0%82%20%E9%82%A3%E7%8F%82%E5%B7%9D%E5%B8%82%E7%89%87%E7%B8%841%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県那珂川市片縄１丁目１７３−１ 青空食堂 那珂川店",
+                "error": null,
+                "title": "安くて!!!美味くて!!!てんこ盛り!!!肉料理の聖地と言われる名店!!!",
+                "publishedAt": "2026-10-09T10:00:08Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.426349,
+                    33.515972
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "video_id": "E4YLSN1EJaI",
+                "name": "大島ラーメンあづまや福岡",
+                "version": "1.2",
+                "address": "大島ラーメンあづまや福岡 福岡市中央区六本松1丁目",
+                "open_location_code": null,
+                "url": "https://www.geocoding.jp/?q=%E5%A4%A7%E5%B3%B6%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%B3%E3%81%82%E3%81%A5%E3%81%BE%E3%82%84%E7%A6%8F%E5%B2%A1%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E5%85%AD%E6%9C%AC%E6%9D%BE1%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": null,
+                "error": null,
+                "title": "シンプルこそ最強!!!絶品ラーメンと激ウマ皿うどん!!!",
+                "publishedAt": "2026-10-13T10:00:38Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.0,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "X9LBnhWbWkc",
                 "name": "素うどん 華ちゃん",
                 "version": "1.2",
