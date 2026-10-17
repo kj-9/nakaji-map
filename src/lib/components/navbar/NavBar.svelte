@@ -99,10 +99,10 @@
 	{#if panelOpen}
 		<div class="absolute left-0 top-12 z-30" transition:slide={{ duration: 160, axis: 'y' }}>
 			<div
-				class="w-[min(760px,94vw)] rounded-2xl bg-white/95 shadow-2xl backdrop-blur border border-gray-200 overflow-hidden"
+				class="flex max-h-[calc(100dvh-5.5rem)] flex-col w-[min(760px,calc(100vw-2.5rem))] rounded-2xl bg-white/95 shadow-2xl backdrop-blur border border-gray-200 overflow-hidden"
 			>
 				<div
-					class="flex items-center justify-between px-4 py-3 border-b sticky top-0 z-30 bg-white/95 backdrop-blur"
+					class="flex shrink-0 items-center justify-between px-4 py-3 border-b sticky top-0 z-30 bg-white/95 backdrop-blur"
 				>
 					<div class="flex gap-2 text-sm font-semibold text-gray-800">
 						<button
@@ -145,7 +145,7 @@
 						</svg>
 					</button>
 				</div>
-				<div class="relative max-h-[80vh] overflow-auto bg-white px-3 sm:px-4 pb-4 pt-0">
+				<div class="relative min-h-0 overflow-auto bg-white px-3 sm:px-4 pb-4 pt-0">
 					{#if activeTab === 'info'}
 						<InfoPanel on:fly={closePanel} />
 					{:else}
