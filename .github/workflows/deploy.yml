@@ -52,6 +52,7 @@ jobs:
         with:
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          workingDirectory: ${{ runner.temp }}
           packageManager: npm
-          command: pages deploy build --project-name=nakaji-map --branch=main
+          command: pages deploy ${{ github.workspace }}/build --project-name=nakaji-map --branch=main
           gitHubToken: ${{ secrets.GITHUB_TOKEN }}
