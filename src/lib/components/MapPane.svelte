@@ -1,27 +1,28 @@
 <script lang="ts">
 	import 'maplibre-gl/dist/maplibre-gl.css';
-	import layers from 'protomaps-themes-base';
+	import 'svelte-maplibre-gl/vite';
+	import { layers, namedFlavor } from '@protomaps/basemaps';
 	import iconURL from '../../asset/icons8-marker-64.png';
 
-	import { filteredGeodata, map } from '$lib/store';
-	import type { FeatureForPopup } from '$lib/store';
-	import { createPopupAndPushState, instanceOfFeatureForPopup, flyTo } from './Popup';
+	import { filteredGeodata, map } from '#lib/store.js';
+	import type { FeatureForPopup } from '#lib/store.js';
+	import { createPopupAndPushState, instanceOfFeatureForPopup, flyTo } from './Popup.js';
 	import {
 		GeoJSONSource,
 		ImageLoader,
-		Map,
+		MapLibre,
 		NavigationControl,
 		FullScreenControl,
 		GeolocateControl,
 		SymbolLayer
 	} from 'svelte-maplibre-gl';
-	import type maplibregl from 'maplibre-gl';
+	import type * as maplibregl from 'maplibre-gl';
 	import { createEventDispatcher } from 'svelte';
 
 	export let initialFlyFeature: FeatureForPopup | undefined;
 	const dispatch = createEventDispatcher<{ loaded: void }>();
 
-	const protomapsURL = `https://api.protomaps.com/tiles/v3/{z}/{x}/{y}.pbf?key=${
+	const protomapsURL = `https://api.protomaps.com/tiles/v4/{z}/{x}/{y}.mvt?key=${
 		import.meta.env.VITE_PROTOMAPS_API_KEY
 	}`;
 
@@ -34,16 +35,18 @@
 
 	const baseStyle: maplibregl.StyleSpecification = {
 		version: 8,
-		glyphs: 'https://cdn.protomaps.com/fonts/pbf/{fontstack}/{range}.pbf',
+		glyphs: 'https://protomaps.github.io/basemaps-assets/fonts/{fontstack}/{range}.pbf',
+		sprite: 'https://protomaps.github.io/basemaps-assets/sprites/v4/light',
 		sources: {
 			protomaps: {
 				type: 'vector',
 				tiles: [protomapsURL],
+				maxzoom: 15,
 				attribution:
 					'<a href="https://protomaps.com">Protomaps</a> © <a href="https://openstreetmap.org">OpenStreetMap</a>'
 			}
 		},
-		layers: layers('protomaps', 'light'),
+		layers: layers('protomaps', namedFlavor('light'), { lang: 'ja' }),
 		center: [130.398, 33.591],
 		zoom: 13
 	};
@@ -102,18 +105,12 @@
 			flyTo(initialFlyFeature);
 		}
 	};
-
-	$: if (mapInstance && initialFlyFeature && !hasFlownToInitial) {
-		hasFlownToInitial = true;
-		flyTo(initialFlyFeature);
-	}
 </script>
 
-<Map
+<MapLibre
 	class="h-screen"
 	style={baseStyle}
 	maxZoom={15.9}
-	autoloadGlobalCss={false}
 	bind:map={mapInstance}
 	onload={handleMapLoad}
 >
@@ -143,4 +140,4 @@
 			/>
 		</GeoJSONSource>
 	</ImageLoader>
-</Map>
+</MapLibre>

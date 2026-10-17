@@ -1,9 +1,9 @@
 <script lang="ts">
-	import { categorizedFeatures } from '$lib/store';
+	import { categorizedFeatures } from '#lib/store.ts';
 	import { get } from 'svelte/store';
 	import { createEventDispatcher } from 'svelte';
-	import { flyTo } from '$lib/components/Popup';
-	import { formatDateStr } from '$lib/formatter';
+	import { flyTo } from '#lib/components/Popup.ts';
+	import { formatDateStr } from '#lib/formatter.ts';
 
 	const dispatch = createEventDispatcher();
 
@@ -11,7 +11,7 @@
 </script>
 
 <div class="space-y-4 text-gray-900">
-	<section class="bg-gray-50 rounded-xl px-3 sm:px-4 py-4 shadow-sm border border-gray-100">
+	<section class="bg-gray-50 rounded-xl px-3 sm:px-4 py-4 shadow-xs border border-gray-100">
 		<h1 class="text-lg sm:text-xl font-semibold">福岡グルメ 中島浩二チャンネルマップ</h1>
 		<p class="mt-2 text-xs sm:text-sm leading-relaxed text-gray-800">
 			本サイトは
@@ -39,7 +39,7 @@
 		</p>
 	</section>
 
-	<section class="bg-white rounded-xl px-3 sm:px-4 py-4 shadow-sm border border-gray-100">
+	<section class="bg-white rounded-xl px-3 sm:px-4 py-4 shadow-xs border border-gray-100">
 		<div class="flex items-baseline gap-2">
 			<h2 class="text-base sm:text-lg font-semibold text-gray-900">最近の更新</h2>
 			<span class="text-xs text-gray-500">最新5件</span>

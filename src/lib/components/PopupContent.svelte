@@ -1,7 +1,7 @@
 <script lang="ts">
 	import iconYouTubeURL from '../../asset/icons8-youtube-48.png';
 	import iconGoogleMapURL from '../../asset/icons8-googlemap-48.png';
-	import { formatDateStr } from '$lib/formatter';
+	import { formatDateStr } from '#lib/formatter.js';
 
 	export let name: string;
 	export let publishedAt: string;

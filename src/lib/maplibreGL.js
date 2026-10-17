@@ -1,3 +1,3 @@
-import maplibreGL from 'maplibre-gl';
+import * as maplibreGL from 'maplibre-gl';
 
 export const { Popup, Map, NavigationControl, GeolocateControl, FullscreenControl } = maplibreGL;

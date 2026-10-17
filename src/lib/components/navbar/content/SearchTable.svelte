@@ -5,12 +5,12 @@
 		filteredFeatures,
 		searchQuery,
 		selectedCategories
-	} from '$lib/store';
-	import { formatDateStr } from '$lib/formatter';
-	import { flyTo } from '$lib/components/Popup';
-	import type { FeatureForPopup } from '$lib/store';
-	import { CATEGORIES } from '$lib/category';
-	import type { Category } from '$lib/category';
+	} from '#lib/store.ts';
+	import { formatDateStr } from '#lib/formatter.ts';
+	import { flyTo } from '#lib/components/Popup.ts';
+	import type { FeatureForPopup } from '#lib/store.ts';
+	import { CATEGORIES } from '#lib/category.ts';
+	import type { Category } from '#lib/category.ts';
 
 	const dispatch = createEventDispatcher();
 
@@ -70,7 +70,7 @@
 </script>
 
 <div class="px-2 sm:px-3 w-full max-w-[760px] bg-white space-y-3">
-	<section class="border border-gray-200 rounded-lg shadow-sm bg-white p-3">
+	<section class="border border-gray-200 rounded-lg shadow-xs bg-white p-3">
 		<div class="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
 			<div class="space-y-1">
 				<p class="text-sm font-semibold text-gray-900">カテゴリで絞り込み</p>
@@ -120,7 +120,7 @@
 	</section>
 
 	<table
-		class="text-xs md:text-sm text-left rtl:text-right text-gray-700 w-full border border-gray-200 rounded-lg shadow-sm bg-white"
+		class="text-xs md:text-sm text-left rtl:text-right text-gray-700 w-full border border-gray-200 rounded-lg shadow-xs bg-white"
 		style="word-break: break-word;"
 	>
 		<thead class="sticky top-0 z-50 bg-white shadow-[0_4px_12px_-2px_rgba(0,0,0,0.2)]">

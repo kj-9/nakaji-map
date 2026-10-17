@@ -1,11 +1,11 @@
-import { Popup } from '$lib/maplibreGL';
+import { Popup } from '#lib/maplibreGL.js';
 import PopupContent from './PopupContent.svelte';
 import { mount } from 'svelte';
 import type { ComponentProps } from 'svelte';
 import { get } from 'svelte/store';
-import { map } from '$lib/store';
-import type { FeatureForPopup } from '$lib/store';
-import { browser } from '$app/environment';
+import { map } from '#lib/store.js';
+import type { FeatureForPopup } from '#lib/store.js';
+import { browser } from '$app/env';
 import type { Position } from 'geojson';
 
 export const createPopupAndPushState = (
