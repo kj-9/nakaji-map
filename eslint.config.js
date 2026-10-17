@@ -53,7 +53,9 @@ export default [
 			}
 		},
 		rules: {
-			'no-undef': 'off'
+			'no-undef': 'off',
+			// Core data-flow analysis does not account for Svelte reactive statements.
+			'no-useless-assignment': 'off'
 		}
 	},
 	{

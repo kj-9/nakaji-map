@@ -5,7 +5,7 @@ import geojson from '../../data/app-geojson.json';
 import PopupContent from './components/PopupContent.svelte';
 import type { ComponentProps } from 'svelte';
 import type { Writable } from 'svelte/store';
-import type maplibregl from 'maplibre-gl';
+import type * as maplibregl from 'maplibre-gl';
 import type { Feature, FeatureCollection, Point } from 'geojson';
 import { CATEGORIES, resolveCategory } from './category';
 import type { Category } from './category';

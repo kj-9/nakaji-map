@@ -1,9 +1,9 @@
 <script lang="ts">
-	import { browser } from '$app/environment';
+	import { browser } from '$app/env';
 	import { onMount } from 'svelte';
 	import { slide } from 'svelte/transition';
-	import InfoPanel from '$lib/components/navbar/content/InfoPanel.svelte';
-	import SearchTable from '$lib/components/navbar/content/SearchTable.svelte';
+	import InfoPanel from '#lib/components/navbar/content/InfoPanel.svelte';
+	import SearchTable from '#lib/components/navbar/content/SearchTable.svelte';
 
 	type Tab = 'info' | 'search';
 

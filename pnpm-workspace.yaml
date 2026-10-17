@@ -1,2 +1,5 @@
-onlyBuiltDependencies:
-  - esbuild
+engineStrict: true
+enablePrePostScripts: true
+resolutionMode: highest
+allowBuilds:
+  esbuild: true

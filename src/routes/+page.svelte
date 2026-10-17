@@ -1,14 +1,14 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import { fade } from 'svelte/transition';
-	import { page } from '$app/stores';
-	import { browser } from '$app/environment';
+	import { page } from '$app/state';
+	import { browser } from '$app/env';
 	import { get } from 'svelte/store';
 
-	import Map from '$lib/components/MapPane.svelte';
-	import NavBar from '$lib/components/navbar/NavBar.svelte';
-	import { categorizedFeatures } from '$lib/store';
-	import type { FeatureForPopup } from '$lib/store';
+	import Map from '#lib/components/MapPane.svelte';
+	import NavBar from '#lib/components/navbar/NavBar.svelte';
+	import { categorizedFeatures } from '#lib/store.ts';
+	import type { FeatureForPopup } from '#lib/store.ts';
 
 	let initialFlyFeature: FeatureForPopup | undefined;
 	let mounted = false;
@@ -25,7 +25,7 @@
 	$: showLoading = !mounted || showPlaceholder;
 
 	if (browser) {
-		const videoId = $page.url.searchParams.get('videoid');
+		const videoId = page.url.searchParams.get('videoid');
 
 		if (videoId) {
 			const _geodata = get(categorizedFeatures);
