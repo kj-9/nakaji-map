@@ -48,3 +48,52 @@ test('direct video links open the selected store', async ({ page }) => {
 	await expect(page.getByText('マップを準備中…')).toBeHidden({ timeout: 30000 });
 	await expect(page.getByRole('heading', { name: latestName, exact: false })).toBeVisible();
 });
+
+test.describe('mobile viewport', () => {
+	test.use({ isMobile: true, hasTouch: true });
+
+	test('map and menu stay within the viewport after height and orientation changes', async ({
+		page
+	}) => {
+		await page.setViewportSize({ width: 390, height: 560 });
+		await page.goto('/');
+		await expect(page.getByText('マップを準備中…')).toBeHidden({ timeout: 30000 });
+
+		for (const viewport of [
+			{ width: 390, height: 560 },
+			{ width: 390, height: 740 },
+			{ width: 844, height: 390 }
+		]) {
+			await page.setViewportSize(viewport);
+			await expect
+				.poll(async () => {
+					const map = await page.locator('.maplibregl-map').boundingBox();
+					return map && Math.abs(map.height - viewport.height);
+				})
+				.toBeLessThanOrEqual(1);
+			await expect
+				.poll(async () => {
+					const canvas = await page.locator('.maplibregl-canvas').boundingBox();
+					return canvas && Math.abs(canvas.height - viewport.height);
+				})
+				.toBeLessThanOrEqual(1);
+			await expect
+				.poll(() => page.evaluate(() => document.documentElement.scrollHeight - window.innerHeight))
+				.toBeLessThanOrEqual(1);
+			const menuContent = page.locator('nav .overflow-auto');
+			const contentBounds = await menuContent.boundingBox();
+			expect(contentBounds).not.toBeNull();
+			expect(contentBounds!.y + contentBounds!.height).toBeLessThanOrEqual(viewport.height);
+			await menuContent.evaluate((element) => {
+				element.scrollTop = element.scrollHeight;
+			});
+			await expect
+				.poll(() => menuContent.evaluate((element) => element.scrollTop))
+				.toBeGreaterThan(0);
+		}
+		await page.getByRole('button', { name: 'Close menu', exact: true }).last().click();
+		await expect
+			.poll(() => page.evaluate(() => document.documentElement.scrollHeight - window.innerHeight))
+			.toBeLessThanOrEqual(1);
+	});
+});

@@ -108,7 +108,7 @@
 </script>
 
 <MapLibre
-	class="h-screen"
+	class="h-full"
 	style={baseStyle}
 	maxZoom={15.9}
 	bind:map={mapInstance}

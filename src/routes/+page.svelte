@@ -51,7 +51,7 @@
 	<link rel="canonical" href="https://nakaji-map.kj-dev.net/" />
 </svelte:head>
 
-<div class="relative min-h-screen bg-gradient-to-br from-gray-50 via-white to-gray-100">
+<div class="relative h-dvh overflow-hidden bg-gradient-to-br from-gray-50 via-white to-gray-100">
 	{#if mounted}
 		<Map
 			{initialFlyFeature}
