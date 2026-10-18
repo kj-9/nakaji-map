@@ -26,6 +26,7 @@
 	let categoryTrigger: HTMLButtonElement;
 	let selected: FeatureForPopup | undefined;
 	let showAll = false;
+	let nearbyCandidates: FeatureForPopup[] | null = null;
 	let message = '';
 	let toastTimer: ReturnType<typeof setTimeout>;
 	const categories: FoodChoice[] = [
@@ -55,15 +56,17 @@
 					f.properties.address
 				].some((v) => v?.toLowerCase().includes(query.trim().toLowerCase())))
 	);
-	$: results = area ? matches.filter((f) => inBounds(f, area!)) : matches;
-	$: visible = showAll || area || query.trim() ? results : results.slice(0, 3);
-	$: heading = area
-		? `この範囲の${category === 'すべて' ? 'お店' : category}`
-		: query.trim()
-			? '検索したお店'
-			: category === 'すべて'
-				? '最近紹介されたお店'
-				: `最近紹介された${category}`;
+	$: results = nearbyCandidates ?? (area ? matches.filter((f) => inBounds(f, area!)) : matches);
+	$: visible = showAll || area || nearbyCandidates || query.trim() ? results : results.slice(0, 3);
+	$: heading = nearbyCandidates
+		? '重なっているお店'
+		: area
+			? `この範囲の${category === 'すべて' ? 'お店' : category}`
+			: query.trim()
+				? '検索したお店'
+				: category === 'すべて'
+					? '最近紹介されたお店'
+					: `最近紹介された${category}`;
 
 	onMount(() => {
 		const motion = window.matchMedia('(prefers-reduced-motion: reduce)');
@@ -109,6 +112,7 @@
 		resetScroll();
 	}
 	function chooseCategory(next: FoodChoice) {
+		nearbyCandidates = null;
 		category = next;
 		showAll = false;
 		back();
@@ -117,6 +121,7 @@
 		resetScroll();
 	}
 	function updateArea(next: Bounds) {
+		nearbyCandidates = null;
 		area = next;
 		showAll = true;
 		if (selected) back();
@@ -153,6 +158,11 @@
 				on:loaded={() => (loaded = true)}
 				on:select={(event) => openStore(event.detail)}
 				on:area={(event) => updateArea(event.detail)}
+				on:candidates={(event) => {
+					nearbyCandidates = event.detail;
+					back();
+					panelOpen = true;
+				}}
 			/>
 		{/if}
 		<header class="map-brand">
@@ -208,6 +218,12 @@
 								? ' ・ 場所未確認'
 								: ''}
 						</p>
+						<a
+							class="store-map-link"
+							href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(selected.properties.google_maps || selected.properties.address || storeName(selected))}`}
+							target="_blank"
+							rel="noreferrer">Google Mapsで開く ↗</a
+						>
 						<h2>{selected.properties.title}</h2>
 						<p class="store-date">{formatDateStr(selected.properties.publishedAt)}に紹介</p>
 						<a
@@ -227,11 +243,7 @@
 							rel="noreferrer">紹介動画を見る ↗</a
 						>
 						<div class="store-actions">
-							<a
-								href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(selected.properties.google_maps || selected.properties.address || storeName(selected))}`}
-								target="_blank"
-								rel="noreferrer">Google Mapsで開く ↗</a
-							><button onclick={share}>リンクを共有</button>
+							<button onclick={share}>リンクを共有</button>
 						</div>
 					</article>
 				</div>
@@ -257,14 +269,33 @@
 								type="search"
 								placeholder="お店や動画を検索"
 								bind:value={query}
-								oninput={resetScroll}
+								oninput={() => {
+									nearbyCandidates = null;
+									resetScroll();
+								}}
 							/></label
 						>
 						<div class="results-heading">
 							<h2>{heading}</h2>
-							{#if area || query.trim()}<span>{results.length}件</span>{/if}
+							{#if nearbyCandidates || (!area && query.trim())}<span>{results.length}件</span>{/if}
 						</div>
-						{#if area}<button class="reset-area" onclick={recent}>最近の紹介に戻る ×</button>{/if}
+						{#if nearbyCandidates}
+							<div class="area-status">
+								<span role="status">拡大しても重なるお店です。一覧から選べます。</span>
+								<button
+									class="reset-area"
+									onclick={() => {
+										nearbyCandidates = null;
+										resetScroll();
+									}}>元の候補に戻る</button
+								>
+							</div>
+						{:else if area}
+							<div class="area-status">
+								<span role="status">地図の範囲内・{results.length}件</span>
+								<button class="reset-area" onclick={recent}>範囲指定を解除</button>
+							</div>
+						{/if}
 						{#if !results.length}<div class="empty-results">
 								<h3>この条件のお店は見つかりませんでした</h3>
 								<p>地図を広げるか、カテゴリを変えて探してみてください。</p>
@@ -290,7 +321,7 @@
 									>{#if !hasLocation(feature)}<small>場所未確認</small>{/if}</span
 								><span aria-hidden="true">›</span></button
 							>{/each}
-						{#if !showAll && !area && !query.trim() && results.length > 3}<button
+						{#if !showAll && !area && !nearbyCandidates && !query.trim() && results.length > 3}<button
 								class="more-stores"
 								onclick={() => (showAll = true)}>紹介されたお店をもっと見る ›</button
 							>{/if}

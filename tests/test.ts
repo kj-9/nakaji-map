@@ -256,6 +256,7 @@ test('map gestures update the area without a search button and store selection p
 	await expect(page.getByText('マップを準備中…')).toBeHidden({ timeout: 30000 });
 	await page.getByRole('button', { name: 'Zoom in', exact: true }).click();
 	await expect(page.getByRole('heading', { name: 'この範囲のお店', exact: true })).toBeVisible();
+	await expect(page.getByRole('status')).toContainText(/地図の範囲内・\d+件/);
 	await expect(page.getByRole('button', { name: 'この範囲で探す' })).toHaveCount(0);
 	const rows = page.locator('.restaurant-row');
 	await expect(rows.first()).toBeVisible();
@@ -264,8 +265,20 @@ test('map gestures update the area without a search button and store selection p
 	await expect(page.getByRole('region', { name: 'お店の詳細' })).toBeVisible();
 	await page.getByRole('button', { name: '候補に戻る' }).click();
 	await expect.poll(() => rows.allTextContents()).toEqual(before);
-	await page.getByRole('button', { name: '最近の紹介に戻る' }).click();
+	await page.getByRole('button', { name: '範囲指定を解除' }).click();
 	await expect(page.getByRole('heading', { name: '最近紹介されたお店' })).toBeVisible();
+	await expect(page.getByRole('status')).toHaveCount(0);
+	await page.getByRole('button', { name: 'ラーメン', exact: true }).click();
+	const search = page.getByRole('searchbox', { name: 'お店や動画を検索' });
+	await search.fill('麺');
+	await page.getByRole('button', { name: 'Zoom in', exact: true }).click();
+	await expect(page.getByRole('status')).toContainText('地図の範囲内');
+	await page.getByRole('button', { name: '範囲指定を解除' }).click();
+	await expect(search).toHaveValue('麺');
+	await expect(page.getByRole('button', { name: 'ラーメン', exact: true })).toHaveAttribute(
+		'aria-pressed',
+		'true'
+	);
 });
 
 test('text search can find older videos and recover from no results', async ({ page }) => {
@@ -314,7 +327,7 @@ test('category badge can be selected directly on the mobile map', async ({ page 
 		await expect(page.getByRole('region', { name: 'お店の詳細' })).toBeVisible({ timeout: 1000 });
 	}).toPass();
 	await expect(page).toHaveURL(new RegExp(`videoid=${chosen.properties.video_id}`));
-	await expect(page.getByRole('button', { name: '最近の紹介に戻る' })).toHaveCount(0);
+	await expect(page.getByRole('button', { name: '範囲指定を解除' })).toHaveCount(0);
 	expect(errors).toEqual([]);
 });
 

@@ -195,11 +195,21 @@
 	background: #f7f9fc;
 	font-size: 13px;
 }
-.reset-area {
-	font-size: 11px;
+.area-status {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+	gap: 0 8px;
+	margin-bottom: 4px;
+	font-size: 12px;
 	color: #62738b;
-	margin-bottom: 5px;
-	min-height: 32px;
+}
+.reset-area {
+	min-height: 44px;
+	color: #2458dd;
+	font-size: 12px;
+	touch-action: manipulation;
 }
 .restaurant-row {
 	display: flex;
@@ -302,6 +312,18 @@
 	line-height: 1.6;
 	margin-bottom: 12px;
 }
+.store-map-link {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 44px;
+	padding: 8px 14px;
+	margin-bottom: 14px;
+	border-radius: 11px;
+	background: #edf3ff;
+	font-size: 13px;
+	font-weight: 700;
+}
 .video-thumbnail {
 	display: block;
 	position: relative;
@@ -351,7 +373,6 @@
 	border-top: 1px solid #e0e6ee;
 	padding-top: 16px;
 }
-.store-actions a,
 .store-actions button {
 	display: flex;
 	flex: 1;
@@ -474,6 +495,27 @@
 	color: white;
 	font-size: 13px;
 	text-align: center;
+}
+@media (max-width: 767px) {
+	/* Keep the store list visible without shrinking touch targets or row content. */
+	.discovery-panel:not(.store-detail-panel) .panel-toolbar {
+		padding-top: 8px;
+		padding-bottom: 4px;
+	}
+	.discovery-heading {
+		padding-top: 0;
+		padding-bottom: 6px;
+	}
+	.discovery-heading h1 {
+		margin-bottom: 6px;
+	}
+	.results-heading {
+		margin-top: 8px;
+	}
+	.store-search input {
+		/* Prevent automatic input zoom on mobile Safari. */
+		font-size: 16px;
+	}
 }
 @media (min-width: 768px) {
 	.discovery-panel {
