@@ -1,5 +1,7 @@
 <script lang="ts">
 	import { onMount, tick } from 'svelte';
+	import { fly } from 'svelte/transition';
+	import { cubicOut } from 'svelte/easing';
 	import { goto } from '$app/navigation';
 	import { categorizedFeatures } from '#lib/store.js';
 	import type { FeatureForPopup } from '#lib/store.js';
@@ -17,6 +19,7 @@
 	let panelOpen = true;
 	let fullScreen = false;
 	let panelHeight = 0;
+	let reducedMotion = false;
 	let panel: HTMLElement;
 	let categoryDialog: HTMLDialogElement;
 	let aboutDialog: HTMLDialogElement;
@@ -63,6 +66,10 @@
 				: `最近紹介された${category}`;
 
 	onMount(() => {
+		const motion = window.matchMedia('(prefers-reduced-motion: reduce)');
+		const syncMotion = () => (reducedMotion = motion.matches);
+		syncMotion();
+		motion.addEventListener('change', syncMotion);
 		const restore = () => {
 			selected = $categorizedFeatures.find(
 				(f) => f.properties.video_id === new URL(location.href).searchParams.get('videoid')
@@ -74,6 +81,7 @@
 		window.addEventListener('popstate', restore);
 		return () => {
 			window.removeEventListener('popstate', restore);
+			motion.removeEventListener('change', syncMotion);
 			clearTimeout(toastTimer);
 		};
 	});
@@ -137,7 +145,11 @@
 			<MapPane
 				features={matches}
 				{selected}
-				panelHeight={panelOpen && !fullScreen ? panelHeight : 0}
+				{panel}
+				{panelHeight}
+				{panelOpen}
+				{fullScreen}
+				{reducedMotion}
 				on:loaded={() => (loaded = true)}
 				on:select={(event) => openStore(event.detail)}
 				on:area={(event) => updateArea(event.detail)}
@@ -156,6 +168,12 @@
 	{#if panelOpen}
 		<section
 			bind:this={panel}
+			transition:fly={{
+				y: panelHeight || 480,
+				duration: reducedMotion ? 0 : 280,
+				easing: cubicOut
+			}}
+			inert={!panelOpen}
 			bind:clientHeight={panelHeight}
 			class:full-screen={fullScreen}
 			class:store-detail-panel={!!selected}
@@ -165,6 +183,7 @@
 			<div class="panel-toolbar">
 				{#if selected}<button class="back-button" onclick={back}>‹ 候補に戻る</button>{:else}<button
 						class="primary-button"
+						aria-expanded={fullScreen}
 						onclick={() => (fullScreen = !fullScreen)}
 						>{fullScreen ? '地図と並べる' : 'お店を全画面に'}</button
 					>{/if}
@@ -180,7 +199,7 @@
 			</div>
 			{#if selected}
 				<div class="panel-scroll">
-					<article class="store-detail">
+					<article class="store-detail" in:fly={{ y: 10, duration: reducedMotion ? 0 : 180 }}>
 						<h1>{storeName(selected)}</h1>
 						<p class="store-address">
 							{selected.properties.address || selected.properties.google_maps}{!hasLocation(
@@ -321,7 +340,10 @@
 			地図: Protomaps / OpenStreetMap<br /><a
 				href="https://icons8.com"
 				target="_blank"
-				rel="noreferrer">マーカーアイコン: Icons8</a
+				rel="noreferrer">旧マーカーアイコン: Icons8</a
+			>
+			<br /><a href="https://pictogrammers.com/library/mdi/" target="_blank" rel="noreferrer"
+				>カテゴリマーカー: Material Design Icons</a
 			>
 		</p>
 	</dialog>
