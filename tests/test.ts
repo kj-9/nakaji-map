@@ -183,6 +183,89 @@ test.describe('mobile viewport', () => {
 			)
 			.toBe(true);
 	});
+
+	test('bottom sheet modes remain smooth and do not retrigger area search', async ({
+		page
+	}, testInfo) => {
+		await page.setViewportSize({ width: 390, height: 844 });
+		await page.goto('/');
+		await expect(page.getByText('マップを準備中…')).toBeHidden({ timeout: 30000 });
+
+		const map = page.getByRole('region', { name: 'Map', exact: true });
+		const candidates = page.getByRole('region', { name: 'お店の候補' });
+		const rows = page.locator('.restaurant-row');
+		await page.getByRole('button', { name: 'Zoom in', exact: true }).tap();
+		const areaHeading = page.getByRole('heading', { name: 'この範囲のお店', exact: true });
+		await expect(areaHeading).toBeVisible();
+		await expect(rows.first()).toBeVisible();
+		const areaRows = await rows.allTextContents();
+
+		await page.screenshot({ path: testInfo.outputPath('bottom-sheet-split.png') });
+		await page.getByRole('button', { name: 'お店を全画面に' }).tap();
+		await expect(candidates).toBeVisible();
+		await expect(page.getByRole('button', { name: '地図と並べる' })).toBeVisible();
+		await expect
+			.poll(() =>
+				candidates.evaluate((element) =>
+					Math.abs(element.getBoundingClientRect().height - innerHeight)
+				)
+			)
+			.toBeLessThan(1);
+		await page.screenshot({ path: testInfo.outputPath('bottom-sheet-full.png') });
+		await page.getByRole('button', { name: '地図と並べる' }).tap();
+		await expect(map).toBeVisible();
+		await expect(page.getByRole('button', { name: 'お店を全画面に' })).toBeVisible();
+
+		await page.getByRole('button', { name: '地図を広く見る' }).tap();
+		await expect(candidates).toHaveCount(0);
+		await page.getByRole('button', { name: 'お店を見る' }).tap();
+		await expect(candidates).toBeVisible();
+		await expect(areaHeading).toBeVisible();
+		await expect.poll(() => rows.allTextContents()).toEqual(areaRows);
+
+		await rows.first().tap();
+		const detail = page.getByRole('region', { name: 'お店の詳細' });
+		await expect(detail).toBeVisible();
+		await expect
+			.poll(() =>
+				detail.evaluate((element) =>
+					Math.abs(element.getBoundingClientRect().height - innerHeight * 0.59)
+				)
+			)
+			.toBeLessThan(1);
+		await expect(detail.locator('.store-detail')).toHaveCSS('opacity', '1');
+		await page.screenshot({ path: testInfo.outputPath('bottom-sheet-detail.png') });
+		await page.getByRole('button', { name: '候補に戻る' }).tap();
+		await expect(candidates).toBeVisible();
+		await expect(areaHeading).toBeVisible();
+		await expect.poll(() => rows.allTextContents()).toEqual(areaRows);
+	});
+
+	test('bottom sheet honors reduced motion', async ({ page }) => {
+		await page.emulateMedia({ reducedMotion: 'reduce' });
+		await page.setViewportSize({ width: 390, height: 844 });
+		await page.goto('/');
+		const candidates = page.getByRole('region', { name: 'お店の候補' });
+		await expect(candidates).toBeVisible();
+		await expect
+			.poll(() =>
+				candidates.evaluate((element) => {
+					const style = getComputedStyle(element);
+					return (
+						window.matchMedia('(prefers-reduced-motion: reduce)').matches &&
+						style.transitionDuration
+							.split(',')
+							.every((duration) => Number.parseFloat(duration) === 0)
+					);
+				})
+			)
+			.toBe(true);
+
+		await page.getByRole('button', { name: 'お店を全画面に' }).click();
+		await expect(page.getByRole('button', { name: '地図と並べる' })).toBeVisible();
+		await page.getByRole('button', { name: '地図と並べる' }).click();
+		await expect(page.getByRole('button', { name: 'お店を全画面に' })).toBeVisible();
+	});
 });
 
 test('map gestures update the area without a search button and store selection preserves it', async ({

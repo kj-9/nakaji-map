@@ -537,3 +537,33 @@
 	position: absolute;
 	inset: 0;
 }
+
+/* Keep layout motion in CSS; MapPane reads the visible panel rectangle each frame. */
+.discovery-panel {
+	transition:
+		height 280ms cubic-bezier(0.215, 0.61, 0.355, 1),
+		width 280ms cubic-bezier(0.215, 0.61, 0.355, 1),
+		left 280ms cubic-bezier(0.215, 0.61, 0.355, 1),
+		bottom 280ms cubic-bezier(0.215, 0.61, 0.355, 1),
+		border-radius 280ms ease;
+}
+.panel-toolbar button {
+	min-height: 44px;
+	touch-action: manipulation;
+}
+.restaurant-row {
+	touch-action: manipulation;
+	transition:
+		background-color 120ms ease,
+		transform 120ms ease;
+}
+.restaurant-row:active {
+	background: #edf3ff;
+	transform: scale(0.985);
+}
+@media (prefers-reduced-motion: reduce) {
+	.discovery-panel,
+	.restaurant-row {
+		transition: none;
+	}
+}
