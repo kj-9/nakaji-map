@@ -340,7 +340,10 @@
 			地図: Protomaps / OpenStreetMap<br /><a
 				href="https://icons8.com"
 				target="_blank"
-				rel="noreferrer">マーカーアイコン: Icons8</a
+				rel="noreferrer">旧マーカーアイコン: Icons8</a
+			>
+			<br /><a href="https://pictogrammers.com/library/mdi/" target="_blank" rel="noreferrer"
+				>カテゴリマーカー: Material Design Icons</a
 			>
 		</p>
 	</dialog>

@@ -300,3 +300,39 @@ test('text search can find older videos and recover from no results', async ({ p
 	await search.fill(older.title);
 	await expect(page.locator('.restaurant-row').filter({ hasText: older.title })).toBeVisible();
 });
+
+test('category badge can be selected directly on the mobile map', async ({ page }, testInfo) => {
+	await page.setViewportSize({ width: 390, height: 844 });
+	const errors: string[] = [];
+	page.on('pageerror', (error) => errors.push(error.message));
+	await page.goto('/');
+	await expect(page.getByText('マップを準備中…')).toBeHidden({ timeout: 30000 });
+	const chosen = newest.find(
+		({ geometry }) => geometry.coordinates[0] !== 0 && geometry.coordinates[1] !== 0
+	)!;
+	await page.getByRole('searchbox', { name: 'お店や動画を検索' }).fill(chosen.properties.title);
+	await page.locator('.restaurant-row').first().click();
+	await expect(page.getByRole('region', { name: 'お店の詳細' })).toBeVisible();
+	await page.screenshot({ path: testInfo.outputPath('selected-category-badge.png') });
+	await page.getByRole('button', { name: '候補に戻る' }).click();
+	const panel = page.getByRole('region', { name: 'お店の候補' });
+	await expect
+		.poll(() =>
+			panel.evaluate((element) =>
+				Math.abs(element.getBoundingClientRect().height - innerHeight * 0.54)
+			)
+		)
+		.toBeLessThan(1);
+	// The selected store stays centered in the map's unobscured, padded viewport.
+	const point = await panel.evaluate((element) => ({
+		x: (16 + innerWidth - 42) / 2,
+		y: (86 + element.getBoundingClientRect().top - 16) / 2
+	}));
+	await expect(async () => {
+		await page.mouse.click(point.x, point.y);
+		await expect(page.getByRole('region', { name: 'お店の詳細' })).toBeVisible({ timeout: 1000 });
+	}).toPass();
+	await expect(page).toHaveURL(new RegExp(`videoid=${chosen.properties.video_id}`));
+	await expect(page.getByRole('button', { name: '最近の紹介に戻る' })).toHaveCount(0);
+	expect(errors).toEqual([]);
+});

@@ -2,12 +2,17 @@
 	import 'maplibre-gl/dist/maplibre-gl.css';
 	import 'svelte-maplibre-gl/vite';
 	import { layers, namedFlavor } from '@protomaps/basemaps';
-	import iconURL from '../../asset/icons8-marker-64.png';
+	import { markerImage, markerImages } from '#lib/map-markers.js';
 
 	import { map } from '#lib/store.js';
-	import type { FeatureForPopup, FeatureCollectionForPopup } from '#lib/store.js';
+	import type { FeatureForPopup, FeatureProperties } from '#lib/store.js';
 	import { hasLocation, storeName } from '#lib/discovery.js';
 	import type { Bounds } from '#lib/discovery.js';
+	import type { FeatureCollection, Point } from 'geojson';
+	type MarkerCollection = FeatureCollection<
+		Point,
+		FeatureProperties & { marker: string; rank?: number }
+	>;
 	import {
 		GeoJSONSource,
 		ImageLoader,
@@ -29,8 +34,19 @@
 	const dispatch = createEventDispatcher<{ loaded: void; select: FeatureForPopup; area: Bounds }>();
 	$: markerData = {
 		type: 'FeatureCollection',
-		features: features.filter(hasLocation)
-	} satisfies FeatureCollectionForPopup;
+		features: features
+			.filter(hasLocation)
+			.filter((f) => f !== selected)
+			.map((f, rank) => ({
+				...f,
+				properties: {
+					...f.properties,
+					name: storeName(f),
+					marker: markerImage(f.properties.category),
+					rank
+				}
+			}))
+	} satisfies MarkerCollection;
 
 	const protomapsURL = `https://api.protomaps.com/tiles/v4/{z}/{x}/{y}.mvt?key=${
 		import.meta.env.VITE_PROTOMAPS_API_KEY
@@ -40,16 +56,21 @@
 		type: 'FeatureCollection',
 		features:
 			selected && hasLocation(selected)
-				? [{ ...selected, properties: { ...selected.properties, name: storeName(selected) } }]
+				? [
+						{
+							...selected,
+							properties: {
+								...selected.properties,
+								name: storeName(selected),
+								marker: markerImage(selected.properties.category, true)
+							}
+						}
+					]
 				: []
-	} satisfies FeatureCollectionForPopup;
+	} satisfies MarkerCollection;
 	let mapInstance: maplibregl.Map | undefined;
 	let ready = false;
 	let userMoved = false;
-
-	const markerImages = {
-		'location-marker': iconURL
-	};
 
 	const baseStyle: maplibregl.StyleSpecification = {
 		version: 8,
@@ -232,11 +253,24 @@
 			<SymbolLayer
 				id="places"
 				layout={{
-					'icon-allow-overlap': true,
-					'icon-image': 'location-marker',
-					'icon-size': 0.3
+					'icon-allow-overlap': false,
+					'icon-image': ['get', 'marker'],
+					'icon-size': 0.5,
+					'icon-padding': 3,
+					'symbol-sort-key': ['get', 'rank'],
+					'text-field': ['step', ['zoom'], '', 13, ['get', 'name']],
+					'text-font': ['Noto Sans Regular'],
+					'text-size': 12,
+					'text-max-width': 10,
+					'text-variable-anchor': ['top', 'bottom', 'left', 'right'],
+					'text-radial-offset': 1.5,
+					'text-justify': 'auto',
+					'text-padding': 5,
+					'text-allow-overlap': false,
+					'text-optional': true
 				}}
 				onclick={handleClick}
+				paint={{ 'text-color': '#24354b', 'text-halo-color': '#ffffff', 'text-halo-width': 2 }}
 				onmouseenter={handleMouseEnter}
 				onmouseleave={handleMouseLeave}
 			/>
@@ -245,17 +279,17 @@
 			<SymbolLayer
 				id="selected-store-label"
 				layout={{
-					'icon-image': 'location-marker',
-					'icon-size': 0.48,
+					'icon-image': ['get', 'marker'],
+					'icon-size': 0.6,
 					'icon-allow-overlap': true,
 					'text-field': ['get', 'name'],
 					'text-font': ['Noto Sans Regular'],
 					'text-size': 13,
 					'text-anchor': 'bottom',
-					'text-offset': [0, -1.5],
+					'text-offset': [0, -1.9],
 					'text-allow-overlap': true
 				}}
-				paint={{ 'text-color': '#172134', 'text-halo-color': '#ffffff', 'text-halo-width': 3 }}
+				paint={{ 'text-color': '#1953d6', 'text-halo-color': '#ffffff', 'text-halo-width': 3 }}
 			/>
 		</GeoJSONSource>
 	</ImageLoader>
