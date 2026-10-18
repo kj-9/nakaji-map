@@ -31,7 +31,12 @@
 	export let panelOpen = true;
 	export let fullScreen = false;
 	export let reducedMotion = false;
-	const dispatch = createEventDispatcher<{ loaded: void; select: FeatureForPopup; area: Bounds }>();
+	const dispatch = createEventDispatcher<{
+		loaded: void;
+		select: FeatureForPopup;
+		area: Bounds;
+		candidates: FeatureForPopup[];
+	}>();
 	$: markerData = {
 		type: 'FeatureCollection',
 		features: features
@@ -93,7 +98,27 @@
 	const handleClick = (event: maplibregl.MapLayerMouseEvent) => {
 		const id = event.features?.[0]?.properties?.video_id;
 		const feature = features.find((f) => f.properties.video_id === id);
-		if (feature) dispatch('select', feature);
+		if (!feature || !mapInstance) return;
+		const nearby = features.filter(hasLocation).filter((candidate) => {
+			const point = mapInstance!.project(candidate.geometry.coordinates as [number, number]);
+			return Math.hypot(point.x - event.point.x, point.y - event.point.y) <= 28;
+		});
+		if (nearby.length <= 1) {
+			dispatch('select', feature);
+			return;
+		}
+		if (mapInstance.getZoom() >= mapInstance.getMaxZoom() - 0.01) {
+			dispatch('candidates', nearby);
+			return;
+		}
+		// This camera move disambiguates a tap; it must not trigger area filtering.
+		userMoved = false;
+		camera = undefined;
+		mapInstance.easeTo({
+			center: feature.geometry.coordinates as [number, number],
+			zoom: Math.min(mapInstance.getMaxZoom(), mapInstance.getZoom() + 2),
+			duration: reducedMotion ? 0 : 650
+		});
 	};
 
 	const handleMouseEnter = () => {
@@ -249,7 +274,8 @@
 	/>
 
 	<ImageLoader images={markerImages}>
-		<GeoJSONSource id="places" data={markerData}>
+		<!-- Keep the source cache aligned with the GeoJSON worker's built-in zoom limit. -->
+		<GeoJSONSource id="places" data={markerData} maxzoom={18}>
 			<SymbolLayer
 				id="places"
 				layout={{
@@ -276,7 +302,7 @@
 				onmouseleave={handleMouseLeave}
 			/>
 		</GeoJSONSource>
-		<GeoJSONSource id="selected-store" data={selectedData}>
+		<GeoJSONSource id="selected-store" data={selectedData} maxzoom={18}>
 			<SymbolLayer
 				id="selected-store-label"
 				layout={{
