@@ -218,6 +218,12 @@
 								? ' ・ 場所未確認'
 								: ''}
 						</p>
+						<a
+							class="store-map-link"
+							href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(selected.properties.google_maps || selected.properties.address || storeName(selected))}`}
+							target="_blank"
+							rel="noreferrer">Google Mapsで開く ↗</a
+						>
 						<h2>{selected.properties.title}</h2>
 						<p class="store-date">{formatDateStr(selected.properties.publishedAt)}に紹介</p>
 						<a
@@ -237,11 +243,7 @@
 							rel="noreferrer">紹介動画を見る ↗</a
 						>
 						<div class="store-actions">
-							<a
-								href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(selected.properties.google_maps || selected.properties.address || storeName(selected))}`}
-								target="_blank"
-								rel="noreferrer">Google Mapsで開く ↗</a
-							><button onclick={share}>リンクを共有</button>
+							<button onclick={share}>リンクを共有</button>
 						</div>
 					</article>
 				</div>

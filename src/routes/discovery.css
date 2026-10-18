@@ -312,6 +312,18 @@
 	line-height: 1.6;
 	margin-bottom: 12px;
 }
+.store-map-link {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 44px;
+	padding: 8px 14px;
+	margin-bottom: 14px;
+	border-radius: 11px;
+	background: #edf3ff;
+	font-size: 13px;
+	font-weight: 700;
+}
 .video-thumbnail {
 	display: block;
 	position: relative;
@@ -361,7 +373,6 @@
 	border-top: 1px solid #e0e6ee;
 	padding-top: 16px;
 }
-.store-actions a,
 .store-actions button {
 	display: flex;
 	flex: 1;
