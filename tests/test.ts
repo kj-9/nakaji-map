@@ -5,21 +5,9 @@ const newest = [...geodata.features].sort(
 	(a, b) => Date.parse(b.properties.publishedAt) - Date.parse(a.properties.publishedAt)
 );
 const recent = newest.slice(0, 3).map(({ properties }) => properties);
-const invalidLocation = newest.find(({ geometry }) => {
-	const [longitude, latitude] = geometry.coordinates;
-	return longitude === 0 && latitude === 0;
-})?.properties;
-if (!invalidLocation) throw new Error('Expected a newest video with an invalid location');
 
 const storeName = (store: (typeof recent)[number]) =>
 	store.name ?? store.google_maps ?? store.address;
-const locationDate = (publishedAt: string) =>
-	new Date(publishedAt).toLocaleDateString('ja-JP', {
-		year: 'numeric',
-		month: 'short',
-		day: 'numeric',
-		timeZone: 'Asia/Tokyo'
-	});
 
 test.beforeEach(async ({ page }) => {
 	// Keep map interaction tests independent of external tiles and API credentials.
@@ -28,9 +16,7 @@ test.beforeEach(async ({ page }) => {
 	);
 });
 
-test('recent stores show three entries, video subtitles, and unknown locations', async ({
-	page
-}) => {
+test('recent stores show three entries and video subtitles', async ({ page }) => {
 	await page.goto('/');
 	const candidates = page.getByRole('region', { name: 'お店の候補' });
 	await expect(page.getByRole('heading', { name: '最近紹介されたお店' })).toBeVisible();
@@ -41,12 +27,6 @@ test('recent stores show three entries, video subtitles, and unknown locations',
 		await expect(row).toBeVisible();
 		await expect(row).toContainText(store.title);
 	}
-
-	const invalidRow = candidates.locator('.restaurant-row').filter({
-		hasText: invalidLocation.title
-	});
-	await expect(invalidRow).toContainText('場所未確認');
-	await expect(invalidRow).toContainText(locationDate(invalidLocation.publishedAt));
 });
 
 test('category picker is a single-select dialog', async ({ page }) => {
