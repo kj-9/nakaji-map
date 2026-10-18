@@ -351,3 +351,28 @@ test('map can zoom beyond the former limit and back out from the new limit', asy
 	await page.getByRole('button', { name: 'Zoom out', exact: true }).click();
 	await expect(zoomIn).toBeEnabled();
 });
+
+test('search focus ring stays inside the scroll viewport', async ({ page }) => {
+	await page.setViewportSize({ width: 666, height: 819 });
+	await page.goto('/');
+	await expect(page.getByText('マップを準備中…')).toBeHidden({ timeout: 30000 });
+	const search = page.getByRole('searchbox', { name: 'お店や動画を検索' });
+	for (const fullScreen of [false, true]) {
+		if (fullScreen) await page.getByRole('button', { name: 'お店を全画面に' }).click();
+		await search.click();
+		await expect(search).toBeFocused();
+		await expect
+			.poll(() =>
+				search.evaluate((element) => {
+					const style = getComputedStyle(element);
+					const ring = Math.max(
+						0,
+						parseFloat(style.outlineWidth) + parseFloat(style.outlineOffset)
+					);
+					const clip = element.closest('.panel-scroll')!.getBoundingClientRect();
+					return element.getBoundingClientRect().top - ring - clip.top;
+				})
+			)
+			.toBeGreaterThanOrEqual(0);
+	}
+});
