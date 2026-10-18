@@ -4,6 +4,52 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "ZLwd1cAaznY",
+                "name": "清喜ひとしな",
+                "version": "1.2",
+                "address": "清喜ひとしな 福岡市中央区六本松4丁目",
+                "open_location_code": "8Q5GH9FH+RJ",
+                "url": "https://www.geocoding.jp/?q=%E6%B8%85%E5%96%9C%E3%81%B2%E3%81%A8%E3%81%97%E3%81%AA%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E5%85%AD%E6%9C%AC%E6%9D%BE4%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市中央区六本松４丁目５−３９ ピア２１ 清喜ひとしな",
+                "error": null,
+                "title": "超絶美味い!!!話題沸騰の名店!!!感動の出汁ステーキ",
+                "publishedAt": "2026-10-16T10:00:09Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.379116,
+                    33.57462
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "video_id": "E4YLSN1EJaI",
+                "name": "大島ラーメンあづまや福岡",
+                "version": "1.2",
+                "address": "大島ラーメンあづまや福岡 福岡市中央区六本松1丁目",
+                "open_location_code": "8Q5GH9HH+VJ",
+                "url": "https://www.geocoding.jp/?q=%E5%A4%A7%E5%B3%B6%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%B3%E3%81%82%E3%81%A5%E3%81%BE%E3%82%84%E7%A6%8F%E5%B2%A1%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E5%85%AD%E6%9C%AC%E6%9D%BE1%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市中央区六本松１丁目５−１７ 大島ラーメン あづまや 福岡",
+                "error": null,
+                "title": "シンプルこそ最強!!!絶品ラーメンと激ウマ皿うどん!!!",
+                "publishedAt": "2026-10-13T10:00:38Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.379016,
+                    33.579661
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "g5MTDyazwg8",
                 "name": "青空食堂",
                 "version": "1.2",
@@ -21,29 +67,6 @@
                 "coordinates": [
                     130.426349,
                     33.515972
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "video_id": "E4YLSN1EJaI",
-                "name": "大島ラーメンあづまや福岡",
-                "version": "1.2",
-                "address": "大島ラーメンあづまや福岡 福岡市中央区六本松1丁目",
-                "open_location_code": null,
-                "url": "https://www.geocoding.jp/?q=%E5%A4%A7%E5%B3%B6%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%B3%E3%81%82%E3%81%A5%E3%81%BE%E3%82%84%E7%A6%8F%E5%B2%A1%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E5%85%AD%E6%9C%AC%E6%9D%BE1%E4%B8%81%E7%9B%AE",
-                "needs_to_verify": "yes",
-                "google_maps": null,
-                "error": null,
-                "title": "シンプルこそ最強!!!絶品ラーメンと激ウマ皿うどん!!!",
-                "publishedAt": "2026-10-13T10:00:38Z"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    0.0,
-                    0.0
                 ]
             }
         },
@@ -73,23 +96,782 @@
         {
             "type": "Feature",
             "properties": {
-                "video_id": "b7q6bk314hk",
-                "name": "ブルース軒",
+                "video_id": "EAo-aLF4lss",
+                "name": "ハンバーグレストランDOYA",
                 "version": "1.2",
-                "address": "ブルース軒 福岡市早良区西新4丁目",
-                "open_location_code": "8Q5GH9M5+4G",
-                "url": "https://www.geocoding.jp/?q=%E3%83%96%E3%83%AB%E3%83%BC%E3%82%B9%E8%BB%92%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E6%97%A9%E8%89%AF%E5%8C%BA%E8%A5%BF%E6%96%B04%E4%B8%81%E7%9B%AE",
+                "address": "ハンバーグレストランDOYA 福岡市博多区竹丘町2丁目",
+                "open_location_code": "8Q5GGFV8+Q4",
+                "url": "https://www.geocoding.jp/?q=%E3%83%8F%E3%83%B3%E3%83%90%E3%83%BC%E3%82%B0%E3%83%AC%E3%82%B9%E3%83%88%E3%83%A9%E3%83%B3DOYA%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E5%8D%9A%E5%A4%9A%E5%8C%BA%E7%AB%B9%E4%B8%98%E7%94%BA2%E4%B8%81%E7%9B%AE",
                 "needs_to_verify": "yes",
-                "google_maps": "福岡県福岡市早良区西新４丁目９−１７ ２ ブルース軒",
+                "google_maps": "福岡県福岡市博多区竹丘町２丁目４−２５ みはしビル 104 ハンバーグレストラン DOYA",
                 "error": null,
-                "title": "中島が完璧だと唸った!!!非の打ちどころのない極上ラーメン店!!!",
-                "publishedAt": "2026-05-19T10:00:22Z"
+                "title": "唯一無二の絶品ハンバーグレストランに大感動!!!",
+                "publishedAt": "2026-10-02T10:00:09Z"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    130.358786,
-                    33.582843
+                    130.465302,
+                    33.544395
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "video_id": "skcuPiAwfPQ",
+                "name": "ラーメン普通",
+                "version": "1.2",
+                "address": "ラーメン普通 福岡県春日市大和町4-24",
+                "open_location_code": "8Q5GGFP4+CM",
+                "url": "https://www.geocoding.jp/?q=%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%B3%E6%99%AE%E9%80%9A%20%E7%A6%8F%E5%B2%A1%E7%9C%8C%E6%98%A5%E6%97%A5%E5%B8%82%E5%A4%A7%E5%92%8C%E7%94%BA4-24",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県春日市大和町４丁目24 ラーメン 普通",
+                "error": null,
+                "title": "福岡の本当に美味いラーメン店!!!感動の極上卵かけまぜそば!!!",
+                "publishedAt": "2026-09-29T10:00:25Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.456713,
+                    33.536116
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "video_id": "I6kh6CUTOYw",
+                "name": "ロビンソンスパイス",
+                "version": "1.2",
+                "address": "ロビンソンスパイス 福岡県大野城市御笠川4丁目5-2",
+                "open_location_code": "8Q5GHF2J+F5",
+                "url": "https://www.geocoding.jp/?q=%E3%83%AD%E3%83%93%E3%83%B3%E3%82%BD%E3%83%B3%E3%82%B9%E3%83%91%E3%82%A4%E3%82%B9%20%E7%A6%8F%E5%B2%A1%E7%9C%8C%E5%A4%A7%E9%87%8E%E5%9F%8E%E5%B8%82%E5%BE%A1%E7%AC%A0%E5%B7%9D4%E4%B8%81%E7%9B%AE5-2",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県大野城市御笠川４丁目５−２ ロビンソンスパイス",
+                "error": null,
+                "title": "福岡最高峰のスープカレー!!!名店です!!!",
+                "publishedAt": "2026-09-25T10:00:06Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.480461,
+                    33.551204
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "video_id": "kM00iSBh-VU",
+                "name": "うどん大文字",
+                "version": "1.2",
+                "address": "うどん大文字 大野城市山田4丁目",
+                "open_location_code": "8Q5GGFVC+7W",
+                "url": "https://www.geocoding.jp/?q=%E3%81%86%E3%81%A9%E3%82%93%E5%A4%A7%E6%96%87%E5%AD%97%20%E5%A4%A7%E9%87%8E%E5%9F%8E%E5%B8%82%E5%B1%B1%E7%94%B04%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県大野城市山田４丁目２−１ うどん大文字 大野城本店",
+                "error": null,
+                "title": "カツ丼とうどんのセットが飛ぶように売れる店!!!",
+                "publishedAt": "2026-09-22T10:00:29Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.47227,
+                    33.54314
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "video_id": "rJ_lmLplcrA",
+                "name": "オレの推し麺",
+                "version": "1.2",
+                "address": "オレの推し麺 福岡市中央区舞鶴1丁目",
+                "open_location_code": "8Q5GH9RV+RV",
+                "url": "https://www.geocoding.jp/?q=%E3%82%AA%E3%83%AC%E3%81%AE%E6%8E%A8%E3%81%97%E9%BA%BA%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E8%88%9E%E9%B6%B41%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市中央区舞鶴１丁目９−４ Ragsquare天神 102号室 オレの推し麺",
+                "error": null,
+                "title": "話題沸騰のド濃厚ラーメン店!!!",
+                "publishedAt": "2026-09-18T10:00:24Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.394723,
+                    33.592009
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "video_id": "RbjfCQAPnzk",
+                "name": "博多中華 studio092",
+                "version": "1.2",
+                "address": "博多中華 studio092 福岡市博多区美野島1丁目",
+                "open_location_code": "8Q5GHCJ8+WX",
+                "url": "https://www.geocoding.jp/?q=%E5%8D%9A%E5%A4%9A%E4%B8%AD%E8%8F%AF%20studio092%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E5%8D%9A%E5%A4%9A%E5%8C%BA%E7%BE%8E%E9%87%8E%E5%B3%B61%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市博多区美野島１丁目４−１ 1F 博多中華STUDIO092",
+                "error": null,
+                "title": "本当に美味い福岡のラーメン店!!!新たな名店攻め!!!感動の醬油ラーメンと担々麺!!!",
+                "publishedAt": "2026-09-15T10:00:22Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.417468,
+                    33.5823
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "video_id": "D9w1Pa81mVY",
+                "name": "博多の天ぷら 喜水丸",
+                "version": "1.2",
+                "address": "博多の天ぷら 喜水丸 福岡市博多区上川端町",
+                "open_location_code": "8Q5GHCV4+JR",
+                "url": "https://www.geocoding.jp/?q=%E5%8D%9A%E5%A4%9A%E3%81%AE%E5%A4%A9%E3%81%B7%E3%82%89%20%E5%96%9C%E6%B0%B4%E4%B8%B8%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E5%8D%9A%E5%A4%9A%E5%8C%BA%E4%B8%8A%E5%B7%9D%E7%AB%AF%E7%94%BA",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市博多区上川端町１１−１ 新川端グレイスマンション B1F 博多の天ぷら 喜水丸",
+                "error": null,
+                "title": "行列がスゴイ!!!大衆天ぷら超絶人気店攻め!!!",
+                "publishedAt": "2026-09-11T10:00:06Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.407105,
+                    33.594103
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "video_id": "FGDk2nWWeT4",
+                "name": "クボカリー薬院店 ビリヤニ堂",
+                "version": "1.2",
+                "address": "クボカリー薬院店 ビリヤニ堂 福岡市中央区薬院1丁目",
+                "open_location_code": "8Q5GHCM2+88",
+                "url": "https://www.geocoding.jp/?q=%E3%82%AF%E3%83%9C%E3%82%AB%E3%83%AA%E3%83%BC%E8%96%AC%E9%99%A2%E5%BA%97%20%E3%83%93%E3%83%AA%E3%83%A4%E3%83%8B%E5%A0%82%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E8%96%AC%E9%99%A21%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市中央区薬院１丁目２−９ 東峰マンション薬院 104号室 クボカリー薬院店 ビリヤニ堂",
+                "error": null,
+                "title": "超絶人気のカレー屋が新たに出した行列必至の名店!!!",
+                "publishedAt": "2026-09-08T10:00:33Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.40076,
+                    33.583364
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "video_id": "s4R4hgDXIcI",
+                "name": "十割蕎麦処 しょうけそば 竹亭",
+                "version": "1.2",
+                "address": "十割蕎麦処 しょうけそば 竹亭 福岡県糟屋郡宇美町宇美1丁目",
+                "open_location_code": "8Q5GHGC5+54",
+                "url": "https://www.geocoding.jp/?q=%E5%8D%81%E5%89%B2%E8%95%8E%E9%BA%A6%E5%87%A6%20%E3%81%97%E3%82%87%E3%81%86%E3%81%91%E3%81%9D%E3%81%B0%20%E7%AB%B9%E4%BA%AD%20%E7%A6%8F%E5%B2%A1%E7%9C%8C%E7%B3%9F%E5%B1%8B%E9%83%A1%E5%AE%87%E7%BE%8E%E7%94%BA%E5%AE%87%E7%BE%8E1%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県糟屋郡宇美町宇美１丁目７−１ 十割蕎麦処 竹亭 【十割蕎麦】",
+                "error": null,
+                "title": "ミシュランガイド掲載の名店!!!超絶美味いそば屋に感動です!!!",
+                "publishedAt": "2026-09-04T10:00:10Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.507762,
+                    33.570482
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "video_id": "fd4yg6Bu9T4",
+                "name": "煮干しのビリー",
+                "version": "1.2",
+                "address": "煮干しのビリー 福岡県糟屋郡宇美町宇美4丁目",
+                "open_location_code": "8Q5GHG96+WP",
+                "url": "https://www.geocoding.jp/?q=%E7%85%AE%E5%B9%B2%E3%81%97%E3%81%AE%E3%83%93%E3%83%AA%E3%83%BC%20%E7%A6%8F%E5%B2%A1%E7%9C%8C%E7%B3%9F%E5%B1%8B%E9%83%A1%E5%AE%87%E7%BE%8E%E7%94%BA%E5%AE%87%E7%BE%8E4%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県糟屋郡宇美町宇美４丁目７−３２ ２Ｆ 煮干しのビリー",
+                "error": null,
+                "title": "行列必至!!!路地裏の超絶名店!!!",
+                "publishedAt": "2026-09-01T10:00:25Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.511828,
+                    33.569791
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "video_id": "_rHsDIGHWvU",
+                "name": "チャイニーズキッチン 真心",
+                "version": "1.2",
+                "address": "チャイニーズキッチン 真心 福岡市中央区渡辺通2丁目",
+                "open_location_code": "8Q5GHCJ3+VF",
+                "url": "https://www.geocoding.jp/?q=%E3%83%81%E3%83%A3%E3%82%A4%E3%83%8B%E3%83%BC%E3%82%BA%E3%82%AD%E3%83%83%E3%83%81%E3%83%B3%20%E7%9C%9F%E5%BF%83%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E6%B8%A1%E8%BE%BA%E9%80%9A2%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市中央区渡辺通２丁目３−８ チャイニーズキッチン真心（シンシン）",
+                "error": null,
+                "title": "絶品町中華店攻め!!!福岡で一番美味いと食通が大絶賛するスーラータンメン",
+                "publishedAt": "2026-08-25T10:00:04Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.403664,
+                    33.58223
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "video_id": "3CNE_obUEzg",
+                "name": "北海道らーめん 北の恵み",
+                "version": "1.2",
+                "address": "北海道らーめん 北の恵み 福岡市博多区堅粕48-3",
+                "open_location_code": "8Q5GJC2P+4V",
+                "url": "https://www.geocoding.jp/?q=%E5%8C%97%E6%B5%B7%E9%81%93%E3%82%89%E3%83%BC%E3%82%81%E3%82%93%20%E5%8C%97%E3%81%AE%E6%81%B5%E3%81%BF%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E5%8D%9A%E5%A4%9A%E5%8C%BA%E5%A0%85%E7%B2%9548-3",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市博多区堅粕４８−３ 北海道らーめん 北の恵み",
+                "error": null,
+                "title": "味噌バターラーメン最強の店!!!",
+                "publishedAt": "2026-08-21T10:00:07Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.437229,
+                    33.600289
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "video_id": "2a5bK9Bdv5I",
+                "name": "中華酒場 博多黒白",
+                "version": "1.2",
+                "address": "中華酒場 博多黒白 福岡市中央区春吉3丁目",
+                "open_location_code": "8Q5GHCQ4+M3",
+                "url": "https://www.geocoding.jp/?q=%E4%B8%AD%E8%8F%AF%E9%85%92%E5%A0%B4%20%E5%8D%9A%E5%A4%9A%E9%BB%92%E7%99%BD%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E6%98%A5%E5%90%893%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市中央区春吉３丁目２２−２３ 2 RAN TERRACE 中華酒場 博多黒白（こくはく）天神春吉本店 階C",
+                "error": null,
+                "title": "最高の麻婆豆腐定食!!!噂の新店攻め!!!",
+                "publishedAt": "2026-08-18T10:00:19Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.405152,
+                    33.589154
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "video_id": "QUS3zzJ9nzk",
+                "name": "ハンバーグマフィア",
+                "version": "1.2",
+                "address": "ハンバーグマフィア 福岡県糟屋郡粕屋町仲原",
+                "open_location_code": "8Q5GJC6W+VH",
+                "url": "https://www.geocoding.jp/?q=%E3%83%8F%E3%83%B3%E3%83%90%E3%83%BC%E3%82%B0%E3%83%9E%E3%83%95%E3%82%A3%E3%82%A2%20%E7%A6%8F%E5%B2%A1%E7%9C%8C%E7%B3%9F%E5%B1%8B%E9%83%A1%E7%B2%95%E5%B1%8B%E7%94%BA%E4%BB%B2%E5%8E%9F",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県糟屋郡粕屋町仲原2820ｰ3 １０２ ハンバーグマフィア",
+                "error": null,
+                "title": "福岡最高峰!!!超絶美味いとろけるハンバーグ!!!",
+                "publishedAt": "2026-08-14T10:00:28Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.446425,
+                    33.612168
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "video_id": "bsU34EUDLcc",
+                "name": "チャランポラン",
+                "version": "1.2",
+                "address": "チャランポラン 福岡県粕屋郡志免町南里1丁目",
+                "open_location_code": "8Q5GHFVC+VH",
+                "url": "https://www.geocoding.jp/?q=%E3%83%81%E3%83%A3%E3%83%A9%E3%83%B3%E3%83%9D%E3%83%A9%E3%83%B3%20%E7%A6%8F%E5%B2%A1%E7%9C%8C%E7%B2%95%E5%B1%8B%E9%83%A1%E5%BF%97%E5%85%8D%E7%94%BA%E5%8D%97%E9%87%8C1%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県糟屋郡志免町南里１丁目１２−１８ チャランポラン",
+                "error": null,
+                "title": "絶賛の嵐!!!福岡最高峰の皿うどんに大感動!!!",
+                "publishedAt": "2026-08-11T10:00:11Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.471422,
+                    33.594668
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "video_id": "zOMhhTN_0yU",
+                "name": "日々のうどん 讃三",
+                "version": "1.2",
+                "address": "日々のうどん 讃三 福岡市中央区今泉1丁目",
+                "open_location_code": "8Q5GH9MX+WH",
+                "url": "https://www.geocoding.jp/?q=%E6%97%A5%E3%80%85%E3%81%AE%E3%81%86%E3%81%A9%E3%82%93%20%E8%AE%83%E4%B8%89%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E4%BB%8A%E6%B3%891%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市中央区今泉１丁目１８−５５ 天神南ロイヤルハイツ １０１号 日々のうどん 讃三",
+                "error": null,
+                "title": "肉うどん最強の店!!!絶対外さない福岡の絶品うどん店!!!",
+                "publishedAt": "2026-08-07T10:00:17Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.398943,
+                    33.584815
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "video_id": "aUDdoZk6L0Y",
+                "name": "豚白湯 創作麺処 友池",
+                "version": "1.2",
+                "address": "豚白湯 創作麺処 友池 福岡市早良区昭代3丁目",
+                "open_location_code": "8Q5GH8GX+MJ",
+                "url": "https://www.geocoding.jp/?q=%E8%B1%9A%E7%99%BD%E6%B9%AF%20%E5%89%B5%E4%BD%9C%E9%BA%BA%E5%87%A6%20%E5%8F%8B%E6%B1%A0%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E6%97%A9%E8%89%AF%E5%8C%BA%E6%98%AD%E4%BB%A33%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市早良区昭代３丁目１２−２０ 豚白湯創作麺処友池",
+                "error": null,
+                "title": "住宅街でひっそりと営業する超絶名店!!!本当に美味い福岡のラーメン店!!!",
+                "publishedAt": "2026-08-04T10:00:30Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.349014,
+                    33.576666
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "video_id": "7AGF1r3T-P0",
+                "name": "たこらん",
+                "version": "1.2",
+                "address": "たこらん 福岡市博多区堅粕4丁目",
+                "open_location_code": "8Q5GHCXG+5F",
+                "url": "https://www.geocoding.jp/?q=%E3%81%9F%E3%81%93%E3%82%89%E3%82%93%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E5%8D%9A%E5%A4%9A%E5%8C%BA%E5%A0%85%E7%B2%954%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市博多区堅粕４丁目５−１１ たこらん",
+                "error": null,
+                "title": "わざわざ食べに行く価値アリ!!!超絶美味いたこ焼きの名店!!!",
+                "publishedAt": "2026-07-31T10:00:20Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.426174,
+                    33.59794
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "video_id": "h0YM3CFZGbU",
+                "name": "すぱいすかりー 十一",
+                "version": "1.2",
+                "address": "すぱいすかりー 十一 福岡市博多区博多駅東2丁目",
+                "open_location_code": "8Q5GHCQF+W8",
+                "url": "https://www.geocoding.jp/?q=%E3%81%99%E3%81%B1%E3%81%84%E3%81%99%E3%81%8B%E3%82%8A%E3%83%BC%20%E5%8D%81%E4%B8%80%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E5%8D%9A%E5%A4%9A%E5%8C%BA%E5%8D%9A%E5%A4%9A%E9%A7%85%E6%9D%B12%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市博多区博多駅東２丁目２−２ 地下1階 すぱいすかりー 十一",
+                "error": null,
+                "title": "本当に美味い福岡のカレー屋攻め!!!絶対外さない名店です!!!",
+                "publishedAt": "2026-07-29T10:00:11Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.423292,
+                    33.589807
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "video_id": "7-hpX1ajBw4",
+                "name": "やすらぎ丸",
+                "version": "1.2",
+                "address": "やすらぎ丸 福岡市東区大岳4丁目",
+                "open_location_code": "8Q5GM83J+WP",
+                "url": "https://www.geocoding.jp/?q=%E3%82%84%E3%81%99%E3%82%89%E3%81%8E%E4%B8%B8%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E6%9D%B1%E5%8C%BA%E5%A4%A7%E5%B2%B34%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市東区大岳４丁目８−２１ やすらぎ丸",
+                "error": null,
+                "title": "これぞ福岡ナンバーワン!!!無性に食べたくなる絶品ホットドッグ!!!",
+                "publishedAt": "2026-07-24T10:00:05Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.331821,
+                    33.654845
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "video_id": "s9jY0qrgna8",
+                "name": "中西食堂",
+                "version": "1.2",
+                "address": "中西食堂 福岡市東区志賀島",
+                "open_location_code": "8Q5GM877+9J",
+                "url": "https://www.geocoding.jp/?q=%E4%B8%AD%E8%A5%BF%E9%A3%9F%E5%A0%82%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E6%9D%B1%E5%8C%BA%E5%BF%97%E8%B3%80%E5%B3%B6",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市東区志賀島５８３−８ 中西食堂",
+                "error": null,
+                "title": "断言します!!!福岡で一番美味い丼です!!!",
+                "publishedAt": "2026-07-21T10:00:09Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.314058,
+                    33.663414
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "video_id": "7toj4yOW9AA",
+                "name": "麺や佐渡友",
+                "version": "1.2",
+                "address": "麺や佐渡友 福岡市東区三苫6丁目",
+                "open_location_code": "8Q5GPC29+VV",
+                "url": "https://www.geocoding.jp/?q=%E9%BA%BA%E3%82%84%E4%BD%90%E6%B8%A1%E5%8F%8B%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E6%9D%B1%E5%8C%BA%E4%B8%89%E8%8B%AB6%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市東区三苫６丁目１３−３８ 麺や 佐渡友",
+                "error": null,
+                "title": "これぞ名店!!!ラーメンwalker九州グランプリ金賞の店!!!",
+                "publishedAt": "2026-07-17T10:00:05Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.41971,
+                    33.702137
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "video_id": "Tbp4290ulSI",
+                "name": "天鼓",
+                "version": "1.2",
+                "address": "天鼓 福岡市博多区博多駅南4丁目",
+                "open_location_code": "8Q5GHCHH+RJ",
+                "url": "https://www.geocoding.jp/?q=%E5%A4%A9%E9%BC%93%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E5%8D%9A%E5%A4%9A%E5%8C%BA%E5%8D%9A%E5%A4%9A%E9%A7%85%E5%8D%974%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市博多区博多駅南４丁目１８−２ 明東ビル 天鼓",
+                "error": null,
+                "title": "食べ終わったのにすぐまた食べてくなるヤミツキ度が半端ないチャンポンの名店!!!",
+                "publishedAt": "2026-07-14T10:00:36Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.429066,
+                    33.57961
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "video_id": "nAiLhoVMN4Y",
+                "name": "桐乃家",
+                "version": "1.2",
+                "address": "桐乃家 八女市大島173-2",
+                "open_location_code": "8Q5G6H97+44",
+                "url": "https://www.geocoding.jp/?q=%E6%A1%90%E4%B9%83%E5%AE%B6%20%E5%85%AB%E5%A5%B3%E5%B8%82%E5%A4%A7%E5%B3%B6173-2",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県八女市大島１７３−２ 桐乃家【本格手打ちうどん·そば処】",
+                "error": null,
+                "title": "行列ができる最高のうどん屋!!!かつ丼も最高です!!!",
+                "publishedAt": "2026-07-10T10:00:25Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.562776,
+                    33.217764
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "video_id": "pqxPkfIQPpU",
+                "name": "らりご",
+                "version": "1.2",
+                "address": "らりご 福岡市中央区高砂2丁目",
+                "open_location_code": "8Q5GHCG6+P4",
+                "url": "https://www.geocoding.jp/?q=%E3%82%89%E3%82%8A%E3%81%94%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E9%AB%98%E7%A0%822%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市中央区高砂２丁目８−１５ らりご",
+                "error": null,
+                "title": "日本一美味いと言っても過言ではないとり天に感動です!!!",
+                "publishedAt": "2026-07-03T10:00:13Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.410309,
+                    33.57687
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "video_id": "xnCRQMge39s",
+                "name": "博多ラーメンげんこつ",
+                "version": "1.2",
+                "address": "博多ラーメンげんこつ 福岡市早良区田隈1丁目",
+                "open_location_code": "8Q5GG8VR+JJ",
+                "url": "https://www.geocoding.jp/?q=%E5%8D%9A%E5%A4%9A%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%B3%E3%81%92%E3%82%93%E3%81%93%E3%81%A4%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E6%97%A9%E8%89%AF%E5%8C%BA%E7%94%B0%E9%9A%881%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市早良区田隈１丁目１０−７ 博多ラーメンげんこつ 博多ラーメン げんこつ",
+                "error": null,
+                "title": "本当に美味い福岡の豚骨ラーメン店を追求する!!!濃厚でコクのある豚骨スープはヤミツキです!!!",
+                "publishedAt": "2026-06-26T10:00:30Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.341518,
+                    33.544098
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "video_id": "tpLL7-Z_ZfQ",
+                "name": "天正",
+                "version": "1.2",
+                "address": "天正 福岡市西区野方2丁目",
+                "open_location_code": "8Q5GH836+GX",
+                "url": "https://www.geocoding.jp/?q=%E5%A4%A9%E6%AD%A3%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E8%A5%BF%E5%8C%BA%E9%87%8E%E6%96%B92%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市西区野方２丁目９−１６ 天正",
+                "error": null,
+                "title": "ミシュランも認める!!!大衆天ぷらの超絶名店に感動です!!!",
+                "publishedAt": "2026-06-23T10:36:38Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.312477,
+                    33.553848
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "video_id": "9v38rqt-hfQ",
+                "name": "きぼう道場",
+                "version": "1.2",
+                "address": "きぼう道場 福岡県糟屋郡志免町別府1丁目",
+                "open_location_code": "8Q5GJF26+XM",
+                "url": "https://www.geocoding.jp/?q=%E3%81%8D%E3%81%BC%E3%81%86%E9%81%93%E5%A0%B4%20%E7%A6%8F%E5%B2%A1%E7%9C%8C%E7%B3%9F%E5%B1%8B%E9%83%A1%E5%BF%97%E5%85%8D%E7%94%BA%E5%88%A5%E5%BA%9C1%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県糟屋郡志免町別府１丁目２０−７ 牛骨拉麺 きぼう道場",
+                "error": null,
+                "title": "炒飯とラーメン最強の店!!!",
+                "publishedAt": "2026-06-16T10:00:30Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.461667,
+                    33.6025
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "video_id": "NFhWZGNTPiE",
+                "name": "一丁目なんから食堂",
+                "version": "1.2",
+                "address": "一丁目なんから食堂 福岡市中央区大名1-1-7",
+                "open_location_code": "8Q5GH9PW+GM",
+                "url": "https://www.geocoding.jp/?q=%E4%B8%80%E4%B8%81%E7%9B%AE%E3%81%AA%E3%82%93%E3%81%8B%E3%82%89%E9%A3%9F%E5%A0%82%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E5%A4%A7%E5%90%8D1-1-7",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市中央区大名１丁目１−７ 1F 一丁目 なんから食堂",
+                "error": null,
+                "title": "福岡最強の定食屋を追求するシリーズ!!!!海老フライ＆ハンバーグ最強セット!!!ドドーン!!!",
+                "publishedAt": "2026-06-12T10:00:24Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.396641,
+                    33.58635
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "video_id": "hjFsVja8gV4",
+                "name": "カフェハルモ",
+                "version": "1.2",
+                "address": "カフェハルモ 福岡市中央区今泉1丁目",
+                "open_location_code": "8Q5GH9PX+3Q",
+                "url": "https://www.geocoding.jp/?q=%E3%82%AB%E3%83%95%E3%82%A7%E3%83%8F%E3%83%AB%E3%83%A2%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E4%BB%8A%E6%B3%891%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市中央区今泉１丁目７−２１ Cafe&Dining ハルモ 天神今泉公園前店",
+                "error": null,
+                "title": "ド迫力!!!大感動!!!分厚いステーキ福岡ナンバーワンの店!!!",
+                "publishedAt": "2026-06-09T10:00:15Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.399499,
+                    33.585166
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "video_id": "KexrhWJIb5o",
+                "name": "いちむじん渡辺通店",
+                "version": "1.2",
+                "address": "いちむじん渡辺通店 福岡市中央区渡辺通3丁目",
+                "open_location_code": "8Q5GHCP4+Q9",
+                "url": "https://www.geocoding.jp/?q=%E3%81%84%E3%81%A1%E3%82%80%E3%81%98%E3%82%93%E6%B8%A1%E8%BE%BA%E9%80%9A%E5%BA%97%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E6%B8%A1%E8%BE%BA%E9%80%9A3%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市中央区渡辺通３丁目１１−１０ W3 102号 いちむじん 渡辺通店",
+                "error": null,
+                "title": "福岡最高峰の豚骨ラーメン店の神セットメニューに大感動!!!",
+                "publishedAt": "2026-06-05T10:00:23Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.405923,
+                    33.586913
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "video_id": "GIWArC5_Izk",
+                "name": "うみさと 食堂＆酒場",
+                "version": "1.2",
+                "address": "うみさと 食堂＆酒場 福岡市中央区赤坂1丁目",
+                "open_location_code": "8Q5GH9QR+62",
+                "url": "https://www.geocoding.jp/?q=%E3%81%86%E3%81%BF%E3%81%95%E3%81%A8%20%E9%A3%9F%E5%A0%82%EF%BC%86%E9%85%92%E5%A0%B4%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E8%B5%A4%E5%9D%821%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市中央区赤坂１丁目１１−１ うみさと 食堂&酒場 プロスパー一階",
+                "error": null,
+                "title": "銀鮭定食最強の店!!!",
+                "publishedAt": "2026-06-02T10:00:31Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.390058,
+                    33.588085
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "video_id": "PKv9KpJdKng",
+                "name": "Sunny Side FUK",
+                "version": "1.2",
+                "address": "Sunny Side FUK 福岡市中央区赤坂1丁目",
+                "open_location_code": "8Q5GH9PR+49",
+                "url": "https://www.geocoding.jp/?q=Sunny%20Side%20FUK%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E8%B5%A4%E5%9D%821%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市中央区赤坂１丁目１−５ 鶴田けやきビル 1F Sunny Side FUK",
+                "error": null,
+                "title": "これぞ福岡ナンバーワンのオムライス!!!感動です",
+                "publishedAt": "2026-05-29T10:00:27Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.390946,
+                    33.585252
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "video_id": "kZcAuN_CA7E",
+                "name": "結局中華",
+                "version": "1.2",
+                "address": "結局中華 福岡市中央区大名2丁目",
+                "open_location_code": "8Q5GH9QV+72",
+                "url": "https://www.geocoding.jp/?q=%E7%B5%90%E5%B1%80%E4%B8%AD%E8%8F%AF%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E5%A4%A7%E5%90%8D2%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市中央区大名２丁目２−４４ マウンテンハウス2 101 結局中華",
+                "error": null,
+                "title": "今福岡で最も注目されている絶品中華店!!!至高の麻婆豆腐定食と極上レバニラ炒め",
+                "publishedAt": "2026-05-26T10:00:19Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.392616,
+                    33.588206
                 ]
             }
         },
@@ -113,6 +895,29 @@
                 "coordinates": [
                     130.358671,
                     33.582953
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "video_id": "b7q6bk314hk",
+                "name": "ブルース軒",
+                "version": "1.2",
+                "address": "ブルース軒 福岡市早良区西新4丁目",
+                "open_location_code": "8Q5GH9M5+4G",
+                "url": "https://www.geocoding.jp/?q=%E3%83%96%E3%83%AB%E3%83%BC%E3%82%B9%E8%BB%92%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E6%97%A9%E8%89%AF%E5%8C%BA%E8%A5%BF%E6%96%B04%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市早良区西新４丁目９−１７ ２ ブルース軒",
+                "error": null,
+                "title": "中島が完璧だと唸った!!!非の打ちどころのない極上ラーメン店!!!",
+                "publishedAt": "2026-05-19T10:00:22Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.358786,
+                    33.582843
                 ]
             }
         },
@@ -146,10 +951,10 @@
                 "name": "玄風館 吉塚",
                 "version": "1.2",
                 "address": "玄風館 吉塚 福岡市博多区吉塚7丁目",
-                "open_location_code": null,
+                "open_location_code": "8Q5GJC4J+CG",
                 "url": "https://www.geocoding.jp/?q=%E7%8E%84%E9%A2%A8%E9%A4%A8%20%E5%90%89%E5%A1%9A%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E5%8D%9A%E5%A4%9A%E5%8C%BA%E5%90%89%E5%A1%9A7%E4%B8%81%E7%9B%AE",
                 "needs_to_verify": "yes",
-                "google_maps": null,
+                "google_maps": "福岡県福岡市博多区吉塚７丁目１−２ 吉塚東福ビル F1 玄風館 吉塚",
                 "error": null,
                 "title": "福岡最高と言っても過言ではない焼肉屋の超絶絶品カルビランチ!!!",
                 "publishedAt": "2026-05-08T10:00:36Z"
@@ -157,8 +962,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    0.0,
-                    0.0
+                    130.431329,
+                    33.606075
                 ]
             }
         },
@@ -372,6 +1177,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "BaihIM6h-uY",
+                "name": "手作りハンバーグ きりん",
+                "version": "1.2",
+                "address": "手作りハンバーグ きりん 糟屋郡志免町別府3丁目",
+                "open_location_code": "8Q5GJF34+36",
+                "url": "https://www.geocoding.jp/?q=%E6%89%8B%E4%BD%9C%E3%82%8A%E3%83%8F%E3%83%B3%E3%83%90%E3%83%BC%E3%82%B0%20%E3%81%8D%E3%82%8A%E3%82%93%20%E7%B3%9F%E5%B1%8B%E9%83%A1%E5%BF%97%E5%85%8D%E7%94%BA%E5%88%A5%E5%BA%9C3%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県糟屋郡志免町別府３丁目１１−２１ 手作りハンバーグきりん ROUTE68",
+                "error": null,
+                "title": "超絶話題の名店!!!!ふわっふわのとろける絶品ハンバーグ!!!!最高です!!!",
+                "publishedAt": "2026-04-03T10:00:16Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.455571,
+                    33.602628
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "ap1cMQ8W5lo",
                 "name": "裕英うどん",
                 "version": "1.2",
@@ -395,23 +1223,23 @@
         {
             "type": "Feature",
             "properties": {
-                "video_id": "BaihIM6h-uY",
-                "name": "手作りハンバーグ きりん",
+                "video_id": "M0Y7r5OMNXc",
+                "name": "鉄板焼 石田",
                 "version": "1.2",
-                "address": "手作りハンバーグ きりん 糟屋郡志免町別府3丁目",
-                "open_location_code": "8Q5GJF34+36",
-                "url": "https://www.geocoding.jp/?q=%E6%89%8B%E4%BD%9C%E3%82%8A%E3%83%8F%E3%83%B3%E3%83%90%E3%83%BC%E3%82%B0%20%E3%81%8D%E3%82%8A%E3%82%93%20%E7%B3%9F%E5%B1%8B%E9%83%A1%E5%BF%97%E5%85%8D%E7%94%BA%E5%88%A5%E5%BA%9C3%E4%B8%81%E7%9B%AE",
+                "address": "鉄板焼 石田 福岡市博多区中洲3丁目",
+                "open_location_code": "8Q5GHCV5+22",
+                "url": "https://www.geocoding.jp/?q=%E9%89%84%E6%9D%BF%E7%84%BC%20%E7%9F%B3%E7%94%B0%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E5%8D%9A%E5%A4%9A%E5%8C%BA%E4%B8%AD%E6%B4%B23%E4%B8%81%E7%9B%AE",
                 "needs_to_verify": "yes",
-                "google_maps": "福岡県糟屋郡志免町別府３丁目１１−２１ 手作りハンバーグきりん ROUTE68",
+                "google_maps": "福岡県福岡市博多区中洲３丁目２−５ 第4ラインビル 2F 鉄板焼 石田",
                 "error": null,
-                "title": "超絶話題の名店!!!!ふわっふわのとろける絶品ハンバーグ!!!!最高です!!!",
-                "publishedAt": "2026-04-03T10:00:16Z"
+                "title": "福岡最高の鉄板焼き店!!!最高です!!!感動です!!!",
+                "publishedAt": "2026-03-27T10:00:34Z"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    130.455571,
-                    33.602628
+                    130.407592,
+                    33.592541
                 ]
             }
         },
@@ -464,52 +1292,6 @@
         {
             "type": "Feature",
             "properties": {
-                "video_id": "NRQq55Mzq98",
-                "name": "麺屋はし本",
-                "version": "1.2",
-                "address": "麺屋はし本 福岡市早良区室見5丁目",
-                "open_location_code": "8Q5GH8JR+35",
-                "url": "https://www.geocoding.jp/?q=%E9%BA%BA%E5%B1%8B%E3%81%AF%E3%81%97%E6%9C%AC%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E6%97%A9%E8%89%AF%E5%8C%BA%E5%AE%A4%E8%A6%8B5%E4%B8%81%E7%9B%AE",
-                "needs_to_verify": "yes",
-                "google_maps": "福岡県福岡市早良区室見５丁目１−２４ 麺屋 はし本",
-                "error": null,
-                "title": "本当に美味い福岡の豚骨ラーメン!!!濃厚豚骨最高です!!!",
-                "publishedAt": "2026-02-27T10:00:37Z"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    130.340429,
-                    33.580173
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "video_id": "gTz4niMjTb4",
-                "name": "創作串揚げ 優",
-                "version": "1.2",
-                "address": "創作串揚げ 優 福岡市中央区警固2丁目",
-                "open_location_code": "8Q5GH9MQ+6M",
-                "url": "https://www.geocoding.jp/?q=%E5%89%B5%E4%BD%9C%E4%B8%B2%E6%8F%9A%E3%81%92%20%E5%84%AA%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E8%AD%A6%E5%9B%BA2%E4%B8%81%E7%9B%AE",
-                "needs_to_verify": "yes",
-                "google_maps": "福岡県福岡市中央区警固２丁目９−１６ ペントハウス警固 ２Ｄ 創作串揚げ 優",
-                "error": null,
-                "title": "絶品串揚げ店の本気のアジフライに大感動です",
-                "publishedAt": "2026-03-03T10:01:02Z"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    130.389222,
-                    33.58303
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "video_id": "mDTFlAYPXfA",
                 "name": "北パキスタン料理 ユスフザイハラール",
                 "version": "1.2",
@@ -556,46 +1338,46 @@
         {
             "type": "Feature",
             "properties": {
-                "video_id": "rGzhGwmicMs",
-                "name": "山一",
+                "video_id": "gTz4niMjTb4",
+                "name": "創作串揚げ 優",
                 "version": "1.2",
-                "address": "山一 福岡市中央区笹丘1丁目",
-                "open_location_code": "8Q5GH97G+V9",
-                "url": "https://www.geocoding.jp/?q=%E5%B1%B1%E4%B8%80%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E7%AC%B9%E4%B8%981%E4%B8%81%E7%9B%AE",
+                "address": "創作串揚げ 優 福岡市中央区警固2丁目",
+                "open_location_code": "8Q5GH9MQ+6M",
+                "url": "https://www.geocoding.jp/?q=%E5%89%B5%E4%BD%9C%E4%B8%B2%E6%8F%9A%E3%81%92%20%E5%84%AA%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E8%AD%A6%E5%9B%BA2%E4%B8%81%E7%9B%AE",
                 "needs_to_verify": "yes",
-                "google_maps": "福岡県福岡市中央区笹丘１丁目２７−１０ 山一",
+                "google_maps": "福岡県福岡市中央区警固２丁目９−１６ ペントハウス警固 ２Ｄ 創作串揚げ 優",
                 "error": null,
-                "title": "中島大絶賛!!!100点満点の牛丼!!!",
-                "publishedAt": "2026-02-17T10:01:18Z"
+                "title": "絶品串揚げ店の本気のアジフライに大感動です",
+                "publishedAt": "2026-03-03T10:01:02Z"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    130.375982,
-                    33.564656
+                    130.389222,
+                    33.58303
                 ]
             }
         },
         {
             "type": "Feature",
             "properties": {
-                "video_id": "BxljIu3r-qM",
-                "name": "基峰",
+                "video_id": "NRQq55Mzq98",
+                "name": "麺屋はし本",
                 "version": "1.2",
-                "address": "基峰 福岡市中央区笹丘1丁目",
-                "open_location_code": "8Q5GH98H+C6",
-                "url": "https://www.geocoding.jp/?q=%E5%9F%BA%E5%B3%B0%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E7%AC%B9%E4%B8%981%E4%B8%81%E7%9B%AE",
+                "address": "麺屋はし本 福岡市早良区室見5丁目",
+                "open_location_code": "8Q5GH8JR+35",
+                "url": "https://www.geocoding.jp/?q=%E9%BA%BA%E5%B1%8B%E3%81%AF%E3%81%97%E6%9C%AC%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E6%97%A9%E8%89%AF%E5%8C%BA%E5%AE%A4%E8%A6%8B5%E4%B8%81%E7%9B%AE",
                 "needs_to_verify": "yes",
-                "google_maps": "福岡県福岡市中央区笹丘１丁目１２−２６ ラーメン基峰",
+                "google_maps": "福岡県福岡市早良区室見５丁目１−２４ 麺屋 はし本",
                 "error": null,
-                "title": "取材NGの名店です!!!シンプルを極める豚骨ラーメン最高峰!!!",
-                "publishedAt": "2026-02-20T10:00:17Z"
+                "title": "本当に美味い福岡の豚骨ラーメン!!!濃厚豚骨最高です!!!",
+                "publishedAt": "2026-02-27T10:00:37Z"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    130.378033,
-                    33.566022
+                    130.340429,
+                    33.580173
                 ]
             }
         },
@@ -625,6 +1407,52 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "BxljIu3r-qM",
+                "name": "基峰",
+                "version": "1.2",
+                "address": "基峰 福岡市中央区笹丘1丁目",
+                "open_location_code": "8Q5GH98H+C6",
+                "url": "https://www.geocoding.jp/?q=%E5%9F%BA%E5%B3%B0%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E7%AC%B9%E4%B8%981%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市中央区笹丘１丁目１２−２６ ラーメン基峰",
+                "error": null,
+                "title": "取材NGの名店です!!!シンプルを極める豚骨ラーメン最高峰!!!",
+                "publishedAt": "2026-02-20T10:00:17Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.378033,
+                    33.566022
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "video_id": "rGzhGwmicMs",
+                "name": "山一",
+                "version": "1.2",
+                "address": "山一 福岡市中央区笹丘1丁目",
+                "open_location_code": "8Q5GH97G+V9",
+                "url": "https://www.geocoding.jp/?q=%E5%B1%B1%E4%B8%80%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E7%AC%B9%E4%B8%981%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市中央区笹丘１丁目２７−１０ 山一",
+                "error": null,
+                "title": "中島大絶賛!!!100点満点の牛丼!!!",
+                "publishedAt": "2026-02-17T10:01:18Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.375982,
+                    33.564656
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "pwc4T-Bjp3Y",
                 "name": "純手打ちうどん こきど",
                 "version": "1.2",
@@ -642,29 +1470,6 @@
                 "coordinates": [
                     130.401462,
                     33.597121
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "video_id": "M0Y7r5OMNXc",
-                "name": "鉄板焼 石田",
-                "version": "1.2",
-                "address": "鉄板焼 石田 福岡市博多区中洲3丁目",
-                "open_location_code": "8Q5GHCV5+22",
-                "url": "https://www.geocoding.jp/?q=%E9%89%84%E6%9D%BF%E7%84%BC%20%E7%9F%B3%E7%94%B0%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E5%8D%9A%E5%A4%9A%E5%8C%BA%E4%B8%AD%E6%B4%B23%E4%B8%81%E7%9B%AE",
-                "needs_to_verify": "yes",
-                "google_maps": "福岡県福岡市博多区中洲３丁目２−５ 第4ラインビル 2F 鉄板焼 石田",
-                "error": null,
-                "title": "福岡最高の鉄板焼き店!!!最高です!!!感動です!!!",
-                "publishedAt": "2026-03-27T10:00:34Z"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    130.407592,
-                    33.592541
                 ]
             }
         },
@@ -763,6 +1568,374 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "r-K5UgcSV1E",
+                "name": "かんすけ(薬院店)",
+                "version": "1.2",
+                "address": "かんすけ(薬院店) 福岡市中央区薬院1丁目",
+                "open_location_code": "8Q5GHCJ2+W3",
+                "url": "https://www.geocoding.jp/?q=%E3%81%8B%E3%82%93%E3%81%99%E3%81%91%28%E8%96%AC%E9%99%A2%E5%BA%97%29%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E8%96%AC%E9%99%A21%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市中央区薬院１丁目５−２５ かんすけ 薬院店 第2青柳マンション １F",
+                "error": null,
+                "title": "絶品塩サバにチキン南蛮!!!100点満点の定食ドーン!!!",
+                "publishedAt": "2026-01-27T10:01:22Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.40024,
+                    33.582252
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "video_id": "UQfFgMdqYe4",
+                "name": "胡同",
+                "version": "1.2",
+                "address": "胡同 福岡市中央区春吉3丁目",
+                "open_location_code": "8Q5GHCP4+W8",
+                "url": "https://www.geocoding.jp/?q=%E8%83%A1%E5%90%8C%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E6%98%A5%E5%90%893%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市中央区春吉３丁目２６−１４ ラーメン 胡同 (ふーとん)",
+                "error": null,
+                "title": "絶品炒飯と極上ラーメン!!!最強コンビの店!!!",
+                "publishedAt": "2026-01-23T10:00:49Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.405833,
+                    33.587352
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "video_id": "ywGLr-eo07A",
+                "name": "中華そば いけ田",
+                "version": "1.2",
+                "address": "中華そば いけ田 福岡市博多区博多駅東1丁目",
+                "open_location_code": "8Q5GHCRC+WM",
+                "url": "https://www.geocoding.jp/?q=%E4%B8%AD%E8%8F%AF%E3%81%9D%E3%81%B0%20%E3%81%84%E3%81%91%E7%94%B0%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E5%8D%9A%E5%A4%9A%E5%8C%BA%E5%8D%9A%E5%A4%9A%E9%A7%85%E6%9D%B11%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市博多区博多駅東１丁目１−３３ B1 中華そば いけ田",
+                "error": null,
+                "title": "シンプルこそ最強!!!中華そばの名店攻め!!!福岡の本当に美味いラーメン店を追及するシリーズ!!!",
+                "publishedAt": "2026-01-21T10:01:33Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.421666,
+                    33.59229
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "video_id": "J5NwEZe20UQ",
+                "name": "チャーリーブラウン",
+                "version": "1.2",
+                "address": "チャーリーブラウン 福岡市中央区平尾1丁目",
+                "open_location_code": "8Q5GHCH2+79",
+                "url": "https://www.geocoding.jp/?q=%E3%83%81%E3%83%A3%E3%83%BC%E3%83%AA%E3%83%BC%E3%83%96%E3%83%A9%E3%82%A6%E3%83%B3%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E5%B9%B3%E5%B0%BE1%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市中央区平尾１丁目１３−８ エスティメゾン薬院 １０１ チャーリーブラウン",
+                "error": null,
+                "title": "ナポリタンとビーフカレー最高の店!!!懐かしウマい店!!!",
+                "publishedAt": "2026-01-16T10:00:36Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.400885,
+                    33.578224
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "video_id": "VmYR3LM3zuI",
+                "name": "六根",
+                "version": "1.2",
+                "address": "六根 福岡市博多区住吉4丁目",
+                "open_location_code": "8Q5GHCM7+2H",
+                "url": "https://www.geocoding.jp/?q=%E5%85%AD%E6%A0%B9%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E5%8D%9A%E5%A4%9A%E5%8C%BA%E4%BD%8F%E5%90%894%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市博多区住吉４丁目１３−１３ 汁無し担々麺と町中華 六根",
+                "error": null,
+                "title": "最高のレバニラ定食!!!町中華の名店攻め!!!",
+                "publishedAt": "2026-01-13T10:01:01Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.413988,
+                    33.58262
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "video_id": "NzVR9Bjg4Uw",
+                "name": "博多おでん しゅんドろ",
+                "version": "1.2",
+                "address": "博多おでん しゅんドろ 福岡市中央区春吉2丁目",
+                "open_location_code": "8Q5GHCP4+6V",
+                "url": "https://www.geocoding.jp/?q=%E5%8D%9A%E5%A4%9A%E3%81%8A%E3%81%A7%E3%82%93%20%E3%81%97%E3%82%85%E3%82%93%E3%83%89%E3%82%8D%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E6%98%A5%E5%90%892%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市中央区春吉２丁目１７−１ ヴァイフ春吉 204 博多おでんしゅんどる春吉",
+                "error": null,
+                "title": "カレーうどん最強の店!!!",
+                "publishedAt": "2026-01-09T10:08:43Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.407227,
+                    33.585603
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "video_id": "cMEov7YRDy4",
+                "name": "十割そば 素屋",
+                "version": "1.2",
+                "address": "十割そば 素屋 福岡市西区石丸2丁目",
+                "open_location_code": "8Q5GH8G8+RQ",
+                "url": "https://www.geocoding.jp/?q=%E5%8D%81%E5%89%B2%E3%81%9D%E3%81%B0%20%E7%B4%A0%E5%B1%8B%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E8%A5%BF%E5%8C%BA%E7%9F%B3%E4%B8%B82%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市西区石丸２丁目４２−１５ 十割そば素屋 石丸本店",
+                "error": null,
+                "title": "福岡を代表する美味いそば屋の超絶美味いかつ丼!!!",
+                "publishedAt": "2026-01-06T10:00:57Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.316913,
+                    33.577064
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "video_id": "Zy4Py01apkE",
+                "name": "博多ラーメン はむ太",
+                "version": "1.2",
+                "address": "博多ラーメン はむ太 福岡市城南区荒江1丁目",
+                "open_location_code": "8Q5GH994+VJ",
+                "url": "https://www.geocoding.jp/?q=%E5%8D%9A%E5%A4%9A%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%B3%20%E3%81%AF%E3%82%80%E5%A4%AA%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E5%9F%8E%E5%8D%97%E5%8C%BA%E8%8D%92%E6%B1%9F1%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市城南区荒江１丁目２３−２７ 博多ラーメン はむ太",
+                "error": null,
+                "title": "福岡最高の焼飯と完璧な豚骨ラーメン!!!これぞ名店です!!!",
+                "publishedAt": "2025-12-30T10:00:54Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.356604,
+                    33.56974
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "video_id": "ScjH5px2HnE",
+                "name": "ハローコーヒー(清水店)",
+                "version": "1.2",
+                "address": "ハローコーヒー(清水店) 福岡市南区清水2丁目",
+                "open_location_code": "8Q5GHCFC+5W",
+                "url": "https://www.geocoding.jp/?q=%E3%83%8F%E3%83%AD%E3%83%BC%E3%82%B3%E3%83%BC%E3%83%92%E3%83%BC%28%E6%B8%85%E6%B0%B4%E5%BA%97%29%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E5%8D%97%E5%8C%BA%E6%B8%85%E6%B0%B42%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市南区清水２丁目４−９ ハローコーヒー 清水店",
+                "error": null,
+                "title": "行列ができる激渋人気洋食店!!!",
+                "publishedAt": "2025-12-26T10:01:00Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.422321,
+                    33.572911
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "video_id": "_Afh_ArvCZ8",
+                "name": "欧風カレー 白山舎",
+                "version": "1.2",
+                "address": "欧風カレー 白山舎 福岡市早良区小田部6丁目",
+                "open_location_code": "8Q5GH8CH+P5",
+                "url": "https://www.geocoding.jp/?q=%E6%AC%A7%E9%A2%A8%E3%82%AB%E3%83%AC%E3%83%BC%20%E7%99%BD%E5%B1%B1%E8%88%8E%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E6%97%A9%E8%89%AF%E5%8C%BA%E5%B0%8F%E7%94%B0%E9%83%A86%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市早良区小田部６丁目１３−２０ 欧風カレー 白山舎",
+                "error": null,
+                "title": "福岡ナンバーワンと言っても過言ではないカレー屋に感動!!!",
+                "publishedAt": "2025-12-23T10:01:04Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.327984,
+                    33.571783
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "video_id": "QZN271JEHss",
+                "name": "まるやす食堂",
+                "version": "1.2",
+                "address": "まるやす食堂 糟屋郡粕屋町 内橋東2丁目",
+                "open_location_code": "8Q5GJFF5+2R",
+                "url": "https://www.geocoding.jp/?q=%E3%81%BE%E3%82%8B%E3%82%84%E3%81%99%E9%A3%9F%E5%A0%82%20%E7%B3%9F%E5%B1%8B%E9%83%A1%E7%B2%95%E5%B1%8B%E7%94%BA%20%E5%86%85%E6%A9%8B%E6%9D%B12%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県糟屋郡粕屋町内橋東２丁目６−６ ちゃんぽんの まるやす食堂",
+                "error": null,
+                "title": "焼きそばとチャンポン福岡最高峰の店",
+                "publishedAt": "2025-12-19T10:00:50Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.459569,
+                    33.622579
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "video_id": "1mpsIdqtjts",
+                "name": "ひろしま",
+                "version": "1.2",
+                "address": "ひろしま 福岡市東区土井2丁目",
+                "open_location_code": "8Q5GJFM7+22",
+                "url": "https://www.geocoding.jp/?q=%E3%81%B2%E3%82%8D%E3%81%97%E3%81%BE%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E6%9D%B1%E5%8C%BA%E5%9C%9F%E4%BA%952%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県東区土井２丁目１０−４ お好み焼 ひろしま",
+                "error": null,
+                "title": "わざわざ食べに行く価値がある本当に美味いお好み焼きの名店!!!",
+                "publishedAt": "2025-12-16T10:00:06Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.462609,
+                    33.632531
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "video_id": "n9urg_-oaCI",
+                "name": "ラーメン一二三",
+                "version": "1.2",
+                "address": "ラーメン一二三 福岡市博多区住吉4丁目",
+                "open_location_code": "8Q5GHCM7+7Q",
+                "url": "https://www.geocoding.jp/?q=%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%B3%E4%B8%80%E4%BA%8C%E4%B8%89%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E5%8D%9A%E5%A4%9A%E5%8C%BA%E4%BD%8F%E5%90%894%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市博多区住吉４丁目１２−１ ラーメン一二三",
+                "error": null,
+                "title": "中島が最高と大絶賛した醬油ラーメンの名店!!!",
+                "publishedAt": "2025-12-12T10:01:22Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.414456,
+                    33.583223
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "video_id": "xWWLttZ_9hc",
+                "name": "紀文",
+                "version": "1.2",
+                "address": "紀文 福岡市博多区店屋町7-1",
+                "open_location_code": "8Q5GHCV5+CG",
+                "url": "https://www.geocoding.jp/?q=%E7%B4%80%E6%96%87%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E5%8D%9A%E5%A4%9A%E5%8C%BA%E5%BA%97%E5%B1%8B%E7%94%BA7-1",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市博多区店屋町７−１ フジメンビル １Ｆ まぐろ料理 紀文",
+                "error": null,
+                "title": "美味くて安い!!!福岡レジェンドと言われるマグロ料理の名店!!!",
+                "publishedAt": "2025-12-09T10:01:40Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.408834,
+                    33.593603
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "video_id": "YzVKKby2QAI",
+                "name": "キッチン米ー",
+                "version": "1.2",
+                "address": "キッチン米ー 福岡市東区千早2丁目",
+                "open_location_code": "8Q5GJCVJ+RX",
+                "url": "https://www.geocoding.jp/?q=%E3%82%AD%E3%83%83%E3%83%81%E3%83%B3%E7%B1%B3%E3%83%BC%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E6%9D%B1%E5%8C%BA%E5%8D%83%E6%97%A92%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市東区千早２丁目２−４１ キッチン 米一 千早本店",
+                "error": null,
+                "title": "福岡のカツカレーを極めたいと思っていたらこの店にたどり着きました!!!",
+                "publishedAt": "2025-12-05T10:01:07Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.432383,
+                    33.644501
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "video_id": "AgJyS97rX-8",
+                "name": "麺と肴 なまけもの",
+                "version": "1.2",
+                "address": "麺と肴 なまけもの 福岡市東区馬出1丁目",
+                "open_location_code": "8Q5GJC59+FV",
+                "url": "https://www.geocoding.jp/?q=%E9%BA%BA%E3%81%A8%E8%82%B4%20%E3%81%AA%E3%81%BE%E3%81%91%E3%82%82%E3%81%AE%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E6%9D%B1%E5%8C%BA%E9%A6%AC%E5%87%BA1%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市東区馬出１丁目１０−１３ 麺ト肴 なまけもの",
+                "error": null,
+                "title": "寒い季節です!!!熱々が最高の絶品麺屋!!!この時期絶対行くべき名店です",
+                "publishedAt": "2025-12-02T10:00:26Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.419629,
+                    33.608736
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "Yn4o5MOUuWk",
                 "name": "喫茶ボネ",
                 "version": "1.2",
@@ -809,29 +1982,6 @@
         {
             "type": "Feature",
             "properties": {
-                "video_id": "jQsiLSdwOj8",
-                "name": "大濠うなぎ",
-                "version": "1.2",
-                "address": "大濠うなぎ 福岡市中央区赤坂1丁目",
-                "open_location_code": "8Q5GH9QQ+QF",
-                "url": "https://www.geocoding.jp/?q=%E5%A4%A7%E6%BF%A0%E3%81%86%E3%81%AA%E3%81%8E%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E8%B5%A4%E5%9D%821%E4%B8%81%E7%9B%AE",
-                "needs_to_verify": "yes",
-                "google_maps": null,
-                "error": null,
-                "title": "俺のご褒美飯!!!福岡の超絶名店シリーズ!!!この店の鰻は感動モノです!!!",
-                "publishedAt": "2025-11-18T10:01:24Z"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    130.388636,
-                    33.589379
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "video_id": "EEu_5w93fWs",
                 "name": "ハンバーグステーキJUMBO（ジャンボ）",
                 "version": "1.2",
@@ -849,6 +1999,29 @@
                 "coordinates": [
                     130.381721,
                     33.590291
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "video_id": "jQsiLSdwOj8",
+                "name": "大濠うなぎ",
+                "version": "1.2",
+                "address": "大濠うなぎ 福岡市中央区赤坂1丁目",
+                "open_location_code": "8Q5GH9QQ+QF",
+                "url": "https://www.geocoding.jp/?q=%E5%A4%A7%E6%BF%A0%E3%81%86%E3%81%AA%E3%81%8E%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E8%B5%A4%E5%9D%821%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": null,
+                "error": null,
+                "title": "俺のご褒美飯!!!福岡の超絶名店シリーズ!!!この店の鰻は感動モノです!!!",
+                "publishedAt": "2025-11-18T10:01:24Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.388636,
+                    33.589379
                 ]
             }
         },
@@ -1039,23 +2212,23 @@
         {
             "type": "Feature",
             "properties": {
-                "video_id": "zdit4WFY9J4",
-                "name": "SHEEPMAN WONDER",
+                "video_id": "BGjo8TfmIw4",
+                "name": "博多拉担麺 まるたん",
                 "version": "1.2",
-                "address": "SHEEPMAN WONDER 福岡市南区市崎1-17-28",
-                "open_location_code": "8Q5GHCC3+X4",
-                "url": "https://www.geocoding.jp/?q=SHEEPMAN%20WONDER%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E5%8D%97%E5%8C%BA%E5%B8%82%E5%B4%8E1-17-28",
+                "address": "博多拉担麺 まるたん 福岡市南区那の川２丁目",
+                "open_location_code": "8Q5GHCF6+WX",
+                "url": "https://www.geocoding.jp/?q=%E5%8D%9A%E5%A4%9A%E6%8B%89%E6%8B%85%E9%BA%BA%20%E3%81%BE%E3%82%8B%E3%81%9F%E3%82%93%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E5%8D%97%E5%8C%BA%E9%82%A3%E3%81%AE%E5%B7%9D%EF%BC%92%E4%B8%81%E7%9B%AE",
                 "needs_to_verify": "yes",
-                "google_maps": "福岡県福岡市南区市崎１丁目１７−２８ SHEEPMAN WONDER",
+                "google_maps": "福岡県福岡市南区那の川２丁目２−９ まるたん本店",
                 "error": null,
-                "title": "カフェ飯最高!!!ずっと行ってみたかった話題の店へ!!!",
-                "publishedAt": "2025-09-30T10:01:51Z"
+                "title": "この店の汁なし担々麺はわざわざ食べに行く価値があります!!!",
+                "publishedAt": "2025-10-17T10:00:21Z"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    130.402814,
-                    33.572401
+                    130.412406,
+                    33.574867
                 ]
             }
         },
@@ -1085,52 +2258,6 @@
         {
             "type": "Feature",
             "properties": {
-                "video_id": "zk9kyZ8EO78",
-                "name": "健",
-                "version": "1.2",
-                "address": "健 福岡市南区大橋1丁目",
-                "open_location_code": "8Q5GHC4C+G4",
-                "url": "https://www.geocoding.jp/?q=%E5%81%A5%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E5%8D%97%E5%8C%BA%E5%A4%A7%E6%A9%8B1%E4%B8%81%E7%9B%AE",
-                "needs_to_verify": "yes",
-                "google_maps": "健",
-                "error": null,
-                "title": "福岡の本当に美味いラーメンを追求するシリーズ!!!塩そば!!!中華そば!!!絶品です!!!",
-                "publishedAt": "2025-10-07T10:01:45Z"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    130.420344,
-                    33.556326
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "video_id": "BGjo8TfmIw4",
-                "name": "博多拉担麺 まるたん",
-                "version": "1.2",
-                "address": "博多拉担麺 まるたん 福岡市南区那の川２丁目",
-                "open_location_code": "8Q5GHCF6+WX",
-                "url": "https://www.geocoding.jp/?q=%E5%8D%9A%E5%A4%9A%E6%8B%89%E6%8B%85%E9%BA%BA%20%E3%81%BE%E3%82%8B%E3%81%9F%E3%82%93%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E5%8D%97%E5%8C%BA%E9%82%A3%E3%81%AE%E5%B7%9D%EF%BC%92%E4%B8%81%E7%9B%AE",
-                "needs_to_verify": "yes",
-                "google_maps": "福岡県福岡市南区那の川２丁目２−９ まるたん本店",
-                "error": null,
-                "title": "この店の汁なし担々麺はわざわざ食べに行く価値があります!!!",
-                "publishedAt": "2025-10-17T10:00:21Z"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    130.412406,
-                    33.574867
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "video_id": "So8ofexWUao",
                 "name": "十魚十色",
                 "version": "1.2",
@@ -1148,6 +2275,29 @@
                 "coordinates": [
                     130.404489,
                     33.582095
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "video_id": "zk9kyZ8EO78",
+                "name": "健",
+                "version": "1.2",
+                "address": "健 福岡市南区大橋1丁目",
+                "open_location_code": "8Q5GHC4C+G4",
+                "url": "https://www.geocoding.jp/?q=%E5%81%A5%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E5%8D%97%E5%8C%BA%E5%A4%A7%E6%A9%8B1%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "健",
+                "error": null,
+                "title": "福岡の本当に美味いラーメンを追求するシリーズ!!!塩そば!!!中華そば!!!絶品です!!!",
+                "publishedAt": "2025-10-07T10:01:45Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.420344,
+                    33.556326
                 ]
             }
         },
@@ -1177,6 +2327,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "zdit4WFY9J4",
+                "name": "SHEEPMAN WONDER",
+                "version": "1.2",
+                "address": "SHEEPMAN WONDER 福岡市南区市崎1-17-28",
+                "open_location_code": "8Q5GHCC3+X4",
+                "url": "https://www.geocoding.jp/?q=SHEEPMAN%20WONDER%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E5%8D%97%E5%8C%BA%E5%B8%82%E5%B4%8E1-17-28",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市南区市崎１丁目１７−２８ SHEEPMAN WONDER",
+                "error": null,
+                "title": "カフェ飯最高!!!ずっと行ってみたかった話題の店へ!!!",
+                "publishedAt": "2025-09-30T10:01:51Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.402814,
+                    33.572401
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "Fy-o6Rb5gJ4",
                 "name": "むらしま",
                 "version": "1.2",
@@ -1200,29 +2373,6 @@
         {
             "type": "Feature",
             "properties": {
-                "video_id": "l07PVDHt2Vc",
-                "name": "麺屋蓮々",
-                "version": "1.2",
-                "address": "麺屋蓮々 福岡市博多区吉塚本町4-12",
-                "open_location_code": "8Q5GJC4G+3F",
-                "url": "https://www.geocoding.jp/?q=%E9%BA%BA%E5%B1%8B%E8%93%AE%E3%80%85%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E5%8D%9A%E5%A4%9A%E5%8C%BA%E5%90%89%E5%A1%9A%E6%9C%AC%E7%94%BA4-12",
-                "needs_to_verify": "yes",
-                "google_maps": "福岡県福岡市博多区吉塚本町４−１２ 鶏専門 麺屋蓮々",
-                "error": null,
-                "title": "中島が最高峰と絶賛するラーメン店!!!",
-                "publishedAt": "2025-09-19T10:01:35Z"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    130.426204,
-                    33.60514
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "video_id": "8_f8i-8MsfE",
                 "name": "たこ福",
                 "version": "1.2",
@@ -1240,6 +2390,29 @@
                 "coordinates": [
                     130.43096,
                     33.61914
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "video_id": "l07PVDHt2Vc",
+                "name": "麺屋蓮々",
+                "version": "1.2",
+                "address": "麺屋蓮々 福岡市博多区吉塚本町4-12",
+                "open_location_code": "8Q5GJC4G+3F",
+                "url": "https://www.geocoding.jp/?q=%E9%BA%BA%E5%B1%8B%E8%93%AE%E3%80%85%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E5%8D%9A%E5%A4%9A%E5%8C%BA%E5%90%89%E5%A1%9A%E6%9C%AC%E7%94%BA4-12",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市博多区吉塚本町４−１２ 鶏専門 麺屋蓮々",
+                "error": null,
+                "title": "中島が最高峰と絶賛するラーメン店!!!",
+                "publishedAt": "2025-09-19T10:01:35Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.426204,
+                    33.60514
                 ]
             }
         },
@@ -1453,29 +2626,6 @@
         {
             "type": "Feature",
             "properties": {
-                "video_id": "x2fM10pfpmE",
-                "name": "えぐし屋",
-                "version": "1.2",
-                "address": "えぐし屋 福岡市中央区高砂2丁目",
-                "open_location_code": "8Q5GHCG6+J3",
-                "url": "https://www.geocoding.jp/?q=%E3%81%88%E3%81%90%E3%81%97%E5%B1%8B%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E9%AB%98%E7%A0%822%E4%B8%81%E7%9B%AE",
-                "needs_to_verify": "yes",
-                "google_maps": "福岡県福岡市中央区高砂２丁目１３−７ えぐし屋",
-                "error": null,
-                "title": "店主一人で切り盛りしてます!!!ワンオペ絶品ラーメン店!!!",
-                "publishedAt": "2025-08-08T10:01:43Z"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    130.410189,
-                    33.576597
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "video_id": "Q991HXTeAZw",
                 "name": "焼肉ホルモン いその商店",
                 "version": "1.2",
@@ -1516,6 +2666,29 @@
                 "coordinates": [
                     130.40209,
                     33.655971
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "video_id": "x2fM10pfpmE",
+                "name": "えぐし屋",
+                "version": "1.2",
+                "address": "えぐし屋 福岡市中央区高砂2丁目",
+                "open_location_code": "8Q5GHCG6+J3",
+                "url": "https://www.geocoding.jp/?q=%E3%81%88%E3%81%90%E3%81%97%E5%B1%8B%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E9%AB%98%E7%A0%822%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市中央区高砂２丁目１３−７ えぐし屋",
+                "error": null,
+                "title": "店主一人で切り盛りしてます!!!ワンオペ絶品ラーメン店!!!",
+                "publishedAt": "2025-08-08T10:01:43Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.410189,
+                    33.576597
                 ]
             }
         },
@@ -1706,29 +2879,6 @@
         {
             "type": "Feature",
             "properties": {
-                "video_id": "Ugkalj5fwO0",
-                "name": "うおざ",
-                "version": "1.2",
-                "address": "うおざ 福岡市中央区長浜3丁目",
-                "open_location_code": null,
-                "url": "https://www.geocoding.jp/?q=%E3%81%86%E3%81%8A%E3%81%96%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E9%95%B7%E6%B5%9C3%E4%B8%81%E7%9B%AE",
-                "needs_to_verify": "yes",
-                "google_maps": null,
-                "error": null,
-                "title": "福岡の海鮮処で今一番人気と言っても過言ではない巨大施設!!!",
-                "publishedAt": "2025-07-08T10:00:48Z"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    0.0,
-                    0.0
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "video_id": "Z4M0NbkFccw",
                 "name": "野村織物有限会社",
                 "version": "1.2",
@@ -1769,29 +2919,6 @@
                 "coordinates": [
                     130.552311,
                     33.319632
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "video_id": "SWyuoTk2dwM",
-                "name": "久留米絣工房池田絣工房",
-                "version": "1.2",
-                "address": "久留米絣工房池田絣工房 福岡県久留米市草野町草野2390-1",
-                "open_location_code": null,
-                "url": "https://www.geocoding.jp/?q=%E4%B9%85%E7%95%99%E7%B1%B3%E7%B5%A3%E5%B7%A5%E6%88%BF%E6%B1%A0%E7%94%B0%E7%B5%A3%E5%B7%A5%E6%88%BF%20%E7%A6%8F%E5%B2%A1%E7%9C%8C%E4%B9%85%E7%95%99%E7%B1%B3%E5%B8%82%E8%8D%89%E9%87%8E%E7%94%BA%E8%8D%89%E9%87%8E2390-1",
-                "needs_to_verify": "yes",
-                "google_maps": null,
-                "error": null,
-                "title": "久留米絣の旅2025夏!!!",
-                "publishedAt": "2025-06-27T10:00:49Z"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    0.0,
-                    0.0
                 ]
             }
         },
@@ -1890,29 +3017,6 @@
         {
             "type": "Feature",
             "properties": {
-                "video_id": "4a31svpUSqg",
-                "name": "ナイス!!はっちゃん",
-                "version": "1.2",
-                "address": "ナイス!!はっちゃん 福岡市中央区舞鶴2丁目",
-                "open_location_code": "8Q5GH9RR+RW",
-                "url": "https://www.geocoding.jp/?q=%E3%83%8A%E3%82%A4%E3%82%B9%21%21%E3%81%AF%E3%81%A3%E3%81%A1%E3%82%83%E3%82%93%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E8%88%9E%E9%B6%B42%E4%B8%81%E7%9B%AE",
-                "needs_to_verify": "yes",
-                "google_maps": "福岡県福岡市中央区舞鶴２丁目７−１ ライオンズマンション ナイス! はっちゃん（骨付鶏定食専門店）",
-                "error": null,
-                "title": "超絶人気の骨付き肉を豪快にかぶりついてきました!!!",
-                "publishedAt": "2025-06-03T10:00:07Z"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    130.392254,
-                    33.592108
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "video_id": "o2HXAtdECSE",
                 "name": "海鮮丼てんや",
                 "version": "1.2",
@@ -1959,6 +3063,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "4a31svpUSqg",
+                "name": "ナイス!!はっちゃん",
+                "version": "1.2",
+                "address": "ナイス!!はっちゃん 福岡市中央区舞鶴2丁目",
+                "open_location_code": "8Q5GH9RR+RW",
+                "url": "https://www.geocoding.jp/?q=%E3%83%8A%E3%82%A4%E3%82%B9%21%21%E3%81%AF%E3%81%A3%E3%81%A1%E3%82%83%E3%82%93%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E8%88%9E%E9%B6%B42%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市中央区舞鶴２丁目７−１ ライオンズマンション ナイス! はっちゃん（骨付鶏定食専門店）",
+                "error": null,
+                "title": "超絶人気の骨付き肉を豪快にかぶりついてきました!!!",
+                "publishedAt": "2025-06-03T10:00:07Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.392254,
+                    33.592108
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "lRQmGkfUaiw",
                 "name": "アジフライ たるたる食堂",
                 "version": "1.2",
@@ -1986,10 +3113,10 @@
                 "name": "コリアンダイニングLEE(リー)",
                 "version": "1.2",
                 "address": "コリアンダイニングLEE(リー) 福岡市博多区吉塚1丁目",
-                "open_location_code": null,
+                "open_location_code": "8Q5GJC3F+9J",
                 "url": "https://www.geocoding.jp/?q=%E3%82%B3%E3%83%AA%E3%82%A2%E3%83%B3%E3%83%80%E3%82%A4%E3%83%8B%E3%83%B3%E3%82%B0LEE%28%E3%83%AA%E3%83%BC%29%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E5%8D%9A%E5%A4%9A%E5%8C%BA%E5%90%89%E5%A1%9A1%E4%B8%81%E7%9B%AE",
                 "needs_to_verify": "yes",
-                "google_maps": null,
+                "google_maps": "福岡県福岡市博多区吉塚１丁目１７−１９ KOREAN DINING LEE",
                 "error": null,
                 "title": "行列ができる焼肉定食!!!最高です!!!絶対外さない福岡飯店",
                 "publishedAt": "2025-05-27T10:01:09Z"
@@ -1997,8 +3124,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    0.0,
-                    0.0
+                    130.424008,
+                    33.60341
                 ]
             }
         },
@@ -2189,29 +3316,6 @@
         {
             "type": "Feature",
             "properties": {
-                "video_id": "sb52QgLI4dA",
-                "name": "ざいとん",
-                "version": "1.2",
-                "address": "ざいとん 福岡市東区香椎駅前1丁目",
-                "open_location_code": "8Q5GMC5R+QQ",
-                "url": "https://www.geocoding.jp/?q=%E3%81%96%E3%81%84%E3%81%A8%E3%82%93%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E6%9D%B1%E5%8C%BA%E9%A6%99%E6%A4%8E%E9%A7%85%E5%89%8D1%E4%B8%81%E7%9B%AE",
-                "needs_to_verify": "yes",
-                "google_maps": "福岡県福岡市東区香椎駅前１丁目１７−２４ ざいとん 香椎本店",
-                "error": null,
-                "title": "福岡のレジェンドラーメン店攻め!!!唯一無二の名店です",
-                "publishedAt": "2025-04-22T10:01:30Z"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    130.441956,
-                    33.65938
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "video_id": "cqOnhDE6owo",
                 "name": "ザエカ",
                 "version": "1.2",
@@ -2229,6 +3333,29 @@
                 "coordinates": [
                     130.393516,
                     33.591625
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "video_id": "sb52QgLI4dA",
+                "name": "ざいとん",
+                "version": "1.2",
+                "address": "ざいとん 福岡市東区香椎駅前1丁目",
+                "open_location_code": "8Q5GMC5R+QQ",
+                "url": "https://www.geocoding.jp/?q=%E3%81%96%E3%81%84%E3%81%A8%E3%82%93%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E6%9D%B1%E5%8C%BA%E9%A6%99%E6%A4%8E%E9%A7%85%E5%89%8D1%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市東区香椎駅前１丁目１７−２４ ざいとん 香椎本店",
+                "error": null,
+                "title": "福岡のレジェンドラーメン店攻め!!!唯一無二の名店です",
+                "publishedAt": "2025-04-22T10:01:30Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.441956,
+                    33.65938
                 ]
             }
         },
@@ -2331,10 +3458,10 @@
                 "name": "うどん平",
                 "version": "1.2",
                 "address": "うどん平 福岡市博多区住吉5丁目",
-                "open_location_code": null,
+                "open_location_code": "8Q5GHCM8+7C",
                 "url": "https://www.geocoding.jp/?q=%E3%81%86%E3%81%A9%E3%82%93%E5%B9%B3%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E5%8D%9A%E5%A4%9A%E5%8C%BA%E4%BD%8F%E5%90%895%E4%B8%81%E7%9B%AE",
                 "needs_to_verify": "yes",
-                "google_maps": null,
+                "google_maps": "福岡県福岡市博多区住吉５丁目１０−７ うどん 平",
                 "error": null,
                 "title": "行列必至!!!福岡の至宝と言っても過言ではないうどんの名店!!!",
                 "publishedAt": "2025-04-04T10:00:46Z"
@@ -2342,8 +3469,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    0.0,
-                    0.0
+                    130.416041,
+                    33.583179
                 ]
             }
         },
@@ -2534,29 +3661,6 @@
         {
             "type": "Feature",
             "properties": {
-                "video_id": "Uss9QnlxzTE",
-                "name": "天ぷらまつお",
-                "version": "1.2",
-                "address": "天ぷらまつお 福岡市西区愛宕南2丁目",
-                "open_location_code": null,
-                "url": "https://www.geocoding.jp/?q=%E5%A4%A9%E3%81%B7%E3%82%89%E3%81%BE%E3%81%A4%E3%81%8A%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E8%A5%BF%E5%8C%BA%E6%84%9B%E5%AE%95%E5%8D%972%E4%B8%81%E7%9B%AE",
-                "needs_to_verify": "yes",
-                "google_maps": null,
-                "error": null,
-                "title": "中島大絶賛!!!大衆天ぷらの名店発見!!!最高でした!!!",
-                "publishedAt": "2025-02-28T10:00:36Z"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    130.3338265153432,
-                    33.58097058119641
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "video_id": "xdvEdtLu30Q",
                 "name": "ノムカ+cafe",
                 "version": "1.2",
@@ -2741,29 +3845,6 @@
         {
             "type": "Feature",
             "properties": {
-                "video_id": "lwYKhZX5-sQ",
-                "name": "おにぎりこうちゃん",
-                "version": "1.2",
-                "address": "おにぎりこうちゃん 福岡市中央区渡辺通3丁目",
-                "open_location_code": "8Q5GHCP3+9P",
-                "url": "https://www.geocoding.jp/?q=%E3%81%8A%E3%81%AB%E3%81%8E%E3%82%8A%E3%81%93%E3%81%86%E3%81%A1%E3%82%83%E3%82%93%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E6%B8%A1%E8%BE%BA%E9%80%9A3%E4%B8%81%E7%9B%AE",
-                "needs_to_verify": "yes",
-                "google_maps": "おにぎりごりちゃん 天神店",
-                "error": null,
-                "title": "超絶人気!!!おにぎりを極める店に行ってきました!!!",
-                "publishedAt": "2025-01-28T10:00:49Z"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    130.404337,
-                    33.585977
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "video_id": "At3wNIaRJNw",
                 "name": "鶏料理 よしかわ食堂",
                 "version": "1.2",
@@ -2781,6 +3862,29 @@
                 "coordinates": [
                     130.392925,
                     33.59258
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "video_id": "lwYKhZX5-sQ",
+                "name": "おにぎりこうちゃん",
+                "version": "1.2",
+                "address": "おにぎりこうちゃん 福岡市中央区渡辺通3丁目",
+                "open_location_code": "8Q5GHCP3+9P",
+                "url": "https://www.geocoding.jp/?q=%E3%81%8A%E3%81%AB%E3%81%8E%E3%82%8A%E3%81%93%E3%81%86%E3%81%A1%E3%82%83%E3%82%93%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E6%B8%A1%E8%BE%BA%E9%80%9A3%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "おにぎりごりちゃん 天神店",
+                "error": null,
+                "title": "超絶人気!!!おにぎりを極める店に行ってきました!!!",
+                "publishedAt": "2025-01-28T10:00:49Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.404337,
+                    33.585977
                 ]
             }
         },
@@ -3040,52 +4144,6 @@
         {
             "type": "Feature",
             "properties": {
-                "video_id": "j8D1WgR3_7s",
-                "name": "龍はまじる",
-                "version": "1.2",
-                "address": "龍はまじる 福岡市中央区渡辺通5丁目",
-                "open_location_code": "8Q5GHCV2+64",
-                "url": "https://www.geocoding.jp/?q=%E9%BE%8D%E3%81%AF%E3%81%BE%E3%81%98%E3%82%8B%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E6%B8%A1%E8%BE%BA%E9%80%9A5%E4%B8%81%E7%9B%AE",
-                "needs_to_verify": "yes",
-                "google_maps": "満龍",
-                "error": null,
-                "title": "中島大絶賛の店!!!この店のつけそば感動モノです!!!",
-                "publishedAt": "2024-12-03T10:00:43Z"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    130.400255,
-                    33.593093
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "video_id": "hfaE_4wptBI",
-                "name": "casual割烹 弓木野",
-                "version": "1.2",
-                "address": "casual割烹 弓木野 福岡市中央区清川3丁目",
-                "open_location_code": "8Q5GHCG7+Q9",
-                "url": "https://www.geocoding.jp/?q=casual%E5%89%B2%E7%83%B9%20%E5%BC%93%E6%9C%A8%E9%87%8E%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E6%B8%85%E5%B7%9D3%E4%B8%81%E7%9B%AE",
-                "needs_to_verify": "yes",
-                "google_maps": "福岡県福岡市中央区清川３丁目９−２０ アップフェル 2階 casual割烹 弓木野",
-                "error": null,
-                "title": "中島史上最高の肉じゃが定食とアジの干物定食!!!",
-                "publishedAt": "2024-12-06T10:00:47Z"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    130.413395,
-                    33.576948
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "video_id": "YOERV1zN9DU",
                 "name": "ゴーゴーカレー",
                 "version": "1.2",
@@ -3126,6 +4184,52 @@
                 "coordinates": [
                     130.42003,
                     33.591591
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "video_id": "hfaE_4wptBI",
+                "name": "casual割烹 弓木野",
+                "version": "1.2",
+                "address": "casual割烹 弓木野 福岡市中央区清川3丁目",
+                "open_location_code": "8Q5GHCG7+Q9",
+                "url": "https://www.geocoding.jp/?q=casual%E5%89%B2%E7%83%B9%20%E5%BC%93%E6%9C%A8%E9%87%8E%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E6%B8%85%E5%B7%9D3%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市中央区清川３丁目９−２０ アップフェル 2階 casual割烹 弓木野",
+                "error": null,
+                "title": "中島史上最高の肉じゃが定食とアジの干物定食!!!",
+                "publishedAt": "2024-12-06T10:00:47Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.413395,
+                    33.576948
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "video_id": "j8D1WgR3_7s",
+                "name": "龍はまじる",
+                "version": "1.2",
+                "address": "龍はまじる 福岡市中央区渡辺通5丁目",
+                "open_location_code": "8Q5GHCV2+64",
+                "url": "https://www.geocoding.jp/?q=%E9%BE%8D%E3%81%AF%E3%81%BE%E3%81%98%E3%82%8B%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E6%B8%A1%E8%BE%BA%E9%80%9A5%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "満龍",
+                "error": null,
+                "title": "中島大絶賛の店!!!この店のつけそば感動モノです!!!",
+                "publishedAt": "2024-12-03T10:00:43Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.400255,
+                    33.593093
                 ]
             }
         },
@@ -3270,29 +4374,6 @@
         {
             "type": "Feature",
             "properties": {
-                "video_id": "DpTcU9BRhGs",
-                "name": "39うどん",
-                "version": "1.2",
-                "address": "39うどん 福岡市中央区今泉1丁目",
-                "open_location_code": "8Q5GHCP2+CC",
-                "url": "https://www.geocoding.jp/?q=39%E3%81%86%E3%81%A9%E3%82%93%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E4%BB%8A%E6%B3%891%E4%B8%81%E7%9B%AE",
-                "needs_to_verify": "yes",
-                "google_maps": "福岡県福岡市中央区今泉１丁目１０−２０ エーデル天神 1F 39うどん 【フードメニュー390円～】",
-                "error": null,
-                "title": "ずっと行ってみたかった話題のうどん店に行ってきました!!!",
-                "publishedAt": "2024-11-05T10:00:12Z"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    130.401099,
-                    33.586104
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "video_id": "mA0zeX9DVQw",
                 "name": "直球ホルモン",
                 "version": "1.2",
@@ -3310,6 +4391,29 @@
                 "coordinates": [
                     130.39934,
                     33.585415
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "video_id": "DpTcU9BRhGs",
+                "name": "39うどん",
+                "version": "1.2",
+                "address": "39うどん 福岡市中央区今泉1丁目",
+                "open_location_code": "8Q5GHCP2+CC",
+                "url": "https://www.geocoding.jp/?q=39%E3%81%86%E3%81%A9%E3%82%93%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E4%BB%8A%E6%B3%891%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市中央区今泉１丁目１０−２０ エーデル天神 1F 39うどん 【フードメニュー390円～】",
+                "error": null,
+                "title": "ずっと行ってみたかった話題のうどん店に行ってきました!!!",
+                "publishedAt": "2024-11-05T10:00:12Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.401099,
+                    33.586104
                 ]
             }
         },
@@ -3385,75 +4489,6 @@
         {
             "type": "Feature",
             "properties": {
-                "video_id": "fx8HXllAUo8",
-                "name": "ツナパハ",
-                "version": "1.2",
-                "address": "ツナパハ 福岡市中央区大名2丁目",
-                "open_location_code": "8Q5GH9QW+FG",
-                "url": "https://www.geocoding.jp/?q=%E3%83%84%E3%83%8A%E3%83%91%E3%83%8F%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E5%A4%A7%E5%90%8D2%E4%B8%81%E7%9B%AE",
-                "needs_to_verify": "yes",
-                "google_maps": "福岡県福岡市中央区大名２丁目１−５９ 大産西通ビル 5F 不思議香菜 ツナパハ",
-                "error": null,
-                "title": "福岡のレジェンドと言われる超絶人気カレー店攻め!!!絶対ハズさない福岡飯店",
-                "publishedAt": "2024-01-19T10:00:35Z"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    130.396301,
-                    33.588716
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "video_id": "dy8s0QrJC4Y",
-                "name": "ピッツェリアダネロ",
-                "version": "1.2",
-                "address": "ピッツェリアダネロ 福岡市南区大楠1丁目",
-                "open_location_code": "8Q5GHCF8+66",
-                "url": "https://www.geocoding.jp/?q=%E3%83%94%E3%83%83%E3%83%84%E3%82%A7%E3%83%AA%E3%82%A2%E3%83%80%E3%83%8D%E3%83%AD%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E5%8D%97%E5%8C%BA%E5%A4%A7%E6%A5%A01%E4%B8%81%E7%9B%AE",
-                "needs_to_verify": "yes",
-                "google_maps": "福岡県福岡市南区大楠１丁目２６−１ プロシード日赤通り ピッツェリアダネロ",
-                "error": null,
-                "title": "福岡の超絶名店シリーズ!!!この店のピザは感動モノです!!!",
-                "publishedAt": "2024-10-11T11:43:41Z"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    130.41562,
-                    33.573094
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "video_id": "Gdh02vf_iZU",
-                "name": "106サウスインディアン",
-                "version": "1.2",
-                "address": "106サウスインディアン 福岡市中央区今泉1丁目",
-                "open_location_code": "8Q5GH9PX+CF",
-                "url": "https://www.geocoding.jp/?q=106%E3%82%B5%E3%82%A6%E3%82%B9%E3%82%A4%E3%83%B3%E3%83%87%E3%82%A3%E3%82%A2%E3%83%B3%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E4%BB%8A%E6%B3%891%E4%B8%81%E7%9B%AE",
-                "needs_to_verify": "yes",
-                "google_maps": "福岡県福岡市中央区今泉１丁目１７−１４ ｉｍａｉｚｕｍｉ二十四節季 1F ビル 106サウスインディアン 福岡天神店",
-                "error": null,
-                "title": "中島大絶賛!!!福岡最高と言っても過言ではないカレー屋みつけました!!!",
-                "publishedAt": "2024-10-15T10:00:23Z"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    130.398632,
-                    33.586119
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "video_id": "YQk46PkxiNs",
                 "name": "舗とごはん万平",
                 "version": "1.2",
@@ -3500,6 +4535,52 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "Gdh02vf_iZU",
+                "name": "106サウスインディアン",
+                "version": "1.2",
+                "address": "106サウスインディアン 福岡市中央区今泉1丁目",
+                "open_location_code": "8Q5GH9PX+CF",
+                "url": "https://www.geocoding.jp/?q=106%E3%82%B5%E3%82%A6%E3%82%B9%E3%82%A4%E3%83%B3%E3%83%87%E3%82%A3%E3%82%A2%E3%83%B3%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E4%BB%8A%E6%B3%891%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市中央区今泉１丁目１７−１４ ｉｍａｉｚｕｍｉ二十四節季 1F ビル 106サウスインディアン 福岡天神店",
+                "error": null,
+                "title": "中島大絶賛!!!福岡最高と言っても過言ではないカレー屋みつけました!!!",
+                "publishedAt": "2024-10-15T10:00:23Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.398632,
+                    33.586119
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "video_id": "dy8s0QrJC4Y",
+                "name": "ピッツェリアダネロ",
+                "version": "1.2",
+                "address": "ピッツェリアダネロ 福岡市南区大楠1丁目",
+                "open_location_code": "8Q5GHCF8+66",
+                "url": "https://www.geocoding.jp/?q=%E3%83%94%E3%83%83%E3%83%84%E3%82%A7%E3%83%AA%E3%82%A2%E3%83%80%E3%83%8D%E3%83%AD%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E5%8D%97%E5%8C%BA%E5%A4%A7%E6%A5%A01%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市南区大楠１丁目２６−１ プロシード日赤通り ピッツェリアダネロ",
+                "error": null,
+                "title": "福岡の超絶名店シリーズ!!!この店のピザは感動モノです!!!",
+                "publishedAt": "2024-10-11T11:43:41Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.41562,
+                    33.573094
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "eZPuhNJ6Sc8",
                 "name": "お酒とごはん晴海",
                 "version": "1.2",
@@ -3523,29 +4604,6 @@
         {
             "type": "Feature",
             "properties": {
-                "video_id": "HrF7NJnuz5I",
-                "name": "ISHIHARA",
-                "version": "1.2",
-                "address": "ISHIHARA 福岡市中央区地行1丁目",
-                "open_location_code": "8Q5GH9Q9+W7",
-                "url": "https://www.geocoding.jp/?q=ISHIHARA%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E5%9C%B0%E8%A1%8C1%E4%B8%81%E7%9B%AE",
-                "needs_to_verify": "yes",
-                "google_maps": "石原牛精肉店 Ishihara Wagyu Meat Shop",
-                "error": null,
-                "title": "肉好き絶賛の店!!!ステーキ好きなら絶対この店です!!!",
-                "publishedAt": "2024-10-01T10:00:24Z"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    130.368131,
-                    33.589762
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "video_id": "Sc5Z1IY3b2U",
                 "name": "ジャポネ",
                 "version": "1.2",
@@ -3563,6 +4621,29 @@
                 "coordinates": [
                     130.402828,
                     33.59789
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "video_id": "HrF7NJnuz5I",
+                "name": "ISHIHARA",
+                "version": "1.2",
+                "address": "ISHIHARA 福岡市中央区地行1丁目",
+                "open_location_code": "8Q5GH9Q9+W7",
+                "url": "https://www.geocoding.jp/?q=ISHIHARA%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E5%9C%B0%E8%A1%8C1%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "石原牛精肉店 Ishihara Wagyu Meat Shop",
+                "error": null,
+                "title": "肉好き絶賛の店!!!ステーキ好きなら絶対この店です!!!",
+                "publishedAt": "2024-10-01T10:00:24Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.368131,
+                    33.589762
                 ]
             }
         },
@@ -3638,29 +4719,6 @@
         {
             "type": "Feature",
             "properties": {
-                "video_id": "JgnAH7NiAsA",
-                "name": "GOONIES BURGER CLUB",
-                "version": "1.2",
-                "address": "GOONIES BURGER CLUB 福岡市中央区管固1丁目",
-                "open_location_code": "8Q5GH9MW+R5",
-                "url": "https://www.geocoding.jp/?q=GOONIES%20BURGER%20CLUB%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E7%AE%A1%E5%9B%BA1%E4%B8%81%E7%9B%AE",
-                "needs_to_verify": "yes",
-                "google_maps": "福岡県福岡市中央区警固１丁目６−４ GOONIES BURGER CLUB",
-                "error": null,
-                "title": "アメリカンサイズを堪能!!!とんでもなく美味いハンバーガー屋見つけました!!!",
-                "publishedAt": "2024-09-13T10:00:31Z"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    130.395416,
-                    33.584501
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "video_id": "e9kiJLSg3S4",
                 "name": "千束",
                 "version": "1.2",
@@ -3678,6 +4736,29 @@
                 "coordinates": [
                     130.411101,
                     33.576451
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "video_id": "JgnAH7NiAsA",
+                "name": "GOONIES BURGER CLUB",
+                "version": "1.2",
+                "address": "GOONIES BURGER CLUB 福岡市中央区管固1丁目",
+                "open_location_code": "8Q5GH9MW+R5",
+                "url": "https://www.geocoding.jp/?q=GOONIES%20BURGER%20CLUB%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E7%AE%A1%E5%9B%BA1%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市中央区警固１丁目６−４ GOONIES BURGER CLUB",
+                "error": null,
+                "title": "アメリカンサイズを堪能!!!とんでもなく美味いハンバーガー屋見つけました!!!",
+                "publishedAt": "2024-09-13T10:00:31Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.395416,
+                    33.584501
                 ]
             }
         },
@@ -3799,46 +4880,23 @@
         {
             "type": "Feature",
             "properties": {
-                "video_id": "nvpFqXji1Pg",
-                "name": "熱粗大東園",
+                "video_id": "m5r86SuUGFM",
+                "name": "因幡うどん",
                 "version": "1.2",
-                "address": "熱粗大東園 福岡市博多上川端町1-1-1",
-                "open_location_code": "8Q5GHCV6+4H",
-                "url": "https://www.geocoding.jp/?q=%E7%86%B1%E7%B2%97%E5%A4%A7%E6%9D%B1%E5%9C%92%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E5%8D%9A%E5%A4%9A%E4%B8%8A%E5%B7%9D%E7%AB%AF%E7%94%BA1-1-1",
+                "address": "因幡うどん 福岡市中央区渡辺通2丁目",
+                "open_location_code": "8Q5GHCJ3+QM",
+                "url": "https://www.geocoding.jp/?q=%E5%9B%A0%E5%B9%A1%E3%81%86%E3%81%A9%E3%82%93%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E6%B8%A1%E8%BE%BA%E9%80%9A2%E4%B8%81%E7%9B%AE",
                 "needs_to_verify": "yes",
-                "google_maps": "焼肉・冷麺 大東園本店",
+                "google_maps": "福岡県福岡市中央区渡辺通２丁目３−１ 因幡うどん 渡辺通店",
                 "error": null,
-                "title": "福岡最高といっても過言ではない焼肉と冷麺ドドーン!!!",
-                "publishedAt": "2024-08-09T10:00:54Z"
+                "title": "これぞ博多のうどん!!!!創業1951年!!!福岡を代表する老舗の柔らかいうどん",
+                "publishedAt": "2024-08-23T10:00:57Z"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    130.411436,
-                    33.592771
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "video_id": "Ba2-Qy4lUuQ",
-                "name": "こってりらーめん なりたけ",
-                "version": "1.2",
-                "address": "こってりらーめん なりたけ 福岡市早良区西新4丁目",
-                "open_location_code": "8Q5GH9M6+5C",
-                "url": "https://www.geocoding.jp/?q=%E3%81%93%E3%81%A3%E3%81%A6%E3%82%8A%E3%82%89%E3%83%BC%E3%82%81%E3%82%93%20%E3%81%AA%E3%82%8A%E3%81%9F%E3%81%91%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E6%97%A9%E8%89%AF%E5%8C%BA%E8%A5%BF%E6%96%B04%E4%B8%81%E7%9B%AE",
-                "needs_to_verify": "yes",
-                "google_maps": "福岡県福岡市早良区西新４丁目４−８ 西新ビル １F たぐせん 濃厚背脂らーめん なりたけ 福岡西新店",
-                "error": null,
-                "title": "福岡のこってりラーメンの名店を攻める!!!",
-                "publishedAt": "2024-08-13T10:00:17Z"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    130.361023,
-                    33.582948
+                    130.404206,
+                    33.58199
                 ]
             }
         },
@@ -3891,23 +4949,46 @@
         {
             "type": "Feature",
             "properties": {
-                "video_id": "m5r86SuUGFM",
-                "name": "因幡うどん",
+                "video_id": "Ba2-Qy4lUuQ",
+                "name": "こってりらーめん なりたけ",
                 "version": "1.2",
-                "address": "因幡うどん 福岡市中央区渡辺通2丁目",
-                "open_location_code": "8Q5GHCJ3+QM",
-                "url": "https://www.geocoding.jp/?q=%E5%9B%A0%E5%B9%A1%E3%81%86%E3%81%A9%E3%82%93%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E6%B8%A1%E8%BE%BA%E9%80%9A2%E4%B8%81%E7%9B%AE",
+                "address": "こってりらーめん なりたけ 福岡市早良区西新4丁目",
+                "open_location_code": "8Q5GH9M6+5C",
+                "url": "https://www.geocoding.jp/?q=%E3%81%93%E3%81%A3%E3%81%A6%E3%82%8A%E3%82%89%E3%83%BC%E3%82%81%E3%82%93%20%E3%81%AA%E3%82%8A%E3%81%9F%E3%81%91%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E6%97%A9%E8%89%AF%E5%8C%BA%E8%A5%BF%E6%96%B04%E4%B8%81%E7%9B%AE",
                 "needs_to_verify": "yes",
-                "google_maps": "福岡県福岡市中央区渡辺通２丁目３−１ 因幡うどん 渡辺通店",
+                "google_maps": "福岡県福岡市早良区西新４丁目４−８ 西新ビル １F たぐせん 濃厚背脂らーめん なりたけ 福岡西新店",
                 "error": null,
-                "title": "これぞ博多のうどん!!!!創業1951年!!!福岡を代表する老舗の柔らかいうどん",
-                "publishedAt": "2024-08-23T10:00:57Z"
+                "title": "福岡のこってりラーメンの名店を攻める!!!",
+                "publishedAt": "2024-08-13T10:00:17Z"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    130.404206,
-                    33.58199
+                    130.361023,
+                    33.582948
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "video_id": "nvpFqXji1Pg",
+                "name": "熱粗大東園",
+                "version": "1.2",
+                "address": "熱粗大東園 福岡市博多上川端町1-1-1",
+                "open_location_code": "8Q5GHCV6+4H",
+                "url": "https://www.geocoding.jp/?q=%E7%86%B1%E7%B2%97%E5%A4%A7%E6%9D%B1%E5%9C%92%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E5%8D%9A%E5%A4%9A%E4%B8%8A%E5%B7%9D%E7%AB%AF%E7%94%BA1-1-1",
+                "needs_to_verify": "yes",
+                "google_maps": "焼肉・冷麺 大東園本店",
+                "error": null,
+                "title": "福岡最高といっても過言ではない焼肉と冷麺ドドーン!!!",
+                "publishedAt": "2024-08-09T10:00:54Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.411436,
+                    33.592771
                 ]
             }
         },
@@ -4375,9 +5456,9 @@
             "type": "Feature",
             "properties": {
                 "video_id": "QDWKHreuFyI",
-                "name": "春月庵",
+                "name": "中島",
                 "version": "1.2",
-                "address": "春月庵 福岡市博多区博多駅前1丁目",
+                "address": "中島 福岡市博多区博多駅前1丁目",
                 "open_location_code": "8Q5GHCR6+GM",
                 "url": "https://www.geocoding.jp/?q=%E4%B8%AD%E5%B3%B6%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E5%8D%9A%E5%A4%9A%E5%8C%BA%E5%8D%9A%E5%A4%9A%E9%A7%85%E5%89%8D1%E4%B8%81%E7%9B%AE",
                 "needs_to_verify": "yes",
@@ -4421,13 +5502,13 @@
             "type": "Feature",
             "properties": {
                 "video_id": "wVKWYYxxgK8",
-                "name": "豚骨ラーメン 双喜紋",
+                "name": "そうきもん 双VAL創只Dataset",
                 "version": "1.2",
-                "address": "豚骨ラーメン 双喜紋 福岡市早良区城西",
+                "address": "そうきもん 双VAL創只Dataset 福岡市早✦区城西3血目",
                 "open_location_code": "8Q5GH9J6+42",
                 "url": "https://www.geocoding.jp/?q=%E3%81%9D%E3%81%86%E3%81%8D%E3%82%82%E3%82%93%20%E5%8F%8CVAL%E5%89%B5%E5%8F%AADataset%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E6%97%A9%E2%9C%A6%E5%8C%BA%E5%9F%8E%E8%A5%BF3%E8%A1%80%E7%9B%AE",
                 "needs_to_verify": "yes",
-                "google_maps": "豚骨ラーメン 双喜紋",
+                "google_maps": "福岡県福岡市早良区城西３丁目",
                 "error": null,
                 "title": "中島大絶賛の名店!!!本当に美味い豚骨ラーメンを追求するシリーズ!!!",
                 "publishedAt": "2024-05-10T10:01:00Z"
@@ -4435,8 +5516,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    130.359563168297,
-                    33.5816473343782
+                    130.360049,
+                    33.580283
                 ]
             }
         },
@@ -5042,9 +6123,9 @@
             "type": "Feature",
             "properties": {
                 "video_id": "9hhimQcqVeQ",
-                "name": "中華そば 六(ろっぽう)",
+                "name": "中華そば",
                 "version": "1.2",
-                "address": "中華そば 六(ろっぽう) 福岡市早良区西新5丁目",
+                "address": "中華そば 福岡市早良区西新5丁目",
                 "open_location_code": "8Q5GH9J4+MR",
                 "url": "https://www.geocoding.jp/?q=%E4%B8%AD%E8%8F%AF%E3%81%9D%E3%81%B0%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E6%97%A9%E8%89%AF%E5%8C%BA%E8%A5%BF%E6%96%B05%E4%B8%81%E7%9B%AE",
                 "needs_to_verify": "yes",
@@ -5127,6 +6208,29 @@
                 "coordinates": [
                     130.366498,
                     33.588472
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "video_id": "fx8HXllAUo8",
+                "name": "ツナパハ",
+                "version": "1.2",
+                "address": "ツナパハ 福岡市中央区大名2丁目",
+                "open_location_code": "8Q5GH9QW+FG",
+                "url": "https://www.geocoding.jp/?q=%E3%83%84%E3%83%8A%E3%83%91%E3%83%8F%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E5%A4%A7%E5%90%8D2%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市中央区大名２丁目１−５９ 大産西通ビル 5F 不思議香菜 ツナパハ",
+                "error": null,
+                "title": "福岡のレジェンドと言われる超絶人気カレー店攻め!!!絶対ハズさない福岡飯店",
+                "publishedAt": "2024-01-19T10:00:35Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.396301,
+                    33.588716
                 ]
             }
         },
@@ -6513,29 +7617,6 @@
         {
             "type": "Feature",
             "properties": {
-                "video_id": "ghmigw8zwYM",
-                "name": "福岡市中央区渡辺通3丁目",
-                "version": "1.2",
-                "address": "ホウテン食堂 福岡市博多区中洲2丁目",
-                "open_location_code": "8Q5GHCR5+W4",
-                "url": "https://www.geocoding.jp/?q=%E3%83%9B%E3%82%A6%E3%83%86%E3%83%B3%E9%A3%9F%E5%A0%82%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E5%8D%9A%E5%A4%9A%E5%8C%BA%E4%B8%AD%E6%B4%B22%E4%B8%81%E7%9B%AE",
-                "needs_to_verify": "yes",
-                "google_maps": "奉天本家 ホウテン食堂",
-                "error": null,
-                "title": "最高の唐揚げ定食に出会いました!!!",
-                "publishedAt": "2023-05-05T10:00:27Z"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    130.407754,
-                    33.592336
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "video_id": "tpNbMDlBOCY",
                 "name": "元祖長浜屋",
                 "version": "1.2",
@@ -7847,29 +8928,6 @@
         {
             "type": "Feature",
             "properties": {
-                "video_id": "gcffkEZoC7E",
-                "name": "福岡市から車で約1時間",
-                "version": "1.2",
-                "address": "ホウテン食堂 福岡市博多区中洲2丁目",
-                "open_location_code": "8Q5GHCR5+W4",
-                "url": "https://www.geocoding.jp/?q=%E3%83%9B%E3%82%A6%E3%83%86%E3%83%B3%E9%A3%9F%E5%A0%82%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E5%8D%9A%E5%A4%9A%E5%8C%BA%E4%B8%AD%E6%B4%B22%E4%B8%81%E7%9B%AE",
-                "needs_to_verify": "yes",
-                "google_maps": "奉天本家 ホウテン食堂",
-                "error": null,
-                "title": "ずっと行ってみたかった!!!超人気きのこ料理特化型食べ放題ランチ!!!絶対ハズさない福岡飯!!!",
-                "publishedAt": "2022-09-23T10:21:50Z"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    130.407754,
-                    33.592336
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "video_id": "_Xi1peVHoT4",
                 "name": "おのおの",
                 "version": "1.2",
@@ -7917,7 +8975,7 @@
             "type": "Feature",
             "properties": {
                 "video_id": "v58VCGAc9kU",
-                "name": "ハナバスタフレスカ 英 福岡市早良区原6丁目",
+                "name": "パスタフレスカ 英（はな）",
                 "version": "1.2",
                 "address": "ハナバスタフレスカ英 福岡市早良区原6丁目",
                 "open_location_code": "8Q5GH87R+6X",
@@ -8954,11 +10012,11 @@
                 "video_id": "CLzyYFLG2fw",
                 "name": "あじフライ食堂 かば",
                 "version": "1.2",
-                "address": "かば食堂 福岡市城南区別府2丁目",
-                "open_location_code": null,
-                "url": "https://www.geocoding.jp/?q=%E3%81%8B%E3%81%B0%E9%A3%9F%E5%A0%82%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E5%9F%8E%E5%8D%97%E5%8C%BA%E5%88%A5%E5%BA%9C2%E4%B8%81%E7%9B%AE",
+                "address": "あじフライ食堂 かば 福岡市城南区別府2丁目",
+                "open_location_code": "8Q5GH9F9+9J",
+                "url": "https://www.geocoding.jp/?q=%E3%81%82%E3%81%98%E3%83%95%E3%83%A9%E3%82%A4%E9%A3%9F%E5%A0%82%20%E3%81%8B%E3%81%B0%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E5%9F%8E%E5%8D%97%E5%8C%BA%E5%88%A5%E5%BA%9C2%E4%B8%81%E7%9B%AE",
                 "needs_to_verify": "yes",
-                "google_maps": "あじフライ食堂かば",
+                "google_maps": "福岡県福岡市城南区別府２丁目２１−５ あじフライ食堂 かば",
                 "error": null,
                 "title": "メニューはアジフライ定食１品のみ!!!超絶美味いアジフライの店!!絶対ハズさない福岡飯店",
                 "publishedAt": "2022-03-22T10:00:05Z"
@@ -8966,8 +10024,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    130.3690189846567,
-                    33.57369562285289
+                    130.369062,
+                    33.57345
                 ]
             }
         },
@@ -10269,7 +11327,7 @@
                 "open_location_code": "8Q5GJ9CW+3W",
                 "url": "https://www.geocoding.jp/?q=%E5%90%8D%E5%B3%B6%E4%BA%AD%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E6%9D%B1%E5%8C%BA%E5%90%8D%E5%B3%B62%E4%B8%81%E7%9B%AE",
                 "needs_to_verify": "yes",
-                "google_maps": "名島亭本店",
+                "google_maps": null,
                 "error": null,
                 "title": "本当に美味い豚骨ラーメン店を追及する企画!!!福岡ラーメンの名店巡り",
                 "publishedAt": "2021-08-13T10:00:24Z"
@@ -10277,8 +11335,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    130.42804305386966,
-                    33.64422199848369
+                    130.397256,
+                    33.620196
                 ]
             }
         },
@@ -10647,6 +11705,29 @@
                 "coordinates": [
                     130.379782,
                     33.580854
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "video_id": "K1F09IpEFoU",
+                "name": "いちむじん",
+                "version": "1.2",
+                "address": "いちむじん 福岡市博多区榎田2丁目",
+                "open_location_code": "8Q5GHCVQ+M3",
+                "url": "https://www.geocoding.jp/?q=%E3%81%84%E3%81%A1%E3%82%80%E3%81%98%E3%82%93%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E5%8D%9A%E5%A4%9A%E5%8C%BA%E6%A6%8E%E7%94%B02%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市博多区榎田２丁目３−１ 豚骨ラーメン いちむじん 榎田本店",
+                "error": null,
+                "title": "福岡最高の一杯シリーズ!!!この店の豚骨ラーメン半端ないよ!!!",
+                "publishedAt": "2021-06-01T10:00:18Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.43773,
+                    33.594155
                 ]
             }
         },
@@ -12125,29 +13206,6 @@
         {
             "type": "Feature",
             "properties": {
-                "video_id": "qpfKp3MkAWQ",
-                "name": null,
-                "version": "1.2",
-                "address": "ホウテン食堂 福岡市博多区中洲2丁目",
-                "open_location_code": "8Q5GHCR5+W4",
-                "url": "https://www.geocoding.jp/?q=%E3%83%9B%E3%82%A6%E3%83%86%E3%83%B3%E9%A3%9F%E5%A0%82%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E5%8D%9A%E5%A4%9A%E5%8C%BA%E4%B8%AD%E6%B4%B22%E4%B8%81%E7%9B%AE",
-                "needs_to_verify": "yes",
-                "google_maps": "奉天本家 ホウテン食堂",
-                "error": null,
-                "title": "絶対行ってほしい福岡飯店!絶品うどんそして福岡で一番美味い丼!!!",
-                "publishedAt": "2020-07-15T09:40:35Z"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    130.407754,
-                    33.592336
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "video_id": "KjzMtGDuByo",
                 "name": "うまい噺",
                 "version": "1.2",
@@ -12211,29 +13269,6 @@
                 "coordinates": [
                     130.395648,
                     33.580078
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "video_id": "mPKq0HUtAFg",
-                "name": "パノラマスクエア博多",
-                "version": "1.2",
-                "address": "パノラマスクエア博多 福岡市中央区春吉",
-                "open_location_code": null,
-                "url": "https://www.geocoding.jp/?q=%E3%83%91%E3%83%8E%E3%83%A9%E3%83%9E%E3%82%B9%E3%82%AF%E3%82%A8%E3%82%A2%E5%8D%9A%E5%A4%9A%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E6%98%A5%E5%90%89",
-                "needs_to_verify": "yes",
-                "google_maps": null,
-                "error": null,
-                "title": "福岡はしご酒!ビールと地鶏最高の店!!【中島浩二チャンネル】【福岡グルメ】",
-                "publishedAt": "2020-06-18T09:51:07Z"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    0.0,
-                    0.0
                 ]
             }
         },
@@ -12326,29 +13361,6 @@
                 "coordinates": [
                     130.434694,
                     33.537818
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "video_id": "WYNZ1wewzKA",
-                "name": "蘇州",
-                "version": "1.2",
-                "address": "蘇州 福岡市博多区店屋町",
-                "open_location_code": null,
-                "url": "https://www.geocoding.jp/?q=%E8%98%87%E5%B7%9E%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E5%8D%9A%E5%A4%9A%E5%8C%BA%E5%BA%97%E5%B1%8B%E7%94%BA",
-                "needs_to_verify": "yes",
-                "google_maps": null,
-                "error": null,
-                "title": "福岡絶対にハズさない激うま餃子店！【中島浩二チャンネル】【福岡グルメ】",
-                "publishedAt": "2020-06-03T08:54:26Z"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    0.0,
-                    0.0
                 ]
             }
         },
