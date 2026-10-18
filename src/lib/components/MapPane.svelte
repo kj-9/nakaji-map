@@ -234,7 +234,7 @@
 <MapLibre
 	class="h-full"
 	style={baseStyle}
-	maxZoom={15.9}
+	maxZoom={19}
 	bind:map={mapInstance}
 	onload={handleMapLoad}
 >
@@ -253,9 +253,10 @@
 			<SymbolLayer
 				id="places"
 				layout={{
-					'icon-allow-overlap': false,
+					'icon-allow-overlap': true,
 					'icon-image': ['get', 'marker'],
-					'icon-size': 0.5,
+					// Keep every store visible while reducing marker overlap on wider views.
+					'icon-size': ['interpolate', ['linear'], ['zoom'], 10, 0.22, 12, 0.3, 14, 0.42, 15, 0.5],
 					'icon-padding': 3,
 					'symbol-sort-key': ['get', 'rank'],
 					'text-field': ['step', ['zoom'], '', 13, ['get', 'name']],

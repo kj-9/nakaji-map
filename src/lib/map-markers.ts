@@ -1,35 +1,35 @@
 import type { Category } from './category';
 
-// Related foods share a pictogram; the precise category remains in the picker.
+// Food illustrations match each category; grilled meats share the steak illustration.
 export const categoryIcons = {
-	ラーメン: 'noodles',
-	うどん: 'noodles',
-	そば: 'noodles',
-	カレー: 'rice',
-	焼肉: 'food-steak',
-	寿司: 'fish',
-	天ぷら: 'bowl-mix',
-	とんかつ: 'food-steak',
-	海鮮: 'fish',
-	焼き鳥: 'food-drumstick',
-	'ステーキ/ハンバーグ': 'food-steak',
-	洋食: 'silverware-fork-knife',
-	中華: 'bowl-mix',
-	イタリアン: 'pasta',
-	カフェ: 'coffee',
-	スイーツ: 'cake',
-	パン: 'bread-slice',
-	'定食/食堂': 'rice',
-	粉もの: 'pizza',
-	うなぎ: 'fish',
-	その他: 'silverware-fork-knife'
+	ラーメン: 'generated-ramen',
+	うどん: 'generated-udon',
+	そば: 'generated-soba',
+	カレー: 'generated-curry',
+	焼肉: 'generated-steak',
+	寿司: 'generated-sushi',
+	天ぷら: 'generated-tempura',
+	とんかつ: 'generated-tonkatsu',
+	海鮮: 'generated-seafood',
+	焼き鳥: 'generated-yakitori',
+	'ステーキ/ハンバーグ': 'generated-steak',
+	洋食: 'generated-omurice',
+	中華: 'generated-gyoza',
+	イタリアン: 'generated-pasta',
+	カフェ: 'generated-coffee',
+	スイーツ: 'generated-cake',
+	パン: 'generated-bread',
+	'定食/食堂': 'generated-teishoku',
+	粉もの: 'generated-takoyaki',
+	うなぎ: 'generated-unagi',
+	その他: 'generated-other'
 } satisfies Record<Category, string>;
 
 export function markerImage(category: Category, selected = false) {
 	return `${categoryIcons[category]}${selected ? '-selected' : ''}`;
 }
 
-const assets = import.meta.glob<string>('../asset/map-markers/*.png', {
+const assets = import.meta.glob<string>('../asset/map-markers/generated-*.png', {
 	eager: true,
 	query: '?url',
 	import: 'default'

@@ -51,6 +51,7 @@ test('recent stores show three entries, video subtitles, and unknown locations',
 
 test('category picker is a single-select dialog', async ({ page }) => {
 	await page.goto('/');
+	await expect(page.getByText('マップを準備中…')).toBeHidden({ timeout: 30000 });
 	await page.getByRole('button', { name: 'カテゴリ一覧' }).click();
 	const dialog = page.getByRole('dialog', { name: '何を食べたい？' });
 	await expect(dialog).toBeVisible();
@@ -335,4 +336,43 @@ test('category badge can be selected directly on the mobile map', async ({ page 
 	await expect(page).toHaveURL(new RegExp(`videoid=${chosen.properties.video_id}`));
 	await expect(page.getByRole('button', { name: '最近の紹介に戻る' })).toHaveCount(0);
 	expect(errors).toEqual([]);
+});
+
+test('map can zoom beyond the former limit and back out from the new limit', async ({ page }) => {
+	await page.emulateMedia({ reducedMotion: 'reduce' });
+	await page.goto('/');
+	await expect(page.getByText('マップを準備中…')).toBeHidden({ timeout: 30000 });
+	const zoomIn = page.getByRole('button', { name: 'Zoom in', exact: true });
+	// From the initial zoom 13, zoom 16 must remain below the new upper limit.
+	for (let step = 0; step < 3; step++) await zoomIn.click();
+	await expect(zoomIn).toBeEnabled();
+	for (let step = 0; step < 3; step++) await zoomIn.click();
+	await expect(zoomIn).toBeDisabled();
+	await page.getByRole('button', { name: 'Zoom out', exact: true }).click();
+	await expect(zoomIn).toBeEnabled();
+});
+
+test('search focus ring stays inside the scroll viewport', async ({ page }) => {
+	await page.setViewportSize({ width: 666, height: 819 });
+	await page.goto('/');
+	await expect(page.getByText('マップを準備中…')).toBeHidden({ timeout: 30000 });
+	const search = page.getByRole('searchbox', { name: 'お店や動画を検索' });
+	for (const fullScreen of [false, true]) {
+		if (fullScreen) await page.getByRole('button', { name: 'お店を全画面に' }).click();
+		await search.click();
+		await expect(search).toBeFocused();
+		await expect
+			.poll(() =>
+				search.evaluate((element) => {
+					const style = getComputedStyle(element);
+					const ring = Math.max(
+						0,
+						parseFloat(style.outlineWidth) + parseFloat(style.outlineOffset)
+					);
+					const clip = element.closest('.panel-scroll')!.getBoundingClientRect();
+					return element.getBoundingClientRect().top - ring - clip.top;
+				})
+			)
+			.toBeGreaterThanOrEqual(0);
+	}
 });
