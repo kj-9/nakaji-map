@@ -178,7 +178,10 @@
 		const mapRect = container.getBoundingClientRect();
 		// Follow the visible edge, including the slide-out transform. Clamp padding
 		// while full-screen so the map always retains a nonzero viewport.
-		const covered = rect ? Math.max(0, mapRect.bottom - rect.top) : 0;
+		const restoreHeight =
+			container.closest('.discovery-app')?.querySelector('.restore-stores')?.getBoundingClientRect()
+				.height ?? 0;
+		const covered = rect ? Math.max(0, mapRect.bottom - rect.top) : restoreHeight;
 		const padding = {
 			top: Math.min(86, container.clientHeight / 4),
 			right: 42,
@@ -227,7 +230,10 @@
 		userMoved = false;
 		const container = mapInstance.getContainer();
 		const wide = container.clientWidth >= 768;
-		const visibleHeight = panelOpen && !fullScreen ? panelHeight : 0;
+		const restoreHeight =
+			container.closest('.discovery-app')?.querySelector('.restore-stores')?.getBoundingClientRect()
+				.height ?? 0;
+		const visibleHeight = panelOpen && !fullScreen ? panelHeight : !wide ? restoreHeight : 0;
 		const nw = mapInstance.unproject([wide && visibleHeight ? 440 : 0, 0]);
 		const se = mapInstance.unproject([
 			container.clientWidth,
