@@ -66,6 +66,7 @@ test('store details are shareable and restored from the URL', async ({ page }) =
 	if (!chosen) throw new Error('Expected a store with valid coordinates');
 
 	await page.goto('/');
+	await expect(page.getByText('マップを準備中…')).toBeHidden({ timeout: 30000 });
 	const candidates = page.getByRole('region', { name: 'お店の候補' });
 	const row = candidates.locator('.restaurant-row').filter({ hasText: chosen.title });
 	await expect(row).toBeVisible();
@@ -537,4 +538,28 @@ test('long categories keep a single row and reveal the selected choice on mobile
 		await page.getByRole('button', { name: 'カテゴリ一覧' }).click();
 		await page.getByRole('dialog').getByRole('button', { name: 'すべて', exact: true }).click();
 	}
+});
+
+test('returning from details restores the list position while filtering resets it', async ({
+	page
+}) => {
+	await page.setViewportSize({ width: 390, height: 844 });
+	await page.goto('/');
+	await page.getByRole('button', { name: '紹介されたお店をもっと見る' }).click();
+	const list = page.locator('.panel-scroll');
+	await list.evaluate((element) => {
+		element.scrollTop = element.scrollHeight;
+	});
+	const before = await list.evaluate((element) => element.scrollTop);
+	expect(before).toBeGreaterThan(300);
+	await page.locator('.restaurant-row').last().click();
+	await expect(page.getByRole('region', { name: 'お店の詳細' })).toBeVisible();
+	await expect.poll(() => list.evaluate((element) => element.scrollTop)).toBe(0);
+	await page.getByRole('button', { name: '候補に戻る' }).click();
+	await expect(page.getByRole('region', { name: 'お店の候補' })).toBeVisible();
+	await expect.poll(() => list.evaluate((element) => element.scrollTop)).toBe(before);
+	await page.screenshot({ path: '/tmp/nakaji-restored-list.png' });
+	await page.getByRole('button', { name: 'カテゴリ一覧' }).click();
+	await page.getByRole('dialog').getByRole('button', { name: 'ラーメン', exact: true }).click();
+	await expect.poll(() => list.evaluate((element) => element.scrollTop)).toBe(0);
 });
