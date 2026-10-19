@@ -10,6 +10,7 @@
 	import type { Bounds, FoodChoice } from '#lib/discovery.js';
 	import { formatDateStr } from '#lib/formatter.js';
 	import MapPane from './MapPane.svelte';
+	import SheetHandle from './SheetHandle.svelte';
 
 	let mounted = false;
 	let loaded = false;
@@ -57,7 +58,10 @@
 				].some((v) => v?.toLowerCase().includes(query.trim().toLowerCase())))
 	);
 	$: results = nearbyCandidates ?? (area ? matches.filter((f) => inBounds(f, area!)) : matches);
-	$: visible = showAll || area || nearbyCandidates || query.trim() ? results : results.slice(0, 3);
+	$: visible =
+		fullScreen || showAll || area || nearbyCandidates || query.trim()
+			? results
+			: results.slice(0, 3);
 	$: heading = nearbyCandidates
 		? '重なっているお店'
 		: area
@@ -99,6 +103,15 @@
 	async function resetScroll() {
 		await tick();
 		panel?.querySelector('.panel-scroll')?.scrollTo(0, 0);
+	}
+	async function setSheetMode(mode: 'map' | 'split' | 'full') {
+		const focused = document.activeElement?.classList.contains('sheet-handle');
+		panelOpen = mode !== 'map';
+		fullScreen = mode === 'full';
+		if (focused) {
+			await tick();
+			document.querySelector<HTMLButtonElement>('.sheet-handle')?.focus({ preventScroll: true });
+		}
 	}
 	function openStore(feature: FeatureForPopup) {
 		selected = feature;
@@ -172,9 +185,9 @@
 		</header>
 	</div>
 	{#if !loaded}<div class="map-loading" role="status">マップを準備中…</div>{/if}
-	{#if !panelOpen}<button class="restore-stores" onclick={() => (panelOpen = true)}
-			>お店を見る ↑</button
-		>{/if}
+	{#if !panelOpen}<div class="restore-stores">
+			<SheetHandle mode="map" onmodechange={setSheetMode} />
+		</div>{/if}
 	{#if panelOpen}
 		<section
 			bind:this={panel}
@@ -190,23 +203,11 @@
 			class="discovery-panel"
 			aria-label={selected ? 'お店の詳細' : 'お店の候補'}
 		>
-			<div class="panel-toolbar">
-				{#if selected}<button class="back-button" onclick={back}>‹ 候補に戻る</button>{:else}<button
-						class="primary-button"
-						aria-expanded={fullScreen}
-						onclick={() => (fullScreen = !fullScreen)}
-						>{fullScreen ? '地図と並べる' : 'お店を全画面に'}</button
-					>{/if}
-				{#if selected && fullScreen}<button onclick={() => (fullScreen = false)}
-						>地図と並べる</button
-					>{/if}
-				<button
-					onclick={() => {
-						panelOpen = false;
-						fullScreen = false;
-					}}>地図を広く見る</button
-				>
-			</div>
+			<SheetHandle mode={fullScreen ? 'full' : 'split'} onmodechange={setSheetMode} />
+			{#if selected}<div class="panel-toolbar">
+					<button class="back-button" onclick={back}>‹ 候補に戻る</button>
+				</div>{/if}
+
 			{#if selected}
 				<div class="panel-scroll">
 					<article class="store-detail" in:fly={{ y: 10, duration: reducedMotion ? 0 : 180 }}>
@@ -249,7 +250,7 @@
 				</div>
 			{:else}
 				<div class="discovery-heading">
-					<h1>{area ? 'この辺で、何を食べよう？' : '次に食べに行きたいお店を見つけよう'}</h1>
+					<h1>お店の一覧</h1>
 					<div class="category-shortcuts" aria-label="食べたいものから選ぶ">
 						{#each shortcuts as choice (choice)}<button
 								class:active={category === choice}
@@ -321,7 +322,7 @@
 									>{#if !hasLocation(feature)}<small>場所未確認</small>{/if}</span
 								><span aria-hidden="true">›</span></button
 							>{/each}
-						{#if !showAll && !area && !nearbyCandidates && !query.trim() && results.length > 3}<button
+						{#if !fullScreen && !showAll && !area && !nearbyCandidates && !query.trim() && results.length > 3}<button
 								class="more-stores"
 								onclick={() => (showAll = true)}>紹介されたお店をもっと見る ›</button
 							>{/if}
