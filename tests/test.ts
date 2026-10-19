@@ -502,3 +502,39 @@ test('search focus ring stays inside the scroll viewport', async ({ page }) => {
 			.toBeGreaterThanOrEqual(0);
 	}
 });
+
+test('long categories keep a single row and reveal the selected choice on mobile', async ({
+	page
+}) => {
+	await page.setViewportSize({ width: 390, height: 844 });
+	await page.goto('/');
+	const heading = page.locator('.discovery-heading');
+	const initialHeight = await heading.evaluate((element) => element.getBoundingClientRect().height);
+	for (const reducedMotion of ['no-preference', 'reduce'] as const) {
+		await page.emulateMedia({ reducedMotion });
+		await page.getByRole('button', { name: 'カテゴリ一覧' }).click();
+		await page
+			.getByRole('dialog')
+			.getByRole('button', { name: 'ステーキ/ハンバーグ', exact: true })
+			.click();
+		const selected = page.locator('.category-shortcuts button[aria-pressed="true"]');
+		await expect(selected).toHaveText('ステーキ/ハンバーグ');
+		await expect
+			.poll(() => heading.evaluate((element) => element.getBoundingClientRect().height))
+			.toBe(initialHeight);
+		await expect
+			.poll(() =>
+				selected.evaluate((element) => {
+					const item = element.getBoundingClientRect();
+					const strip = element.parentElement!.getBoundingClientRect();
+					return item.left >= strip.left - 1 && item.right <= strip.right + 1;
+				})
+			)
+			.toBe(true);
+		await expect(page.getByRole('button', { name: 'カテゴリ一覧' })).toBeInViewport();
+		await expect(page.locator('.restaurant-row').first()).toBeVisible();
+		await page.screenshot({ path: `/tmp/nakaji-category-${reducedMotion}.png` });
+		await page.getByRole('button', { name: 'カテゴリ一覧' }).click();
+		await page.getByRole('dialog').getByRole('button', { name: 'すべて', exact: true }).click();
+	}
+});
