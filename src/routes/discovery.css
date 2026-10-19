@@ -1,4 +1,5 @@
 .discovery-app {
+	--sheet-safe-bottom: env(safe-area-inset-bottom, 0px);
 	position: relative;
 	height: 100dvh;
 	overflow: hidden;
@@ -269,16 +270,6 @@
 	font-size: 13px;
 	font-weight: 600;
 }
-.restore-stores {
-	position: absolute;
-	z-index: 3;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	padding-bottom: env(safe-area-inset-bottom, 0px);
-	border-radius: 22px 22px 0 0;
-	background: white;
-}
 
 .discovery-panel.full-screen {
 	height: 100%;
@@ -536,13 +527,7 @@
 		max-width: calc(100% - 32px);
 		border-radius: 20px;
 	}
-	.restore-stores {
-		left: 20px;
-		right: auto;
-		bottom: 20px;
-		width: 420px;
-		border-radius: 20px;
-	}
+
 	.map-brand {
 		right: auto;
 	}
@@ -603,4 +588,12 @@
 	.restaurant-row {
 		transition: none;
 	}
+}
+
+.discovery-panel.is-collapsed {
+	height: calc(44px + var(--sheet-safe-bottom));
+	padding-bottom: var(--sheet-safe-bottom);
+}
+.discovery-panel.is-dragging {
+	transition: none;
 }
