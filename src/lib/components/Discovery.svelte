@@ -1,6 +1,8 @@
 <script lang="ts">
 	import { onMount, tick } from 'svelte';
 	import { fly } from 'svelte/transition';
+	import { cubicOut } from 'svelte/easing';
+	import categoryIcon from '../../asset/category-adjustments.svg';
 	import { goto } from '$app/navigation';
 	import { categorizedFeatures } from '#lib/store.js';
 	import type { FeatureForPopup } from '#lib/store.js';
@@ -25,6 +27,7 @@
 	let categoryDialog: HTMLDialogElement;
 	let aboutDialog: HTMLDialogElement;
 	let categoryTrigger: HTMLButtonElement;
+	let categoryStrip: HTMLDivElement;
 	let selected: FeatureForPopup | undefined;
 	let showAll = false;
 	let nearbyCandidates: FeatureForPopup[] | null = null;
@@ -37,14 +40,6 @@
 		'肉',
 		...CATEGORIES.filter((c) => !['ラーメン', 'うどん', 'その他'].includes(c)),
 		'その他'
-	];
-	$: shortcuts = [
-		...new Set<FoodChoice>([
-			'すべて',
-			'ラーメン',
-			'うどん',
-			...(category !== 'すべて' ? [category] : [])
-		])
 	];
 	$: matches = $categorizedFeatures.filter(
 		(f) =>
@@ -65,12 +60,31 @@
 	$: heading = nearbyCandidates
 		? '重なっているお店'
 		: area
-			? `この範囲の${category === 'すべて' ? 'お店' : category}`
+			? 'この範囲のお店'
 			: query.trim()
 				? '検索したお店'
-				: category === 'すべて'
-					? '最近紹介されたお店'
-					: `最近紹介された${category}`;
+				: '最近紹介されたお店';
+
+	function highlightCategory(node: HTMLElement, choice: FoodChoice) {
+		function measure() {
+			const active = node.querySelector<HTMLElement>('[aria-pressed="true"]');
+			if (!active) return;
+			node.style.setProperty('--selection-x', `${active.offsetLeft}px`);
+			node.style.setProperty('--selection-width', `${active.offsetWidth}px`);
+		}
+		void choice;
+		const observer = new ResizeObserver(measure);
+		observer.observe(node);
+		measure();
+		return {
+			update() {
+				tick().then(measure);
+			},
+			destroy() {
+				observer.disconnect();
+			}
+		};
+	}
 
 	onMount(() => {
 		const motion = window.matchMedia('(prefers-reduced-motion: reduce)');
@@ -124,13 +138,25 @@
 		updateUrl();
 		resetScroll();
 	}
-	function chooseCategory(next: FoodChoice) {
+	async function chooseCategory(next: FoodChoice) {
+		const fromDialog = categoryDialog?.open;
 		nearbyCandidates = null;
 		category = next;
 		showAll = false;
 		back();
 		categoryDialog?.close();
-		categoryTrigger?.focus();
+		await tick();
+		if (fromDialog) categoryTrigger?.focus({ preventScroll: true });
+		const active = categoryStrip?.querySelector<HTMLElement>('[aria-pressed="true"]');
+		if (active && categoryStrip) {
+			const item = active.getBoundingClientRect();
+			const strip = categoryStrip.getBoundingClientRect();
+			const offset = item.left + item.width / 2 - (strip.left + strip.width / 2);
+			categoryStrip.scrollTo({
+				left: categoryStrip.scrollLeft + offset,
+				behavior: reducedMotion ? 'instant' : 'smooth'
+			});
+		}
 		resetScroll();
 	}
 	function updateArea(next: Bounds) {
@@ -250,15 +276,26 @@
 			{:else}
 				<div class="discovery-heading">
 					<h1>お店の一覧</h1>
-					<div class="category-shortcuts" aria-label="食べたいものから選ぶ">
-						{#each shortcuts as choice (choice)}<button
-								class:active={category === choice}
-								aria-pressed={category === choice}
-								onclick={() => chooseCategory(choice)}>{choice}</button
-							>{/each}<button
+					<div class="category-controls">
+						<div
+							class="category-shortcuts"
+							bind:this={categoryStrip}
+							use:highlightCategory={category}
+							aria-label="食べたいものから選ぶ"
+						>
+							{#each categories as choice (choice)}<button
+									class:active={category === choice}
+									aria-pressed={category === choice}
+									onclick={() => chooseCategory(choice)}>{choice}</button
+								>{/each}
+						</div>
+						<button
 							bind:this={categoryTrigger}
 							class="category-more"
-							onclick={() => categoryDialog.showModal()}>カテゴリ一覧</button
+							aria-label="カテゴリ一覧"
+							aria-haspopup="dialog"
+							onclick={() => categoryDialog.showModal()}
+							><img src={categoryIcon} alt="" width="22" height="22" /></button
 						>
 					</div>
 				</div>
@@ -307,20 +344,29 @@
 								><button onclick={() => chooseCategory('すべて')}>すべてのカテゴリを見る</button
 								>{#if query}<button onclick={() => (query = '')}>検索を解除する</button>{/if}
 							</div>{/if}
-						{#each visible as feature, index (feature.properties.video_id + '-' + index)}<button
-								class="restaurant-row"
-								onclick={() => openStore(feature)}
-								><img
-									src={`https://i.ytimg.com/vi/${feature.properties.video_id}/mqdefault.jpg`}
-									alt=""
-									loading={index < 3 ? 'eager' : 'lazy'}
-								/><span class="row-copy"
-									><strong>{storeName(feature)}</strong><span class="video-subtitle"
-										>{feature.properties.title}</span
-									><span class="store-date">{formatDateStr(feature.properties.publishedAt)}</span
-									>{#if !hasLocation(feature)}<small>場所未確認</small>{/if}</span
-								><span aria-hidden="true">›</span></button
-							>{/each}
+						{#key category}<div class="category-results">
+								{#each visible as feature, index (feature.properties.video_id + '-' + index)}<button
+										class="restaurant-row"
+										in:fly={{
+											y: reducedMotion ? 0 : 7,
+											duration: reducedMotion ? 0 : 220,
+											delay: reducedMotion ? 0 : Math.min(index, 3) * 25,
+											easing: cubicOut
+										}}
+										onclick={() => openStore(feature)}
+										><img
+											src={`https://i.ytimg.com/vi/${feature.properties.video_id}/mqdefault.jpg`}
+											alt=""
+											loading={index < 3 ? 'eager' : 'lazy'}
+										/><span class="row-copy"
+											><strong>{storeName(feature)}</strong><span class="video-subtitle"
+												>{feature.properties.title}</span
+											><span class="store-date"
+												>{formatDateStr(feature.properties.publishedAt)}</span
+											>{#if !hasLocation(feature)}<small>場所未確認</small>{/if}</span
+										><span aria-hidden="true">›</span></button
+									>{/each}
+							</div>{/key}
 						{#if !fullScreen && !showAll && !area && !nearbyCandidates && !query.trim() && results.length > 3}<button
 								class="more-stores"
 								onclick={() => (showAll = true)}>紹介されたお店をもっと見る ›</button

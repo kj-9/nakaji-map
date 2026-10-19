@@ -126,23 +126,79 @@
 	margin: 0 0 14px;
 	letter-spacing: -0.4px;
 }
+.category-controls {
+	display: flex;
+	align-items: center;
+	gap: 7px;
+	min-width: 0;
+}
 .category-shortcuts {
+	position: relative;
+	flex: 1;
 	display: flex;
 	gap: 7px;
-	flex-wrap: wrap;
+	min-width: 0;
+	overflow-x: auto;
+	overscroll-behavior-x: contain;
+	scrollbar-width: none;
+	padding: 3px;
+	margin: -3px;
 }
-.category-shortcuts button {
-	min-height: 38px;
+.category-shortcuts::-webkit-scrollbar {
+	display: none;
+}
+.category-shortcuts button,
+.category-more {
+	flex: 0 0 auto;
+	white-space: nowrap;
+	min-height: 44px;
 	border: 1px solid #dce2eb;
 	border-radius: 12px;
 	padding: 0 12px;
 	font-size: 13px;
 	font-weight: 600;
+	transition:
+		background-color 140ms ease,
+		color 140ms ease,
+		border-color 140ms ease;
 }
-.category-shortcuts .category-more {
-	color: #2458dd;
-	border-color: #b7caff;
-	font-size: 12px;
+.category-more {
+	width: 44px;
+	padding: 0;
+	display: grid;
+	place-items: center;
+	color: #172a43;
+}
+.category-shortcuts::before {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 3px;
+	height: 44px;
+	width: var(--selection-width, 0px);
+	transform: translateX(var(--selection-x, 0px));
+	background: #2464ff;
+	border-radius: 12px;
+	transition:
+		transform 240ms cubic-bezier(0.22, 1, 0.36, 1),
+		width 240ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+.category-shortcuts button {
+	position: relative;
+	z-index: 1;
+	background: transparent;
+	transition:
+		color 160ms ease,
+		border-color 160ms ease,
+		transform 120ms ease;
+}
+.category-shortcuts button:active,
+.category-more:active {
+	transform: scale(0.96);
+}
+.discovery-app .category-shortcuts button.active {
+	background: transparent;
+	border-color: transparent;
 }
 .discovery-app button.active {
 	background: #2464ff;
@@ -596,4 +652,12 @@
 }
 .discovery-panel.is-dragging {
 	transition: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.category-shortcuts::before,
+	.category-shortcuts button,
+	.category-more {
+		transition: none;
+	}
 }
