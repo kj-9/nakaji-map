@@ -1,7 +1,6 @@
 <script lang="ts">
 	import { onMount, tick } from 'svelte';
 	import { fly } from 'svelte/transition';
-	import { cubicOut } from 'svelte/easing';
 	import { goto } from '$app/navigation';
 	import { categorizedFeatures } from '#lib/store.js';
 	import type { FeatureForPopup } from '#lib/store.js';
@@ -20,6 +19,7 @@
 	let panelOpen = true;
 	let fullScreen = false;
 	let panelHeight = 0;
+	let dragHeight: number | null = null;
 	let reducedMotion = false;
 	let panel: HTMLElement;
 	let categoryDialog: HTMLDialogElement;
@@ -185,25 +185,24 @@
 		</header>
 	</div>
 	{#if !loaded}<div class="map-loading" role="status">マップを準備中…</div>{/if}
-	{#if !panelOpen}<div class="restore-stores">
-			<SheetHandle mode="map" onmodechange={setSheetMode} />
-		</div>{/if}
-	{#if panelOpen}
-		<section
-			bind:this={panel}
-			transition:fly={{
-				y: panelHeight || 480,
-				duration: reducedMotion ? 0 : 280,
-				easing: cubicOut
-			}}
-			inert={!panelOpen}
-			bind:clientHeight={panelHeight}
-			class:full-screen={fullScreen}
-			class:store-detail-panel={!!selected}
-			class="discovery-panel"
-			aria-label={selected ? 'お店の詳細' : 'お店の候補'}
-		>
-			<SheetHandle mode={fullScreen ? 'full' : 'split'} onmodechange={setSheetMode} />
+	<section
+		bind:this={panel}
+		bind:clientHeight={panelHeight}
+		class:full-screen={fullScreen}
+		class:is-collapsed={!panelOpen && dragHeight === null}
+		class:is-dragging={dragHeight !== null}
+		style:height={dragHeight !== null ? `${dragHeight}px` : undefined}
+		class:store-detail-panel={!!selected}
+		class="discovery-panel"
+		aria-label={panelOpen ? (selected ? 'お店の詳細' : 'お店の候補') : undefined}
+	>
+		<SheetHandle
+			mode={!panelOpen ? 'map' : fullScreen ? 'full' : 'split'}
+			onmodechange={setSheetMode}
+			splitRatio={selected ? 0.59 : 0.54}
+			ondrag={(height) => (dragHeight = height)}
+		/>
+		{#if panelOpen || dragHeight !== null}
 			{#if selected}<div class="panel-toolbar">
 					<button class="back-button" onclick={back}>‹ 候補に戻る</button>
 				</div>{/if}
@@ -329,8 +328,8 @@
 					</div>
 				</div>
 			{/if}
-		</section>
-	{/if}
+		{/if}
+	</section>
 	<dialog
 		bind:this={categoryDialog}
 		class="discovery-dialog category-dialog"

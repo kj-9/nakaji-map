@@ -93,15 +93,18 @@ test('store details are shareable and restored from the URL', async ({ page }) =
 test('map and store-list display modes can be switched', async ({ page }) => {
 	await page.goto('/');
 	const map = page.getByRole('region', { name: 'Map', exact: true });
+	const panel = page.locator('.discovery-panel');
+	const handle = page.locator('.sheet-handle');
 	await expect(map).toBeVisible();
-	await page.getByRole('button', { name: 'お店を全画面に' }).click();
+	await handle.press('End');
 	const candidates = page.getByRole('region', { name: 'お店の候補' });
 	await expect(candidates).toBeVisible();
 	await expect(candidates.locator('.restaurant-row')).toHaveCount(geodata.features.length);
-	await page.getByRole('button', { name: '地図を広く見る' }).click();
+	await handle.press('Home');
 	await expect(map).toBeVisible();
 	await expect(candidates).toHaveCount(0);
-	await page.getByRole('button', { name: 'お店を見る' }).click();
+	await expect(panel).toHaveClass(/is-collapsed/);
+	await handle.press('ArrowUp');
 	await expect(candidates).toBeVisible();
 	await expect(candidates.locator('.restaurant-row')).toHaveCount(3);
 });
@@ -126,12 +129,13 @@ test.describe('mobile viewport', () => {
 			const y = bounds.y + bounds.height / 2;
 			await page.mouse.move(x, y);
 			await page.mouse.down();
-			await page.mouse.move(x, y + (direction === 'down' ? 100 : -100), { steps: 8 });
+			await page.mouse.move(x, y + (direction === 'down' ? 300 : -300), { steps: 8 });
 			await page.mouse.up();
 		};
+		const panel = page.locator('.discovery-panel');
 		await expectMode('お店を全画面に');
 		await swipe('down');
-		await expectMode('お店を見る');
+		await expect(panel).toHaveClass(/is-collapsed/);
 		await expect(page.getByRole('region', { name: 'お店の候補' })).toHaveCount(0);
 		await swipe('up');
 		await expectMode('お店を全画面に');
@@ -140,18 +144,91 @@ test.describe('mobile viewport', () => {
 		await swipe('down');
 		await expectMode('お店を全画面に');
 		await swipe('down');
-		await expectMode('お店を見る');
+		await expect(panel).toHaveClass(/is-collapsed/);
 		await handle.press('ArrowUp');
 		await expectMode('お店を全画面に');
+		await handle.press('ArrowUp');
+		await expectMode('地図を広く見る');
 		await handle.press('ArrowUp');
 		await expectMode('地図を広く見る');
 		await handle.press('ArrowDown');
 		await expectMode('お店を全画面に');
+		await handle.press('ArrowDown');
+		await expect(panel).toHaveClass(/is-collapsed/);
 		await handle.press('Home');
-		await expectMode('お店を見る');
+		await expect(panel).toHaveClass(/is-collapsed/);
 		await handle.press('End');
 		await expectMode('地図を広く見る');
 		await expect(page.getByRole('status')).toHaveCount(0);
+	});
+
+	test('sheet handle follows a held pointer and ignores taps', async ({ page }) => {
+		await page.setViewportSize({ width: 390, height: 844 });
+		await page.goto('/');
+		await expect(page.getByText('マップを準備中…')).toBeHidden({ timeout: 30000 });
+
+		const panel = page.locator('.discovery-panel');
+		const handle = page.locator('.sheet-handle');
+		const initialUrl = page.url();
+		const initialHeight = await panel.evaluate((element) => element.getBoundingClientRect().height);
+		await handle.tap();
+		await expect(handle).toHaveAttribute('aria-label', 'お店を全画面に');
+		await expect
+			.poll(() => panel.evaluate((element) => element.getBoundingClientRect().height))
+			.toBeCloseTo(initialHeight, 0);
+
+		const bounds = await handle.boundingBox();
+		if (!bounds) throw new Error('Expected the sheet handle to be visible');
+		const x = bounds.x + bounds.width / 2;
+		const startY = bounds.y + bounds.height / 2;
+		await page.mouse.move(x, startY);
+		await page.mouse.down();
+		await page.mouse.move(x, startY - 100, { steps: 2 });
+		await expect(panel).toHaveClass(/is-dragging/);
+		await expect
+			.poll(() =>
+				panel.evaluate((element) =>
+					getComputedStyle(element)
+						.transitionDuration.split(',')
+						.every((duration) => Number.parseFloat(duration) === 0)
+				)
+			)
+			.toBe(true);
+		await expect
+			.poll(() =>
+				panel.evaluate(
+					(element, height) => element.getBoundingClientRect().height - height,
+					initialHeight
+				)
+			)
+			.toBeGreaterThanOrEqual(98);
+		await expect
+			.poll(() =>
+				panel.evaluate(
+					(element, height) => element.getBoundingClientRect().height - height,
+					initialHeight
+				)
+			)
+			.toBeLessThanOrEqual(102);
+		await expect(page).toHaveURL(initialUrl);
+		await expect(page.getByRole('status')).toHaveCount(0);
+
+		await page.waitForTimeout(200);
+		await page.mouse.up();
+		await expect(panel).not.toHaveClass(/is-dragging/);
+		await expect(handle).toHaveAttribute('aria-label', 'お店を全画面に');
+		await expect
+			.poll(() => panel.evaluate((element) => element.getBoundingClientRect().height))
+			.toBeCloseTo(initialHeight, 0);
+
+		const settledBounds = await handle.boundingBox();
+		if (!settledBounds) throw new Error('Expected the sheet handle to be visible after release');
+		const settledY = settledBounds.y + settledBounds.height / 2;
+		await page.mouse.move(x, settledY);
+		await page.mouse.down();
+		await page.mouse.move(x, settledY - 400, { steps: 2 });
+		await page.mouse.up();
+		await expect(handle).toHaveAttribute('aria-label', '地図を広く見る');
 	});
 });
 
@@ -226,6 +303,7 @@ test.describe('mobile viewport', () => {
 		const map = page.getByRole('region', { name: 'Map', exact: true });
 		const candidates = page.getByRole('region', { name: 'お店の候補' });
 		const rows = page.locator('.restaurant-row');
+		const panel = page.locator('.discovery-panel');
 		await page.getByRole('button', { name: 'Zoom in', exact: true }).tap();
 		const areaHeading = page.getByRole('heading', { name: 'この範囲のお店', exact: true });
 		await expect(areaHeading).toBeVisible();
@@ -233,7 +311,7 @@ test.describe('mobile viewport', () => {
 		const areaRows = await rows.allTextContents();
 
 		await page.screenshot({ path: testInfo.outputPath('bottom-sheet-split.png') });
-		await page.getByRole('button', { name: 'お店を全画面に' }).tap();
+		await page.locator('.sheet-handle').press('End');
 		await expect(candidates).toBeVisible();
 		const handle = page.locator('.sheet-handle');
 		await expect(handle).toHaveCount(1);
@@ -252,10 +330,10 @@ test.describe('mobile viewport', () => {
 
 		await page.locator('.sheet-handle').press('ArrowDown');
 		await expect(candidates).toHaveCount(0);
-		const restore = page.getByRole('button', { name: 'お店を見る' });
-		await expect(page.locator('.restore-stores')).toBeVisible();
-		await restore.tap();
+		await expect(panel).toHaveClass(/is-collapsed/);
+		await page.locator('.sheet-handle').press('ArrowUp');
 		await expect(candidates).toBeVisible();
+		await expect(panel).not.toHaveClass(/is-collapsed/);
 		await expect(areaHeading).toBeVisible();
 		await expect.poll(() => rows.allTextContents()).toEqual(areaRows);
 
@@ -297,7 +375,7 @@ test.describe('mobile viewport', () => {
 			)
 			.toBe(true);
 
-		await page.getByRole('button', { name: 'お店を全画面に' }).click();
+		await page.locator('.sheet-handle').press('End');
 		await expect(page.locator('.sheet-handle')).toHaveAttribute('aria-label', '地図を広く見る');
 		await page.locator('.sheet-handle').press('ArrowDown');
 		await expect(page.getByRole('button', { name: 'お店を全画面に' })).toBeVisible();
@@ -406,7 +484,7 @@ test('search focus ring stays inside the scroll viewport', async ({ page }) => {
 	await expect(page.getByText('マップを準備中…')).toBeHidden({ timeout: 30000 });
 	const search = page.getByRole('searchbox', { name: 'お店や動画を検索' });
 	for (const fullScreen of [false, true]) {
-		if (fullScreen) await page.getByRole('button', { name: 'お店を全画面に' }).click();
+		if (fullScreen) await page.locator('.sheet-handle').press('End');
 		await search.click();
 		await expect(search).toBeFocused();
 		await expect
