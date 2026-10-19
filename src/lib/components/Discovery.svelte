@@ -22,6 +22,7 @@
 	let fullScreen = false;
 	let panelHeight = 0;
 	let dragHeight: number | null = null;
+	let listScrollTop = 0;
 	let reducedMotion = false;
 	let panel: HTMLElement;
 	let categoryDialog: HTMLDialogElement;
@@ -114,9 +115,13 @@
 		// eslint-disable-next-line svelte/no-navigation-without-resolve
 		goto(url, { shallow: true, replace: true });
 	}
-	async function resetScroll() {
+	async function scrollPanel(top: number) {
 		await tick();
-		panel?.querySelector('.panel-scroll')?.scrollTo(0, 0);
+		panel?.querySelector('.panel-scroll')?.scrollTo(0, top);
+	}
+	function resetScroll() {
+		listScrollTop = 0;
+		scrollPanel(0);
 	}
 	async function setSheetMode(mode: 'map' | 'split' | 'full') {
 		const focused = document.activeElement?.classList.contains('sheet-handle');
@@ -128,22 +133,41 @@
 		}
 	}
 	function openStore(feature: FeatureForPopup) {
+		if (!selected) listScrollTop = panel?.querySelector('.panel-scroll')?.scrollTop ?? 0;
 		selected = feature;
 		panelOpen = true;
 		updateUrl(feature.properties.video_id);
-		resetScroll();
+		scrollPanel(0);
 	}
-	function back() {
+	async function back(restorePosition = true) {
 		selected = undefined;
 		updateUrl();
-		resetScroll();
+		if (!restorePosition) listScrollTop = 0;
+		const top = listScrollTop;
+		await scrollPanel(top);
+		// A shrinking detail sheet can initially clamp the list near its end.
+		// Restore once more when its height settles, unless the user has moved on.
+		const scroller = panel?.querySelector('.panel-scroll');
+		const initialTop = scroller?.scrollTop;
+		const animations = panel?.getAnimations() ?? [];
+		if (animations.length) {
+			await Promise.allSettled(animations.map((animation) => animation.finished));
+			if (
+				!selected &&
+				listScrollTop === top &&
+				scroller?.scrollTop === initialTop &&
+				panel?.querySelector('.panel-scroll') === scroller
+			) {
+				scroller?.scrollTo(0, top);
+			}
+		}
 	}
 	async function chooseCategory(next: FoodChoice) {
 		const fromDialog = categoryDialog?.open;
 		nearbyCandidates = null;
 		category = next;
 		showAll = false;
-		back();
+		back(false);
 		categoryDialog?.close();
 		await tick();
 		if (fromDialog) categoryTrigger?.focus({ preventScroll: true });
@@ -163,7 +187,7 @@
 		nearbyCandidates = null;
 		area = next;
 		showAll = true;
-		if (selected) back();
+		if (selected) back(false);
 		resetScroll();
 	}
 	function recent() {
@@ -199,7 +223,7 @@
 				on:area={(event) => updateArea(event.detail)}
 				on:candidates={(event) => {
 					nearbyCandidates = event.detail;
-					back();
+					back(false);
 					panelOpen = true;
 				}}
 			/>
@@ -230,7 +254,7 @@
 		/>
 		{#if panelOpen || dragHeight !== null}
 			{#if selected}<div class="panel-toolbar">
-					<button class="back-button" onclick={back}>‹ 候補に戻る</button>
+					<button class="back-button" onclick={() => back()}>‹ 候補に戻る</button>
 				</div>{/if}
 
 			{#if selected}
