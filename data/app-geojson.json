@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "YvKwZCyWmqI",
+                "name": "和ビストロKIKI (キキ)",
+                "version": "1.2",
+                "address": "和ビストロKIKI (キキ) 福岡市中央区高砂1丁目",
+                "open_location_code": "8Q5GHCJ4+H6",
+                "url": "https://www.geocoding.jp/?q=%E5%92%8C%E3%83%93%E3%82%B9%E3%83%88%E3%83%ADKIKI%20%28%E3%82%AD%E3%82%AD%29%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E9%AB%98%E7%A0%821%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市中央区高砂１丁目２２−２ 205 和ビストロKIKI",
+                "error": null,
+                "title": "極上瓦そば最高です!!!絶対外さない福岡飯",
+                "publishedAt": "2026-11-03T10:00:11Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.405561,
+                    33.581497
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "aZgDZYpijO0",
                 "name": "博多鉄板焼き はかたの桜華",
                 "version": "1.2",
