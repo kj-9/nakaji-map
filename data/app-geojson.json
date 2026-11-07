@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "e7-_1wt4QUE",
+                "name": "醤油そば 岩男",
+                "version": "1.2",
+                "address": "醤油そば 岩男 福岡市博多区博多駅南3丁目",
+                "open_location_code": "8Q5GHCMG+36",
+                "url": "https://www.geocoding.jp/?q=%E9%86%A4%E6%B2%B9%E3%81%9D%E3%81%B0%20%E5%B2%A9%E7%94%B7%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E5%8D%9A%E5%A4%9A%E5%8C%BA%E5%8D%9A%E5%A4%9A%E9%A7%85%E5%8D%973%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市博多区博多駅南３丁目６−２０ 醤油そば 岩男",
+                "error": null,
+                "title": "絶対外さない福岡飯店!!!絶品醤油そば!!!唯一無二の味に感動!!!",
+                "publishedAt": "2026-11-06T10:00:03Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.425548,
+                    33.582744
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "YvKwZCyWmqI",
                 "name": "和ビストロKIKI (キキ)",
                 "version": "1.2",
