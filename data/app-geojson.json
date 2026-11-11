@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "vRimUe3gk2c",
+                "name": "練り込みうどん権",
+                "version": "1.2",
+                "address": "練り込みうどん権 粕屋郡志免町南里34-4",
+                "open_location_code": "8Q5GHFWG+M2",
+                "url": "https://www.geocoding.jp/?q=%E7%B7%B4%E3%82%8A%E8%BE%BC%E3%81%BF%E3%81%86%E3%81%A9%E3%82%93%E6%A8%A9%20%E7%B2%95%E5%B1%8B%E9%83%A1%E5%BF%97%E5%85%8D%E7%94%BA%E5%8D%97%E9%87%8C34-4",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県糟屋郡志免町南里３４−４ 練り込みうどん 権（ごん）",
+                "error": null,
+                "title": "福岡最高峰!!!絶品かき揚げうどん!!!ごぼう天ぶっかけも最高!!!",
+                "publishedAt": "2026-11-10T10:00:35Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.47512,
+                    33.596726
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "e7-_1wt4QUE",
                 "name": "醤油そば 岩男",
                 "version": "1.2",
