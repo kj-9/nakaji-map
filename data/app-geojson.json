@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "fJaz4_xqRNU",
+                "name": "鶏富士",
+                "version": "1.2",
+                "address": "鶏富士 糟屋郡志免町南里6丁目",
+                "open_location_code": "8Q5GJF28+F5",
+                "url": "https://www.geocoding.jp/?q=%E9%B6%8F%E5%AF%8C%E5%A3%AB%20%E7%B3%9F%E5%B1%8B%E9%83%A1%E5%BF%97%E5%85%8D%E7%94%BA%E5%8D%97%E9%87%8C6%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県糟屋郡志免町南里６丁目２０−２０ 鶏富士",
+                "error": null,
+                "title": "一度は食べておきたい福岡の絶品ラーメン!!!超絶美味い鍋焼きラーメンに大感動!!!",
+                "publishedAt": "2026-11-13T10:00:35Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.465436,
+                    33.60122
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "vRimUe3gk2c",
                 "name": "練り込みうどん権",
                 "version": "1.2",
