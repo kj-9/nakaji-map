@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "1ys_6Ou2upk",
+                "name": "穴子専門店 旬魚季菜 凪",
+                "version": "1.2",
+                "address": "穴子専門店 旬魚季菜 凪 福岡市中央区舞鶴3丁目",
+                "open_location_code": "8Q5GH9RQ+4J",
+                "url": "https://www.geocoding.jp/?q=%E7%A9%B4%E5%AD%90%E5%B0%82%E9%96%80%E5%BA%97%20%E6%97%AC%E9%AD%9A%E5%AD%A3%E8%8F%9C%20%E5%87%AA%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E8%88%9E%E9%B6%B43%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市中央区舞鶴３丁目１−１０ セレス赤坂門 穴子専門店 旬魚季菜 凪",
+                "error": null,
+                "title": "中島大絶賛!!!超絶美味い穴子重!!!素晴らしい店です",
+                "publishedAt": "2026-11-17T10:00:35Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.389041,
+                    33.590266
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "fJaz4_xqRNU",
                 "name": "鶏富士",
                 "version": "1.2",
