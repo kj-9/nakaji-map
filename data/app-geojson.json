@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "xbnNWsRDSSE",
+                "name": "BREWHOLIC",
+                "version": "1.2",
+                "address": "BREWHOLIC 福岡市中央区荒戸3丁目",
+                "open_location_code": "8Q5GH9RF+6X",
+                "url": "https://www.geocoding.jp/?q=BREWHOLIC%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E8%8D%92%E6%88%B83%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "BREWHOLIC, ３丁目-１-２ 荒戸 中央区 福岡市 福岡県 810-0062",
+                "error": null,
+                "title": "唯一無二!!!本場顔負けの味!!!超絶美味いハンバーガー店!!!",
+                "publishedAt": "2026-11-20T10:00:18Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.374949,
+                    33.590527
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "1ys_6Ou2upk",
                 "name": "穴子専門店 旬魚季菜 凪",
                 "version": "1.2",
