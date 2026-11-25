@@ -4,6 +4,29 @@
         {
             "type": "Feature",
             "properties": {
+                "video_id": "4fzH5LqXaa4",
+                "name": "中華川菜 蓮華",
+                "version": "1.2",
+                "address": "中華川菜 蓮華 福岡市西区周船寺2丁目",
+                "open_location_code": "8Q5GH6CW+V6",
+                "url": "https://www.geocoding.jp/?q=%E4%B8%AD%E8%8F%AF%E5%B7%9D%E8%8F%9C%20%E8%93%AE%E8%8F%AF%20%E7%A6%8F%E5%B2%A1%E5%B8%82%E8%A5%BF%E5%8C%BA%E5%91%A8%E8%88%B9%E5%AF%BA2%E4%B8%81%E7%9B%AE",
+                "needs_to_verify": "yes",
+                "google_maps": "福岡県福岡市西区周船寺２丁目７−７ 中華川菜 蓮華（れんげ）",
+                "error": null,
+                "title": "福岡最高峰の町中華と言われる店!!!",
+                "publishedAt": "2026-11-24T10:00:32Z"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.245526,
+                    33.572168
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "video_id": "xbnNWsRDSSE",
                 "name": "BREWHOLIC",
                 "version": "1.2",
